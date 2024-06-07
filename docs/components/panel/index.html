@@ -147,6 +147,12 @@
             		</li>
 
                     <li><a href="#how-it-works">How it works</a>
+            
+                <ol>
+                    
+                    <li><a href="#component-text">Component text</a>
+            		</li>
+                </ol>
             		</li>
                 </ol>
             </nav>
@@ -155,24 +161,28 @@
                 <p>The panel component is a visible container used on confirmation or results pages to highlight important content.</p>
 <h2 id="when-to-use-this-component" tabindex="-1">When to use this component</h2>
 <p>Use the panel component to display important information when a transaction has been completed.</p>
-<p>In most cases, the panel component is used on confirmation pages, to tell the user they have successfully completed the transaction.</p>
+<p>In most cases, the panel component is used on ==confirmation pages==, to tell the user they have successfully completed the transaction.</p>
 <h2 id="when-not-to-use-this-component" tabindex="-1">When not to use this component</h2>
 <p>Never use the panel component to highlight important information within body content.</p>
 <h2 id="how-it-works" tabindex="-1">How it works</h2>
+<p>The component should only exist in the <a href="../../getting-started/page-template/#sections">main section</a>.</p>
 <p>You can use the HTML below to create a file component.</p>
 <p><em>Example</em></p>
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-    <div class="row govcy-px-2">
-        <div class="govcy-alert-completed-notification govcy-px-0">
-            <div class="govcy-alert-completed-notification-body govcy-bg-success">
-                <h1>Your application has been sent</h1>
-                <p class="govcy-mb-0">Your Reference Number DSF2204111303108618</p>
-            </div>   
-        </div>
-    </div>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-alert-completed-notification">
+    <div class="govcy-alert-completed-notification-body govcy-bg-success">
+        <h1>Your application has been sent</h1>
+        <p>Your Reference Number</p>
+        <p class="govcy-fw-bold">DSF2204111303108618</p>
+    </div>   
 </div>
-<p><em>Sample HTML Code</em></p>
-<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>row govcy-px-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-alert-completed-notification govcy-px-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-alert-completed-notification-body govcy-bg-success<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>Your application has been sent<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-mb-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Your Reference Number DSF2204111303108618<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>   <br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-alert-completed-notification<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-alert-completed-notification-body govcy-bg-success<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>Your application has been sent<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Your Reference Number<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-fw-bold<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>DSF2204111303108618<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>   <br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<h3 id="component-text" tabindex="-1">Component text</h3>
+<p>Keep your panel text brief, as it’s only meant for a high-level explanation of what has happened. For example, ‘Application complete’.</p>
+<p>Aim to use short words and phrases to make sure highlighted information is easy to read at different screen sizes. For example, shorter amounts of information is less likely to wrap around the panel, which can happen when using the zoom function on mobiles.</p>
+<p>If you need to give detailed information, or more context, use the description text under the heading text.</p>
 
             </div>
     

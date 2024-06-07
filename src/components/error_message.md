@@ -118,24 +118,33 @@ More details on how to implement error messages for each component type, can be 
 
 <form action="" class="govcy-form" novalidate="">
     <fieldset class="govcy-fieldset">
-        <legend class="govcy-legend">What email should we use?</legend>
+        <legend class="govcy-legend">What contact details should we use?</legend>
         <div class="govcy-form-control">
             <div class="govcy-radio">
-                <input class="govcy-radio-input govcy-collapsable" name="collapseGroupErr" type="radio" id="option8-email" data-govcy-target=".email1.show" >
-                <label class="govcy-label" for="option8-email">Use existing email address</label>
+                <input class="govcy-radio-input" id="option6-simple-error-email" name="collapseGroupsimple-error" type="radio" value="existingContactDetails" />
+                <label class="govcy-label" for="option6-simple-error-email">Use existing contact details</label>
             </div>
             <div class="govcy-radio">
-                <input class="govcy-radio-input govcy-collapsable collapsed" name="collapseGroupErr" type="radio" id="option8-emailDif" data-govcy-target=".email1:not(.show)" aria-expanded="true" checked="">
-                <label class="govcy-label" for="option8-emailDif"><span class="govcy-visually-hidden-error">This option expands and has more questions,</span>No, use different email address</label>
+                <input class="govcy-radio-input" name="collapseGroupsimple-error" type="radio" id="option6-simple-error-emailDif" value="emailDif" data-aria-controls="email-simple-error-different" checked/>
+                <label class="govcy-label" for="option6-simple-error-emailDif">
+                    <span class="govcy-visually-hidden">This option expands and has more questions,</span>
+                    Use different email address
+                </label>
             </div>
-            <div class="email1 govcy-pl-4 govcy-ml-1 collapse show" style="">
-                <div class="govcy-form-control govcy-form-control-error">
-                    <label class="govcy-label" for="in2">Email Address</label>
-                    <span id="in2-hint" class="govcy-hint">We'll only use this for applying</span>
-                    <p id="in2-error" class="govcy-input-error-msg">
-                        <span class="govcy-visually-hidden-error">Error:</span>Enter email address
+            <div class="govcy-form-control govcy-form-control-error govcy-pl-4 govcy-ml-5 govcy-radio__conditional" id="email-simple-error-different">
+                <div class="govcy-form-control">
+                    <label class="govcy-label" for="in4-simple-error-1">Perosnal Email Address</label>
+                    <span id="in4-simple-error-hint-1" class="govcy-hint">We'll only use this for applying</span>
+                    <input id="in4-simple-error-1" type="text" class="govcy-text-input" aria-describedby="in4-simple-error-hint-1" value="test@email.com"/>
+                </div>
+                <div class="govcy-form-control">
+                    <label class="govcy-label" for="in4-simple-error">Work Email Address</label>
+                    <span id="in4-simple-error-hint" class="govcy-hint">We'll only use this for applying</span>
+                    <p id="in4-simple-error-error-msg" class="govcy-input-error-msg">
+                        <span class="govcy-visually-hidden-error">Error:</span>
+                        Enter email address
                     </p>
-                    <input id="in2" type="text" class="govcy-text-input govcy-text-input-error" aria-describedby="in2-hint in2-error">
+                    <input id="in4-simple-error" type="text" class="govcy-text-input govcy-text-input-error" aria-describedby="in4-simple-error-hint in4-simple-error-error-msg"/>
                 </div>
             </div>
         </div>
@@ -333,24 +342,33 @@ More details on how to implement error messages for each component type, can be 
 
 <form action="" class="govcy-form" novalidate="">
     <fieldset class="govcy-fieldset">
-        <legend class="govcy-legend">What email should we use?</legend>
+        <legend class="govcy-legend">What contact details should we use?</legend>
         <div class="govcy-form-control">
             <div class="govcy-radio">
-                <input class="govcy-radio-input govcy-collapsable" name="collapseGroupErr" type="radio" id="option8-email" data-govcy-target=".email1.show" >
-                <label class="govcy-label" for="option8-email">Use existing email address</label>
+                <input class="govcy-radio-input" id="option6-simple-error-email" name="collapseGroupsimple-error" type="radio" value="existingContactDetails" />
+                <label class="govcy-label" for="option6-simple-error-email">Use existing contact details</label>
             </div>
             <div class="govcy-radio">
-                <input class="govcy-radio-input govcy-collapsable collapsed" name="collapseGroupErr" type="radio" id="option8-emailDif" data-govcy-target=".email1:not(.show)" aria-expanded="true" checked="">
-                <label class="govcy-label" for="option8-emailDif"><span class="govcy-visually-hidden-error">This option expands and has more questions,</span>No, use different email address</label>
+                <input class="govcy-radio-input" name="collapseGroupsimple-error" type="radio" id="option6-simple-error-emailDif" value="emailDif" data-aria-controls="email-simple-error-different" checked/>
+                <label class="govcy-label" for="option6-simple-error-emailDif">
+                    <span class="govcy-visually-hidden">This option expands and has more questions,</span>
+                    Use different email address
+                </label>
             </div>
-            <div class="email1 govcy-pl-4 govcy-ml-1 collapse show" style="">
-                <div class="govcy-form-control govcy-form-control-error">
-                    <label class="govcy-label" for="in2">Email Address</label>
-                    <span id="in2-hint" class="govcy-hint">We'll only use this for applying</span>
-                    <p id="in2-error" class="govcy-input-error-msg">
-                        <span class="govcy-visually-hidden-error">Error:</span>Enter email address
+            <div class="govcy-form-control govcy-form-control-error govcy-pl-4 govcy-ml-5 govcy-radio__conditional" id="email-simple-error-different">
+                <div class="govcy-form-control">
+                    <label class="govcy-label" for="in4-simple-error-1">Perosnal Email Address</label>
+                    <span id="in4-simple-error-hint-1" class="govcy-hint">We'll only use this for applying</span>
+                    <input id="in4-simple-error-1" type="text" class="govcy-text-input" aria-describedby="in4-simple-error-hint-1" value="test@email.com"/>
+                </div>
+                <div class="govcy-form-control">
+                    <label class="govcy-label" for="in4-simple-error">Work Email Address</label>
+                    <span id="in4-simple-error-hint" class="govcy-hint">We'll only use this for applying</span>
+                    <p id="in4-simple-error-error-msg" class="govcy-input-error-msg">
+                        <span class="govcy-visually-hidden-error">Error:</span>
+                        Enter email address
                     </p>
-                    <input id="in2" type="text" class="govcy-text-input govcy-text-input-error" aria-describedby="in2-hint in2-error">
+                    <input id="in4-simple-error" type="text" class="govcy-text-input govcy-text-input-error" aria-describedby="in4-simple-error-hint in4-simple-error-error-msg"/>
                 </div>
             </div>
         </div>
