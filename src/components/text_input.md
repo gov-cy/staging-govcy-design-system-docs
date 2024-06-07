@@ -314,4 +314,4 @@ Make sure:
 - when using a hints, add `aria-describedby` on the `input` element, with the id of the hint element 
 - when displaying error massages, use `<span class="govcy-visually-hidden-error">Error:</span>` in the Error message area, and add  `aria-describedby` on the `input` element, with the id of the error message 
 - not to disable copy and paste
-- not to restrict maximum length exactly to the allowed limit of the input
+- not to restrict maximum length exactly to the allowed limit of the input 
