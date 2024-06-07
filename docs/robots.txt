@@ -1,4 +1,0 @@
-Sitemap: https://gov-cy.github.io/govcy-design-system-docs//sitemap.xml
-
-User-agent: *
-Disallow:
