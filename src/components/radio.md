@@ -384,7 +384,7 @@ Do use conditional radios to show or hide anything that is not a question.
 
 Do not conditionally reveal questions to inline radios, such as ‘yes’ and ‘no’ options placed next to each other.
 
-To implement a conditional radio and connect an input with another question, use the `data-aria-controls` attribute, as shown in the examples below.
+To implement a conditional radio and connect it with a collapsing area, use the `data-aria-controls` attribute, as shown in the examples below.
 
 *Simple example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
@@ -444,6 +444,10 @@ To implement a conditional radio and connect an input with another question, use
 </form>
 ```
 When revisiting the same page, the checked radio button should be preselected and the conditional content collapsed.
+
+To start with preselected radio and collapse content:
+- set the radio as `checked`
+- remove the class `govcy-radio__conditional--hidden` from the relative content
 
 *Example with content collapsed*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

@@ -67,6 +67,9 @@
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/styles/typography/</loc>
             <lastmod>2022-02-01T00:00:06.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/accordion/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/back_link/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
@@ -76,10 +79,22 @@
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/button/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/character_count/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/checkbox/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/cookie_banner/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/data_tables/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/date_input/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/date_picker/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/details/</loc>
@@ -103,7 +118,13 @@
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/header/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/inset_text/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/panel/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/phase_banner/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/radio/</loc>
@@ -112,13 +133,25 @@
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/select/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/summary_list/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/table/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/tag/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/text_input/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/textarea/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/user_name_and_sign_out/</loc>
+            <lastmod>2022-02-01T00:01:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/components/warning_text/</loc>
             <lastmod>2022-02-01T00:01:01.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/guides/create_a_page/</loc>
