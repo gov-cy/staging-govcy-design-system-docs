@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="{{locale}}">
+    {% include 'sections/head.njk' %}
+    <body>
+    {% include 'sections/skip_to_main.njk' %}
+    {% include 'sections/header.njk' %}
+<div id="mainContainer">
+    <section class="govcy-bg-main-shade-3 govcy-pb-6 govcy-header-separator below-header">
+        <div class="govcy-container">
+            <div class="govcy-row">
+                <div class="govcy-col-md-6 govcy-mb-3">
+                    <h1>A Design system for everything gov.cy</h1>
+                    {%if site.showVersion%}
+                    <div class="govcy-phase-banner govcy-phase-banner-light">
+                        <span class="govcy-tag">{{ site.localization[locale].version }} {{ site.version }}</span>
+                        <span class="govcy-ml-2">{{ site.localization[locale].older_version_banner | safe }} </span>
+                    </div>
+                    {% endif %}
+                    <p>The Cyprus Government Unified Design System was developed to empower fast and accessible creation of services and websites.</p>
+                    <p>Use the UDS to make services and websites consistent with gov.cy.</p>
+                    <button type="button" class="govcy-btn-primary" onclick="window.location='getting-started/'">Get Started</button>
+                    <p>Currently 
+                        <strong>v{{ site.version }}</strong>
+                        <span class="govcy-px-1">·</span>
+                        <a href="https://gov-cy.github.io/govcy-design-system-docs-v2/">v2.1.1 documentation</a>
+                    </p>
+                </div>
+                <div class="govcy-col-md-6 govcy-my-3">
+                    <img src="img/DSIconograpy.svg" alt="Design system">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <!--Main-->
+    <main class="govcy-container">
+        <div class="govcy-row">
+            <div class="govcy-col-12">
+                {% if showTitle %}<h1>{{ title }}</h1>{% endif %}
+                {{ content | safe }}
+            </div>
+        </div>
+    </main>
+    {% include 'sections/footer.njk' %}
+    {% include 'sections/js.njk' %}
+    </body>
+</html>

@@ -1,0 +1,7 @@
+{
+    "layout" : "base.njk",
+    "category" : "styles",
+    "tags" : "styles",
+    "showCategoryMenu" : true,
+    "showIndexInCategoryMenu" : false
+  }
