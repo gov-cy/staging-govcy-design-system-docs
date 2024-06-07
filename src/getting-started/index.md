@@ -21,7 +21,7 @@ Make sure to use the ==page template== for the ==head== (including the ==manifes
 - ==page title (header `<h1>`)==
 - ==footer== component
 
-![Mandatory elements illustration](../../img/v3_mandatory_elemenets.png)
+![Mandatory elements illustration]({{ '/img/v3_mandatory_elemenets.png' | url }})
 
 Additionally, make sure that to comply with the following design values:
 - ==max width== 
