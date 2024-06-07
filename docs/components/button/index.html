@@ -122,7 +122,7 @@
         
         
         <div class="govcy-phase-banner">
-            <span class="govcy-tag">TESTING 3.0.0</span>
+            <span class="govcy-tag">TESTING Ver. 3.0.0</span>
             <span class="govcy-ml-2">This is a test website. For the actual documentation please visit the <a href='https://gov-cy.github.io/govcy-design-system-docs/'>gov.cy design system</a> </span>
         </div>
         
@@ -144,59 +144,152 @@
             		</li>
 
                     <li><a href="#how-it-works">How it works</a>
+            
+                <ol>
+                    
+                    <li><a href="#primary-button">Primary button</a>
             		</li>
 
-                    <li><a href="#primary-buttons">Primary buttons</a>
+                    <li><a href="#secondary-button">Secondary button</a>
             		</li>
 
-                    <li><a href="#secondary-buttons">Secondary buttons</a>
+                    <li><a href="#warning-button">Warning button</a>
+            		</li>
+
+                    <li><a href="#component-text">Component text</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#accessibility">Accessibility</a>
             		</li>
                 </ol>
             </nav>
                     </aside>
                 
-                <p>Use the button component to help users carry out an action like starting an application or saving their information.</p>
+                <p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<button type="button" class="govcy-btn-primary">Button</button>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Button<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span></code></pre>
 <h2 id="when-to-use-this-component" tabindex="-1">When to use this component</h2>
 <p>Use the button component to help users carry out an action like starting an application or saving their information.</p>
 <h2 id="how-it-works" tabindex="-1">How it works</h2>
-<p>Write button text in sentence case, describing the action it performs. For example:</p>
-<ul>
-<li>‘Start now’ at the start of the service</li>
-<li>‘Sign in’ to an account a user has already created</li>
-<li>‘Continue’ when the service does not save a user’s information</li>
-<li>‘Save and continue’ when the service does save a user’s information</li>
-<li>‘Save and come back later’ when a user can save their information and come back later</li>
-<li>‘Add another’ to add another item to a list or group</li>
-<li>‘Pay’ to make a payment</li>
-<li>‘Confirm and send’ on a check answers page that does not have any legal content a user must agree to</li>
-<li>‘Accept and send’ on a check answers page that has legal content a user must agree to</li>
-<li>‘Sign out’ when a user is signed in to an account</li>
-<li>You may need to include more or different words to better describe the action. For example, ‘Add another address’ and ‘Accept and claim a tax refund’.</li>
-</ul>
+<p>Buttons should only exist in the <a href="../../getting-started/page-template/#sections">main section</a>.</p>
 <p>Align the primary action button to the left edge of your form.</p>
-<h2 id="primary-buttons" tabindex="-1">Primary buttons</h2>
+<p>Depending on your implementation set the <code>type</code> attribute to “button” or “submit”.</p>
+<h3 id="primary-button" tabindex="-1">Primary button</h3>
 <p>Use a primary button for the main call to action on a page.</p>
 <p>Avoid using multiple primary buttons on a single page. Having more than one main call to action reduces their impact, and makes it harder for users to know what to do next.</p>
 <p><em>Example</em></p>
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <button type="button" class="govcy-btn-primary">Primary</button>
 </div>
-<p><em>Sample HTML Code</em></p>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Primary<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span></code></pre>
-<h2 id="secondary-buttons" tabindex="-1">Secondary buttons</h2>
+<h3 id="secondary-button" tabindex="-1">Secondary button</h3>
 <p>Use secondary buttons for secondary calls to action on a page.</p>
 <p>Pages with too many calls to action make it hard for users to know what to do next. Before adding lots of secondary buttons, try to simplify the page or break the content down across multiple pages.</p>
 <p><em>Example</em></p>
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <button type="button" class="govcy-btn-secondary">Secondary</button>
 </div>
-<p><em>Sample HTML Code</em></p>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-secondary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Secondary<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span></code></pre>
+<h3 id="warning-button" tabindex="-1">Warning button</h3>
+<p>Warning buttons are designed to make users think carefully before they use them. They only work if used very sparingly. Most services should not need one. Only use warning buttons for actions with serious destructive consequences that cannot be easily undone by a user. For example, permanently deleting an account.</p>
+<blockquote class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info">
+<p><strong class="govcy-fw-bolder govcy-fs-4 govcy-d-block">Warning</strong><br>
+Do not rely only on the red colour of a warning button to communicate the serious nature of the action. This is because not all users will be able to see the colour or will understand what it signifies. Make sure the context and button text make clear what will happen if the user selects it.</p>
+</blockquote>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<button type="button" class="govcy-btn-warning">Warning</button>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-warning<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Warning<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span></code></pre>
+<h3 id="component-text" tabindex="-1">Component text</h3>
+<p>Write button text in sentence case, describing the action it performs. For example:</p>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Case</th>
+<th>English</th>
+<th>Greek</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>At the start of the service</td>
+<td>Get Started</td>
+<td>Ξεκινήστε</td>
+</tr>
+<tr>
+<td>To enter a service. This is more valid when the service is revisited frequently</td>
+<td>Enter</td>
+<td>Είσοδος</td>
+</tr>
+<tr>
+<td>Sign in to an account a user has already created</td>
+<td>Sign in</td>
+<td>Σύνδεση</td>
+</tr>
+<tr>
+<td>Continue when the service does not save a user’s information</td>
+<td>Continue</td>
+<td>Συνέχεια</td>
+</tr>
+<tr>
+<td>Continue when the service does save a user’s information</td>
+<td>Save and continue</td>
+<td>Αποθήκευση και συνέχεια</td>
+</tr>
+<tr>
+<td>When a user can save their information and come back later</td>
+<td>Save and come back later</td>
+<td>Αποθηκεύστε και επιστρέψτε αργότερα</td>
+</tr>
+<tr>
+<td>To add another item to a list or group</td>
+<td>Add another</td>
+<td>Προσθέστε άλλο ή Προσθήκη</td>
+</tr>
+<tr>
+<td>To make a payment</td>
+<td>Pay</td>
+<td>Πληρωμή</td>
+</tr>
+<tr>
+<td>On a check answers page that does not have any legal content a user must agree to</td>
+<td>Submit</td>
+<td>Υποβολή</td>
+</tr>
+<tr>
+<td>Οn a check answers page that has legal content a user must agree to</td>
+<td>Accept and submit</td>
+<td>Αποδοχή και υποβολή</td>
+</tr>
+<tr>
+<td>To sign out when a user is signed in to an account</td>
+<td>Sign out</td>
+<td>Αποσύνδεση</td>
+</tr>
+</tbody>
+</table>
+<p>You may need to include more or different words to better describe the action. For example, ‘Add another address’ and ‘Accept and claim a tax refund’.</p>
+<h2 id="accessibility" tabindex="-1">Accessibility</h2>
+<p>Make sure:</p>
+<ul>
+<li>not to decrease the height or target area of buttons. This is to make sure users can easily interact with buttons</li>
+<li>if your using a <code>&lt;form&gt;</code> make sure it contains a submit button (input type=“submit”, input type=“image”, or button type=“submit”)</li>
+<li>not to use the <code>disabled</code> attribute on buttons. If you need to make sure that the users have entered the required information, use the <a href="../error_message">error message</a> component instead.</li>
+</ul>
 
             </div>
     
     <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first">
-                <ul class="govcy-list-unstyled"><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/back_link/">Back Link</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/breadcrumbs/">Breadcrumbs</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/components/button/">Button</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/checkbox/">Checkbox</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/date_input/">Date input</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/details/">Details</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/error_message/">Error Message</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/error_summary/">Error Summary</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/fieldset/">Fieldset</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/file/">File</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/footer/">Footer</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/header/">Header</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/panel/">Panel</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/radio/">Radio</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/select/">Select</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/skip_link/">Skip Link</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/table/">Table</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/text_input/">Text Input</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/user_name_and_sign_out/">User’s name and sign out</a></li>
+                <ul class="govcy-list-unstyled"><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/back_link/">Back Link</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/breadcrumbs/">Breadcrumbs</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/components/button/">Button</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/checkbox/">Checkbox</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/date_input/">Date input</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/details/">Details</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/error_message/">Error Message</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/error_summary/">Error Summary</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/fieldset/">Fieldset</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/file/">File upload</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/footer/">Footer</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/header/">Header</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/panel/">Panel</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/radio/">Radio</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/select/">Select</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/skip_link/">Skip Link</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/table/">Table</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/text_input/">Text Input</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/user_name_and_sign_out/">User’s name and sign out</a></li>
                 </ul>
             </aside>
         </div>

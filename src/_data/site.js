@@ -78,7 +78,7 @@ module.exports = {
       "description" : "Design your services using gov.cy styles, components and patterns.",
       "menu" : "Menu",
       "draft" : "DRAFT",
-      "version" : "TESTING",
+      "version" : "TESTING Ver.",
       // "version" : "Ver.",
       "url" : "",
       "ask_users_for": "Ask users for",

@@ -122,7 +122,7 @@
         
         
         <div class="govcy-phase-banner">
-            <span class="govcy-tag">TESTING 3.0.0</span>
+            <span class="govcy-tag">TESTING Ver. 3.0.0</span>
             <span class="govcy-ml-2">This is a test website. For the actual documentation please visit the <a href='https://gov-cy.github.io/govcy-design-system-docs/'>gov.cy design system</a> </span>
         </div>
         
@@ -146,7 +146,16 @@
                     <li><a href="#when-not-to-use-this-component">When not to use this component</a>
             		</li>
 
+                    <li><a href="#decide-between-using-details%2C-accordions-and-tabs">Decide between using details, accordions and tabs</a>
+            		</li>
+
                     <li><a href="#how-it-works">How it works</a>
+            
+                <ol>
+                    
+                    <li><a href="#write-clear-link-text">Write clear link text</a>
+            		</li>
+                </ol>
             		</li>
                 </ol>
             </nav>
@@ -157,12 +166,21 @@
 <p>Use the details component to make a page easier to scan when it contains information that only some users will need.</p>
 <h2 id="when-not-to-use-this-component" tabindex="-1">When not to use this component</h2>
 <p>Do not use the details component to hide information that the majority of your users will need.</p>
+<blockquote class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info">
+<p><strong class="govcy-fw-bolder govcy-fs-4 govcy-d-block">Warning</strong><br>
+Details work best for simple content and links. Do not use it to split up or hide a series of ==questions==. Use separate pages instead. See the ==Structuring a service== pattern for more information.</p>
+</blockquote>
+<h2 id="decide-between-using-details%2C-accordions-and-tabs" tabindex="-1">Decide between using details, accordions and tabs</h2>
+<p>Details, ==accordions==, and ==tabs== all hide sections of content which a user can choose to reveal.</p>
+<p>Use the details component instead of tabs or an accordion if you only have 1 section of content.</p>
+<p>The details component is less visually prominent than tabs and accordions, so tends to work better for content which is not as important to users.</p>
 <h2 id="how-it-works" tabindex="-1">How it works</h2>
+<p>The component should only exist in the <a href="../../getting-started/page-template/#sections">main section</a>.</p>
 <p>The details component is a short link that shows more detailed help text when a user clicks on it.</p>
 <p>Make the link text short and descriptive so users can quickly work out if they need to click on it.</p>
 <p>You can use the HTML below to create a select component.</p>
 <p><em>Example</em></p>
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <details class="govcy-details">
     <summary class="govcy-details__summary">
         <span class="govcy-details__summary-text">How to control cookies</span>
@@ -172,13 +190,15 @@
     </p>
 </details>
 </div>
-<p><em>Sample HTML Code</em></p>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>details</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-details<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>summary</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-details__summary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-details__summary-text<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>How to control cookies<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>summary</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-details__text<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work.<br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>details</span><span class="token punctuation">></span></span></code></pre>
+<h3 id="write-clear-link-text" tabindex="-1">Write clear link text</h3>
+<p>Make the link text short and descriptive so users can quickly work out if they need to click on it.</p>
 
             </div>
     
     <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first">
-                <ul class="govcy-list-unstyled"><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/back_link/">Back Link</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/breadcrumbs/">Breadcrumbs</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/button/">Button</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/checkbox/">Checkbox</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/date_input/">Date input</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/components/details/">Details</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/error_message/">Error Message</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/error_summary/">Error Summary</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/fieldset/">Fieldset</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/file/">File</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/footer/">Footer</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/header/">Header</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/panel/">Panel</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/radio/">Radio</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/select/">Select</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/skip_link/">Skip Link</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/table/">Table</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/text_input/">Text Input</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/user_name_and_sign_out/">User’s name and sign out</a></li>
+                <ul class="govcy-list-unstyled"><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/back_link/">Back Link</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/breadcrumbs/">Breadcrumbs</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/button/">Button</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/checkbox/">Checkbox</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/date_input/">Date input</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/components/details/">Details</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/error_message/">Error Message</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/error_summary/">Error Summary</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/fieldset/">Fieldset</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/file/">File upload</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/footer/">Footer</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/header/">Header</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/panel/">Panel</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/radio/">Radio</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/select/">Select</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/skip_link/">Skip Link</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/table/">Table</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/text_input/">Text Input</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/user_name_and_sign_out/">User’s name and sign out</a></li>
                 </ul>
             </aside>
         </div>

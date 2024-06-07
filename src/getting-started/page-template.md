@@ -291,7 +291,7 @@ Here are some sample pages using the gov.cy page template.
 - [Page with radios question](../../samples/template-radios/){target="_blank"}
 
 ## Accessibility
-Be sure to:
-- Include the [skip link](#skip-to-main-content) in your page
-- Use the correct [lang attribute](#html5-doctype-and-lang) in your page
-- [Page titles](#title%2C-description) should be unique
+Make sure:
+- you include the [skip link](#skip-to-main-content) in your page
+- you use the correct [lang attribute](#html5-doctype-and-lang) in your page
+- the [page titles are unique](#title%2C-description)

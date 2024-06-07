@@ -45,16 +45,18 @@ Code examples exist throughout the documentation that utilize the gov.cy CSS and
 - Use code for ==components== and ==patters==
 
 Take a look at our ==create a page== guide for complete example.
+
 ## Design prototyping and testing libraries
 You can use the same libraries our team uses for:
 - ==Design and prototyping==
 - ==Testing==
+
 ## Accessibility
 It is important to always test your implementation for compliance with the EN 301 549 Standard.
 
-All elements presented in the design system documentation, have been tested and they comply with the ==accessibility principle==. However, that does not mean that any implementation that uses the developer assets, automatically complies with the Standard.
+All elements presented in the design system documentation, have been tested and they comply with the [include everyone principle]({{ '/getting-started/principles/#7.-include-everyone' | url }}). However, that does not mean that any implementation that uses the developer assets, automatically complies with the Standard.
 
-The way the design elements are used affect the accessibility of each page. For example [The order of heading elements](https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753) should descend, based on the “depth” of the content and as such a `h4` element should not appear on a page before the first `h3` element declaration.
+The way the design elements are used affect the accessibility of each page. For example [The order of heading elements](https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753){target="_blank"} should descend, based on the “depth” of the content and as such a `h4` element should not appear on a page before the first `h3` element declaration.
 
 Be extra careful when including components within other components, when you are overwriting the default appearance of elements, or when you are implementing custom elements. 
 

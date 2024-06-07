@@ -122,7 +122,7 @@
         
         
         <div class="govcy-phase-banner">
-            <span class="govcy-tag">TESTING 3.0.0</span>
+            <span class="govcy-tag">TESTING Ver. 3.0.0</span>
             <span class="govcy-ml-2">This is a test website. For the actual documentation please visit the <a href='https://gov-cy.github.io/govcy-design-system-docs/'>gov.cy design system</a> </span>
         </div>
         
@@ -147,39 +147,57 @@
             		</li>
 
                     <li><a href="#how-it-works">How it works</a>
+            
+                <ol>
+                    
+                    <li><a href="#component-text">Component text</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#accessibility">Accessibility</a>
             		</li>
                 </ol>
             </nav>
                     </aside>
                 
                 <p>Use the back link component to help users go back to the previous page in a multi-page transaction.</p>
-<p><em>Example</em></p>
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<div class="govcy-container">
-        <span class="bi bi-chevron-left"></span>
-        <a href="#" class="govcy-back-link">Back</a>
-        <br>
-        <span class="bi bi-chevron-left"></span>
-        <a href="#" class="govcy-back-link">Πίσω</a>
-   </div> 
-</div>  
-<p><em>Sample HTML Code</em></p>
-<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-float-start<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bi bi-chevron-left<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-back-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Back<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>   </code></pre>
 <p>Although browsers have a back button, some sites break when you use it - so many users avoid it, instead of losing their progress in a service. Also, not all users are aware of the back button.</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+    <a class="govcy-back-link" href="#">Back</a>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-back-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Back<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre>
 <h2 id="when-to-use-this-component" tabindex="-1">When to use this component</h2>
-<p>Always include the back link component on <a href="../../patterns/question_pages">question pages</a>.</p>
+<p>Always include the back link component on ==question pages== and recurring pages. This gives the ability to the users to go back and change their decision.</p>
+<p>You can include a back link on other pages within a ==multi-page transaction==, if it makes sense to do so.</p>
 <h2 id="when-not-to-use-this-component" tabindex="-1">When not to use this component</h2>
-<p>Never use the back link component together with <a href="../breadcrumbs">breadcrumbs</a>. If necessary, you should do research with your users to learn which they find more helpful in your service.</p>
+<p>Never use the back link component together with ==breadcrumbs==. If necessary, you should do research with your users to learn which they find more helpful in your service.</p>
+<p>Do not use the back component when the user has performed an action they should only do once, like make a payment or complete an application. The browser back button should still work, but show the user a sensible message rather than let them perform the action again.</p>
 <h2 id="how-it-works" tabindex="-1">How it works</h2>
-<p>Always place back links at the top of a page, in the <a href="../../styles/page_templates">Before Main</a> (<code>&lt;section id=&quot;before-main&quot;&gt;</code>) element. Placing them here means that the ‘Skip to main content’ link allows the user to skip all navigation links, including the back link.</p>
-<p>If the user is logged in, the back link must be on the same line as the <a href="../user_name_and_sign_out">User’s name and sign out</a> component. Use the <code>govcy-float-start</code> to achieve this as shown on the code example above.</p>
+<p>Always place back links at the top of a page, in the ==Before main== section. Placing them here means that the ‘Skip to main content’ link allows the user to skip all navigation links, including the back link.</p>
 <p>Make sure the link takes users to the previous page they were on, in the state they last saw it. Where possible, ensure it works even when JavaScript is not available.</p>
 <p>If this is not possible, you should hide the back link when JavaScript is not available.</p>
+<p>Do not break the browser back button. Make sure it takes users to the previous page they were on, in the state they last saw it.</p>
+<h3 id="component-text" tabindex="-1">Component text</h3>
+<p>Use the following text:</p>
+<ul>
+<li>In English: <code>Back</code></li>
+<li>In Greek: <code>Πίσω</code></li>
+</ul>
+<h2 id="accessibility" tabindex="-1">Accessibility</h2>
+<p>Make sure:</p>
+<ul>
+<li>if a user decides to go back to a previous page, information they have already entered is pre-populated</li>
+<li>if the information is no longer valid, or when pre-populating would be a major safety or security concern, do not pre-populate</li>
+<li>no other interactive elements are too close to the back link. This is to make sure users can easily interact with the back link.</li>
+</ul>
 
             </div>
     
     <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first">
-                <ul class="govcy-list-unstyled"><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/components/back_link/">Back Link</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/breadcrumbs/">Breadcrumbs</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/button/">Button</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/checkbox/">Checkbox</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/date_input/">Date input</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/details/">Details</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/error_message/">Error Message</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/error_summary/">Error Summary</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/fieldset/">Fieldset</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/file/">File</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/footer/">Footer</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/header/">Header</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/panel/">Panel</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/radio/">Radio</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/select/">Select</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/skip_link/">Skip Link</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/table/">Table</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/text_input/">Text Input</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/user_name_and_sign_out/">User’s name and sign out</a></li>
+                <ul class="govcy-list-unstyled"><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/components/back_link/">Back Link</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/breadcrumbs/">Breadcrumbs</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/button/">Button</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/checkbox/">Checkbox</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/date_input/">Date input</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/details/">Details</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/error_message/">Error Message</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/error_summary/">Error Summary</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/fieldset/">Fieldset</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/file/">File upload</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/footer/">Footer</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/header/">Header</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/panel/">Panel</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/radio/">Radio</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/select/">Select</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/skip_link/">Skip Link</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/table/">Table</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/text_input/">Text Input</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/components/user_name_and_sign_out/">User’s name and sign out</a></li>
                 </ul>
             </aside>
         </div>
