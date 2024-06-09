@@ -1,6 +1,7 @@
 ---
 "title" : "Date input"
 date: 2022-02-01 00:01:01Z
+description: "Let users enter a memorable date or one they can easily look up."
 ---
 
 Use the date input component to help users enter a memorable date or one they can easily look up.

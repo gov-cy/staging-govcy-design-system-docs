@@ -1,6 +1,7 @@
 ---
 "title" : "Table"
 date: 2022-02-01 00:01:01Z
+description: "Use the table component to make information easier to compare and scan for users."
 ---
 Use the table component to make information easier to compare and scan for users.
 

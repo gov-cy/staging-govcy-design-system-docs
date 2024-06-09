@@ -1,6 +1,7 @@
 ---
 title: "Warning text"
 date: 2022-02-01 00:01:01Z
+description: "Use the warning text component when you need to warn users about something important."
 ---
 
 ## When to use this component

@@ -1,6 +1,7 @@
 ---
 title: "Colours"
 date: 2022-02-01 00:00:01Z
+description: "The colour palette provides the colour structure of gov.cy websites and services.  "
 ---
 
 The colour palette provides the colour structure of gov.cy websites and services.  

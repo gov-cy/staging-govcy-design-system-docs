@@ -1,6 +1,7 @@
 ---
 "title" : "Error Message"
 date: 2022-02-01 00:01:01Z
+description: "Use this component to show an error message next to the field and in the error summary when there is a validation error."
 ---
 Show an error message when there is a validation error. In the error message explain what went wrong and how to fix it.
 

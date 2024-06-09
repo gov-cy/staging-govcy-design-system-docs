@@ -1,6 +1,7 @@
 ---
 title: "Layout"
 date: 2022-02-01 00:00:05Z
+description: "Use these one of the page layouts for content that resides inside the `<main>` section."
 ---
 
 Use these layouts for content that resides inside the `<main>` element of the [page template](../../getting-started/page-template). The screenshot below shows a representation of the area which the layouts apply to.

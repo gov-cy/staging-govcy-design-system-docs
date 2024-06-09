@@ -1,6 +1,7 @@
 ---
 "title" : "Fieldset"
 date: 2022-02-01 00:01:01Z
+description: "Use the fieldset component to group related form inputs."
 ---
 Use the fieldset component to group related form inputs.
 

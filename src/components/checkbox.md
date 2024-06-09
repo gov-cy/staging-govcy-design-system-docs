@@ -1,6 +1,7 @@
 ---
 "title" : "Checkbox"
 date: 2022-02-01 00:01:01Z
+description: "Let users select one or more options by using the checkboxes component."
 ---
 Let users select one or more options by using the checkboxes component.
 

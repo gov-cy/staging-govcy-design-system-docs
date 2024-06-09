@@ -1,6 +1,7 @@
 ---
 title: "Textarea"
 date: 2022-02-01 00:01:01Z
+description: "Use the text area component when you need to let users enter an amount of text that’s longer than a single line."
 ---
 
 ## When to use this component
@@ -186,7 +187,7 @@ Remember to adjust the `aria-describedby` attribute to include the error message
 
 ## Accessibility
 Make sure:
-- if there is a relevant [input purpose](https://www.w3.org/TR/WCAG21/#input-purposes){target="_blank"}, you’ll need to use the `autocomplete` attribute to meet [WCAG 2.1 Level AA](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html){target="_blank"}
+- if there is a relevant [input purpose](https://www.w3.org/TR/WCAG21/#input-purposes){rel="noreferrer noopener" target="_blank"}, you’ll need to use the `autocomplete` attribute to meet [WCAG 2.1 Level AA](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html){rel="noreferrer noopener" target="_blank"}
 - you associate the `label` elements with the textarea they relate to, using the `for` attribute
 - when using a hints, add `aria-describedby` on the `textarea` element, with the id of the hint element 
 - when displaying error massages, use `<span class="govcy-visually-hidden-error">Error:</span>` in the Error message area, and add  `aria-describedby` on the `textarea` element, with the id of the error message 

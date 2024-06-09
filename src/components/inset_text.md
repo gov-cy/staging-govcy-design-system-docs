@@ -1,6 +1,7 @@
 ---
 title: "Inset text"
 date: 2022-02-01 00:01:01Z
+description: "Use the inset text component to differentiate a block of text from the content that surrounds it."
 ---
 
 ## When to use this component

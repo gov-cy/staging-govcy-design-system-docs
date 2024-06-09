@@ -1,6 +1,7 @@
 ---
 title: "Accordion"
 date: 2022-02-01 00:01:01Z
+description: "The accordion component lets users show and hide sections of related content on a page."
 ---
 
 The accordion component lets users show and hide sections of related content on a page.

@@ -2,19 +2,20 @@
 title: "Typography"
 date: 2022-02-01 00:00:06Z
 searchKeys: "fonts text Paragraph Headings Unordered Ordered list Links"
+description: "The typography provides a consistent set of typography styles for all gov.cy content."
 --- 
 
 ## Base fonts
 Unless otherwise stated, use the following font properties for the default body fonts.
 
-|  |  |
+| Key | Value  |
 | ---- | ---- |
-| font-family | Roboto |
-| font-size | 16px |
-| font-weight | normal |
-| color | ==body== |
-| Line height | 24px |
-| Letter spacing | 0px |
+| **font-family** | Roboto |
+| **font-size** | 16px |
+| **font-weight** | normal |
+| **color** | ==body== |
+| **Line height** | 24px |
+| **Letter spacing** | 0px |
 
 {.govcy-table}
 
@@ -30,7 +31,15 @@ Write all headings in sentence case, with the exception of proper nouns, which r
 
 Use only one `H1` at the top of each page or service, followed by the most commonly used `H2` heading for titles, followed by `H3` and `H4` for less important headings and titles of the page. Use `H3` and `H4` accordingly to enhance visual hierarchy.
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h1>H1 This is a H1 title</h1>
+<h2>H2 This is a H2 title</h2>
+<h3>H3 This is a H3 title</h3>
+<h4>H4 This is a H4 title</h4>
+</div>
+
+*HTML code*
 ```html
 <h1>H1 This is a H1 title</h1>
 <h2>H2 This is a H2 title</h2>
@@ -51,9 +60,14 @@ The typography scales the font-size accordingly in different viewports as shown 
 {.govcy-table}
 
 ### Default paragraph
-The default paragraph uses the ==base fonts==. 
+The default paragraph uses the [base fonts](#base-fonts). 
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p>This is paragraph</p>
+</div>
+
+*HTML code*
 ```html
 <p>This is paragraph</p>
 ```
@@ -71,7 +85,12 @@ A lead paragraph is an introductory paragraph that you can use at the top of a p
 
 Lead paragraphs should only be used in content pages and only once per page if needed.
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p class="govcy-lead">This is lead paragraph</p>
+</div>
+
+*HTML code*
 ```html
 <p class="govcy-lead">This is lead paragraph</p>
 ```
@@ -88,7 +107,15 @@ Lead paragraphs do not scale, they have a consistent size throughout the breakpo
 
 You can add a font weight override class to any other typographic class or element to change the font weight to light, regular, bold or semibold weight.
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p class="govcy-fw-300">Light Font Weight: 300</p>
+<p class="govcy-fw-400">Default/Regular Font Weight: 400</p>
+<p class="govcy-fw-500">Semibold Font Weight: 500</p>
+<p class="govcy-fw-700">Bold Font Weight: 700</p>
+</div>
+
+*HTML code*
 ```html
 <p class="govcy-fw-300">Light Font Weight: 300</p>
 <p class="govcy-fw-400">Default/Regular Font Weight: 400</p>
@@ -104,24 +131,35 @@ Do not use light text on small body text sizes.
 ### When to use Semibold
 You can use bold to emphasise particular words, to highlight critical information that users need to refer to or when evidence shows the users have missed important information within a paragraph.  
 
-For example, “Your reference number is ==ABC12345678==. Use this to track your application. Updates will be sent to ==name@example.com==“  
+For example, “Your reference number is <span class="govcy-fw-500">ABC12345678</span>. Use this to track your application. Updates will be sent to name@example.com“  
 
 Do not overuse semibold text.
 ### When to use Bold
 The bold weight is used for main headers `h1` and `h2`.
+
 ## Links
-Links apply the ==link colours==  and are underlined by default. 
+Links apply the [link colours](../colour/#links) and are underlined by default. 
 
 If your link is at the end of a sentence or paragraph, make sure that the linked text does not include the full stop.
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p>Jump to the <a href="#">Top of the page</a></p>
+</div>
+
+*HTML code*
 ```html
 <p>Jump to the <a href="#">Top of the page</a></p>
 ```
 ### Links with no visited state
 Use the `govcy-link-no-visited-state` modifier class where it is not helpful to distinguish between visited and unvisited states, for example when linking to pages with frequently changing content such as the dashboard for an admin interface.
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p>Jump to the <a href="#" class="govcy-link-no-visited-state">Top of the page</a></p>
+</div>
+
+*HTML code*
 ```html
 <p>Jump to the <a href="#" class="govcy-link-no-visited-state">Top of the page</a></p>
 ```
@@ -131,19 +169,27 @@ Avoid opening links in a new tab or window. It can be disorienting - and can cau
 
 If you need a link to open in a new tab, then include the words ‘opens in new tab’ as part of the link.
 
-Include `rel="noreferrer noopener"` along with `target="_blank"` to reduce the risk of [reverse tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing) as shown in the following example.
+Include `rel="noreferrer noopener"` along with `target="_blank"` to reduce the risk of [reverse tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing){rel="noreferrer noopener" target="_blank"} as shown in the following example.
 
 ```html
 <a href="#" rel="noreferrer noopener" target="_blank">some link (opens in new tab)</a>
 ```
 ### External Links
 If it’s an external link to a non-government website, make that clear in the link text. For example, ‘read advice on writing link text from \[name of organisation\]’. There’s no need to say explicitly that you’re linking to an external site.
+
 ### Links on dark backgrounds
 If you are implementing custom design elements, use the `govcy-link-inverse` modifier class to show white links on dark backgrounds. 
 
 Make sure all users can see the links. The white links and background colour must have a contrast ratio of at least 4.5:1.
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p class="govcy-p-4 govcy-bg-primary">
+	<a href="#" class="govcy-link-inverse">Jump to the Top of the page</a>
+</p>
+</div>
+
+*HTML code*
 ```html
 <p class="govcy-p-4 govcy-bg-primary">
 	<a href="#" class="govcy-link-inverse">Jump to the Top of the page</a>
@@ -156,14 +202,29 @@ Only do this if the context tells the user that the text is a link, even without
 
 For example, links in a header or side navigation might not need underlines. Users will understand that they are links because of where they are, at the same place, across different pages.
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p>Jump to the <a href="#" class="govcy-link-no-underline">Top of the page</a></p>
+</div>
+
+*HTML code*
 ```html
 <p>Jump to the <a href="#" class="govcy-link-no-underline">Top of the page</a></p>
 ```
 ## Lists
 Use lists to make blocks of text easier to read, and to break information into manageable chunks.
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<ul class="govcy-list-unstyled">
+    <li><a href="#">Benefits calculators</a></li>
+    <li><a href="#">Benefit overpayments</a></li>
+    <li><a href="#">Benefits calculators</a></li>
+    <li><a href="#">More</a></li>
+</ul>
+</div>
+
+*HTML code*
 ```html
 <ul class="govcy-list-unstyled">
     <li><a href="#">Benefits calculators</a></li>
@@ -175,7 +236,17 @@ Use lists to make blocks of text easier to read, and to break information into m
 ### Bulleted lists
 Introduce bulleted lists with a lead-in line ending in a colon. Start each item with a lowercase letter, and do not use a full stop at the end.
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p>You can buy:</p>
+<ul>
+    <li>apples</li>
+    <li>oranges</li>
+    <li>pears</li>
+</ul>
+</div>
+
+*HTML code*
 ```html
 <p>You can buy:</p>
 <ul>
@@ -187,7 +258,23 @@ Introduce bulleted lists with a lead-in line ending in a colon. Start each item 
 
 If needed you can use indentation.
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<ul>
+	<li>Soda</li>
+	<li>Coffee</li>
+	<li>Tea:
+		<ul>
+			<li>Black tea</li>
+			<li>Green tea</li>
+			<li>Hibiscus tea</li>
+		</ul>
+	</li>
+	<li>Milk</li>
+</ul>
+</div>
+
+*HTML code*
 ```html
 <ul>
 	<li>Soda</li>
@@ -207,7 +294,16 @@ Use numbered lists instead of bulleted lists when the order of the items is rele
 
 You do not need to use a lead-in line for numbered lists. Items in a numbered list should end in a full stop because each should be a complete sentence.
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<ol>
+    <li>Delivery address</li>
+    <li>Payment</li>
+    <li>Confirmation</li>
+</ol>
+</div>
+
+*HTML code*
 ```html
 <ol>
     <li>Delivery address</li>
@@ -218,7 +314,23 @@ You do not need to use a lead-in line for numbered lists. Items in a numbered li
 
 If needed you can use indentation.
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<ol>
+    <li>Water</li>
+    <li>Bread</li>
+    <li>Salad:
+        <ol>
+            <li>Lettuce</li>
+            <li>Egg</li>
+            <li>Tomato</li>
+        </ol>
+    </li>
+    <li>Apple</li>
+</ol>
+</div>
+
+*HTML code*
 ```html
 <ol>
     <li>Water</li>
@@ -240,26 +352,37 @@ The default line has applied `20px` padding top and `20px` margin bottom.
 
 Do not overuse lines. Be default the design system is designed for users to distinguish between sections on a page without having to use lines.
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<hr class="govcy-line">
+</div>
+
+*HTML code*
 ```html
 <hr class="govcy-line">
 ```
 ### No bottom line
 The alternative line has applied `20px` padding top and `0px` margin bottom, and must only be used when adding a line above a heading element `h1`,`h2`,`h3`,`h4`.
 
-==Example==
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<hr class="govcy-line-no-bottom">
+</div>
+
+*HTML code*
 ```html
 <hr class="govcy-line-no-bottom">
 ```
 ## Typography with gov.cy CSS
-Using our ==developers assets== and the code in our documentation,  typography adjust automatically. 
+Using our [developers assets](../../getting-started/developer-assets) and the code in our documentation, typography adjust automatically. 
+
 ## Accessibility
-If you need to include content in a different language that the defined ==lang attribute== of your page, make sure you define the correct `lang` in your element. For example:
+If you need to include content in a different language that the defined [lang attribute](../../getting-started/page-template/#html5-doctype-and-lang) of your page, make sure you define the correct `lang` in your element. For example:
 
 ```html
 <p>Dear <span lang="el">Όμομα Επώνυμο</span>"</p>
 ```
 
-Also be sure to:
-- follow the ==background colour contrast instructions== if your implementing a custom component
-- Implement the ==focus state== on links
+Also make sure:
+- to have a color contrast ration of at least 4.5:1 if your implementing a custom component
+- to implement the ==focus state== on interactive text such as links

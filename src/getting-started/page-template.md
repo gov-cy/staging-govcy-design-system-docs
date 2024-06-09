@@ -256,7 +256,7 @@ Depending on the website or service, you might need to implement more than one d
 
 See below an sample page with most design elements present in the correct order.
 
-[Open in new tab](../../samples/template-order-of-things-all/){target="_blank"}
+[Open in new tab](../../samples/template-order-of-things-all/){rel="noreferrer noopener" target="_blank"}
 
 <iframe src="../../samples/template-order-of-things-all/" width="100%" frameborder="0" scrolling="no" class="govcy-br-1 govcy-br-standard govcy-mb-4" onload="resizeIframe(this)"></iframe>
 
@@ -278,17 +278,17 @@ Use the following content:
 Here are some sample pages using the gov.cy page template. 
 
 **Content pages**:
-- [Page with title and paragraph](../../samples/templare-heading-title/){target="_blank"}
-- [Page with title, different headings and paragraphs](../../samples/templare-heading-title-more/){target="_blank"}
-- [Page with back link](../../samples/template-heading-back/){target="_blank"}
-- [Page with breadcrumbs](../../samples/template-heading-breadcrumbs/){target="_blank"}
-- [Page with phase banner](../../samples/template-heading-phase-banner/){target="_blank"}
+- [Page with title and paragraph](../../samples/templare-heading-title/){rel="noreferrer noopener" target="_blank"}
+- [Page with title, different headings and paragraphs](../../samples/templare-heading-title-more/){rel="noreferrer noopener" target="_blank"}
+- [Page with back link](../../samples/template-heading-back/){rel="noreferrer noopener" target="_blank"}
+- [Page with breadcrumbs](../../samples/template-heading-breadcrumbs/){rel="noreferrer noopener" target="_blank"}
+- [Page with phase banner](../../samples/template-heading-phase-banner/){rel="noreferrer noopener" target="_blank"}
 
 **Service pages**:
-- [Page with a question](../../samples/template-heading-input/){target="_blank"}
-- [Page with an error](../../samples/template-heading-error-summary/){target="_blank"}
-- [Page asking for address](../../samples/template-address/){target="_blank"}
-- [Page with radios question](../../samples/template-radios/){target="_blank"}
+- [Page with a question](../../samples/template-heading-input/){rel="noreferrer noopener" target="_blank"}
+- [Page with an error](../../samples/template-heading-error-summary/){rel="noreferrer noopener" target="_blank"}
+- [Page asking for address](../../samples/template-address/){rel="noreferrer noopener" target="_blank"}
+- [Page with radios question](../../samples/template-radios/){rel="noreferrer noopener" target="_blank"}
 
 ## Accessibility
 Make sure:

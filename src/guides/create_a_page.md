@@ -278,8 +278,8 @@ In a real service make sure to add functionality in the Continue button.
 
 So there you have it. All the steps and code you need to start building pages for gov.cy. For more information you can find guidance documentation here:
 
-[Service Standard](https://dsf.dmrid.gov.cy/){target="_blank"}
-[DMRID blogs](https://www.dmrid.gov.cy/dmrid/dmridblog.nsf/home/home?openform){target="_blank"}
-[Contact details for DSF](https://dsf.dmrid.gov.cy/contact/){target="_blank"}
+[Service Standard](https://dsf.dmrid.gov.cy/){rel="noreferrer noopener" target="_blank"}
+[DMRID blogs](https://www.dmrid.gov.cy/dmrid/dmridblog.nsf/home/home?openform){rel="noreferrer noopener" target="_blank"}
+[Contact details for DSF](https://dsf.dmrid.gov.cy/contact/){rel="noreferrer noopener" target="_blank"}
 
-You can get all the files used in this example from [our github repository](https://github.com/gov-cy/dsf-sample-page){target="_blank"}. You can also take a look at the end result [here](https://gov-cy.github.io/dsf-sample-page/){target="_blank"}. 
+You can get all the files used in this example from [our github repository](https://github.com/gov-cy/dsf-sample-page){rel="noreferrer noopener" target="_blank"}. You can also take a look at the end result [here](https://gov-cy.github.io/dsf-sample-page/){rel="noreferrer noopener" target="_blank"}. 

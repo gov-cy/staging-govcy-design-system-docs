@@ -1,6 +1,7 @@
 ---
 title: "Tag"
 date: 2022-02-01 00:01:01Z
+description: "Use the tag component to show users the status of something."
 ---
 
 Use the tag component to show users the status of something.
@@ -251,4 +252,4 @@ If you need more tag colours, you can use the following colours.
 ```
 
 ## Accessibility
-[Do not use colour alone to convey information](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html){target="_blank"} because it’s not accessible. If you use the same tag in more than one place, make sure you keep the colour consistent.
+[Do not use colour alone to convey information](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html){rel="noreferrer noopener" target="_blank"} because it’s not accessible. If you use the same tag in more than one place, make sure you keep the colour consistent.

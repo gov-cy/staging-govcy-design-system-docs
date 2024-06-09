@@ -1,6 +1,7 @@
 ---
 "title" : "Header"
 date: 2022-02-01 00:01:01Z
+description: "Use the gov.cy header to shows users that they are on gov.cy and which service they are using."
 ---
 The gov.cy header shows users that they are on gov.cy and which service they are using.
 

@@ -1,6 +1,7 @@
 ---
 title: "User’s name and sign out"
 date: 2022-02-01 00:01:01Z
+description: "Use this component to help the user’s identify which account they are signed in with and provide them with a link to sign out of their account."
 ---
 Use this component to help the user’s identify which account they are signed in with and provide them with a link to sign out of their account.
 

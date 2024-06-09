@@ -1,6 +1,7 @@
 ---
 title: "Button"
 date: 2022-02-01 00:01:01Z
+description: "Use the button component to help users carry out an action like starting an application or saving their information."
 ---
 
 *Example*

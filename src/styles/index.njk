@@ -3,8 +3,10 @@ title: "Styles"
 order: 1
 tags : ['top_menu']
 ---
-<p>Make your service look and feel like GOV.CY.</p>
 
+<p>The Design System’s visual design is based on consistent layouts, palettes of typography, spacing units, colour, and other discrete elements.</p>
+<p>Anything we see on a website is built from elements of style: colour, spacing, typography, line height, and more. The CSS rules associated with these elements can accept a broad continuum of values.</p>
+<p>This degree of choice can slow down design work and make communication between designer and developer unnecessarily granular. The Design System seeks to maximize design efficiency and improve communication with the styles library, the discrete palette of values which the visual design of gov.cy websites and services are based on.</p>
 <p>Use the links on this page to navigated to the desired style element.</p>
 
 <div class="govcy-container">
@@ -14,7 +16,12 @@ tags : ['top_menu']
         {% if locale  == pag.data.locale -%}
             {#- Checks if we want to show the index page -#}
             {% if (pag.fileSlug == category and showIndexInCategoryMenu) or pag.fileSlug != category -%}
-                <div class="govcy-col-4 govcy-mb-3"><a class="app-card" href="{{ pag.url | url }}">{{ pag.data.title }}</a></div>
+                <div class="govcy-col-4 govcy-mb-3">
+                   <a class="app-card" href="{{ pag.url | url }}">
+                         <h3>{{ pag.data.title }}</h3>
+                        {% if pag.data.description %}<p class="flex-fill">{{ pag.data.description }}</p>{% endif %}
+                    </a>
+                </div>
             {%- endif %}
         {%- endif %}
     {%- endfor -%}

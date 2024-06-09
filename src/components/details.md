@@ -1,6 +1,7 @@
 ---
 "title" : "Details"
 date: 2022-02-01 00:01:01Z
+description: "Make it easier for the users to scan the page, by letting them reveal more detailed information only if they need it."
 ---
 Make it easier for the users to scan the page, by letting them reveal more detailed information only if they need it.
 ## When to use this component

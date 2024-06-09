@@ -1,6 +1,7 @@
 ---
 title: "Character count"
 date: 2022-02-01 00:01:01Z
+description: "Help users know how much text they can enter when there is a limit on the number of characters."
 ---
 
 Help users know how much text they can enter when there is a limit on the number of characters.

@@ -1,6 +1,7 @@
 ---
 "title" : "Radio"
 date: 2022-02-01 00:01:01Z
+description: "Use the radios component when users can only select one option from a list."
 ---
 
 ## When to use this component

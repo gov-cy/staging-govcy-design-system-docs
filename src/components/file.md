@@ -1,6 +1,7 @@
 ---
 "title" : "File upload"
 date: 2022-02-01 00:01:01Z
+description: "Help users select and upload a file."
 ---
 Help users select and upload a file.
 

@@ -1,6 +1,7 @@
 ---
 title: "Summary list"
 date: 2022-02-01 00:01:01Z
+description: "Use the summary list to summarise information, for example, a user’s responses at the end of a service."
 ---
 Use the summary list to summarise information, for example, a user’s responses at the end of a service.
 

@@ -232,33 +232,33 @@
 <table class="govcy-table">
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th>Key</th>
+<th>Value</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>font-family</td>
+<td><strong>font-family</strong></td>
 <td>Roboto</td>
 </tr>
 <tr>
-<td>font-size</td>
+<td><strong>font-size</strong></td>
 <td>16px</td>
 </tr>
 <tr>
-<td>font-weight</td>
+<td><strong>font-weight</strong></td>
 <td>normal</td>
 </tr>
 <tr>
-<td>color</td>
+<td><strong>color</strong></td>
 <td>==body==</td>
 </tr>
 <tr>
-<td>Line height</td>
+<td><strong>Line height</strong></td>
 <td>24px</td>
 </tr>
 <tr>
-<td>Letter spacing</td>
+<td><strong>Letter spacing</strong></td>
 <td>0px</td>
 </tr>
 </tbody>
@@ -269,7 +269,14 @@
 <p>Mark up headings semantically using the appropriate <code>&lt;h#&gt;</code> level HTML element.</p>
 <p>Write all headings in sentence case, with the exception of proper nouns, which require initial capitals.</p>
 <p>Use only one <code>H1</code> at the top of each page or service, followed by the most commonly used <code>H2</code> heading for titles, followed by <code>H3</code> and <code>H4</code> for less important headings and titles of the page. Use <code>H3</code> and <code>H4</code> accordingly to enhance visual hierarchy.</p>
-<p>==Example==</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h1>H1 This is a H1 title</h1>
+<h2>H2 This is a H2 title</h2>
+<h3>H3 This is a H3 title</h3>
+<h4>H4 This is a H4 title</h4>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>H1 This is a H1 title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>H2 This is a H2 title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span><span class="token punctuation">></span></span>H3 This is a H3 title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h4</span><span class="token punctuation">></span></span>H4 This is a H4 title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h4</span><span class="token punctuation">></span></span></code></pre>
 <p>The typography scales the font-size accordingly in different viewports as shown below:</p>
 <table class="govcy-table">
@@ -328,8 +335,12 @@
 </tbody>
 </table>
 <h3 id="default-paragraph" tabindex="-1">Default paragraph</h3>
-<p>The default paragraph uses the ==base fonts==.</p>
-<p>==Example==</p>
+<p>The default paragraph uses the <a href="#base-fonts">base fonts</a>.</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p>This is paragraph</p>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This is paragraph<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></code></pre>
 <p>Paragraphs do not scale, they have a consistent size throughout the breakpoints.</p>
 <table class="govcy-table">
@@ -349,7 +360,11 @@
 <h3 id="lead-paragraph" tabindex="-1">Lead paragraph</h3>
 <p>A lead paragraph is an introductory paragraph that you can use at the top of a page to summarise the content.</p>
 <p>Lead paragraphs should only be used in content pages and only once per page if needed.</p>
-<p>==Example==</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p class="govcy-lead">This is lead paragraph</p>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-lead<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>This is lead paragraph<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></code></pre>
 <p>Lead paragraphs do not scale, they have a consistent size throughout the breakpoints.</p>
 <table class="govcy-table">
@@ -368,7 +383,14 @@
 </table>
 <h2 id="font-weights" tabindex="-1">Font weights</h2>
 <p>You can add a font weight override class to any other typographic class or element to change the font weight to light, regular, bold or semibold weight.</p>
-<p>==Example==</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p class="govcy-fw-300">Light Font Weight: 300</p>
+<p class="govcy-fw-400">Default/Regular Font Weight: 400</p>
+<p class="govcy-fw-500">Semibold Font Weight: 500</p>
+<p class="govcy-fw-700">Bold Font Weight: 700</p>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-fw-300<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Light Font Weight: 300<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-fw-400<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Default/Regular Font Weight: 400<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-fw-500<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Semibold Font Weight: 500<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-fw-700<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Bold Font Weight: 700<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></code></pre>
 <h3 id="when-to-use-light" tabindex="-1">When to use Light</h3>
 <p>Use light text to create contrast between clustered sections to make the text readable.</p>
@@ -376,82 +398,164 @@
 <p>Do not use light text on small body text sizes.</p>
 <h3 id="when-to-use-semibold" tabindex="-1">When to use Semibold</h3>
 <p>You can use bold to emphasise particular words, to highlight critical information that users need to refer to or when evidence shows the users have missed important information within a paragraph.</p>
-<p>For example, “Your reference number is ==ABC12345678==. Use this to track your application. Updates will be sent to ==name@example.com==“</p>
+<p>For example, “Your reference number is <span class="govcy-fw-500">ABC12345678</span>. Use this to track your application. Updates will be sent to name@example.com“</p>
 <p>Do not overuse semibold text.</p>
 <h3 id="when-to-use-bold" tabindex="-1">When to use Bold</h3>
 <p>The bold weight is used for main headers <code>h1</code> and <code>h2</code>.</p>
 <h2 id="links" tabindex="-1">Links</h2>
-<p>Links apply the ==link colours==  and are underlined by default.</p>
+<p>Links apply the <a href="../colour/#links">link colours</a> and are underlined by default.</p>
 <p>If your link is at the end of a sentence or paragraph, make sure that the linked text does not include the full stop.</p>
-<p>==Example==</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p>Jump to the <a href="#">Top of the page</a></p>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Jump to the <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Top of the page<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></code></pre>
 <h3 id="links-with-no-visited-state" tabindex="-1">Links with no visited state</h3>
 <p>Use the <code>govcy-link-no-visited-state</code> modifier class where it is not helpful to distinguish between visited and unvisited states, for example when linking to pages with frequently changing content such as the dashboard for an admin interface.</p>
-<p>==Example==</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p>Jump to the <a href="#" class="govcy-link-no-visited-state">Top of the page</a></p>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Jump to the <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-link-no-visited-state<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Top of the page<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></code></pre>
 <h3 id="opening-links-in-a-new-tab" tabindex="-1">Opening links in a new tab</h3>
 <p>Avoid opening links in a new tab or window. It can be disorienting - and can cause accessibility problems for people who cannot visually perceive that the new tab has opened.</p>
 <p>If you need a link to open in a new tab, then include the words ‘opens in new tab’ as part of the link.</p>
-<p>Include <code>rel=&quot;noreferrer noopener&quot;</code> along with <code>target=&quot;_blank&quot;</code> to reduce the risk of <a href="https://owasp.org/www-community/attacks/Reverse_Tabnabbing">reverse tabnabbing</a> as shown in the following example.</p>
+<p>Include <code>rel=&quot;noreferrer noopener&quot;</code> along with <code>target=&quot;_blank&quot;</code> to reduce the risk of <a href="https://owasp.org/www-community/attacks/Reverse_Tabnabbing" rel="noreferrer noopener" target="_blank">reverse tabnabbing</a> as shown in the following example.</p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>noreferrer noopener<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>some link (opens in new tab)<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre>
 <h3 id="external-links" tabindex="-1">External Links</h3>
 <p>If it’s an external link to a non-government website, make that clear in the link text. For example, ‘read advice on writing link text from [name of organisation]’. There’s no need to say explicitly that you’re linking to an external site.</p>
 <h3 id="links-on-dark-backgrounds" tabindex="-1">Links on dark backgrounds</h3>
 <p>If you are implementing custom design elements, use the <code>govcy-link-inverse</code> modifier class to show white links on dark backgrounds.</p>
 <p>Make sure all users can see the links. The white links and background colour must have a contrast ratio of at least 4.5:1.</p>
-<p>==Example==</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p class="govcy-p-4 govcy-bg-primary">
+	<a href="#" class="govcy-link-inverse">Jump to the Top of the page</a>
+</p>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-p-4 govcy-bg-primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-link-inverse<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Jump to the Top of the page<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></code></pre>
 <h3 id="links-without-underlines" tabindex="-1">Links without underlines</h3>
 <p>Use the <code>govcy-link-no-underline</code> modifier class to remove underlines from links.</p>
 <p>Only do this if the context tells the user that the text is a link, even without the underline.</p>
 <p>For example, links in a header or side navigation might not need underlines. Users will understand that they are links because of where they are, at the same place, across different pages.</p>
-<p>==Example==</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p>Jump to the <a href="#" class="govcy-link-no-underline">Top of the page</a></p>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Jump to the <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-link-no-underline<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Top of the page<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></code></pre>
 <h2 id="lists" tabindex="-1">Lists</h2>
 <p>Use lists to make blocks of text easier to read, and to break information into manageable chunks.</p>
-<p>==Example==</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<ul class="govcy-list-unstyled">
+    <li><a href="#">Benefits calculators</a></li>
+    <li><a href="#">Benefit overpayments</a></li>
+    <li><a href="#">Benefits calculators</a></li>
+    <li><a href="#">More</a></li>
+</ul>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-list-unstyled<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Benefits calculators<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Benefit overpayments<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Benefits calculators<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>More<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span></code></pre>
 <h3 id="bulleted-lists" tabindex="-1">Bulleted lists</h3>
 <p>Introduce bulleted lists with a lead-in line ending in a colon. Start each item with a lowercase letter, and do not use a full stop at the end.</p>
-<p>==Example==</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p>You can buy:</p>
+<ul>
+    <li>apples</li>
+    <li>oranges</li>
+    <li>pears</li>
+</ul>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>You can buy:<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>apples<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>oranges<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>pears<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span></code></pre>
 <p>If needed you can use indentation.</p>
-<p>==Example==</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<ul>
+	<li>Soda</li>
+	<li>Coffee</li>
+	<li>Tea:
+		<ul>
+			<li>Black tea</li>
+			<li>Green tea</li>
+			<li>Hibiscus tea</li>
+		</ul>
+	</li>
+	<li>Milk</li>
+</ul>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Soda<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Coffee<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Tea:<br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Black tea<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Green tea<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>			<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Hibiscus tea<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Milk<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span></code></pre>
 <h3 id="numbered-lists" tabindex="-1">Numbered lists</h3>
 <p>Use numbered lists instead of bulleted lists when the order of the items is relevant.</p>
 <p>You do not need to use a lead-in line for numbered lists. Items in a numbered list should end in a full stop because each should be a complete sentence.</p>
-<p>==Example==</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<ol>
+    <li>Delivery address</li>
+    <li>Payment</li>
+    <li>Confirmation</li>
+</ol>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Delivery address<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Payment<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Confirmation<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">></span></span></code></pre>
 <p>If needed you can use indentation.</p>
-<p>==Example==</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<ol>
+    <li>Water</li>
+    <li>Bread</li>
+    <li>Salad:
+        <ol>
+            <li>Lettuce</li>
+            <li>Egg</li>
+            <li>Tomato</li>
+        </ol>
+    </li>
+    <li>Apple</li>
+</ol>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Water<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Bread<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Salad:<br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Lettuce<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Egg<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Tomato<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>Apple<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">></span></span></code></pre>
 <h2 id="lines" tabindex="-1">Lines</h2>
 <p>You can use the <code>govcy-line</code> classes on an <code>&lt;hr&gt;</code> element to create a line between sections of content.</p>
 <h3 id="default-line" tabindex="-1">Default line</h3>
 <p>The default line has applied <code>20px</code> padding top and <code>20px</code> margin bottom.</p>
 <p>Do not overuse lines. Be default the design system is designed for users to distinguish between sections on a page without having to use lines.</p>
-<p>==Example==</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<hr class="govcy-line">
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-line<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
 <h3 id="no-bottom-line" tabindex="-1">No bottom line</h3>
 <p>The alternative line has applied <code>20px</code> padding top and <code>0px</code> margin bottom, and must only be used when adding a line above a heading element <code>h1</code>,<code>h2</code>,<code>h3</code>,<code>h4</code>.</p>
-<p>==Example==</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<hr class="govcy-line-no-bottom">
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-line-no-bottom<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
 <h2 id="typography-with-gov.cy-css" tabindex="-1">Typography with gov.cy CSS</h2>
-<p>Using our ==developers assets== and the code in our documentation,  typography adjust automatically.</p>
+<p>Using our <a href="../../getting-started/developer-assets">developers assets</a> and the code in our documentation, typography adjust automatically.</p>
 <h2 id="accessibility" tabindex="-1">Accessibility</h2>
-<p>If you need to include content in a different language that the defined ==lang attribute== of your page, make sure you define the correct <code>lang</code> in your element. For example:</p>
+<p>If you need to include content in a different language that the defined <a href="../../getting-started/page-template/#html5-doctype-and-lang">lang attribute</a> of your page, make sure you define the correct <code>lang</code> in your element. For example:</p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Dear <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>el<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Όμομα Επώνυμο<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>"<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></code></pre>
-<p>Also be sure to:</p>
+<p>Also make sure:</p>
 <ul>
-<li>follow the ==background colour contrast instructions== if your implementing a custom component</li>
-<li>Implement the ==focus state== on links</li>
+<li>to have a color contrast ration of at least 4.5:1 if your implementing a custom component</li>
+<li>to implement the ==focus state== on interactive text such as links</li>
 </ul>
 
             </div>
     
     <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first">
-                <ul class="govcy-list-unstyled"><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/colour/">Colours</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/grid/">Grid system</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/vertical_spacing/">Vertical Spacing</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/layout/">Layout</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/styles/typography/">Typography</a></li>
+                <ul class="govcy-list-unstyled"><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/colour/">Colours</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/grid/">Grid system</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/images/">Images</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/vertical_spacing/">Vertical Spacing</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/layout/">Layout</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/styles/typography/">Typography</a></li>
                 </ul>
             </aside>
         </div>

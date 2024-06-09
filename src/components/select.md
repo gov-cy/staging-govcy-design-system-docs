@@ -1,6 +1,7 @@
 ---
 "title" : "Select"
 date: 2022-02-01 00:01:01Z
+description: "Use the select component when users can only select one option from a long list."
 ---
 The select component allows users to choose an option from a long list.
 

@@ -1,6 +1,7 @@
 ---
 "title" : "Error Summary"
 date: 2022-02-01 00:01:01Z
+description: "Use this component at the top of a page to summarise any errors a user has made."
 ---
 Use this component at the top of a page to summarise any errors a user has made.
 

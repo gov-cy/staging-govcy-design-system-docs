@@ -1,12 +1,13 @@
 ---
 "title" : "Footer"
 date: 2022-02-01 00:01:01Z
+description: "Use the footer to provide copyright information and links for privacy statements, cookie policy and accessibility statements"
 ---
 
 The footer provides copyright information and links for privacy statements, cookie policy and accessibility statements
 
 ## When to use this component
-Use the footer at the bottom of every page of your service & website.
+Use the footer at the bottom of every page of your service or website.
 
 ## How it works
 The footer component should only exist in the [footer section](../../getting-started/page-template/#sections).

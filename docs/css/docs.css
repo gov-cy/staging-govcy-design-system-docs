@@ -59,7 +59,7 @@
     height: 100%;
     color: #272525;
     text-decoration: none!important;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 .app-card:hover,
 .app-card:visited,

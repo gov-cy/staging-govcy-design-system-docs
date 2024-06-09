@@ -1,6 +1,7 @@
 ---
 title: "Date picker"
 date: 2022-02-01 00:01:01Z
+description: "Use the date picker component when you’re asking users for a date that is in the near future or recent past"
 ---
 
 The date picker component consists of an input box where users can type their date, accompanied with a calendar button giving users different ways to pick a date.

@@ -1,6 +1,7 @@
 ---
 title: "Grid system"
 date: 2022-02-01 00:00:03Z
+description: "Use the grid system to lay out the content on your service’s pages."
 --- 
 
 Use the grid system to lay out the content on your service’s pages.

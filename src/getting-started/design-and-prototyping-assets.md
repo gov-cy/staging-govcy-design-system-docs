@@ -12,6 +12,6 @@ Get the latest ==Figma library== and use the design elements to built your desig
 
 To get stated, take a look at out ==using Figma library post==. 
 ## Excalidraw library
-Get the latest [Excalidraw library]({{site.exalidraw.homeUrl}}){target="_blank"} to create rapid wireframes and sketches.
+Get the latest [Excalidraw library]({{site.exalidraw.homeUrl}}){rel="noreferrer noopener" target="_blank"} to create rapid wireframes and sketches.
 
-You can add to [excalidraw]({{site.exalidraw.addUrl}}){target="_blank"} or [download it directly]({{site.exalidraw.downloadUrl}}). (Last updated: {{ site.exalidraw.updateDate }})
+You can add to [excalidraw]({{site.exalidraw.addUrl}}){rel="noreferrer noopener" target="_blank"} or [download it directly]({{site.exalidraw.downloadUrl}}). (Last updated: {{ site.exalidraw.updateDate }})

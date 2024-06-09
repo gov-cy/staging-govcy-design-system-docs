@@ -1,6 +1,7 @@
 ---
 title: "Phase banner"
 date: 2022-02-01 00:01:01Z
+description: "Use the phase banner component to show users your service is still being worked on."
 ---
 Use the phase banner component to show users your service is still being worked on.
 

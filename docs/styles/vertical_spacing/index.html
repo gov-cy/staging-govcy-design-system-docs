@@ -140,67 +140,280 @@
                         <nav class="toc">
                 <ol>
                     
-                    <li><a href="#component-margin">Component margin</a>
+                    <li><a href="#understanding-the-spacing-scale">Understanding the spacing scale</a>
             		</li>
 
-                    <li><a href="#vertical-spacing-with-govcy-css">Vertical spacing with GOVCY CSS</a>
+                    <li><a href="#elements-spacing-values">Elements spacing values</a>
+            
+                <ol>
+                    
+                    <li><a href="#large-screens-768%2B">Large Screens 768+</a>
+            		</li>
+
+                    <li><a href="#smaller-screens-767-and-below">Smaller Screens 767 and below</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#header-spacing-values">Header spacing values</a>
+            
+                <ol>
+                    
+                    <li><a href="#spacing-after-the-header">Spacing after the header</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#footer-spacing-values">Footer spacing values</a>
+            		</li>
+
+                    <li><a href="#spacing-with-gov.cy-css">Spacing with gov.cy CSS</a>
+            
+                <ol>
+                    
+                    <li><a href="#custom-components">Custom components</a>
+            		</li>
+                </ol>
             		</li>
                 </ol>
             </nav>
                     </aside>
                 
                 <p>Use the design system to lay out the content on your service’s pages vertically in a uniform and consisted manner.</p>
-<h2 id="component-margin" tabindex="-1">Component margin</h2>
-<p>The system uses margin bottom attribute on each component to manage vertical spacing and distinguishes <a href="../typography">typography</a> ( i.e. <code>&lt;p&gt;,&lt;ul&gt;,&lt;ol&gt; </code>), <a href="../typography/#headings">headings </a> (i.e. <code>&lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;</code>) from the <a href="../../components">rest of the components</a>.</p>
-<p>The following margin bottom values must be applied:</p>
+<h2 id="understanding-the-spacing-scale" tabindex="-1">Understanding the spacing scale</h2>
+<p>The spacing scale displays the various spacing achievable between items.</p>
 <table class="govcy-table">
 <thead>
 <tr>
-<th>Component Type</th>
-<th>margin-bottom value</th>
+<th>Spacing Unit</th>
+<th>Rem</th>
+<th>Pixels</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>typography</td>
-<td>16px</td>
+<td><strong>0</strong></td>
+<td>0</td>
+<td>0</td>
 </tr>
 <tr>
-<td>headings</td>
-<td>24px</td>
+<td><strong>1</strong></td>
+<td>0.25</td>
+<td>4</td>
 </tr>
 <tr>
-<td>rest of components</td>
-<td>24px</td>
+<td><strong>2</strong></td>
+<td>0.5</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>0.75</td>
+<td>12</td>
+</tr>
+<tr>
+<td><strong>4</strong></td>
+<td>1</td>
+<td>16</td>
+</tr>
+<tr>
+<td><strong>5</strong></td>
+<td>1.25</td>
+<td>20</td>
+</tr>
+<tr>
+<td><strong>6</strong></td>
+<td>1.5</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>7</strong></td>
+<td>1.75</td>
+<td>28</td>
+</tr>
+<tr>
+<td><strong>8</strong></td>
+<td>2</td>
+<td>32</td>
+</tr>
+<tr>
+<td><strong>9</strong></td>
+<td>2.25</td>
+<td>36</td>
+</tr>
+<tr>
+<td><strong>10</strong></td>
+<td>2.5</td>
+<td>40</td>
+</tr>
+<tr>
+<td><strong>11</strong></td>
+<td>2.75</td>
+<td>44</td>
+</tr>
+<tr>
+<td><strong>12</strong></td>
+<td>3</td>
+<td>48</td>
+</tr>
+<tr>
+<td><strong>16</strong></td>
+<td>4</td>
+<td>64</td>
+</tr>
+<tr>
+<td><strong>20</strong></td>
+<td>5</td>
+<td>80</td>
 </tr>
 </tbody>
 </table>
-<h2 id="vertical-spacing-with-govcy-css" tabindex="-1">Vertical spacing with GOVCY CSS</h2>
-<p>The grid system automatically adjusts vertical spacing when using the<a href="../../getting_started/#css-and-javascript"> govcy css</a> for typography, headings and components that include the <code>govcy-form-control</code> class.</p>
-<p>If you like to implement the same vertical spacing as decribed above, you can use the <a href="../../css_utilities/#margin%2C-padding">margin utility classes</a> as follows</p>
+<h2 id="elements-spacing-values" tabindex="-1">Elements spacing values</h2>
+<p>The system uses a combination padding and margin attributes on each element to manage vertical spacing.</p>
+<p>The elements spacing for ‘large screens’ is used when the screen is wider than the <a href="../../getting-started/page-template/#responsive-breakpoint">responsive breakpoint</a> (767px), whereas for smaller screens heading spacing begins from the responsive breakpoint (767px) and below.</p>
+<p>The following spacing values must be applied:</p>
+<h4 id="large-screens-768%2B" tabindex="-1">Large Screens 768+</h4>
+<div class="govcy-table-responsive">
 <table class="govcy-table">
 <thead>
 <tr>
-<th>Utility Class</th>
-<th>margin-bottom value</th>
+<th></th>
+<th>H1</th>
+<th>H2</th>
+<th>H3</th>
+<th>H4</th>
+<th>P/ul/ol</th>
+<th>Pictures</th>
+<th>Components</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>govcy-mb-3</td>
-<td>16px</td>
+<td><strong>Top</strong></td>
+<td>0px</td>
+<td>20px</td>
+<td>20px</td>
+<td>20px</td>
+<td>0px</td>
+<td>0px</td>
+<td>0px</td>
 </tr>
 <tr>
-<td>govcy-mb-4</td>
+<td><strong>Bottom</strong></td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
 <td>24px</td>
 </tr>
 </tbody>
 </table>
+</div>
+<p><img src="/staging-govcy-design-system-docs/img/v3_vs_components.png" alt="Representation of vertical spacing of a component for large screens" style="aspect-ratio: auto;"></p>
+<h4 id="smaller-screens-767-and-below" tabindex="-1">Smaller Screens 767 and below</h4>
+<div class="govcy-table-responsive">
+<table class="govcy-table">
+<thead>
+<tr>
+<th></th>
+<th>H1</th>
+<th>H2</th>
+<th>H3</th>
+<th>H4</th>
+<th>P/u/ol</th>
+<th>Pictures</th>
+<th>Components</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Top</strong></td>
+<td>0px</td>
+<td>12px</td>
+<td>12px</td>
+<td>12px</td>
+<td>0px</td>
+<td>0px</td>
+<td>0px</td>
+</tr>
+<tr>
+<td><strong>Bottom</strong></td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+<td>24px</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><img src="/staging-govcy-design-system-docs/img/v3_vs_components_small.png" alt="Representation of vertical spacing of a component for smaller screens" style="aspect-ratio: auto;"></p>
+<h2 id="header-spacing-values" tabindex="-1">Header spacing values</h2>
+<p>The header spacing concerns the vertical spacing of the ==header section of the page template==.</p>
+<p>The following spacing values must be applied:</p>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Large screens (768px+)</th>
+<th>Smaller screens (767px and below)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>0px</strong> Top</td>
+<td><strong>0px</strong> Top</td>
+</tr>
+<tr>
+<td><strong>64px</strong> Bottom</td>
+<td><strong>44px</strong> Bottom</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/staging-govcy-design-system-docs/img/v3_vs_header.png" alt="Representation of header spacing" style="aspect-ratio: auto;"></p>
+<h3 id="spacing-after-the-header" tabindex="-1">Spacing after the header</h3>
+<p>In order to achieve the spacing values for the header, consider which element follows the header.</p>
+<p>Usually the first element after the header is either a ==back link==, a ==breadcrumb== or a <code>H1</code> title of the page which already have top margin 0px, and there is no need for special care.</p>
+<p><img src="/staging-govcy-design-system-docs/img/v3_vs_header_after.png" alt="Representation of the first element after the header" style="aspect-ratio: auto;"></p>
+<p>On the other hand, if the following element has pre-existing top spacing, such as an <code>H2</code>, the spacing between the header and <code>H2</code> will combine to 84px which should be avoided (the 84px spacing comes from the existing 64px bottom of the header plus the 20px top of the <code>H2</code>).</p>
+<p><strong>This means the FIRST element right after the header should always have 0px top spacing so as to not interfere with the header spacing.</strong></p>
+<p>However if the first element is not an <code>H1</code> title, use the <code>govcy-pt-0</code> class achieve the correct spacing as shown in the example below:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-pt-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Lorem Ipsum<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span></code></pre>
+<h2 id="footer-spacing-values" tabindex="-1">Footer spacing values</h2>
+<p>The footer spacing concerns the vertical spacing of the ==footer section of the page template==.</p>
+<p>The following spacing values must be applied:</p>
+<table class="govcy-table">
+<thead>
+<tr>
+<th>Large screens (768px+)</th>
+<th>Smaller screens (767px and below)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>40px</strong> Top</td>
+<td><strong>20px</strong> Top</td>
+</tr>
+<tr>
+<td><strong>0px</strong> Bottom</td>
+<td><strong>0px</strong> Bottom</td>
+</tr>
+</tbody>
+</table>
+<p>Unlike the header there is no need for any adjustments to elements on top of the footer.</p>
+<p><img src="/staging-govcy-design-system-docs/img/v3_vs_footer.png" alt="Representation of the footer spacing" style="aspect-ratio: auto;"></p>
+<h2 id="spacing-with-gov.cy-css" tabindex="-1">Spacing with gov.cy CSS</h2>
+<p>Using our <a href="../../getting-started/developer-assets">developers assets</a> and the code in our documentation,  the vertical spacing is adjusted automatically.</p>
+<h3 id="custom-components" tabindex="-1">Custom components</h3>
+<p>If you are implementing a custom component that is not included in our documentation, you can use the ==margin utility classes==. To achieve the bottom margin of 24px that all elements have, use the <code>govcy-mb-6</code> class.</p>
 
             </div>
     
     <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first">
-                <ul class="govcy-list-unstyled"><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/colour/">Colours</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/grid/">Grid system</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/styles/vertical_spacing/">Vertical Spacing</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/layout/">Layout</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/typography/">Typography</a></li>
+                <ul class="govcy-list-unstyled"><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/colour/">Colours</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/grid/">Grid system</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/images/">Images</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/styles/vertical_spacing/">Vertical Spacing</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/layout/">Layout</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/styles/typography/">Typography</a></li>
                 </ul>
             </aside>
         </div>

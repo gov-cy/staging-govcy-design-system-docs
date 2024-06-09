@@ -1,6 +1,7 @@
 ---
 title: "Cookie banner"
 date: 2022-02-01 00:01:01Z
+description: "Allow users to accept or reject cookies which are not essential to making your service work."
 ---
 
 Allow users to accept or reject cookies which are not essential to making your service work.

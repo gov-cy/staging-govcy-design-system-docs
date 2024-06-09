@@ -1,6 +1,7 @@
 ---
 title: "Breadcrumbs"
 date: 2022-02-01 00:01:01Z
+description: "The breadcrumbs component helps users to understand where they are within a website’s structure and move between levels."
 ---
 The breadcrumbs component helps users to understand where they are within a website’s structure and move between levels.
 
