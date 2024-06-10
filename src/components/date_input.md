@@ -285,6 +285,8 @@ Use the following text:
 | **Year label** | Year | Χρόνος |
 | **Date of birth legend** | Date of birth | Ημερομηνία γεννήσεως |
 | **Hint text** | For example, 13 8 2007 | Για παράδειγμα, 13 8 2007 |
+| **Months** | January<br> February<br> March<br> April<br> May<br> June<br> July<br> August<br> September<br> October<br> November<br> December | Ιανουάριος<br> Φεβρουάριος<br> Μάρτιος<br> Απρίλιος<br> Μάϊος<br> Ιούνιος<br> Ιούλιος<br> Αύγουστος<br> Σεπτέμβριος<br> Οκτώβριος<br> Νοέμβριος<br> Δεκέμβριος |
+
 
 {.govcy-table}
 

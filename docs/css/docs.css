@@ -159,3 +159,21 @@
         padding-top: 44px;
     }
 }
+
+.govcy-order-first-desk {
+    order: -1 !important;
+}
+
+.govcy-order-last-desk {
+    order: 6 !important;
+}
+
+@media (max-width: 766px) {
+    .govcy-order-first-desk {
+        order: 6 !important;
+    }
+    
+    .govcy-order-last-desk {
+        order: -1 !important;
+    }
+}
