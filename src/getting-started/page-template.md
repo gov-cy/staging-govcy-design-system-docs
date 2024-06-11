@@ -84,7 +84,7 @@ Use the following HTML template for your gov.cy pages.
   </body>
 </html>
 ```
-The code above includes all the sections described in the ==body== section and uses the appropriate gov.cy CSS classes to accommodate ==spacing==, ==header== and ==footer== components.
+The code above includes all the sections described in the [body](#body) section and uses the appropriate gov.cy CSS classes to accommodate [spacing](../../styles/vertical_spacing/), [header](../../components/header/) and [footer](../../components/footer/) components.
 ## Head
 ### Important Globals
 The starter template employs the following important global styles and settings that you’ll need to be aware of when using it.
@@ -121,12 +121,15 @@ Use the following tags inside the `<head>` tag.
 ```
 Page titles should be unique and informative so that users know which page they are on. Change the content of the above tags, depending if you are implementing a content page or a service :
 
+<div class="govcy-table-responsive">
+
 | tags | Content pages | Services |
 | ---- | ---- | ---- |
 | **title** | Use the following naming convention <br> `Page name - Site Name - gov.cy` <br><br>For example:<br> `About - Department of Information Technology Services - gov.cy` | Use the following naming convention <br> `Page title - Service Name - gov.cy` <br><br>For example:<br> `Address we can use to write to you - Update my personal details - gov.cy` |
 | **description** | Description of what the site is about | Description of what the service does |
 
 {.govcy-table}
+</div>
 
 For the gov.cy portal websites use the following naming conventions:
 - For sub-site home page: `Site Name - gov.cy` For example: 
@@ -220,6 +223,8 @@ Breakpoint is the width that determines how your responsive layout behaves acros
 ### Sections
 All pages must use the following structure inside the `<body>` tag.
 
+<div class="govcy-table-responsive">
+
 | Section Name | HTML Tag                                                                           | Description                                                                                                                                                                      |
 | ------------ | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Body start**   | `<section class="govcy-container-fluid" id="bodyStartContainer"> </section>`       | To be used to render the content before the `<header>` such as ==skip link== and ==cookie consent== (Skip link must always be first). Width must be fluid, same as the viewport. |
@@ -230,27 +235,28 @@ All pages must use the following structure inside the `<body>` tag.
 | **Body end**     | `<section class="govcy-container-fluid" id="bodyEndContainer"> </section>`         | To be used to render the content after the `<footer>`. Width must be fluid, same as the viewport.                                                                                |
 
 {.govcy-table}
+</div>
 
 For more information about the `<main>` section content, see the ==Layouts== page.
 
-![Visual example marking the different sections of a gov.cy page](../../img/v3_sections_of_page.png)
+![Visual example marking the different sections of a gov.cy page](../../img/v3_sections_of_page.png){style="aspect-ratio: auto;"}
 ### Element Placement Order
 Depending on the website or service, you might need to implement more than one design elements withing a section. Use the following order in each section:
 
 1. **Body start section** 
-    1. ==Skip to main content==
-    2. ==Cookies banner==
+    1. [Skip to main content](#skip-to-main-content)
+    2. [Cookies banner](../../components/cookie_banner/)
 2. **Header section**
-    1. ==Header== component
+    1. [Header](../../components/header/) component
 3. **Before main section** 
-    1. ==Breadcrumbs== or ==Back link== component
-    2. ==Phase banner== component
+    1. [Breadcrumbs](../../components/breadcrumbs/) or [Back link](../../components/back_link/) component
+    2. [Phase banner](../../components/phase_banner/) component
 4. **Main section** 
-    1. ==Error summary== component, in the case of errors.
-    2. ==Header 1== `<h1>`. If your using an input component and you are asking just one question on a page, follow the instructions for ==single question page labels and legends== and adjust the header accordingly. 
-    3. Other ==components==, ==patterns== or ==typography==
+    1. [Error summary](../../components/error_summary/) component, in the case of errors.
+    2. [Header 1 `<h1>`](../../styles/typography/#headings). If your using an input component and you are asking just one question on a page, follow the instructions for ==single question page labels and legends== and adjust the header accordingly. 
+    3. Other [components](../../components/), [patterns](../../patterns/) or [typography](../../styles/typography/)
 5. **Footer section**
-    1. ==Footer== component
+    1. [Footer](../../components/footer/) component
 
 {class="govcy-br-1 govcy-br-standard govcy-py-4"}
 
@@ -267,7 +273,7 @@ Always include the skip link right after the opening `<body>` in the ==Body s
 <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a>
 ```
 
-Make sure that the target element of the anchor is the ==main section== container and that it includes the ==error summary==  if applicable, the `h1` and the main content of the page. However, if you’re using a component that must be read before the user can skip to the main content (such as a cookie banner) , place the skip link immediately after the component.
+Make sure that the target element of the anchor is the **main section** container and that it includes the [error summary](../../components/error_summary/)  if applicable, the `h1` and the main content of the page. However, if you’re using a component that must be read before the user can skip to the main content (such as a cookie banner) , place the skip link immediately after the component.
 
 The skip link component is visually hidden until a keyboard press activates it. The link should give the users the option to bypass the top-level navigation links and jump to the main content (`mainContainer`) of the page.
 

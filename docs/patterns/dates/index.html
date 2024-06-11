@@ -144,28 +144,79 @@
             		</li>
 
                     <li><a href="#how-it-works">How it works</a>
+            
+                <ol>
+                    
+                    <li><a href="#asking-for-memorable-dates">Asking for memorable dates</a>
+            		</li>
+
+                    <li><a href="#asking-for-dates-from-documents-and-cards">Asking for dates from documents and cards</a>
+            		</li>
+
+                    <li><a href="#asking-for-approximate-dates">Asking for approximate dates</a>
+            		</li>
+
+                    <li><a href="#asking-for-relative-dates">Asking for relative dates</a>
+            		</li>
+
+                    <li><a href="#helping-users-to-pick-a-date">Helping users to pick a date</a>
             		</li>
 
                     <li><a href="#how-to-write-dates">How to write dates</a>
             		</li>
                 </ol>
+            		</li>
+                </ol>
             </nav>
                     </aside>
                 
-                <p>Help users enter a date.</p>
+                <p>Help users enter or select a date.</p>
 <h2 id="when-to-use-this-pattern" tabindex="-1">When to use this pattern</h2>
 <p>Follow this pattern whenever you need users to provide or view a date as part of your service.</p>
 <h2 id="how-it-works" tabindex="-1">How it works</h2>
-<p>If you are asking for a date that is not in the near future or recent past, for example birth date, use the <a href="../../components/date_input/">date input component</a>.</p>
-<p>If you are asking for a date that is in the near future or recent past, for example appointment date, you can use a calendar like date picker.</p>
-<h2 id="how-to-write-dates" tabindex="-1">How to write dates</h2>
-<p>Display dates in the format <code>DD/MM/YYYY</code>, for example 13/11/2021.</p>
+<p>Dates should only exist in the <a href="../../getting-started/page-template/#sections">main section</a>. The component uses JavaScript. To use it with the gov.cy <a href="../../getting-started/developer-assets/">developer assets</a>, make sure to include the main JavaScript file in your page.</p>
+<p>The way you should ask users for dates depends on the types of date you’re asking for and the proximity to today’s date.</p>
+<p>Dates you may need users to provide include:</p>
+<ul>
+<li>memorable dates, like a date of birth or marriage</li>
+<li>dates from documents or cards, like a passport or credit card</li>
+<li>approximate dates, like ‘December 2017’</li>
+<li>relative dates, like ‘4 days from today’</li>
+</ul>
+<p>In some cases you might need users to pick a date from a given selection.</p>
+<h3 id="asking-for-memorable-dates" tabindex="-1">Asking for memorable dates</h3>
+<p>If you are asking for a memorable date that is not in the near future or recent past, for example birth date, use the <a href="../../components/date_input/">date input component</a>.</p>
+<h3 id="asking-for-dates-from-documents-and-cards" tabindex="-1">Asking for dates from documents and cards</h3>
+<p>When asking for a date exactly as it’s shown on a passport, credit card or other document, make the fields match the format of the original. This makes it easier for users to copy the date across accurately.</p>
+<h3 id="asking-for-approximate-dates" tabindex="-1">Asking for approximate dates</h3>
+<p>Allow users to enter an approximate date when you are asking them for information they may not know or may struggle to remember. For example, allow users to enter ‘December 2020’ for a field that says ‘the date you lost your passport’.</p>
+<h3 id="asking-for-relative-dates" tabindex="-1">Asking for relative dates</h3>
+<p>You may need to ask for dates that are relative to today’s date or another date - this is common if a user is setting a reminder.</p>
+<p>To do this let users enter or select relative dates like ‘tomorrow’ or ‘1 day before’. If the day of the week is important, show this as well.</p>
+<h3 id="helping-users-to-pick-a-date" tabindex="-1">Helping users to pick a date</h3>
+<p>Users might need to pick a date from a selection, for example, to book an appointment.</p>
+<p>To do this, you can present dates in a calendar format using the <a href="../../components/date_picker/">date picker component</a>. Users are shown one month’s worth of dates at a time, and can skip through months and years.</p>
+<p>Only use the date picker if users need to:</p>
+<ul>
+<li>pick a date in the near future or recent past</li>
+<li>know the day of the week, or the week of the month, as well as the date</li>
+<li>be able to see dates in relation to other dates</li>
+</ul>
+<h3 id="how-to-write-dates" tabindex="-1">How to write dates</h3>
+<p>Display dates in the format <code>d/m/yyyy</code>, where:</p>
+<ul>
+<li><strong>d</strong>, stands for one-digit day of the month for days below 10, <em>e.g. 2</em></li>
+<li><strong>m</strong>, stands for one-digit month for months below 10, <em>e.g. 3</em></li>
+<li><strong>yyyy</strong>, stands for four-digit year, <em>e.g. 2024</em></li>
+</ul>
+<p>For example <code>13/9/2021</code>.</p>
+<p>If you give an example date, use 13 or more for the day and 9 or less for the month - for example ‘27 3 2020’. This helps users enter the date in the correct order and shows them they do not need to include leading zeroes.</p>
 
             </div>
     
     <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
                 <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Pages in this section</div>
-                <ul class="govcy-list-unstyled"><li class="govcy-fw-bolder govcy-mb-3">Ask users for</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/currency-amount/">Currency amount</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/patterns/dates/">Dates</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/email/">Email</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/names/">Names</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/telephone/">Telephone</a></li><li class="govcy-fw-bolder govcy-mb-3">Help users</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/check_answers/">Check answers</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/confirm_phone_number/">Confirm a phone number</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/hint_text/">Hint Text</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/test/">Test</a></li><li class="govcy-fw-bolder govcy-mb-3">Pages</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/page-not-found-pages/">Page not found pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/question_pages/">Question pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service-unavailable-pages/">Service unavailable pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/there-is-a-problem/">There is a problem with the service pages</a></li><li class="govcy-fw-bolder govcy-mb-3">How to</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/focus_state/">Focus state</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/labels_and_legend_headings/">Labels and legends headings</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/multiple_things/">Add multiple things </a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service_structure/">Structuring a service</a></li>
+                <ul class="govcy-list-unstyled"><li class="govcy-fw-bolder govcy-mb-3">Ask users for</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/currency-amount/">Currency amount</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/patterns/dates/">Dates</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/email/">Email</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/names/">Names</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/telephone/">Telephone</a></li><li class="govcy-fw-bolder govcy-mb-3">Help users</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/check_answers/">Check answers</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/confirm_phone_number/">Confirm a phone number</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/test/">Test</a></li><li class="govcy-fw-bolder govcy-mb-3">Pages</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/page-not-found-pages/">Page not found pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/question_pages/">Question pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service-unavailable-pages/">Service unavailable pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/there-is-a-problem/">There is a problem with the service pages</a></li><li class="govcy-fw-bolder govcy-mb-3">How to</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/focus_state/">Focus state</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/labels_and_legend_headings/">Labels and legends</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/multiple_things/">Add multiple things </a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service_structure/">Structuring a service</a></li>
                 </ul>
             </aside>
         </div>

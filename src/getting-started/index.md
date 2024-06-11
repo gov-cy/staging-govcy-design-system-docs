@@ -8,7 +8,7 @@ date: 2022-02-01 00:00:01Z
 ## Principles
 When designing and implementing websites and services throughout gov.cy, consider the [design system principles](principles/)
 
-## Design a service
+## Designing a service
 If you are implementing a service, start with the [structuring a service pattern]({{ '/patterns/service_structure/' | url }}) to understand basic structure of a service. 
 
 ### Designing individual pages of a service
