@@ -143,22 +143,22 @@
                     <li><a href="#principles">Principles</a>
             		</li>
 
-                    <li><a href="#how-to-design-a-service">How to design a service</a>
-            		</li>
-
-                    <li><a href="#how-to-design-pages-of-a-service">How to design pages of a service</a>
+                    <li><a href="#design-a-service">Design a service</a>
             
                 <ol>
                     
-                    <li><a href="#mandatory-elements">Mandatory elements</a>
+                    <li><a href="#designing-individual-pages-of-a-service">Designing individual pages of a service</a>
+            
+                <ol>
+                    
+                    <li><a href="#mandatory-elements-on-each-page">Mandatory elements on each page</a>
+            		</li>
+                </ol>
             		</li>
                 </ol>
             		</li>
 
                     <li><a href="#developing-with-gov.cy-css">Developing with gov.cy CSS</a>
-            		</li>
-
-                    <li><a href="#design-prototyping-and-testing-libraries">Design prototyping and testing libraries</a>
             		</li>
 
                     <li><a href="#accessibility">Accessibility</a>
@@ -169,48 +169,42 @@
                 
                 <h2 id="principles" tabindex="-1">Principles</h2>
 <p>When designing and implementing websites and services throughout gov.cy, consider the <a href="principles/">design system principles</a></p>
-<h2 id="how-to-design-a-service" tabindex="-1">How to design a service</h2>
-<p>If you are implementing a service, start with the ==Structing a service== pattern to understand basic structure of a service.</p>
-<h2 id="how-to-design-pages-of-a-service" tabindex="-1">How to design pages of a service</h2>
-<p>To design pages that are part of a service, we prefer to use ==questions== and split them across multiple pages with each page containing just one thing.</p>
-<h3 id="mandatory-elements" tabindex="-1">Mandatory elements</h3>
-<p>Make sure to use the ==page template== for the ==head== (including the ==manifest.json==) and the ==body== sections , use one of the ==layouts== in the <code>main</code> area and include at least, the following mandatory elements in the ==correct order==:</p>
+<h2 id="design-a-service" tabindex="-1">Design a service</h2>
+<p>If you are implementing a service, start with the <a href="/staging-govcy-design-system-docs/patterns/service_structure/">structuring a service pattern</a> to understand basic structure of a service.</p>
+<h3 id="designing-individual-pages-of-a-service" tabindex="-1">Designing individual pages of a service</h3>
+<p>To design pages that are part of a service, we prefer to use <a href="/staging-govcy-design-system-docs/patterns/question_pages/">questions</a> and split them across multiple pages with each page containing just one thing.</p>
+<h4 id="mandatory-elements-on-each-page" tabindex="-1">Mandatory elements on each page</h4>
+<p>Make sure to use the <a href="/staging-govcy-design-system-docs/getting-started/page-template/">page template</a> for the <a href="/staging-govcy-design-system-docs/getting-started/page-template/#head">head</a> (including the <a href="/staging-govcy-design-system-docs/getting-started/page-template/#theme%2C-app-manifest-and-apple-touch-icon">manifest.json</a>) and the <a href="/staging-govcy-design-system-docs/getting-started/page-template/#body">body</a> sections , use one of the <a href="/staging-govcy-design-system-docs/styles/layout/">layouts</a> in the <code>main</code> area and include at least, the following mandatory elements in the <a href="/staging-govcy-design-system-docs/getting-started/page-template/#element-placement-order">correct order</a>:</p>
 <ul>
-<li>==skip link==</li>
-<li>==header== component</li>
-<li>==username== component when needed</li>
-<li>==back== or ==breadcrumbs== components</li>
-<li>==page title (header <code>&lt;h1&gt;</code>)==</li>
-<li>==footer== component</li>
+<li><a href="/staging-govcy-design-system-docs/getting-started/page-template/#skip-to-main-content">skip link</a></li>
+<li><a href="/staging-govcy-design-system-docs/components/header/">header</a> component</li>
+<li><a href="/staging-govcy-design-system-docs/components/user_name_and_sign_out/">username</a> component when needed</li>
+<li><a href="/staging-govcy-design-system-docs/components/back_link/">back</a> or <a href="/staging-govcy-design-system-docs/components/breadcrumbs/">breadcrumbs</a> components</li>
+<li><a href="/staging-govcy-design-system-docs/styles/typography/#headings">page title (header <code>&lt;h1&gt;</code>)</a></li>
+<li><a href="/staging-govcy-design-system-docs/components/footer/">footer</a> component</li>
 </ul>
 <p><img src="/staging-govcy-design-system-docs/img/v3_mandatory_elemenets.png" alt="Mandatory elements illustration"></p>
 <p>Additionally, make sure that to comply with the following design values:</p>
 <ul>
-<li>==max width==</li>
-<li>==responsive breakpoint==</li>
-<li>==vertical spacing==</li>
-<li>==grid and gutter==</li>
-<li>==typography==</li>
-<li>==colours==</li>
+<li><a href="/staging-govcy-design-system-docs/getting-started/page-template/#max-width">max width</a></li>
+<li><a href="/staging-govcy-design-system-docs/getting-started/page-template/#responsive-breakpoint">responsive breakpoint</a></li>
+<li><a href="/staging-govcy-design-system-docs/styles/vertical_spacing/">vertical spacing</a></li>
+<li><a href="/staging-govcy-design-system-docs/styles/grid/">grid and gutter</a></li>
+<li><a href="/staging-govcy-design-system-docs/styles/typography/">typography</a></li>
+<li><a href="/staging-govcy-design-system-docs/styles/colour/">colours</a></li>
 </ul>
-<p>Also make sure to follow the guidance for ==focus state== and if displaying validation errors to use the ==error summary== together with the ==error message== components.</p>
-<p>For any other design element, use the ==components== and ==patterns== of the design system.</p>
-<p>If you decide to opt for different designs than the ones specified in the design system, make sure to back your decisions with evidence how the existing designs fail, how the new  designs benefit the users and how they align the ==principles== of the design system.</p>
+<p>Also make sure to follow the guidance for <a href="/staging-govcy-design-system-docs/patterns/focus_state/">focus state</a> and if displaying validation errors to use the <a href="/staging-govcy-design-system-docs/components/error_summary/">error summary</a> together with the <a href="/staging-govcy-design-system-docs/components/error_message/">error message</a> components.</p>
+<p>For any other design element, use the <a href="/staging-govcy-design-system-docs/components/">components</a> and <a href="/staging-govcy-design-system-docs/patterns/">patterns</a> of the design system.</p>
+<p>If you decide to opt for different designs than the ones specified in the design system, make sure to back your decisions with evidence how the existing designs fail, how the new  designs benefit the users and how they align the <a href="/staging-govcy-design-system-docs/getting-started/principles/">principles</a> of the design system.</p>
 <h2 id="developing-with-gov.cy-css" tabindex="-1">Developing with gov.cy CSS</h2>
-<p>Code examples exist throughout the documentation that utilize the gov.cy CSS and JavasScript (developer assets) to create various design elements. To get started in developing websites and services using the developer assets:</p>
+<p>Code examples exist throughout this website that utilize the gov.cy CSS and JavasScript (developer assets) to create various design elements. To get started in developing websites and services using the developer assets:</p>
 <ul>
-<li>Get the ==gov.cy developer assets==</li>
-<li>Use the ==page template==</li>
-<li>Select and use one of the ==layouts== for main section</li>
-<li>Use code for ==components== and ==patters==</li>
+<li>Get the <a href="/staging-govcy-design-system-docs/getting-started/developer-assets/">gov.cy developer assets</a></li>
+<li>Use the <a href="/staging-govcy-design-system-docs/getting-started/page-template/">page template</a></li>
+<li>Select and use one of the <a href="/staging-govcy-design-system-docs/styles/layout/">layouts</a> for main section</li>
+<li>Use code for <a href="/staging-govcy-design-system-docs/components/">components</a> and <a href="/staging-govcy-design-system-docs/patterns/">patters</a></li>
 </ul>
-<p>Take a look at our ==create a page== guide for complete example.</p>
-<h2 id="design-prototyping-and-testing-libraries" tabindex="-1">Design prototyping and testing libraries</h2>
-<p>You can use the same libraries our team uses for:</p>
-<ul>
-<li>==Design and prototyping==</li>
-<li>==Testing==</li>
-</ul>
+<p>Take a look at our <a href="/staging-govcy-design-system-docs/guides/create_a_page/">create a page guide</a> for complete example.</p>
 <h2 id="accessibility" tabindex="-1">Accessibility</h2>
 <p>It is important to always test your implementation for compliance with the EN 301 549 Standard.</p>
 <p>All elements presented in the design system documentation, have been tested and they comply with the <a href="/staging-govcy-design-system-docs/getting-started/principles/#7.-include-everyone">include everyone principle</a>. However, that does not mean that any implementation that uses the developer assets, automatically complies with the Standard.</p>
@@ -220,7 +214,8 @@
             </div>
     
     <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
-                <ul class="govcy-list-unstyled"><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/getting-started/">Get Started</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/getting-started/principles/">Design System Principles</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/getting-started/developer-assets/">Developer assets</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/getting-started/page-template/">Page Template</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/getting-started/design-and-prototyping-assets/">Design and prototyping assets</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/getting-started/testing-assets/">Testing assets</a></li>
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Pages in this section</div>
+                <ul class="govcy-list-unstyled"><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/getting-started/">Get Started</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/getting-started/principles/">Design System Principles</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/getting-started/developer-assets/">Developer assets</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/getting-started/page-template/">Page Template</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/getting-started/dsf-libraries/">DSF libraries</a></li>
                 </ul>
             </aside>
         </div>
@@ -263,8 +258,8 @@
                 <div class="govcy-my-4">
                     <ul>
                         <li><a href="/staging-govcy-design-system-docs/privacy-statement">Privacy statement</a></li>
-                        <li><a href="/staging-govcy-design-system-docs/cookie-policy">Cookie policy</a></li>
-                        <li><a href="/staging-govcy-design-system-docs/accessibility-statement">Accessibility statement</a></li>
+                        <li><a href="/staging-govcy-design-system-docs/cookie-policy">Cookies</a></li>
+                        <li><a href="/staging-govcy-design-system-docs/accessibility-statement">Accessibility</a></li>
                     </ul>
                     <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                         <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>

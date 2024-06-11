@@ -23,6 +23,7 @@
     This should be default in styles, components and patterns  #}
     {% if showCategoryMenu -%}
             <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
+                <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">{{ site.localization[locale].side_title }}</div>
                 <ul class="govcy-list-unstyled">
                 {#- if showSubcategoriesInMenu the loop through `availableSubcategories` defined in folder.json -#}
                 {%- if showSubcategoriesInMenu %}
