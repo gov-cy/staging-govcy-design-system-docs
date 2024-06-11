@@ -10,6 +10,7 @@ module.exports = {
   cssDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v2.1.1/dist/css/main.min.css",
   jsCDN: `<script src="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v2.1.1/dist/js/app.min.js" integrity="sha384-xv0o+su1i+C0o4fYwrsX+q0dhbhj/IsZscMn7qvrt49Wboy+TIWT0GlfyiW39aH/" crossorigin="anonymous"></script>`,
   jsDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v2.1.1/dist/js/app.min.js",
+  distDownload: "https://github.com/gov-cy/govcy-design-system-test/releases/download/v3.0.5/dist.zip",
   github : {
     homeUrl: 'https://github.com/gov-cy/govcy-design-system',
     currentVersion: 'https://github.com/gov-cy/govcy-design-system/tree/v2.1.1',

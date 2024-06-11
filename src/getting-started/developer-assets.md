@@ -2,61 +2,75 @@
 title: "Developer assets"
 date: 2022-02-01 00:00:03Z
 --- 
-The easiest way to get stated is to download the ==gov.cy starter kit==, unzip it and include it in your project. ==(Last updated: 17/10/2023)==
 
-Content:
+The easiest way to get started is to use the jsdelvr CDN to include the gov.cy developer assets in your code, as explained below. 
+
+Alternatively you can download the [gov.cy starter kit]({{site.distDownload}}), unzip it and include it in your project. 
+
+The following file structure is included in the starter kit:
 ```html
 .
 +-- css
 |   +-- govcy.uds.css
-+-- images
++-- img
 |   +-- ...
 +-- JS
 |   +-- govcy.uds.js
 |   +-- locales
 |       +-- govcy.datepicker.el.js
 |       +-- govcy.datepicker.en.js
-+-- manifest.json+-- sample.html
++-- manifest.json
 ```
 
+All HTML code examples in this website utilizes the classes, styling and behaviour defined in this CSS and JS files of our developer assets.
+
 ## CSS
-To add the gov.cy styles using our developer assets, use the pre-built ==`govcy.uds.min.css`== css file. Just include the following code in your `<head>`.
+To add the gov.cy styles using our developer assets, add the CSS either using the CDN or using the downloaded starter kit.
+
+### CDN
+To use the gov.cy CSS with jsdelivr CDN, include the following code in your `<head>`.
+
+```html
+<!-- CSS -->
+{{ site.cssCDN }}
+```
+### Downloaded starter kit
+To add the gov.cy CSS using the downloaded starter kit, use the pre-built `css/govcy.uds.min.css` file, by including the following code in your `<head>`.
 
 ```html
 <!-- CSS -->
 <link href="css/govcy.uds.min.css" rel="stylesheet" >
 ```
 
-Alternatively you can use jsdelivr CDN by including the following code in your `<head>`.
-
-==Change accordingly==
-```html
-<!-- CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v2.1.1/dist/css/main.min.css" integrity="sha384-F+ky8v3AaxUWgO4Q36KXarGEFx5YNCparZr/q7m9S7yMVbvBdIJ9Bw0P9gFmw87r" crossorigin="anonymous">
-```
+**NOTE:** if the paths or filenames of your files are different in you project, please adjust the code accordingly.
 
 ## JavaScript
-Many of our components require the use of JavaScript to function. Place the following `<script>` near the end of your pages, right before the closing `</body>` tag, to enable them.
+Many of our components require the use of JavaScript to function. To enable them, you can use the gov.cy JS either using the CDN or using the downloaded starter kit to reference the javascript file.
+
+### CDN
+To use the gov.cy CSS with jsdelivr CDN, include the following code right before the closing `</body>` tag.
+
+```html
+<!-- scripts -->
+{{ site.jsCDN }}
+```
+
+### Downloaded starter kit
+To add the gov.cy javascript using the downloaded starter kit, use the pre-built `js/govcy.uds.js` file, by including the following code right before the closing `</body>` tag.
 
 ```html
 <!-- scripts -->
 <script src="js/govcy.uds.min.js" type="text/javascript"></script>
 ```
 
-Alternatively you can use jsdelivr CDN by including the following.
+**NOTE:** if the paths or filenames of your files are different in you project, please adjust the code accordingly.
 
-==Change accordingly==
-```html
-<!-- scripts -->
-<script src="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v2.1.1/dist/js/app.min.js" integrity="sha384-xv0o+su1i+C0o4fYwrsX+q0dhbhj/IsZscMn7qvrt49Wboy+TIWT0GlfyiW39aH/" crossorigin="anonymous"></script>
-```
+## Images
 
-All HTML code examples in this documentation utilizes the classes, styling and behaviour defined in this CSS and JS files of our developer assets.
+You will need to reference images for icons and logos. All images required by the ==page template== and ==manifest.json== are included in the starter kid under the `/img` folder.
 
-**NOTE:** if the location or filenames of your CSS or JS are different, please adjust the code accordingly.
+## Next step
 
-Use the ==stater template==
-## Styles, components and patterns 
-To implement ==styles==, ==components== and ==patterns== using the developer assets, use the ==starter template== and the code included in each documentation page through this website.
+To implement ==styles==, ==components== and ==patterns== using the developer assets, make sure to use the ==starter template== and the code included in each documentation page through this website.
 
 To get stated in creating a page, take a look at out ==create a page== guide. 
