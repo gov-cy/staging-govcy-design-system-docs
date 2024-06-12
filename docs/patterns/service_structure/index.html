@@ -141,12 +141,21 @@
                 <ol>
                     
                     <li><a href="#basic-structure">Basic structure</a>
-            		</li>
-
+            
+                <ol>
+                    
                     <li><a href="#start-page">Start page</a>
+            		</li>
+                </ol>
             		</li>
 
                     <li><a href="#one-thing-at-a-time">One thing at a time</a>
+            
+                <ol>
+                    
+                    <li><a href="#reusing-entered-information">Reusing entered information</a>
+            		</li>
+                </ol>
             		</li>
 
                     <li><a href="#check-your-answers-page">Check your answers page</a>
@@ -155,13 +164,41 @@
                     <li><a href="#confirmation-page">Confirmation page</a>
             		</li>
 
+                    <li><a href="#break-the-service-into-tasks-and-sections-structure">Break the service into tasks and sections structure</a>
+            
+                <ol>
+                    
+                    <li><a href="#task-list">Task list</a>
+            		</li>
+
+                    <li><a href="#sections">Sections</a>
+            
+                <ol>
+                    
+                    <li><a href="#section-statuses">Section statuses</a>
+            		</li>
+
+                    <li><a href="#optional-sections">Optional sections</a>
+            		</li>
+
+                    <li><a href="#allow-users-to-decide-if-the-section-is-completed">Allow users to decide if the section is completed</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#confirmation-page-change-links">Confirmation page change links</a>
+            		</li>
+                </ol>
+            		</li>
+
                     <li><a href="#contribute">Contribute</a>
             		</li>
                 </ol>
             </nav>
                     </aside>
                 
-                <p>This guide explains how to structure an online service.</p>
+                <p>This pattern explains how to structure an online service.</p>
+<p>Depending on the service, you may apply the <a href="#basic-structure">basic</a>, or the <a href="#break-the-service-into-tasks-and-sections-structure">break the service into tasks structure</a>.</p>
 <h2 id="basic-structure" tabindex="-1">Basic structure</h2>
 <p>The basic structure of a service should:</p>
 <ol>
@@ -171,8 +208,8 @@
 <li>Let the users check their answers before submitting</li>
 <li>Show the users a confirmation of successful completion page.</li>
 </ol>
-<p><img src="../../img/example_flow_of_a_standard_service.png" alt="An example flow of a standard service" class="img-fluid"></p>
-<h2 id="start-page" tabindex="-1">Start page</h2>
+<p><img src="../../img/example_flow_of_a_standard_service.png" alt="An example flow of a standard service" style="aspect-ratio: auto;"></p>
+<h3 id="start-page" tabindex="-1">Start page</h3>
 <p>Before starting the service, users should be presented with a page describing all the information they will need from the start, such as:</p>
 <ul>
 <li>What the service does</li>
@@ -181,7 +218,7 @@
 <li>Other ways to apply</li>
 <li>How they can get help</li>
 </ul>
-<p><img src="../../img/illustration_start_page.png" alt="Illustration of a start page" class="img-fluid"></p>
+<p><img src="../../img/illustration_start_page.png" alt="Illustration of a start page" style="aspect-ratio: auto;"></p>
 <p>Keep in mind that research has shown that users avoid reading long text, so keep your information minimal, and to the point and avoid using legal jargon.</p>
 <p>This page usually resides on the GOV.CY portal.</p>
 <h2 id="one-thing-at-a-time" tabindex="-1">One thing at a time</h2>
@@ -191,9 +228,9 @@
 <li>one decision they have to make</li>
 <li>one question they have to answer</li>
 </ul>
-<p><img src="../../img/one-thing-at-a-time.png" alt="Illustration of splitting questions to ask one thing at a time" class="img-fluid"></p>
-<p>User research will tell you when you can merge pages together. For example, if you’re designing an internal service for government users who need to repeat and switch between tasks quickly.<br>
-Keeping one thing on a page helps users to:</p>
+<p><img src="../../img/one-thing-at-a-time.png" alt="Illustration of splitting questions to ask one thing at a time" style="aspect-ratio: auto;"></p>
+<p>User research will tell you when you can merge pages together. For example, if you’re designing an internal service for government users who need to repeat and switch between tasks quickly.</p>
+<p>Keeping one thing on a page helps users to:</p>
 <ul>
 <li>understand what you’re asking them to do</li>
 <li>focus on the specific question and its answer</li>
@@ -210,18 +247,161 @@ Keeping one thing on a page helps users to:</p>
 <li>apply conditional logic and guide users to complete the service in a more relaxed manner</li>
 <li>direct the users to a specific question where they can change their answer (see <a href="../check_answers">check answers pattern</a>).</li>
 </ul>
+<h4 id="reusing-entered-information" tabindex="-1">Reusing entered information</h4>
+<p>If the same type of information is needed more than once, make it easier to reuse previously entered answers through one of these methods:</p>
+<ul>
+<li>pre-populating the relevant fields</li>
+<li>showing carried-forward responses as an option for the user to select</li>
+</ul>
 <h2 id="check-your-answers-page" tabindex="-1">Check your answers page</h2>
 <p>Use the <a href="../check_answers">check answers pattern</a> to let users check their answers before submitting information to a service.</p>
-<p><img src="../../img/illustration_check_answers.png" alt="Illustration a check your answers page" class="img-fluid"></p>
+<p><img src="../../img/illustration_check_answers.png" alt="Illustration a check your answers page" style="aspect-ratio: auto;"></p>
 <h2 id="confirmation-page" tabindex="-1">Confirmation page</h2>
-<p>After the users have submitted their application, present a confirmation page with a <a href="../../components/panel">panel</a> to tell them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.</p>
-<p><img src="../../img/illustration_confirmation_page.png" alt="Illustration a confirmation page" class="img-fluid"></p>
+<p>After the users have submitted their application, present a ==confirmation page== with a panel to tell them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.</p>
+<p><img src="../../img/illustration_confirmation_page.png" alt="Illustration a confirmation page" style="aspect-ratio: auto;"></p>
 <p>Research has shown that users feel more at ease when:</p>
 <ul>
 <li>they are presented with a reference number for their application</li>
 <li>they receive a notification either by SMS or by email</li>
 <li>they can print or save the confirmation.</li>
 </ul>
+<h2 id="break-the-service-into-tasks-and-sections-structure" tabindex="-1">Break the service into tasks and sections structure</h2>
+<p>There may be cases where you need to implement complicated services, involving multiple tasks that users may need to complete over a number of sessions. In such cases you may consider gathering information from the users, by breaking the service into tasks.</p>
+<p>This can be done by using the same structure and principles as the <a href="#basic-structure">basic service structure</a> and replacing the “Gather information” step with the following :</p>
+<ol>
+<li>Let the users decide on which task or section to work on using a ==task list page==</li>
+<li>Gather information from the users, one section at a time</li>
+<li>Repeat this process until all tasks or sections are completed</li>
+</ol>
+<p><img src="../../img/v3_illustration_breaking_the_service_into_tasks.png" alt="Illustration of breaking the service into tasks" style="aspect-ratio: auto;"></p>
+<p>Let users complete the different sections in an asynchronous manner. Also consider saving the users’ responses and progress, and then to continue where they left off when they return.</p>
+<p>After gathering information from the users you should still:</p>
+<ul>
+<li>Let the users check their answers from all sections before submitting</li>
+<li>Show the users a confirmation of successful completion page.</li>
+</ul>
+<h3 id="task-list" tabindex="-1">Task list</h3>
+<p>Use the ==task list page== pattern to help users understand the tasks involved in a completing a service. Each tasks on the task list should represent a different section to be completed by the user.</p>
+<p>After completing all the tasks and the user clicks the ‘Continue’ button, navigate the user to the <a href="../check_answers/">check your answers</a> page. Make sure to validate if the user has completed all the sections, or if a special condition does not allow the users to complete the service and show appropriate ==error summary on the task list page== accordingly.</p>
+<p>Always allow users to go back into a task to change their answer. If a user decides to go back to a previous task, make sure information they have already entered is pre-populated.</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h1>Service name</h1>
+<section>
+    <p class="govcy-fs-5 govcy-fw-700">Application incomplete</p>
+    <p>You’ve completed 1 of 5 sections.</p>
+</section>
+<table class="govcy-table">
+    <tbody>
+        <tr>
+            <td><a href="#">Company information <span class="govcy-visually-hidden"> with status COMPLETED </span></a></td>
+            <td class="govcy-text-end"><span class="govcy-tag">COMPLETED</span></td>
+        </tr>
+        <tr>
+            <td><a href="#">Your contact details <span class="govcy-visually-hidden"> with status IN PROGRESS </span></a></td>
+            <td class="govcy-text-end"><span class="govcy-tag govcy-tag-cyan">IN PROGRESS</span></td>
+        </tr>
+        <tr>
+            <td><a href="#">List convictions <span class="govcy-visually-hidden"> with status NOT STARTED </span></a></td>
+            <td class="govcy-text-end"><span class="govcy-tag govcy-tag-gray">NOT STARTED</span></td>
+        </tr>
+        <tr>
+            <td><a href="#">Provide financial evidence <span class="govcy-visually-hidden"> with status CANNOT START YET </span></a></td>
+            <td class="govcy-text-end"><span class="govcy-tag govcy-tag-gray">CANNOT START YET</span></td>
+        </tr>
+        <tr>
+            <td><a href="#">Give medical information <span class="govcy-visually-hidden"> with status CANNOT START YET </span></a></td>
+            <td class="govcy-text-end"><span class="govcy-tag govcy-tag-gray">CANNOT START YET</span></td>
+        </tr>
+    </tbody>
+</table>
+<button type="button" class="govcy-btn-primary">Continue</button>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>Service name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-fs-5 govcy-fw-700<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Application incomplete<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>You’ve completed 1 of 5 sections.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-table<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tbody</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Company information <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span> with status COMPLETED <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-text-end<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-tag<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>COMPLETED<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Your contact details <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span> with status IN PROGRESS <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-text-end<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-tag govcy-tag-cyan<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>IN PROGRESS<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>List convictions <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span> with status NOT STARTED <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-text-end<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-tag govcy-tag-gray<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>NOT STARTED<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Provide financial evidence <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span> with status CANNOT START YET <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-text-end<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-tag govcy-tag-gray<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>CANNOT START YET<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Give medical information <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span> with status CANNOT START YET <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-text-end<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-tag govcy-tag-gray<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>CANNOT START YET<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tbody</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Continue<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span></code></pre>
+<h3 id="sections" tabindex="-1">Sections</h3>
+<p>Each section represents a task the user needs to take, in order to complete a service. Break the service into independent sections of smaller and related questions.</p>
+<p>Within each section, follow the <a href="#one-thing-at-a-time">one thing at a time</a> principle and allow the users to answer questions one page at a time. This will also enable your service to apply conditional logic if needed.</p>
+<p>If the section consists with more than one question, present the user with a <a href="../../components/summary_list/">summary list</a> before returning to the task list page.</p>
+<p><img src="../../img/v3_illustration_secction_summary_list.png" alt="Illustration of a section with a summary list" style="aspect-ratio: auto;"></p>
+<p>If the service allows users to enter multiple answers of the same time, you may implement <a href="../multiple_things/">the multiple things pattern</a> for a section.</p>
+<p>After completing all the questions of the section, return the user to the task list page.</p>
+<h4 id="section-statuses" tabindex="-1">Section statuses</h4>
+<p>When a user first enters a service, a section may have either a ‘Not started’ or a ‘Cannot start yet’ status.</p>
+<p>When the user starts answering questions for section, mark the status of that section as ‘In progress’.</p>
+<p>After answering all the section’s questions, mark the status section as ‘Completed’ and return the user to the task list page.</p>
+<p>If the user starts answering questions on a section, but leaves without answering all of them, make sure that the status of the section is marked as ‘In progress’.</p>
+<blockquote class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info">
+<p><strong class="govcy-fw-bolder govcy-fs-4 govcy-d-block">Warning</strong><br>
+Note that a user may return to a section at any time and change an answer. In such cases your service should be smart enough to decide whether the user has completed the section and the status is ‘Completed’, or there are pending questions and the status is ‘In Progress’.</p>
+</blockquote>
+<h4 id="optional-sections" tabindex="-1">Optional sections</h4>
+<p>Depending on the service, a section may be optional for some users. In such a case you may begin your section with a <a href="../../components/radio/">radio question</a> and depending on the users’ answer, decide if you wish to ask more questions related to that section.</p>
+<p>For example you may ask ‘Have you donated blood before?’.</p>
+<ul>
+<li>If the user answers ‘Yes’, mark the status as ‘In progress’ and present questions related to previous blood donations.</li>
+<li>If the user answers ‘No’, you should mark the section as ‘Completed’ and return the user to the task list page.</li>
+</ul>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-form">
+    <fieldset class="govcy-fieldset">
+        <legend class="govcy-legend"><h1>Have you donated blood before?</h1></legend>
+        <div class="govcy-form-control">
+            <div class="govcy-radio">
+                <input class="govcy-radio-input" type="radio" name="blooddonation" id="blooddonation-yes">
+                <label class="govcy-label" for="blooddonation-yes">Yes, I’ve donated blood before</label>
+            </div>
+            <div class="govcy-radio">
+                <input class="govcy-radio-input" type="radio" name="blooddonation" id="blooddonation-no">
+                <label class="govcy-label" for="blooddonation-no">No, I never donated blood before</label>
+            </div>
+        </div>
+    </fieldset>
+    <button type="submit" class="govcy-btn-primary">Continue</button>
+</div>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form<span class="token punctuation">"</span></span> <span class="token attr-name">novalidate</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>fieldset</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-fieldset<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>legend</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-legend<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>Have you donated blood before?<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>legend</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form-control<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>blooddonation<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>blooddonation-yes<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>blooddonation-yes<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Yes, I’ve donated blood before<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>blooddonation<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>blooddonation-no<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>blooddonation-no<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>No, I never donated blood before<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>fieldset</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-btn-primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Continue<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span></code></pre>
+<h4 id="allow-users-to-decide-if-the-section-is-completed" tabindex="-1">Allow users to decide if the section is completed</h4>
+<p>Your service should be in a position to understand if a user has completed a section and mark it accordingly.</p>
+<p>There are cases however, where it’s better to let the user decide when a task is completed.</p>
+<p>This can be helpful when a section involves:</p>
+<ul>
+<li>some questions that are optional</li>
+<li>writing a long answer (such as in a textarea)</li>
+<li>looking up information, such as details about previous jobs</li>
+<li>answers that need to be checked carefully with someone else</li>
+</ul>
+<p>Do this by asking a <a href="../../components/radio/">radio question</a> at the end of the section — either as the last question (if the task is a single page) or on the <a href="../../components/summary_list/">summary list</a> page (if the section has one).</p>
+<p>Ask ‘Have you completed this section?’ with the radio options ‘Yes, I’ve completed this section’ or ‘No, I’ll come back to it later’.</p>
+<ul>
+<li>If the user selects ‘No’ mark the section as ‘Not started’ or ‘In progress’.</li>
+<li>If the user selects ‘Yes’ mark the section as ‘Completed’.</li>
+</ul>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-form">
+    <fieldset class="govcy-fieldset">
+        <legend class="govcy-legend">Have you completed this section?</legend>
+        <div class="govcy-form-control">
+            <div class="govcy-radio">
+                <input class="govcy-radio-input" type="radio" name="completed2" id="option2-yes">
+                <label class="govcy-label" for="option2-yes">Yes, I’ve completed this section</label>
+            </div>
+            <div class="govcy-radio">
+                <input class="govcy-radio-input" type="radio" name="completed2" id="option2-no">
+                <label class="govcy-label" for="option2-no">No, I’ll come back to it later</label>
+            </div>
+        </div>
+    </fieldset>
+</div>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form<span class="token punctuation">"</span></span> <span class="token attr-name">novalidate</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>fieldset</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-fieldset<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>legend</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-legend<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Have you completed this section?<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>legend</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form-control<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>completed2<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option2-yes<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option2-yes<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Yes, I’ve completed this section<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>completed2<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option2-no<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option2-no<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>No, I’ll come back to it later<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>fieldset</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span></code></pre>
+<h3 id="confirmation-page-change-links" tabindex="-1">Confirmation page change links</h3>
+<p>The ‘Change’ links on the confirmation page, should lead to the either the beginning of the related section, or it’s summary list page, depending on the implementation of each service.</p>
+<p>Make sure to test your approach with the users.</p>
 <h2 id="contribute" tabindex="-1">Contribute</h2>
 <p>If you have used or researched this pattern, please let us have your feedback, so we can make it better for everyone. Send us an email at <a href="mailto:dsf@dits.dmrid.gov.cy" target="_blank">dsf@dits.dmrid.gov.cy</a> to get in touch.</p>
 
@@ -229,7 +409,7 @@ Keeping one thing on a page helps users to:</p>
     
     <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
                 <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Pages in this section</div>
-                <ul class="govcy-list-unstyled"><li class="govcy-fw-bolder govcy-mb-3">Ask users for</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/currency-amount/">Currency amount</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/dates/">Dates</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/email/">Email</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/names/">Names</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/telephone/">Telephone</a></li><li class="govcy-fw-bolder govcy-mb-3">Help users</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/check_answers/">Check answers</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/confirm_phone_number/">Confirm a phone number</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/test/">Test</a></li><li class="govcy-fw-bolder govcy-mb-3">Pages</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/page-not-found-pages/">Page not found pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/question_pages/">Question pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service-unavailable-pages/">Service unavailable pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/there-is-a-problem/">There is a problem with the service pages</a></li><li class="govcy-fw-bolder govcy-mb-3">How to</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/focus_state/">Focus state</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/labels_and_legend_headings/">Labels and legends</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/multiple_things/">Add multiple things </a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/patterns/service_structure/">Structuring a service</a></li>
+                <ul class="govcy-list-unstyled"><li class="govcy-fw-bolder govcy-mb-3">Ask users for</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/currency-amount/">Currency amount</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/dates/">Dates</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/email/">Email</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/names/">Names</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/telephone/">Telephone numbers</a></li><li class="govcy-fw-bolder govcy-mb-3">Help users</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/check_answers/">Check answers</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/confirm_phone_number/">Confirm a phone number</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/test/">Test</a></li><li class="govcy-fw-bolder govcy-mb-3">Pages</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/cookies_pages/">Cookies page and cookies consent</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/page-not-found-pages/">Page not found pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/question_pages/">Question pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service-unavailable-pages/">Service unavailable pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/there-is-a-problem/">There is a problem with the service pages</a></li><li class="govcy-fw-bolder govcy-mb-3">How to</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/focus_state/">Focus state</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/labels_and_legend_headings/">Labels and legends</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/multiple_things/">Add multiple things </a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/patterns/service_structure/">Structuring a service</a></li>
                 </ul>
             </aside>
         </div>
@@ -246,13 +426,13 @@ Keeping one thing on a page helps users to:</p>
                                 <li><h3>Links</h3></li>
                                 <li><a href="/staging-govcy-design-system-docs/">Home</a></li>
                                 <li><a href="/staging-govcy-design-system-docs/getting-started">Get started</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Github</a></li>
                                 <li><a href="#">How to create a page using the gov.cy design system</a></li>
                             </ul>
                         </div>
                         <div class="govcy-col-md-4">
                             <ul>
-                                <li><h3>Products and tools</h3></li>
-                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Developer assets on Github</a></li>
+                                <li><h3>Tools</h3></li>
                                 <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma library</a></li>
                                 <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidrary library</a></li>
                                 <li><a href="https://www.npmjs.com/package/@gov-cy/govcy-frontend-tester" target="_blank">Test library</a></li>
@@ -261,7 +441,7 @@ Keeping one thing on a page helps users to:</p>
                         </div>
                         <div class="govcy-col-md-4">
                             <ul>
-                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver 2</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0</a></li></ul>
+                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver. 2x</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0x</a></li></ul>
                         </div>
                     </div>
                 </div>

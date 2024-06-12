@@ -61,4 +61,4 @@ If email is an essential part of your service - for example to send a password r
 However, this is disruptive and should be avoided as far as possible.
 
 ### Error messages
-Make sure to follow the instructions for [error messages](../../components/error_message) and [error summary](../../components/error_summary) when validating user input and to use the [text input error variant style](/components/text_input/#error-messages). 
+Make sure to follow the instructions for [error messages](../../components/error_message) and [error summary](../../components/error_summary) when validating user input and to use the [text input error variant style](../../components/text_input/#error-messages). 

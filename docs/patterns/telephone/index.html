@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Social -->
         <meta property="og:description" content="Design your services using gov.cy styles, components and patterns.">
-        <meta property="og:title" content="Telephone - Unified Design System - gov.cy">
+        <meta property="og:title" content="Telephone numbers - Unified Design System - gov.cy">
         <meta property="og:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
         <meta property="og:type" content="website">
         <meta property="og:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
@@ -14,7 +14,7 @@
     
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://gov-cy.github.io/govcy-design-system-docs/">
-        <meta property="twitter:title" content="Telephone - Unified Design System - gov.cy">
+        <meta property="twitter:title" content="Telephone numbers - Unified Design System - gov.cy">
         <meta property="twitter:description" content="Design your services using gov.cy styles, components and patterns.">
         <meta property="twitter:image" content="https://gov-cy.github.io/govcy-design-system-docs/img/icons-512.png">
         <!-- Theme --> 
@@ -34,7 +34,7 @@
         <link href="/staging-govcy-design-system-docs/css/docs.css" rel="stylesheet" >
         <!-- Prism Highlighter CSS -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-a11y-dark.min.css" rel="stylesheet">
-        <title>Telephone - Unified Design System - gov.cy</title>
+        <title>Telephone numbers - Unified Design System - gov.cy</title>
         <meta name="description" content="Design your services using gov.cy styles, components and patterns.">
     </head>
     <body>
@@ -132,7 +132,7 @@
     <main class="govcy-container" id="mainContainer">
         <div class="govcy-row">
             <div class="govcy-col-md-9 govcy-col-lg-10 govcy-order-last-desk">
-                <h1 data-pagefind-weight="10">Telephone</h1>
+                <h1 data-pagefind-weight="10">Telephone numbers</h1>
                 
                 
                     <aside class="toc-outter">
@@ -140,20 +140,29 @@
                         <nav class="toc">
                 <ol>
                     
+                    <li><a href="#when-to-use-this-pattern">When to use this pattern</a>
+            		</li>
+
                     <li><a href="#how-it-works">How it works</a>
+            
+                <ol>
+                    
+                    <li><a href="#how-to-ask">How to ask</a>
             
                 <ol>
                     
                     <li><a href="#when-to-ask-for-repeat-or-loop">When to ask for repeat or loop</a>
             		</li>
 
-                    <li><a href="#show-errors">Show errors</a>
+                    <li><a href="#error-messages">Error messages</a>
+            		</li>
+                </ol>
             		</li>
 
-                    <li><a href="#displaying-phone-number">Displaying phone number</a>
+                    <li><a href="#how-to-display">How to display</a>
             		</li>
 
-                    <li><a href="#storing-phone-number">Storing phone number</a>
+                    <li><a href="#how-to-store">How to store</a>
             		</li>
                 </ol>
             		</li>
@@ -161,69 +170,70 @@
             </nav>
                     </aside>
                 
-                <p>Follow this pattern whenever you need to ask for a telephone address.</p>
+                <p>Help users provide telephone numbers.</p>
+<h2 id="when-to-use-this-pattern" tabindex="-1">When to use this pattern</h2>
+<p>Follow this pattern whenever you need to ask for telephone numbers.</p>
+<p>Only collect telephone numbers from people if you genuinely need them. Not everyone has or can use a telephone, so make sure you give users a choice about how they can be contacted.</p>
 <h2 id="how-it-works" tabindex="-1">How it works</h2>
+<p>Follow the instructions on how to ask, display and store telephone numbers.</p>
+<h3 id="how-to-ask" tabindex="-1">How to ask</h3>
 <p><em>Example</em></p>
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<form action="" class="govcy-form" novalidate>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<div class="govcy-form">
     <div class="govcy-form-control">
-        <label class="govcy-label" for="in-tel">Cyprus telephone number</label>
+        <h1><label class="govcy-label govcy-label-primary" for="in-tel">What is your phone number?</label></h1>
         <span class="govcy-hint" id="tel-hint">We’ll only use this for this application</span>
         <input class="govcy-text-input govcy-text-input-char_20" id="in-tel" name="in-tel" type="tel" spellcheck="false" aria-describedby="tel-hint" autocomplete="tel">
     </div>
-</form>
 </div>
-<p><em>Sample HTML Code</em></p>
-<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form<span class="token punctuation">"</span></span> <span class="token attr-name">novalidate</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form-control<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>in-tel<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Cyprus telephone number<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-hint<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tel-hint<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>We’ll only use this for this application<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-text-input govcy-text-input-char_20<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>in-tel<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>in-tel<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tel<span class="token punctuation">"</span></span> <span class="token attr-name">spellcheck</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>false<span class="token punctuation">"</span></span> <span class="token attr-name">aria-describedby</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tel-hint<span class="token punctuation">"</span></span> <span class="token attr-name">autocomplete</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tel<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span></code></pre>
-<p>When asking users for their telephone, you must make it clear why you’re asking.</p>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form<span class="token punctuation">"</span></span> <span class="token attr-name">novalidate</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form-control<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label govcy-label-primary<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>in-tel<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>What is your phone number?<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-hint<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tel-hint<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>We’ll only use this for this application<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-text-input govcy-text-input-char_20<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>in-tel<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>in-tel<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tel<span class="token punctuation">"</span></span> <span class="token attr-name">spellcheck</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>false<span class="token punctuation">"</span></span> <span class="token attr-name">aria-describedby</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tel-hint<span class="token punctuation">"</span></span> <span class="token attr-name">autocomplete</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tel<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span></code></pre>
+<p>When asking users for their telephone, you must make it clear why you’re asking. Tell users why you might contact them and when.</p>
 <p>Users should be allowed to enter telephone numbers in whatever format is familiar to them. You should allow for additional spaces, hyphens, brackets and dashes, and be able to accommodate country and area codes.</p>
 <p>Make it clear what type of telephone number you need whether that is a Cypriot, international or mobile telephone number.</p>
 <p>Help users to enter a valid tel address by:</p>
 <ul>
-<li>checking they have entered the correct format</li>
+<li>checking they have entered the correct format. Use the <a href="../../components/error_message">error messages</a> and <a href="../../components/error_summary">error summary</a> components to display any validation messages</li>
 <li>allowing users to paste the telephone address</li>
-<li>setting the <code>type</code> attribute to <code>tel</code> so that devices display the correct keyboard</li>
-<li>setting the <code>spellcheck</code> attribute to <code>false</code> so that browsers do not spellcheck the telephone</li>
-<li>setting the <code>autocomplete</code> attribute to <code>tel</code>. This lets browsers autofill the telephone on a user’s behalf if they’ve entered it previously.</li>
+<li>setting the <code>type</code> attribute to <code>tel</code> so that devices display the correct keyboard</li>
+<li>setting the <code>spellcheck</code> attribute to <code>false</code> so that browsers do not spellcheck the telephone</li>
+<li>setting the <code>autocomplete</code> attribute to <code>tel</code>. This lets browsers autofill the telephone on a user’s behalf if they’ve entered it previously.</li>
 </ul>
-<h3 id="when-to-ask-for-repeat-or-loop" tabindex="-1">When to ask for repeat or loop</h3>
+<h4 id="when-to-ask-for-repeat-or-loop" tabindex="-1">When to ask for repeat or loop</h4>
 <p>Only ask users to repeat their telephone if your user research shows it to be effective.</p>
-<p>If telphone is an essential part of your service - for example for two step authentication - you can confirm whether the user has access to the telephone they give you using an sms confirmation loop. However, these are disruptive and should be avoided as far as possible.</p>
-<h3 id="show-errors" tabindex="-1">Show errors</h3>
-<p>Error messages should follow the guidance in <a href="../../components/error_message">error message</a> as shown in the example below.</p>
+<p>If telphone is an essential part of your service - for example for two step authentication - you can confirm whether the user has access to the telephone they give you using an <a href="../confirm_phone_number/">sms confirmation loop</a>. However, these are disruptive and should be avoided as far as possible.</p>
+<h4 id="error-messages" tabindex="-1">Error messages</h4>
+<p>Make sure to follow the instructions for <a href="../../components/error_message">error messages</a> and <a href="../../components/error_summary">error summary</a> when validating user input and to use the <a href="../../components/text_input/#error-messages">text input error variant style</a>.</p>
+<h3 id="how-to-display" tabindex="-1">How to display</h3>
+<p>When displaying a submitted or stored international phone number (either in a text input, hyperlink or text) replace <code>00</code> with <code>+</code> as users are more familiar with these format.</p>
 <p><em>Example</em></p>
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<form action="" class="govcy-form" novalidate>
-    <div class="govcy-form-control govcy-form-control-error">
-        <label class="govcy-label" for="in-tel-2">Telephone Number</label>
-        <p class="govcy-input-error-msg" id="error2"><span class="govcy-visually-hidden-error">Error: </span>Enter a telephone number in the correct format, like 99 123456</p>
-        <input class="govcy-text-input govcy-text-input-char_20 govcy-text-input-error" id="in-tel-2" name="in-tel-2" type="tel" spellcheck="false" aria-describedby="tel-hint" autocomplete="tel" aria-describedby="error2">
-    </div>
-</form>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<a href="tel:+4412345678">+4412345678</a>
 </div>
-<p><em>Sample HTML Code</em></p>
-<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form<span class="token punctuation">"</span></span> <span class="token attr-name">novalidate</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form-control govcy-form-control-error<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>in-tel-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Telephone Number<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-input-error-msg<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>error2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-visually-hidden-error<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Error: <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>Enter a telephone number in the correct format, like 99 123456<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-text-input govcy-text-input-char_20 govcy-text-input-error<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>in-tel-2<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>in-tel-2<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tel<span class="token punctuation">"</span></span> <span class="token attr-name">spellcheck</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>false<span class="token punctuation">"</span></span> <span class="token attr-name">aria-describedby</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tel-hint<span class="token punctuation">"</span></span> <span class="token attr-name">autocomplete</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tel<span class="token punctuation">"</span></span> <span class="token attr-name">aria-describedby</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>error2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span></code></pre>
-<h3 id="displaying-phone-number" tabindex="-1">Displaying phone number</h3>
-<p>When displaying a submitted or stored international phone number (either in a text input, hyperlink or text) replace <code>00</code> with <code>+</code> as users are more familiar with these format.</p>
-<p><em>Sample HTML Code</em></p>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tel:+4412345678<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>+4412345678<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre>
-<p>When displaying a local phone number, make sure you include <code>+357</code> in the hyperlink.</p>
-<p><em>Sample HTML Code</em></p>
+<p>When displaying a local phone number, make sure you include <code>+357</code> in the hyperlink.</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<a href="tel:+35722123456">22123456</a>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tel:+35722123456<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>22123456<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre>
-<h3 id="storing-phone-number" tabindex="-1">Storing phone number</h3>
+<h3 id="how-to-store" tabindex="-1">How to store</h3>
 <p>If the phone numbers will be used to send notifications, prefer to store them in the following form:</p>
 <pre class="language-json"><code class="language-json"><span class="token number">00</span><span class="token punctuation">[</span>county code<span class="token punctuation">]</span><span class="token punctuation">[</span>local phone number<span class="token punctuation">]</span></code></pre>
 <p>This format will reduce the risk of unsuccessful SMS being sent by a notification gateway.</p>
 <p>To convert a phone number to the preferred stored format:</p>
 <ol>
-<li>Remove space and <code>-</code> dash characters.</li>
-<li>If the 1st character is <code>+</code> replace it with <code>00</code>.</li>
-<li>If phone doesn’t start with <code>00</code> add <code>00357</code> at the start of the number.</li>
+<li>Remove space and <code>-</code> dash characters.</li>
+<li>If the 1st character is <code>+</code> replace it with <code>00</code>.</li>
+<li>If phone doesn’t start with <code>00</code> add <code>00357</code> at the start of the number.</li>
 </ol>
 <p>The preferred stored format also makes it easier to perform validations such as:</p>
 <ul>
 <li>Validating that the phone number consists of only digits with 8 to 15 digits length.</li>
-<li>Validating if they are Cypriot phone number for numbers starting with <code>00357</code> or International for the rest.</li>
+<li>Validating if they are Cypriot phone number for numbers starting with <code>00357</code> or International for the rest.</li>
 <li>Validating that the phone number is a mobile number (if mobile number is required).</li>
 </ul>
 <p>Here are some examples of the Preferred stored and Display format :</p>
@@ -231,7 +241,7 @@
 <thead>
 <tr>
 <th>Input by user</th>
-<th>Preferred stored format</th>
+<th>Preferred stored form</th>
 <th>Display form</th>
 </tr>
 </thead>
@@ -263,7 +273,7 @@
     
     <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
                 <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Pages in this section</div>
-                <ul class="govcy-list-unstyled"><li class="govcy-fw-bolder govcy-mb-3">Ask users for</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/currency-amount/">Currency amount</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/dates/">Dates</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/email/">Email</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/names/">Names</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/patterns/telephone/">Telephone</a></li><li class="govcy-fw-bolder govcy-mb-3">Help users</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/check_answers/">Check answers</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/confirm_phone_number/">Confirm a phone number</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/test/">Test</a></li><li class="govcy-fw-bolder govcy-mb-3">Pages</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/page-not-found-pages/">Page not found pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/question_pages/">Question pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service-unavailable-pages/">Service unavailable pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/there-is-a-problem/">There is a problem with the service pages</a></li><li class="govcy-fw-bolder govcy-mb-3">How to</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/focus_state/">Focus state</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/labels_and_legend_headings/">Labels and legends</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/multiple_things/">Add multiple things </a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service_structure/">Structuring a service</a></li>
+                <ul class="govcy-list-unstyled"><li class="govcy-fw-bolder govcy-mb-3">Ask users for</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/currency-amount/">Currency amount</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/dates/">Dates</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/email/">Email</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/names/">Names</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/patterns/telephone/">Telephone numbers</a></li><li class="govcy-fw-bolder govcy-mb-3">Help users</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/check_answers/">Check answers</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/confirm_phone_number/">Confirm a phone number</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/test/">Test</a></li><li class="govcy-fw-bolder govcy-mb-3">Pages</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/cookies_pages/">Cookies page and cookies consent</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/page-not-found-pages/">Page not found pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/question_pages/">Question pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service-unavailable-pages/">Service unavailable pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/there-is-a-problem/">There is a problem with the service pages</a></li><li class="govcy-fw-bolder govcy-mb-3">How to</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/focus_state/">Focus state</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/labels_and_legend_headings/">Labels and legends</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/multiple_things/">Add multiple things </a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service_structure/">Structuring a service</a></li>
                 </ul>
             </aside>
         </div>
@@ -280,13 +290,13 @@
                                 <li><h3>Links</h3></li>
                                 <li><a href="/staging-govcy-design-system-docs/">Home</a></li>
                                 <li><a href="/staging-govcy-design-system-docs/getting-started">Get started</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Github</a></li>
                                 <li><a href="#">How to create a page using the gov.cy design system</a></li>
                             </ul>
                         </div>
                         <div class="govcy-col-md-4">
                             <ul>
-                                <li><h3>Products and tools</h3></li>
-                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Developer assets on Github</a></li>
+                                <li><h3>Tools</h3></li>
                                 <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma library</a></li>
                                 <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidrary library</a></li>
                                 <li><a href="https://www.npmjs.com/package/@gov-cy/govcy-frontend-tester" target="_blank">Test library</a></li>
@@ -295,7 +305,7 @@
                         </div>
                         <div class="govcy-col-md-4">
                             <ul>
-                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver 2</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0</a></li></ul>
+                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver. 2x</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0x</a></li></ul>
                         </div>
                     </div>
                 </div>

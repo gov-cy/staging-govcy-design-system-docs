@@ -1,10 +1,8 @@
 ---
-title: "DSF libraries"
+title: "DSF tools"
 date: 2022-02-01 00:00:06Z
 --- 
-Our team uses the following libraries for rapid design, development, prototyping and testing. 
-
-You can use them at your discretion, but you should not consider them as a replacement of the current documentation website, which serves as the primary source of guidance and documentation for the design system, or as a substitute of the [assurance process](https://dsf.dmrid.gov.cy/the-assurance-process/){rel="noreferrer noopener" target="_blank"}. 
+Our team uses the following libraries for rapid design, development, prototyping and testing. We've made them available for you to use in your projects as you see fit. 
 
 ## Design and prototyping libraries
 

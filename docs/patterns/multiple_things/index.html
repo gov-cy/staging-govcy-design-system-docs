@@ -162,10 +162,10 @@
                     <li><a href="#change-or-remove-items-from-the-summary-list-page">Change or remove items from the summary list page</a>
             		</li>
 
-                    <li><a href="#accessibility">Accessibility</a>
+                    <li><a href="#content">Content</a>
             		</li>
 
-                    <li><a href="#content">Content</a>
+                    <li><a href="#accessibility">Accessibility</a>
             		</li>
                 </ol>
             		</li>
@@ -194,13 +194,13 @@
 </ul>
 <p>The basic flow is:</p>
 <ol>
-<li><a href="../question_pages">Question page</a> or pages for an item</li>
+<li><a href="../question_pages">Question page</a> or pages for an item</li>
 <li>Summary list page displaying the items added, change or remove links for each item, options to add another item or continue the journey</li>
 <li>If a user chooses to add another item, return them to the first question page to add a new item</li>
 </ol>
-<p><img src="../../img/multiple_things_basic_flow.png" alt="An illustration of a sample flow the basic flow for adding multiple things" class="img-fluid"></p>
-<p>For complex items with many fields that cannot be easily displayed with a summary page, include a <a href="../check_answers">check answers page</a> after the last question and before the summary list page.</p>
-<p><img src="../../img/multiple_things_complex_flow.png" alt="An illustration of a sample flow the complex flow for adding multiple things" class="img-fluid"></p>
+<p><img src="../../img/multiple_things_basic_flow.png" alt="An illustration of a sample flow the basic flow for adding multiple things" style="aspect-ratio: auto;"></p>
+<p>If the service allows the user to continue without the need to add even a single item, add a  <a href="../check_answers">check answers page</a> after the last question and before the summary list page.</p>
+<p><img src="../../img/multiple_things_complex_flow.png" alt="An illustration of a sample flow the complex flow for adding multiple things" style="aspect-ratio: auto;"></p>
 <p>If the service allows the user to continue without the need to add even a single item, add a <code>Continue without items</code> <a href="../../components/button">primary button</a> to skip the add item loop and proceed to the next step of the service.</p>
 <h3 id="summary-list-page" tabindex="-1">Summary list page</h3>
 <p>After adding each item or group of items, the user is shown a summary list of what they have added so far and can:</p>
@@ -209,7 +209,7 @@
 <li>add another item of the same type</li>
 <li>continue to the next step in the service</li>
 </ul>
-<p>This page uses the same components used in the <a href="../check_answers">Check answers</a> page with a <code>Remove</code> link added along with the <code>Change</code> link.</p>
+<p>This page uses the ==summary list component== with a <code>Remove</code> link added along with the <code>Change</code> link.</p>
 <p>Depending on the requirements for each service, validations may be needed for:</p>
 <ul>
 <li>when too many items are added</li>
@@ -219,25 +219,23 @@
 <h3 id="add-another" tabindex="-1">Add another</h3>
 <p>There are two ways you can implement so that the user can initiate the loop to add another item from the summary list page.</p>
 <ol>
-<li>Ask the user <code>Would you like to add another item</code> and let the user click <code>Yes</code> or <code>No</code> using the <a href="../../components/radio">radio component</a>.</li>
+<li>Ask the user <code>Would you like to add another item</code> and let the user click <code>Yes</code> or <code>No</code> using the <a href="../../components/radio">radio component</a>.</li>
 </ol>
-<p><img src="../../img/multiple_things_add_another_radio.png" alt="An illustration the add another page with radio button" class="img-fluid"></p>
+<p><img src="../../img/multiple_things_add_another_radio.png" alt="An illustration the add another page with radio button" style="aspect-ratio: auto;"></p>
 <ol start="2">
-<li>Present the user with an <code>Add another item</code> link</li>
+<li>Present the user with an <code>Add another item</code> link</li>
 </ol>
-<p><img src="../../img/multiple_things_add_another_button.png" alt="An illustration the add another page with a button" class="img-fluid"></p>
+<p><img src="../../img/multiple_things_add_another_button.png" alt="An illustration the add another page with a button" style="aspect-ratio: auto;"></p>
 <p>We recommend the first method with the radio component but more research is needed for this step. Make sure you use your user research findings to help you decide which method is more appropriate. If your service uses this pattern, get in touch to share your user research findings.</p>
 <h3 id="change-or-remove-items-from-the-summary-list-page" tabindex="-1">Change or remove items from the summary list page</h3>
 <p>On the summary list page each item has a ‘Change’ link and a ‘Remove’ link.</p>
 <p>If each item has only one question page, clicking ‘Change’ returns the user to that item’s question page with the previous answers prepopulated.</p>
-<p><img src="../../img/multiple_things_change_remove_simple.png" alt="An illustration the change and remove simple flow" class="img-fluid"></p>
-<p>Clicking <code>Remove</code> on the summary list page sends the user to a question page asking the user to confirm that they are sure they want to remove that item. Use the <a href="../../components/radio">radio component</a> to ask the user to confirm the removal. From here they return to the updated summary list page.</p>
-<p><img src="../../img/multiple_things_remove_page.png" alt="An illustration the remove page asking to confirm the removal" class="img-fluid"></p>
-<h3 id="accessibility" tabindex="-1">Accessibility</h3>
-<p>On the summary list page, use the <code> govcy-visually-hidden-error</code> class to give each ‘Change’ and ‘Remove’ link a unique and descriptive name and help screen readers users. For example: <code>&lt;a href=''&gt;Change &lt;span class='govcy-visually-hidden-error'&gt;+35799123456&lt;/span&gt;&lt;/a&gt;</code></p>
+<p><img src="../../img/multiple_things_change_remove_simple.png" alt="An illustration the change and remove simple flow" style="aspect-ratio: auto;"></p>
+<p>Clicking <code>Remove</code> on the summary list page sends the user to a question page asking the user to confirm that they are sure they want to remove that item. Use the <a href="../../components/radio">radio component</a> to ask the user to confirm the removal. From here they return to the updated summary list page.</p>
+<p><img src="../../img/multiple_things_remove_page.png" alt="An illustration the remove page asking to confirm the removal" style="aspect-ratio: auto;"></p>
 <h3 id="content" tabindex="-1">Content</h3>
-<p>Do not use the word ‘item’ but rather use a short name of the item type. Try to keep the name of the item as short as possible: for example, ‘Add another contribution’ rather than ‘Add another social insurance contribution record’.<br>
-Use the same word for an item on question pages, summary list heading and the ‘Add another’ button. For example:</p>
+<p>Do not use the word ‘item’ but rather use a short name of the item type. Try to keep the name of the item as short as possible: for example, ‘Add another contribution’ rather than ‘Add another social insurance contribution record’.</p>
+<p>Use the same word for an item on question pages, summary list heading and the ‘Add another’ button. For example:</p>
 <ul>
 <li>What is your phone number?</li>
 <li>You have added 4 phone numbers</li>
@@ -245,12 +243,18 @@ Use the same word for an item on question pages, summary list heading and the �
 </ul>
 <p>When asking a user for confirmation before removing an item, it can be helpful to include the item name in the radio label, like this:</p>
 <ul>
-<li>Yes, remove [item name]</li>
+<li>Yes, remove <code>item name</code></li>
 <li>No</li>
 </ul>
+<h3 id="accessibility" tabindex="-1">Accessibility</h3>
+<p>Make sure:</p>
+<ul>
+<li>On the summary list page, use the <code>govcy-visually-hidden</code> class to give each ‘Change’ and ‘Remove’ link a unique and descriptive name and help screen readers users. For example: <code>&lt;a href=''&gt;Change &lt;span class='govcy-visually-hidden'&gt;+35799123456&lt;/span&gt;&lt;/a&gt;</code></li>
+<li>For each entry in the summary page, use the <code>govcy-visually-hidden</code> class to indicate individual entry, as show at the  <a href="../../components/summary_list/#making-arrays-screen-reader-friendly">making summary lists with arrays screen reader friendly</a></li>
+</ul>
 <h2 id="contribute" tabindex="-1">Contribute</h2>
-<p>If you have used or researched this pattern, please let us know what you found so we can make it better for everyone. Send us an email at <a href="mailto:dsf@dits.dmrid.gov.cy" target="_blank">dsf@dits.dmrid.gov.cy</a> to get in touch.<br>
-We are particularly interested in:</p>
+<p>If you have used or researched this pattern, please let us know what you found so we can make it better for everyone. Send us an email at <a href="mailto:dsf@dits.dmrid.gov.cy" target="_blank">dsf@dits.dmrid.gov.cy</a> to get in touch.</p>
+<p>We are particularly interested in:</p>
 <ul>
 <li>research with users with access needs</li>
 <li>research about the ‘Add another’ step</li>
@@ -260,7 +264,7 @@ We are particularly interested in:</p>
     
     <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
                 <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Pages in this section</div>
-                <ul class="govcy-list-unstyled"><li class="govcy-fw-bolder govcy-mb-3">Ask users for</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/currency-amount/">Currency amount</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/dates/">Dates</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/email/">Email</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/names/">Names</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/telephone/">Telephone</a></li><li class="govcy-fw-bolder govcy-mb-3">Help users</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/check_answers/">Check answers</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/confirm_phone_number/">Confirm a phone number</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/test/">Test</a></li><li class="govcy-fw-bolder govcy-mb-3">Pages</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/page-not-found-pages/">Page not found pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/question_pages/">Question pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service-unavailable-pages/">Service unavailable pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/there-is-a-problem/">There is a problem with the service pages</a></li><li class="govcy-fw-bolder govcy-mb-3">How to</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/focus_state/">Focus state</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/labels_and_legend_headings/">Labels and legends</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/patterns/multiple_things/">Add multiple things </a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service_structure/">Structuring a service</a></li>
+                <ul class="govcy-list-unstyled"><li class="govcy-fw-bolder govcy-mb-3">Ask users for</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/currency-amount/">Currency amount</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/dates/">Dates</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/email/">Email</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/names/">Names</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/telephone/">Telephone numbers</a></li><li class="govcy-fw-bolder govcy-mb-3">Help users</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/check_answers/">Check answers</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/confirm_phone_number/">Confirm a phone number</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/test/">Test</a></li><li class="govcy-fw-bolder govcy-mb-3">Pages</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/cookies_pages/">Cookies page and cookies consent</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/page-not-found-pages/">Page not found pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/question_pages/">Question pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service-unavailable-pages/">Service unavailable pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/there-is-a-problem/">There is a problem with the service pages</a></li><li class="govcy-fw-bolder govcy-mb-3">How to</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/focus_state/">Focus state</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/labels_and_legend_headings/">Labels and legends</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/patterns/multiple_things/">Add multiple things </a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service_structure/">Structuring a service</a></li>
                 </ul>
             </aside>
         </div>
@@ -277,13 +281,13 @@ We are particularly interested in:</p>
                                 <li><h3>Links</h3></li>
                                 <li><a href="/staging-govcy-design-system-docs/">Home</a></li>
                                 <li><a href="/staging-govcy-design-system-docs/getting-started">Get started</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Github</a></li>
                                 <li><a href="#">How to create a page using the gov.cy design system</a></li>
                             </ul>
                         </div>
                         <div class="govcy-col-md-4">
                             <ul>
-                                <li><h3>Products and tools</h3></li>
-                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Developer assets on Github</a></li>
+                                <li><h3>Tools</h3></li>
                                 <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma library</a></li>
                                 <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidrary library</a></li>
                                 <li><a href="https://www.npmjs.com/package/@gov-cy/govcy-frontend-tester" target="_blank">Test library</a></li>
@@ -292,7 +296,7 @@ We are particularly interested in:</p>
                         </div>
                         <div class="govcy-col-md-4">
                             <ul>
-                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver 2</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0</a></li></ul>
+                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver. 2x</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0x</a></li></ul>
                         </div>
                     </div>
                 </div>

@@ -144,35 +144,48 @@
             		</li>
 
                     <li><a href="#how-it-works">How it works</a>
+            
+                <ol>
+                    
+                    <li><a href="#1.-service-has-offline-support-but-no-specific-page-that-includes-contact-details">1. Service has offline support but no specific page that includes contact details</a>
+            		</li>
+
+                    <li><a href="#2.-service-has-a-specific-page-that-includes-contact-details">2. Service has a specific page that includes contact details</a>
+            		</li>
+
+                    <li><a href="#3.-link-to-another-service">3. Link to another service</a>
+            		</li>
+                </ol>
             		</li>
                 </ol>
             </nav>
                     </aside>
                 
-                <p>Tell the user there is something wrong with the service. These are also known as 500 and internal server error pages.</p>
+                <p>Tell users there is something wrong with the service. These are also known as 500 or internal server error pages.</p>
 <h2 id="when-to-use-this-pattern" tabindex="-1">When to use this pattern</h2>
 <p>Use this page when there is an unexpected problem with the service. Use the same page for all unexpected problems.</p>
 <p>Log all errors and fix them as quickly as possible.</p>
-<p>Only display the page for a short time. If a problem cannot be fixed quickly, close the service and use a <a href="../service-unavailable-pages">service unavailable page</a>.</p>
+<p>Only display this page for a short time. If a problem cannot be fixed quickly, close the service and use a <a href="../service-unavailable-pages/">service unavailable page</a>.</p>
 <h2 id="how-it-works" tabindex="-1">How it works</h2>
-<p>The page should have:</p>
+<p>These pages should have:</p>
 <ul>
-<li>as the page title:
+<li>as the <a href="../../getting-started/page-template/#title%2C-description">title in the page’s</a> <code>&lt;head&gt;</code>
 <ul>
 <li>in Greek ‘Λυπούμαστε, υπάρχει πρόβλημα με την υπηρεσία – service name – gov.cy’</li>
 <li>in English ‘Sorry, there is a problem with the service – service name – gov.cy’</li>
 </ul>
 </li>
-<li>as the H1
+<li>as the <code>H1</code>
 <ul>
 <li>in Greek ‘Λυπούμαστε, υπάρχει πρόβλημα με την υπηρεσία’</li>
 <li>in English ‘Sorry, there is a problem with the service’</li>
 </ul>
 </li>
-<li>if possible, information about what has happened to their answers if they are in the middle of a transaction</li>
+<li>if possible, information about what has happened to users’ answers if they were in the middle of a transaction</li>
 <li>contact information, if it exists and helps meet a user need</li>
-<li>a link to another service, if they can use it to do what they came to do</li>
+<li>a link to another service, if users can use it to do what they came to do</li>
 </ul>
+<p>Contact information should either include contact details or a link to a ==contact page==.</p>
 <p>Have clear and concise content and do not use:</p>
 <ul>
 <li>breadcrumbs</li>
@@ -180,30 +193,68 @@
 <li>‘We are experiencing technical difficulties’</li>
 <li>red text to warn people</li>
 </ul>
+<p>If possible, store previously entered information for a reasonable amount of time so users can resume a journey with re-populated information when the service becomes available again.</p>
+<p>Here are some examples of this pattern.</p>
+<h3 id="1.-service-has-offline-support-but-no-specific-page-that-includes-contact-details" tabindex="-1">1. Service has offline support but no specific page that includes contact details</h3>
 <p><em>Example in Greek</em></p>
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<!--beforeMain-->
-<!--main-->
-<main class="govcy-container" id="mainContainer">
-    <h1>Λυπούμαστε, υπάρχει πρόβλημα με την υπηρεσία</h1> 
-    <p>Προσπαθούμε να το διορθώσουμε το συντομότερο δυνατόν. Δοκιμάστε ξανά αργότερα.</p>
-</main>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h1 id="%CE%BB%CF%85%CF%80%CE%BF%CF%8D%CE%BC%CE%B1%CF%83%CF%84%CE%B5%2C-%CF%85%CF%80%CE%AC%CF%81%CF%87%CE%B5%CE%B9-%CF%80%CF%81%CF%8C%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1-%CE%BC%CE%B5-%CF%84%CE%B7%CE%BD-%CF%85%CF%80%CE%B7%CF%81%CE%B5%CF%83%CE%AF%CE%B1" tabindex="-1">Λυπούμαστε, υπάρχει πρόβλημα με την υπηρεσία</h1>
+<p>Δοκιμάστε ξανά αργότερα.</p>
+<p>Δεν έχουμε αποθηκεύσει τις απαντήσεις σας. Όταν η υπηρεσία είναι διαθέσιμη, θα πρέπει να ξεκινήσετε ξανά.</p>
+<p>Επικοινωνήστε με το <a href="#">Τμήμα Φορολογίας</a> αν έχετε οποιεσδήποτε ερωτήσεις.</p>
+<p><strong>Τηλέφωνο</strong><br>
+<a href="#">22123456</a></p>
+<p><strong>Ώρες λειτουργίας</strong><br>
+Δευτέρα έως Παρασκευή, 08:30 π.μ. έως 2:30 μ.μ</p>
+<p>Κλειστά την Κυριακή του Πάσχα, τα Χριστούγεννα και την Πρωτοχρονιά.</p>
 </div>
 <p><em>Example in English</em></p>
-<div class="govcy-container govcy-p-4  govcy-br-1 govcy-br-standard govcy-mb-4">
-<!--beforeMain-->
-<!--main-->
-<main class="govcy-container" id="mainContainer">
-    <h1>Sorry, there is a problem with the service</h1> 
-    <p>We're working to fix the issue as soon as possible. Try again later.</p>
-</main>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h1 id="sorry%2C-there-is-a-problem-with-the-service" tabindex="-1">Sorry, there is a problem with the service</h1>
+<p>Try again later.</p>
+<p>We have not saved your answers. When the service is available, you will have to start again.</p>
+<p>Contact the <a href="*">Tax Department</a> if you have any questions.</p>
+<p><strong>Telephone</strong><br>
+<a href="#">22123456</a></p>
+<p><strong>Opening times</strong><br>
+Monday to Friday, 8:30 am to 2:30 pm</p>
+<p>Closed Easter Sunday, Christmas Day and New Year’s Day.</p>
 </div>
-
+<h3 id="2.-service-has-a-specific-page-that-includes-contact-details" tabindex="-1">2. Service has a specific page that includes contact details</h3>
+<p><em>Example in Greek</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h1 id="%CE%BB%CF%85%CF%80%CE%BF%CF%8D%CE%BC%CE%B1%CF%83%CF%84%CE%B5%2C-%CF%85%CF%80%CE%AC%CF%81%CF%87%CE%B5%CE%B9-%CF%80%CF%81%CF%8C%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1-%CE%BC%CE%B5-%CF%84%CE%B7%CE%BD-%CF%85%CF%80%CE%B7%CF%81%CE%B5%CF%83%CE%AF%CE%B1-1" tabindex="-1">Λυπούμαστε, υπάρχει πρόβλημα με την υπηρεσία</h1>
+<p>Δοκιμάστε ξανά αργότερα.</p>
+<p>Αποθηκεύαμε τις απαντήσεις σας. Θα είναι διαθέσιμες για 30 ημέρες.</p>
+<p>Επικοινωνήστε με το <a href="#">Τμήμα Φορολογίας</a> αν θέλετε να κάνετε αλλαγές στην αίτησή σας ή για να μιλήσετε με κάποιον σχετικά με τους φόρους σας.</p>
+</div>
+<p><em>Example in English</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h1 id="sorry%2C-there-is-a-problem-with-the-service-1" tabindex="-1">Sorry, there is a problem with the service</h1>
+<p>Try again later.</p>
+<p>We saved your answers. They will be available for 30 days.</p>
+<p>Contact the <a href="*">Tax Department</a> if you need to make changes to your application or speak to someone about your taxes.</p>
+</div>
+<h3 id="3.-link-to-another-service" tabindex="-1">3. Link to another service</h3>
+<p><em>Example in Greek</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h1 id="%CE%BB%CF%85%CF%80%CE%BF%CF%8D%CE%BC%CE%B1%CF%83%CF%84%CE%B5%2C-%CF%85%CF%80%CE%AC%CF%81%CF%87%CE%B5%CE%B9-%CF%80%CF%81%CF%8C%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1-%CE%BC%CE%B5-%CF%84%CE%B7%CE%BD-%CF%85%CF%80%CE%B7%CF%81%CE%B5%CF%83%CE%AF%CE%B1-2" tabindex="-1">Λυπούμαστε, υπάρχει πρόβλημα με την υπηρεσία</h1>
+<p>Δοκιμάστε ξανά αργότερα.</p>
+<p>Μπορείτε να <a href="#">αλλάξετε άλλα στοιχεία ΦΠΑ</a></p>
+<p>Επικοινωνήστε με το <a href="#">Τμήμα Φορολογίας</a> αν θέλετε να κάνετε αλλαγές στην αίτησή σας ή για να μιλήσετε με κάποιον σχετικά με τους φόρους σας.</p>
+</div>
+<p><em>Example in English</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h1 id="sorry%2C-there-is-a-problem-with-the-service-2" tabindex="-1">Sorry, there is a problem with the service</h1>
+<p>Try again later.</p>
+<p>You can <a href="#">change other VAT details</a></p>
+<p>Contact the <a href="*">Tax Department</a> if you need to make changes to your application or speak to someone about your taxes.</p>
+</div>
             </div>
     
     <aside class="govcy-col-md-3 govcy-col-lg-2 govcy-order-first-desk">
                 <div class="govcy-d-md-none govcy-fw-bolder govcy-my-2">Pages in this section</div>
-                <ul class="govcy-list-unstyled"><li class="govcy-fw-bolder govcy-mb-3">Ask users for</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/currency-amount/">Currency amount</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/dates/">Dates</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/email/">Email</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/names/">Names</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/telephone/">Telephone</a></li><li class="govcy-fw-bolder govcy-mb-3">Help users</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/check_answers/">Check answers</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/confirm_phone_number/">Confirm a phone number</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/test/">Test</a></li><li class="govcy-fw-bolder govcy-mb-3">Pages</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/page-not-found-pages/">Page not found pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/question_pages/">Question pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service-unavailable-pages/">Service unavailable pages</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/patterns/there-is-a-problem/">There is a problem with the service pages</a></li><li class="govcy-fw-bolder govcy-mb-3">How to</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/focus_state/">Focus state</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/labels_and_legend_headings/">Labels and legends</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/multiple_things/">Add multiple things </a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service_structure/">Structuring a service</a></li>
+                <ul class="govcy-list-unstyled"><li class="govcy-fw-bolder govcy-mb-3">Ask users for</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/currency-amount/">Currency amount</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/dates/">Dates</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/email/">Email</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/names/">Names</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/telephone/">Telephone numbers</a></li><li class="govcy-fw-bolder govcy-mb-3">Help users</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/check_answers/">Check answers</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/confirm_phone_number/">Confirm a phone number</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/test/">Test</a></li><li class="govcy-fw-bolder govcy-mb-3">Pages</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/cookies_pages/">Cookies page and cookies consent</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/page-not-found-pages/">Page not found pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/question_pages/">Question pages</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service-unavailable-pages/">Service unavailable pages</a></li><li class="app-side-link active"><a href="/staging-govcy-design-system-docs/patterns/there-is-a-problem/">There is a problem with the service pages</a></li><li class="govcy-fw-bolder govcy-mb-3">How to</li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/focus_state/">Focus state</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/labels_and_legend_headings/">Labels and legends</a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/multiple_things/">Add multiple things </a></li><li class="app-side-link"><a href="/staging-govcy-design-system-docs/patterns/service_structure/">Structuring a service</a></li>
                 </ul>
             </aside>
         </div>
@@ -220,13 +271,13 @@
                                 <li><h3>Links</h3></li>
                                 <li><a href="/staging-govcy-design-system-docs/">Home</a></li>
                                 <li><a href="/staging-govcy-design-system-docs/getting-started">Get started</a></li>
+                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Github</a></li>
                                 <li><a href="#">How to create a page using the gov.cy design system</a></li>
                             </ul>
                         </div>
                         <div class="govcy-col-md-4">
                             <ul>
-                                <li><h3>Products and tools</h3></li>
-                                <li><a href="https://github.com/gov-cy/govcy-design-system" target="_blank">Developer assets on Github</a></li>
+                                <li><h3>Tools</h3></li>
                                 <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma library</a></li>
                                 <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidrary library</a></li>
                                 <li><a href="https://www.npmjs.com/package/@gov-cy/govcy-frontend-tester" target="_blank">Test library</a></li>
@@ -235,7 +286,7 @@
                         </div>
                         <div class="govcy-col-md-4">
                             <ul>
-                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver 2</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0</a></li></ul>
+                                <li><h3>Previous Versions</h3></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v2/" target="_blank">Ver. 2x</a></li><li><a href="https://gov-cy.github.io/govcy-design-system-docs-v0/" target="_blank">Ver. 0x</a></li></ul>
                         </div>
                     </div>
                 </div>

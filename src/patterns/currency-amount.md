@@ -160,7 +160,7 @@ _Example of filled up currency amount inputs:_
 </form>
 ```
 ### Error messages
-Make sure to follow the instructions for [error messages](../../components/error_message) and [error summary](../../components/error_summary) when validating user input and to use the [text input error variant style](/components/text_input/#error-messages).
+Make sure to follow the instructions for [error messages](../../components/error_message) and [error summary](../../components/error_summary) when validating user input and to use the [text input error variant style](../../components/text_input/#error-messages).
 
 ## Contribute
 If you have used or researched this pattern, please et us know what you found so we can make it better for everyone. Send us an email at [dsf@dits.dmrid.gov.cy](mailto:dsf@dits.dmrid.gov.cy) to get in touch.

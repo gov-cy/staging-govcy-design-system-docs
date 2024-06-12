@@ -36,8 +36,8 @@ module.exports = {
     updateDate: `14/5/2024`
   },
   previousVersions: [
-    {label: 'Ver 2', url: 'https://gov-cy.github.io/govcy-design-system-docs-v2/'}
-    ,{label: 'Ver. 0', url: 'https://gov-cy.github.io/govcy-design-system-docs-v0/'}
+    {label: 'Ver. 2x', url: 'https://gov-cy.github.io/govcy-design-system-docs-v2/'}
+    ,{label: 'Ver. 0x', url: 'https://gov-cy.github.io/govcy-design-system-docs-v0/'}
   ],
   languages: [
     {
