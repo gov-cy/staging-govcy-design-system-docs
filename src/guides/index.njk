@@ -1,6 +1,6 @@
 ---
 title: "Guides"
-order: 5
+order: 6
 tags : ['top_menu']
 ---
 
@@ -11,7 +11,7 @@ tags : ['top_menu']
         {#- Checks if we want to show the index page -#}
         {% if (pag.fileSlug == category and showIndexInCategoryMenu) or pag.fileSlug != category -%}
             <li><h2 class="govcy-fs-4"><a href="{{ pag.url | url }}">{{ pag.data.title }}</a></h2>
-            <p>{{pag.data.summary}}</p>
+            <p>{{pag.data.description}}</p>
             </li>
         {%- endif %}
     {%- endif %}

@@ -134,7 +134,7 @@ Use the [cookie banner component](../../components/cookie_banner) to get the use
 </div>
 ```
 
-*Example in Greek   *
+*Example in Greek*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-cookie-consent-banner">
     <div class="govcy-container">

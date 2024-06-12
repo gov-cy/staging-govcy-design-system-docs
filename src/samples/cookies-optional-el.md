@@ -1,5 +1,5 @@
 ---
-title: "Cookies optional EL"
+title: "Cookies essential EL"
 date: 2022-02-01 00:00:01Z
 layout : "base_for_samples_el.njk"
 ---
@@ -12,7 +12,7 @@ layout : "base_for_samples_el.njk"
     <div class="govcy-row">
         <article class="govcy-col-8">
             <h1>Cookies</h1>
-            <p>Η υπηρεσία XYZ (xyz.service.gov.cy) χρησιμοποιεί που είναι απολύτως απαραίτητα για τη σωστή λειτουργία του διαδικτυακού τόπου.</p>
+            <p>Η υπηρεσία XYZ (xyz.service.gov.cy) χρησιμοποιεί που είναι απολύτως απαραίτητα για τη σωστή λειτουργία του διαδικτυακού τόπου και προαιρετικά cookies για αναλυτικά στοιχεία.</p>
             <h2>Απαραίτητα cookies</h2>
             <p>Όλα τα πιο κάτω cookies διαγράφονται 30 λεπτά μετά το κλείσιμο του φυλλομετρητή (browser) σας.</p>
             <table class="govcy-table">
@@ -51,6 +51,42 @@ layout : "base_for_samples_el.njk"
                 <li>Email: <a href="mailto:name@example.com">name@example.com</a></li>
                 <li>Δευτέρα έως Παρασκευή, 9 π.μ. έως 5 μ.μ. (εκτός επίσημων αργιών)</li>
             </ul>
+            <h2>Αναλυτικά cookies (προαιρετικά)</h2>
+            <p>Με την άδειά σας, χρησιμοποιούμε πρόσθετα αναλυτικά στοιχεία για τη συλλογή δεδομένων σχετικά με τον τρόπο χρήσης αυτής της υπηρεσίας. Αυτές οι πληροφορίες μας βοηθούν να βελτιώσουμε τις υπηρεσίες μας.</p>
+            <table class="govcy-table">
+                <thead>
+                    <tr class="govcy-br-input">
+                        <th scope="col">Όνομα</th>
+                        <th scope="col">Σκοπός</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>_abc</th>
+                        <td>Αυτό το cookie μας βοηθά να μετράμε πόσα άτομα επισκέφτηκαν την υπηρεσία, λέγοντάς μας εάν την έχετε επισκεφτεί στο παρελθόν.</td>
+                    </tr>
+                    <tr>
+                        <th>_efg</th>
+                        <td>Αυτό το cookie μας βοηθά να υπολογίσουμε τον χρόνο που αφιερώνουμε στην υπηρεσία.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <form action="" class="govcy-form" novalidate>
+                <fieldset class="govcy-fieldset">
+                    <legend class="govcy-legend">Θέλετε να αποδεχτείτε τα cookies αναλυτικών στοιχείων;</legend>
+                    <div class="govcy-form-control">
+                        <div class="govcy-radio">
+                            <input class="govcy-radio-input" type="radio" name="cookiesRadio" id="option-yes-el">
+                            <label class="govcy-label" for="option-yes-el">Ναι</label>
+                        </div>
+                        <div class="govcy-radio">
+                            <input class="govcy-radio-input" type="radio" name="cookiesRadio" id="option-no-el" checked>
+                            <label class="govcy-label" for="option-no-el">Όχι</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <button type="submit" class="govcy-btn-primary">Αποθήκευση ρυθμίσεων cookie</button>
+            </form>
         </article>
     </div>
 </main>

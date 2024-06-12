@@ -1,7 +1,7 @@
 ---
 title: "How to create new design elements using the gov.cy utility classes"
 date: 2022-02-01 00:01:02Z
-summary: "How to use the gov.cy utility classes to create a brand new HTML design element."
+description: "How to use the gov.cy utility classes to create a brand new HTML design element."
 image: custom_design_element.png
 ---
 In this article we will be looking at an actual example for developers, of how to use the gov.cy utility classes to create a brand new HTML design element. If you would like to see an example of building a page using the Design System library and other tools, see article [How to create a page using the gov.cy design system](../create_a_page).

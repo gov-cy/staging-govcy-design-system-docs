@@ -1,12 +1,12 @@
 ---
 title: "How to create a page using the gov.cy design system"
 date: 2022-02-01 00:01:01Z
-summary: "A step by step guide for developers on how to create a simple question page using DSF’s reusable components."
+description: "A step by step guide for developers on how to create a simple question page using DSF’s reusable components."
 image: custom_page.png
 ---
-In this article we will be looking at a step by step guide for developers on how to create a simple [question page](../../patterns/question_pages) using DSF’s reusable components. 
+In this guide we will be looking at a step by step guide for developers on how to create a simple [question page](../../patterns/question_pages) using the [developer assets](../../getting-started/developer-assets/). 
 
-When creating a new digital service for gov.cy, you can use our components for all your front-end needs. These components are consistent with the gov.cy design system and they can be easily implemented by anyone with basic front end development skills. They have been tested in different devices and browsers and improved based on user research findings.  
+You can use our pre-built css and javascript to create an HTML page with the necessary head and body sections and use one of the predefined layouts. All you need to do is copy the code below and follow the instructions: 
 
 Creating pages for gov.cy has never been easier. You can use our pre-built [css and javascript](../../getting_started/#css-and-javascript) to create an HTML page with the necessary [head](../../getting_started/#starter-template) and [body](../../styles/page_templates/) sections and use one of the predefined [layouts](../../styles/layout/). All you need to do is copy the code below and follow the instructions: 
 
