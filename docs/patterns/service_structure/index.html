@@ -144,9 +144,13 @@
             
                 <ol>
                     
-                    <li><a href="#start-page">Start page</a>
+                    <li><a href="#when-to-use-this-structure">When to use this structure</a>
             		</li>
-                </ol>
+
+                    <li><a href="#how-it-works">How it works</a>
+            		</li>
+
+                    <li><a href="#start-page">Start page</a>
             		</li>
 
                     <li><a href="#one-thing-at-a-time">One thing at a time</a>
@@ -163,11 +167,19 @@
 
                     <li><a href="#confirmation-page">Confirmation page</a>
             		</li>
+                </ol>
+            		</li>
 
                     <li><a href="#break-the-service-into-tasks-and-sections-structure">Break the service into tasks and sections structure</a>
             
                 <ol>
                     
+                    <li><a href="#when-to-use-this-structure-1">When to use this structure</a>
+            		</li>
+
+                    <li><a href="#how-it-works-1">How it works</a>
+            		</li>
+
                     <li><a href="#task-list">Task list</a>
             		</li>
 
@@ -191,6 +203,18 @@
                 </ol>
             		</li>
 
+                    <li><a href="#asynchronous-basic-structure">Asynchronous basic structure</a>
+            
+                <ol>
+                    
+                    <li><a href="#when-to-use-this-structure-2">When to use this structure</a>
+            		</li>
+
+                    <li><a href="#how-it-works-2">How it works</a>
+            		</li>
+                </ol>
+            		</li>
+
                     <li><a href="#contribute">Contribute</a>
             		</li>
                 </ol>
@@ -198,8 +222,19 @@
                     </aside>
                 
                 <p>This pattern explains how to structure an online service.</p>
-<p>Depending on the service, you may apply the <a href="#basic-structure">basic</a>, or the <a href="#break-the-service-into-tasks-and-sections-structure">break the service into tasks structure</a>.</p>
+<p>Before you start, review the design system’s <a href="../../getting-started/principles/">principles</a> to design user-focused services.</p>
+<p>When designing a service, it’s important to choose the structure that best fits the user’s needs and the complexity of the tasks involved. Always try to simplify and reduce the number of questions to make the process as straightforward as possible.</p>
+<p>Depending on the service, you may apply the <a href="#basic-structure">basic</a>, the <a href="#break-the-service-into-tasks-and-sections-structure">break the service into sections</a>, or the <a href="#asynchronous-basic-structure">asynchronous basic structure</a>.</p>
 <h2 id="basic-structure" tabindex="-1">Basic structure</h2>
+<p>This structure is designed to provide a linear flow for simple services, guiding users step-by-step from start to completion.</p>
+<h3 id="when-to-use-this-structure" tabindex="-1">When to use this structure</h3>
+<p>Use this structure when:</p>
+<ul>
+<li>The service can be simplified to a linear flow.</li>
+<li>The questions or information required from the user are straightforward and can be collected in a sequence.</li>
+<li>The service can be completed in a short amount of time.</li>
+</ul>
+<h3 id="how-it-works" tabindex="-1">How it works</h3>
 <p>The basic structure of a service should:</p>
 <ol>
 <li>Start with an informative start page</li>
@@ -221,7 +256,7 @@
 <p><img src="../../img/illustration_start_page.png" alt="Illustration of a start page" style="aspect-ratio: auto;"></p>
 <p>Keep in mind that research has shown that users avoid reading long text, so keep your information minimal, and to the point and avoid using legal jargon.</p>
 <p>This page usually resides on the GOV.CY portal.</p>
-<h2 id="one-thing-at-a-time" tabindex="-1">One thing at a time</h2>
+<h3 id="one-thing-at-a-time" tabindex="-1">One thing at a time</h3>
 <p>Prefer to split the <a href="../question_pages">questions</a> across multiple pages with each page containing just one thing, for example:</p>
 <ul>
 <li>one piece of information you’re telling a user</li>
@@ -253,10 +288,10 @@
 <li>pre-populating the relevant fields</li>
 <li>showing carried-forward responses as an option for the user to select</li>
 </ul>
-<h2 id="check-your-answers-page" tabindex="-1">Check your answers page</h2>
+<h3 id="check-your-answers-page" tabindex="-1">Check your answers page</h3>
 <p>Use the <a href="../check_answers">check answers pattern</a> to let users check their answers before submitting information to a service.</p>
 <p><img src="../../img/illustration_check_answers.png" alt="Illustration a check your answers page" style="aspect-ratio: auto;"></p>
-<h2 id="confirmation-page" tabindex="-1">Confirmation page</h2>
+<h3 id="confirmation-page" tabindex="-1">Confirmation page</h3>
 <p>After the users have submitted their application, present a ==confirmation page== with a panel to tell them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.</p>
 <p><img src="../../img/illustration_confirmation_page.png" alt="Illustration a confirmation page" style="aspect-ratio: auto;"></p>
 <p>Research has shown that users feel more at ease when:</p>
@@ -267,7 +302,15 @@
 </ul>
 <h2 id="break-the-service-into-tasks-and-sections-structure" tabindex="-1">Break the service into tasks and sections structure</h2>
 <p>There may be cases where you need to implement complicated services, involving multiple tasks that users may need to complete over a number of sessions. In such cases you may consider gathering information from the users, by breaking the service into tasks.</p>
-<p>This can be done by using the same structure and principles as the <a href="#basic-structure">basic service structure</a> and replacing the “Gather information” step with the following :</p>
+<h3 id="when-to-use-this-structure-1" tabindex="-1">When to use this structure</h3>
+<p>Use this structure when:</p>
+<ul>
+<li>The service is inherently complex and involves multiple sections or tasks.</li>
+<li>Users need to manage and understand the progress of various sections and tasks.</li>
+<li>It is predicted that users may need to revisit the service more than once to complete it.</li>
+</ul>
+<h3 id="how-it-works-1" tabindex="-1">How it works</h3>
+<p>Breaking the service into tasks is similar to the basic structure. This can be done by using the same structure and principles as the <a href="#basic-structure">basic service structure</a> and replacing the “Gather information” step with the following :</p>
 <ol>
 <li>Let the users decide on which task or section to work on using a ==task list page==</li>
 <li>Gather information from the users, one section at a time</li>
@@ -402,8 +445,40 @@ Note that a user may return to a section at any time and change an answer. In su
 <h3 id="confirmation-page-change-links" tabindex="-1">Confirmation page change links</h3>
 <p>The ‘Change’ links on the confirmation page, should lead to the either the beginning of the related section, or it’s summary list page, depending on the implementation of each service.</p>
 <p>Make sure to test your approach with the users.</p>
+<h2 id="asynchronous-basic-structure" tabindex="-1">Asynchronous basic structure</h2>
+<p>The asynchronous basic structure uses the same structure and principles as the <a href="#basic-structure">basic service structure</a>, but also takes advantage of the ==task list page== described in the <a href="#break-the-service-into-tasks-and-sections-structure">break the service into tasks and sections structure</a> to let users decide on which question to work on.</p>
+<h3 id="when-to-use-this-structure-2" tabindex="-1">When to use this structure</h3>
+<p>Use this structure when:</p>
+<ul>
+<li>The service involves multiple questions or pieces of information that cannot be easily reduced or simplified.</li>
+<li>The flexibility to answer questions in any order will help the users to complete the service.</li>
+<li>It is predicted that users may need to revisit the service more than once to complete it.</li>
+</ul>
+<h3 id="how-it-works-2" tabindex="-1">How it works</h3>
+<p>In this structure, the service should:</p>
+<ol>
+<li>Start with an informative start page</li>
+<li>If needed, ask the users to sign-in</li>
+<li>Present a ==Task List page== where users can select which question to answer</li>
+<li>Gather information from the users, one question at a time</li>
+<li>Let the users check their answers before submitting</li>
+<li>Show the users a confirmation of successful completion page.</li>
+</ol>
+<p><img src="../../img/v3_illustration_async_structure.png" alt="An example flow of a asynchronous service" style="aspect-ratio: auto;"></p>
+<p>Let users answer different questions in an asynchronous manner. Also consider saving the users’ responses and progress, and then to continue where they left off when they return.</p>
+<p>Remember to follow the <a href="#one-thing-at-a-time">one thing at a time</a> principle and allow the users to answer questions one page at a time. This will also enable your service to apply conditional logic if needed.</p>
+<p>After gathering information from the users you should still:</p>
+<ul>
+<li>Let the users check their answers from all sections before submitting</li>
+<li>Show the users a confirmation of successful completion page.</li>
+</ul>
+<p>Follow the same instructions concerning the <a href="#task-list">task list</a> and <a href="#section-statuses">statuses</a> as in the break the service into tasks and sections structure.</p>
 <h2 id="contribute" tabindex="-1">Contribute</h2>
 <p>If you have used or researched this pattern, please let us have your feedback, so we can make it better for everyone. Send us an email at <a href="mailto:dsf@dits.dmrid.gov.cy" target="_blank">dsf@dits.dmrid.gov.cy</a> to get in touch.</p>
+<p>We are particularly interested in:</p>
+<ul>
+<li>making service structures easier for the users</li>
+</ul>
 
             </div>
     

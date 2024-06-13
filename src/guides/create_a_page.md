@@ -2,7 +2,7 @@
 title: "How to create a page using the gov.cy design system"
 date: 2022-02-01 00:01:01Z
 description: "A step by step guide for developers on how to create a simple question page using DSF’s reusable components."
-image: custom_page.png
+image: v3_custom_page.png
 ---
 In this guide we will be looking at a step by step guide for developers on how to create a simple [question page](../../patterns/question_pages) using the [developer assets](../../getting-started/developer-assets/). 
 

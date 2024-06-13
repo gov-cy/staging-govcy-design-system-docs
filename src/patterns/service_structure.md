@@ -6,9 +6,24 @@ description: "This pattern explains how to structure an online service. "
 ---
 This pattern explains how to structure an online service. 
 
-Depending on the service, you may apply the [basic](#basic-structure), or the [break the service into tasks structure](#break-the-service-into-tasks-and-sections-structure).
+Before you start, review the design system’s [principles](../../getting-started/principles/) to design user-focused services. 
+
+When designing a service, it's important to choose the structure that best fits the user's needs and the complexity of the tasks involved. Always try to simplify and reduce the number of questions to make the process as straightforward as possible. 
+
+Depending on the service, you may apply the [basic](#basic-structure), the [break the service into sections](#break-the-service-into-tasks-and-sections-structure), or the [asynchronous basic structure](#asynchronous-basic-structure).
 
 ## Basic structure
+This structure is designed to provide a linear flow for simple services, guiding users step-by-step from start to completion.
+
+### When to use this structure
+Use this structure when:
+
+- The service can be simplified to a linear flow.
+- The questions or information required from the user are straightforward and can be collected in a sequence.
+- The service can be completed in a short amount of time.
+
+### How it works
+
 The basic structure of a service should:
 
 1. Start with an informative start page
@@ -33,7 +48,7 @@ Keep in mind that research has shown that users avoid reading long text, so keep
 
 This page usually resides on the GOV.CY portal. 
 
-## One thing at a time
+### One thing at a time
 
 Prefer to split the [questions](../question_pages) across multiple pages with each page containing just one thing, for example:
 - one piece of information you’re telling a user
@@ -64,12 +79,12 @@ If the same type of information is needed more than once, make it easier to reus
 - pre-populating the relevant fields
 - showing carried-forward responses as an option for the user to select
 
-## Check your answers page
+### Check your answers page
 Use the [check answers pattern](../check_answers) to let users check their answers before submitting information to a service.
 
 ![Illustration a check your answers page](../../img/illustration_check_answers.png){style="aspect-ratio: auto;"}
 
-## Confirmation page
+### Confirmation page
 After the users have submitted their application, present a ==confirmation page== with a panel to tell them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.
 
 ![Illustration a confirmation page](../../img/illustration_confirmation_page.png){style="aspect-ratio: auto;"}
@@ -82,7 +97,14 @@ Research has shown that users feel more at ease when:
 ## Break the service into tasks and sections structure
 There may be cases where you need to implement complicated services, involving multiple tasks that users may need to complete over a number of sessions. In such cases you may consider gathering information from the users, by breaking the service into tasks. 
 
-This can be done by using the same structure and principles as the [basic service structure](#basic-structure) and replacing the "Gather information" step with the following :
+### When to use this structure 
+Use this structure when:
+- The service is inherently complex and involves multiple sections or tasks.
+- Users need to manage and understand the progress of various sections and tasks.
+- It is predicted that users may need to revisit the service more than once to complete it.
+
+### How it works
+Breaking the service into tasks is similar to the basic structure. This can be done by using the same structure and principles as the [basic service structure](#basic-structure) and replacing the "Gather information" step with the following :
 
 1. Let the users decide on which task or section to work on using a ==task list page==
 2. Gather information from the users, one section at a time 
@@ -304,5 +326,42 @@ The 'Change' links on the confirmation page, should lead to the either the begin
 
 Make sure to test your approach with the users.
 
+## Asynchronous basic structure
+The asynchronous basic structure uses the same structure and principles as the [basic service structure](#basic-structure), but also takes advantage of the ==task list page== described in the [break the service into tasks and sections structure](#break-the-service-into-tasks-and-sections-structure) to let users decide on which question to work on. 
+
+### When to use this structure 
+Use this structure when:
+
+- The service involves multiple questions or pieces of information that cannot be easily reduced or simplified.
+- The flexibility to answer questions in any order will help the users to complete the service.
+- It is predicted that users may need to revisit the service more than once to complete it.
+
+### How it works
+
+In this structure, the service should:
+
+1. Start with an informative start page
+2. If needed, ask the users to sign-in
+3. Present a ==Task List page== where users can select which question to answer
+4. Gather information from the users, one question at a time
+5. Let the users check their answers before submitting
+6. Show the users a confirmation of successful completion page.
+
+![An example flow of a asynchronous service](../../img/v3_illustration_async_structure.png){style="aspect-ratio: auto;"}
+
+Let users answer different questions in an asynchronous manner. Also consider saving the users' responses and progress, and then to continue where they left off when they return.
+
+Remember to follow the [one thing at a time](#one-thing-at-a-time) principle and allow the users to answer questions one page at a time. This will also enable your service to apply conditional logic if needed. 
+
+After gathering information from the users you should still:
+- Let the users check their answers from all sections before submitting
+- Show the users a confirmation of successful completion page.
+
+Follow the same instructions concerning the [task list](#task-list) and [statuses](#section-statuses) as in the break the service into tasks and sections structure.
+
 ## Contribute
 If you have used or researched this pattern, please let us have your feedback, so we can make it better for everyone. Send us an email at <a href="mailto:dsf@dits.dmrid.gov.cy" target="_blank">dsf@dits.dmrid.gov.cy</a> to get in touch. 
+
+We are particularly interested in:
+
+- making service structures easier for the users
