@@ -22,6 +22,8 @@ See below the different variants of the header component. Make sure to change th
 
 Use the `govcy-d-print-none` to hide the header on print media. 
 
+Use the `active` class and `aria-current="true"` to indicate the current page in menu `<a>` elements.
+
 ### Default header
 Use the default header for services and websites that consist of only a single page.
 
@@ -36,10 +38,10 @@ Use the default header for services and websites that consist of only a single p
                 </div>
                 <ul class="govcy-menu-items govcy-ms-auto">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                 aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -53,8 +55,8 @@ Use the default header for services and websites that consist of only a single p
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -74,10 +76,10 @@ Use the default header for services and websites that consist of only a single p
                 </div>
                 <ul class="govcy-menu-items govcy-ms-auto">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                 aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -91,8 +93,8 @@ Use the default header for services and websites that consist of only a single p
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -118,10 +120,10 @@ Depending on your case, you may add link your service name, with the service's h
                 </div>
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -135,8 +137,8 @@ Depending on your case, you may add link your service name, with the service's h
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -157,10 +159,10 @@ Depending on your case, you may add link your service name, with the service's h
                 </div>
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -174,8 +176,8 @@ Depending on your case, you may add link your service name, with the service's h
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -199,10 +201,10 @@ If the service name is too long, then the section breaks.
                 </div>
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -216,8 +218,8 @@ If the service name is too long, then the section breaks.
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -238,10 +240,10 @@ If the service name is too long, then the section breaks.
                 </div>
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -255,8 +257,8 @@ If the service name is too long, then the section breaks.
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -314,10 +316,10 @@ For longer sites and services with lots of content, make sure to add a search ba
                 </div>
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -345,8 +347,8 @@ For longer sites and services with lots of content, make sure to add a search ba
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -367,10 +369,10 @@ For longer sites and services with lots of content, make sure to add a search ba
                 </div>
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -398,8 +400,8 @@ For longer sites and services with lots of content, make sure to add a search ba
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -434,10 +436,10 @@ Use a header with login in services or websites that require the user to login.
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#" class="govcy-menu-item"><i class="govcy-contact-icon"></i>Contact</a></span></li>
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -451,8 +453,8 @@ Use a header with login in services or websites that require the user to login.
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -490,10 +492,10 @@ Use a header with login in services or websites that require the user to login.
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#" class="govcy-menu-item"><i class="govcy-contact-icon"></i>Contact</a></span></li>
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -507,8 +509,8 @@ Use a header with login in services or websites that require the user to login.
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -549,10 +551,10 @@ Use a header with the user name and sign out on services or websites that requir
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only" hidden=""><span><a href="#" class="govcy-menu-item"><i class="govcy-contact-icon"></i>Contact</a></span></li>
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -566,8 +568,8 @@ Use a header with the user name and sign out on services or websites that requir
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα"  lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -605,10 +607,10 @@ Use a header with the user name and sign out on services or websites that requir
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only" hidden=""><span><a href="#" class="govcy-menu-item"><i class="govcy-contact-icon"></i>Contact</a></span></li>
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -622,8 +624,8 @@ Use a header with the user name and sign out on services or websites that requir
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα"  lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -652,10 +654,10 @@ Use this header if you wish to link a contact page at the header.
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#" class="govcy-menu-item"><i class="govcy-contact-icon"></i>Contact</a></span></li>
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -669,8 +671,8 @@ Use this header if you wish to link a contact page at the header.
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα"  lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -697,10 +699,10 @@ Use this header if you wish to link a contact page at the header.
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#" class="govcy-menu-item"><i class="govcy-contact-icon"></i>Contact</a></span></li>
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -714,8 +716,8 @@ Use this header if you wish to link a contact page at the header.
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα"  lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -743,10 +745,10 @@ Use the header with navigation if you need to include basic navigation.
                 </div>
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -760,8 +762,8 @@ Use the header with navigation if you need to include basic navigation.
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -791,10 +793,10 @@ Use the header with navigation if you need to include basic navigation.
                 </div>
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -808,8 +810,8 @@ Use the header with navigation if you need to include basic navigation.
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -843,10 +845,10 @@ It’s important to note that menu pages that have a govcy-dropdown that are not
                 </div>
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -860,8 +862,8 @@ It’s important to note that menu pages that have a govcy-dropdown that are not
         <nav class="govcy-mainmenu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -923,10 +925,10 @@ It’s important to note that menu pages that have a govcy-dropdown that are not
                 </div>
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -940,8 +942,8 @@ It’s important to note that menu pages that have a govcy-dropdown that are not
         <nav class="govcy-mainmenu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -1007,10 +1009,10 @@ As mentioned above, menu pages that have a govcy-dropdown that are not linkable 
                 </div>
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -1024,8 +1026,8 @@ As mentioned above, menu pages that have a govcy-dropdown that are not linkable 
         <nav class="govcy-mainmenu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -1096,10 +1098,10 @@ As mentioned above, menu pages that have a govcy-dropdown that are not linkable 
                 </div>
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -1113,8 +1115,8 @@ As mentioned above, menu pages that have a govcy-dropdown that are not linkable 
         <nav class="govcy-mainmenu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -1199,10 +1201,10 @@ A header including all the options is a rare occurrence, however this is how it 
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#" class="govcy-menu-item"><i class="govcy-contact-icon"></i>Contact</a></span></li>
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -1230,8 +1232,8 @@ A header including all the options is a rare occurrence, however this is how it 
         <nav class="govcy-mainmenu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -1315,10 +1317,10 @@ A header including all the options is a rare occurrence, however this is how it 
                 <ul class="govcy-menu-items">
                     <li class="govcy-desktop-menu-only"><span><a href="#" class="govcy-menu-item"><i class="govcy-contact-icon"></i>Contact</a></span></li>
                     <li class="govcy-desktop-menu-only"><span><a href="#"
-                        aria-current="true" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα">EL</a></span>
+                        class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EL</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
-                                class="govcy-menu-item" aria-label="English language" lang="en">EN</a></span>
+                                aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EN</a></span>
                       </li>
                       <li class="govcy-desktop-menu-only"><span class="govcy-menu-language-last-item"><a href="#"
                         class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></span>
@@ -1346,8 +1348,8 @@ A header including all the options is a rare occurrence, however this is how it 
         <nav class="govcy-mainmenu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" aria-current="true">EN</a></li>
-                    <li><a href="#" class="govcy-menu-item" aria-label="English language" lang="el">EL</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>
             </div>
@@ -1449,4 +1451,5 @@ Make sure:
 	- for Greek use `aria-label="Ελληνική γλώσσα"`
 	- for English use `aria-label="English language"`
 	- for Turkish use `aria-label="Türkçe"`
+- you use `aria-current="true"` for the current menu `<a>` elements
 - not to make header elements ‘sticky’ to the top of the page by using `position: fixed` or any other method

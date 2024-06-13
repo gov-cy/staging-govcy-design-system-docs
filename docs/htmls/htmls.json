@@ -1,0 +1,7 @@
+{
+    "layout" : "totallyEmpty.njk",
+    "category" : "htmls",
+    "tags" : "htmls",
+    "showCategoryMenu" : false,
+    "showIndexInCategoryMenu" : false
+  }

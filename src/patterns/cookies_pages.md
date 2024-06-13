@@ -167,10 +167,6 @@ Use the [cookie banner component](../../components/cookie_banner) to get the use
 ```
 If the user selects to adjust the cookies the cookies page should open, displaying the cookies and what each one does. They should be given the ability to adjust the cookies, accept all, save their settings or deny the cookies.
 
-> **Warning**{class="govcy-fw-bolder govcy-fs-4 govcy-d-block"}
-> The cookies banner is subject to change based on the plugin selected.
-{class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info"}
-
 The popup should appear and stay fixed at the top of the screen.
 
 The popup should be included inside the ["body start" section](../../getting-started/page-template/#sections) of the page.

@@ -66,13 +66,15 @@ module.exports = function (eleventyConfig) {
   });
 
 
-  //copy js
+  //copy `htmls` contains clear HTML samples
+  eleventyConfig.addPassthroughCopy("./src/htmls");
+  //copy `js`
   eleventyConfig.addPassthroughCopy("./src/js");
-  //copy css
+  //copy `css`
   eleventyConfig.addPassthroughCopy("./src/css");
-  //copy img
+  //copy `img`
   eleventyConfig.addPassthroughCopy("./src/img");
-  //copy manifest
+  //copy `manifest`
   eleventyConfig.addPassthroughCopy("./src/manifest.json");
 
 /**
