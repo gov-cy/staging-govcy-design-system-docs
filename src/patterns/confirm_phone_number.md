@@ -2,7 +2,7 @@
 title: "Confirm a phone number"
 date: 2022-02-01 00:01:02Z
 tags: "help_users"
-description: "Check that a user has access to a specific mobile phone number using a security code sent by text message."
+description: "Check that a user has access to a specific mobile phone number."
 ---
 Check that a user has access to a specific mobile phone number using a security code sent by text message.
 

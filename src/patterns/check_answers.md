@@ -14,7 +14,7 @@ Show a single check answers page immediately before the confirmation screen for 
 When designing a very large transaction with multiple sections, it may help to include check answers pages at the end of each section. This may also be valuable for services where different users might be completing each section. You should test this approach with your users to find out if it’s helpful.  See more information on how to ==break the service into tasks and sections structure==
 
 ## How it works
-Use a [summary list](../../components/summary_list/) and a [primary button](../../components/button/) in the page's [main section](../../getting-started/page-template/#sections). Note that all code examples in this page shows only the `Main` section. In a real implementation make sure to use the [govcy page template](../../getting-started/page-template/).
+Use a [summary list](../../components/summary_list/) and a [primary button](../../components/button/) in the page's [main section](../../getting-started/page-template/#sections). Note that all code examples in this page shows only the `Main` section.
 
 Check answers pages help to:
 - increase users’ confidence as they can clearly see that they have completed all the sections and that their data has been captured

@@ -24,7 +24,11 @@ Use the `govcy-d-print-none` to hide the footer on print media.
 The default footer has links for copyright notice, gov.cy logo and links for:
 - privacy statement
 - cookie policy
-- accessibility statements.
+- accessibility statements
+
+Also when applicable you may add 
+- the help us improve this service (feedback link)
+- the "Funded by the European Union" and "Cyprus to tomorrow" logos
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
@@ -36,6 +40,7 @@ The default footer has links for copyright notice, gov.cy logo and links for:
                     <li><a href="#">Privacy statement</a></li>
                     <li><a href="#">Cookies</a></li>
                     <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Help us improve this service</a></li>
                 </ul>
                 <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                     <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
@@ -60,6 +65,7 @@ The default footer has links for copyright notice, gov.cy logo and links for:
                     <li><a href="#">Privacy statement</a></li>
                     <li><a href="#">Cookies</a></li>
                     <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Help us improve this service</a></li>
                 </ul>
                 <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                     <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
@@ -86,6 +92,7 @@ For EU funded sites and services, also display the "Funded by the European Union
                     <li><a href="#">Privacy statement</a></li>
                     <li><a href="#">Cookies</a></li>
                     <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Help us improve this service</a></li>
                 </ul>
                 <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                     <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
@@ -112,6 +119,7 @@ For EU funded sites and services, also display the "Funded by the European Union
                     <li><a href="#">Privacy statement</a></li>
                     <li><a href="#">Cookies</a></li>
                     <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Help us improve this service</a></li>
                 </ul>
                 <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                     <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
@@ -140,6 +148,7 @@ In Greek use the following variant. Make sure the use the correct text at the `a
                     <li><a href="#">Δήλωση απορρήτου</a></li>
                     <li><a href="#">Cookies</a></li>
                     <li><a href="#">Προσβασιμότητα</a></li>
+                    <li><a href="#">Βοηθήστε μας να βελτιώσουμε αυτή την υπηρεσία</a></li>
                 </ul>
                 <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                     <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
@@ -166,6 +175,7 @@ In Greek use the following variant. Make sure the use the correct text at the `a
                     <li><a href="#">Δήλωση απορρήτου</a></li>
                     <li><a href="#">Cookies</a></li>
                     <li><a href="#">Προσβασιμότητα</a></li>
+                    <li><a href="#">Βοηθήστε μας να βελτιώσουμε αυτή την υπηρεσία</a></li>
                 </ul>
                 <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                     <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
@@ -226,6 +236,7 @@ Only add secondary navigation if you’re creating a gov.cy service, and you wan
                         <li><a href="#">Privacy statement</a></li>
                         <li><a href="#">Cookies</a></li>
                         <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Help us improve this service</a></li>
                     </ul>
                     <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                         <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
@@ -285,6 +296,7 @@ Only add secondary navigation if you’re creating a gov.cy service, and you wan
                         <li><a href="#">Privacy statement</a></li>
                         <li><a href="#">Cookies</a></li>
                         <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Help us improve this service</a></li>
                     </ul>
                     <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                         <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
@@ -301,7 +313,6 @@ Only add secondary navigation if you’re creating a gov.cy service, and you wan
     </div>
 </footer>
 ```
-###  Component text
 
 ## Accessibility
 

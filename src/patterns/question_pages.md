@@ -4,9 +4,7 @@ date: 2022-02-01 00:01:02Z
 tags: "pages"
 description: "This pattern explains when to use question pages and what elements they need to include."
 ---
-This pattern explains when to use question pages and what elements they need to include.
-
-Note: All code examples in this pattern shows only the `Before main` and `Main` sections. In a real implementation make sure to use the [govcy page template](../../getting-started/page-template/).
+This pattern explains when to use question pages and what elements they need to include. Note that all code examples in this pattern shows only the `Before main` and `Main` sections. 
 
 ## When to use this pattern
 Follow this pattern whenever you need to ask users questions within your service.

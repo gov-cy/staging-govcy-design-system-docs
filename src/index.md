@@ -7,8 +7,17 @@ localization:
     el: "/el/index.html"
 ---
 
+## What's new
+
+**01 July 2024**
+Version 3.0.0 of the Design system has been released.
+
+[Read the full change log](https://github.com/gov-cy/govcy-design-system/blob/main/CHANGELOG.md){rel="noreferrer noopener" target="_blank"}.
+
+<hr>
+
 ## Overview
-At its core, gov.cy Unified Design System (UDS) consists of universal assets, elements, components, patterns and code guidance on how to design, build and develop websites and services that make use of the Cyprus government branding and image. This allows its users and teams to build a citizen centric, consistent, clean and intuitive user experience throughout gov.cy, that is accessible to everyone.
+At its core, the gov.cy Unified Design System (UDS) consists of universal assets, elements, components, patterns and code guidance on how to design, build and develop websites and services that make use of the Cyprus government branding and image. This allows its users and teams to build a citizen centric, consistent, clean and intuitive user experience throughout gov.cy, that is accessible to everyone.
 <hr>
 <div class="govcy-container govcy-py-3">
     <div class="govcy-row">
@@ -43,20 +52,12 @@ At its core, gov.cy Unified Design System (UDS) consists of universal assets, el
             <div class="col govcy-mb-4">
                 <div>
                     <div class="govcy-bg-main-shade-3 govcy-p-3 govcy-mb-1">
-                        <img src="./img/website1.jpg" alt="Screenshot of gov.cy" class="w-100 govcy-m-0">
+                        <img src="./img/gov-cy-website.jpg" alt="Screenshot of gov.cy" class="w-100 govcy-m-0">
                     </div>
                     <div><a href="https://www.gov.cy" target="_blank">gov.cy</a></div>
                 </div>
             </div>
             <div class="col govcy-mb-4">
-                <div>
-                    <div class="govcy-bg-main-shade-3 govcy-p-3 govcy-mb-1">
-                        <img src="./img/website1.jpg" alt="Screenshot of example 2" class="w-100 govcy-m-0">
-                    </div>
-                    <div class="govcy-fw-bold govcy-text-info">Example 2</div>
-                </div>
-            </div>
-            <div class="col govcy-mb-3">
                 <div>
                     <div class="govcy-bg-main-shade-3 govcy-p-3 govcy-mb-1">
                         <img src="./img/citizen-docs-website.jpg" alt="Screenshot of the citizens documents service" class="w-100 govcy-m-0">
