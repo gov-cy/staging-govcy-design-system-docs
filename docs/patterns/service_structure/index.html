@@ -144,13 +144,13 @@
             
                 <ol>
                     
-                    <li><a href="#when-to-use-this-structure">When to use this structure</a>
-            		</li>
-
                     <li><a href="#how-it-works">How it works</a>
             		</li>
 
                     <li><a href="#start-page">Start page</a>
+            		</li>
+
+                    <li><a href="#sign-in">Sign in</a>
             		</li>
 
                     <li><a href="#one-thing-at-a-time">One thing at a time</a>
@@ -170,14 +170,26 @@
                 </ol>
             		</li>
 
-                    <li><a href="#break-the-service-into-tasks-and-sections-structure">Break the service into tasks and sections structure</a>
+                    <li><a href="#variant-1---linear-structure">Variant 1 - Linear structure</a>
+            
+                <ol>
+                    
+                    <li><a href="#when-to-use-this-structure">When to use this structure</a>
+            		</li>
+
+                    <li><a href="#how-it-works-1">How it works</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#variant-2---break-the-service-into-sections">Variant 2 - Break the service into sections</a>
             
                 <ol>
                     
                     <li><a href="#when-to-use-this-structure-1">When to use this structure</a>
             		</li>
 
-                    <li><a href="#how-it-works-1">How it works</a>
+                    <li><a href="#how-it-works-2">How it works</a>
             		</li>
 
                     <li><a href="#task-list">Task list</a>
@@ -203,14 +215,14 @@
                 </ol>
             		</li>
 
-                    <li><a href="#asynchronous-basic-structure">Asynchronous basic structure</a>
+                    <li><a href="#variant-3---asynchronous-basic-structure">Variant 3 - Asynchronous basic structure</a>
             
                 <ol>
                     
                     <li><a href="#when-to-use-this-structure-2">When to use this structure</a>
             		</li>
 
-                    <li><a href="#how-it-works-2">How it works</a>
+                    <li><a href="#how-it-works-3">How it works</a>
             		</li>
                 </ol>
             		</li>
@@ -223,26 +235,31 @@
                 
                 <p>This pattern explains how to structure an online service.</p>
 <p>Before you start, review the design system’s <a href="../../getting-started/principles/">principles</a> to design user-focused services.</p>
-<p>When designing a service, it’s important to choose the structure that best fits the user’s needs and the complexity of the tasks involved. Always try to simplify and reduce the number of questions to make the process as straightforward as possible.</p>
-<p>Depending on the service, you may apply the <a href="#basic-structure">basic</a>, the <a href="#break-the-service-into-tasks-and-sections-structure">break the service into sections</a>, or the <a href="#asynchronous-basic-structure">asynchronous basic structure</a>.</p>
-<h2 id="basic-structure" tabindex="-1">Basic structure</h2>
-<p>This structure is designed to provide a linear flow for simple services, guiding users step-by-step from start to completion.</p>
-<h3 id="when-to-use-this-structure" tabindex="-1">When to use this structure</h3>
-<p>Use this structure when:</p>
+<p>Through your design you will need to make sure:</p>
 <ul>
-<li>The service can be simplified to a linear flow.</li>
-<li>The questions or information required from the user are straightforward and can be collected in a sequence.</li>
-<li>The service can be completed in a short amount of time.</li>
+<li>users will be able to complete the service from start to finish</li>
+<li>the amount of steps and information needed by the users is reduced to the minimum</li>
+<li>there are no dead ends</li>
+<li>complex internal structures of the government organization are hidden from the users</li>
+<li>decisions by the service, such as approval or rejection, are made clear tp the users</li>
+<li>the service is consistent with other gov.cy services and works in a familiar way</li>
+<li>everyone can use and understand the service</li>
+<li>users and their information are treated with care and respect</li>
 </ul>
+<p>Design services that focus on achieving users’ goals and work independently and in isolation from other services. Do not design them as part of bulky systems that required extensive user training, and instead create clear, easy-to-use services that allow users to complete specific tasks without needing to navigate through or depend on other services.</p>
+<p>All gov.cy services must follow the <a href="#basic-structure">basic structure</a>. In this document we also describe variations of the basic structure, in which the “Gather information” step is handled differently depending on the need.</p>
+<h2 id="basic-structure" tabindex="-1">Basic structure</h2>
+<p>All gov.cy services must follow the basic structure.</p>
 <h3 id="how-it-works" tabindex="-1">How it works</h3>
-<p>The basic structure of a service should:</p>
+<p>A service should:</p>
 <ol>
 <li>Start with an informative start page</li>
 <li>If needed, ask the users to sign-in</li>
-<li>Gather information from the users, one question at a time</li>
+<li>Gather information from the users</li>
 <li>Let the users check their answers before submitting</li>
 <li>Show the users a confirmation of successful completion page.</li>
 </ol>
+<p>You may structure the “Gather information” step differently, in order to handle the complexity and specific needs of each service.</p>
 <p><img src="../../img/example_flow_of_a_standard_service.png" alt="An example flow of a standard service" style="aspect-ratio: auto;"></p>
 <h3 id="start-page" tabindex="-1">Start page</h3>
 <p>Before starting the service, users should be presented with a page describing all the information they will need from the start, such as:</p>
@@ -256,6 +273,8 @@
 <p><img src="../../img/illustration_start_page.png" alt="Illustration of a start page" style="aspect-ratio: auto;"></p>
 <p>Keep in mind that research has shown that users avoid reading long text, so keep your information minimal, and to the point and avoid using legal jargon.</p>
 <p>This page usually resides on the GOV.CY portal.</p>
+<h3 id="sign-in" tabindex="-1">Sign in</h3>
+<p>If the service requires users to sign in, choose to use the <a href="https://dsf.dmrid.gov.cy/2022/06/08/ariadni-cy-login-specifications/" rel="noreferrer noopener" target="_blank">Ariadni CY-Login</a> whenever possible to do so.</p>
 <h3 id="one-thing-at-a-time" tabindex="-1">One thing at a time</h3>
 <p>Prefer to split the <a href="../question_pages">questions</a> across multiple pages with each page containing just one thing, for example:</p>
 <ul>
@@ -300,7 +319,28 @@
 <li>they receive a notification either by SMS or by email</li>
 <li>they can print or save the confirmation.</li>
 </ul>
-<h2 id="break-the-service-into-tasks-and-sections-structure" tabindex="-1">Break the service into tasks and sections structure</h2>
+<hr class="govcy-line">
+<h2 id="variant-1---linear-structure" tabindex="-1">Variant 1 - Linear structure</h2>
+<p>This structure is designed to provide a linear flow for simple services, guiding users step-by-step from start to completion.</p>
+<h3 id="when-to-use-this-structure" tabindex="-1">When to use this structure</h3>
+<p>Use this structure when:</p>
+<ul>
+<li>The service can be simplified to a linear flow.</li>
+<li>The questions or information required from the user are straightforward and can be collected in a sequence.</li>
+<li>The service can be completed in a short amount of time.</li>
+</ul>
+<h3 id="how-it-works-1" tabindex="-1">How it works</h3>
+<p>The linear structure of a service should:</p>
+<ol>
+<li>Start with an informative start page</li>
+<li>If needed, ask the users to sign-in</li>
+<li>Gather information from the users, one question at a time</li>
+<li>Let the users check their answers before submitting</li>
+<li>Show the users a confirmation of successful completion page.</li>
+</ol>
+<p><img src="../../img/v3_illustration_linear_structure.png" alt="An example flow of a linear service" style="aspect-ratio: auto;"></p>
+<hr class="govcy-line">
+<h2 id="variant-2---break-the-service-into-sections" tabindex="-1">Variant 2 - Break the service into sections</h2>
 <p>There may be cases where you need to implement complicated services, involving multiple tasks that users may need to complete over a number of sessions. In such cases you may consider gathering information from the users, by breaking the service into tasks.</p>
 <h3 id="when-to-use-this-structure-1" tabindex="-1">When to use this structure</h3>
 <p>Use this structure when:</p>
@@ -309,8 +349,8 @@
 <li>Users need to manage and understand the progress of various sections and tasks.</li>
 <li>It is predicted that users may need to revisit the service more than once to complete it.</li>
 </ul>
-<h3 id="how-it-works-1" tabindex="-1">How it works</h3>
-<p>Breaking the service into tasks is similar to the basic structure. This can be done by using the same structure and principles as the <a href="#basic-structure">basic service structure</a> and replacing the “Gather information” step with the following :</p>
+<h3 id="how-it-works-2" tabindex="-1">How it works</h3>
+<p>Breaking the service into sections, uses the same structure and principles as the <a href="#basic-structure">basic service structure</a>. You only need to replace the “Gather information” step with the following:</p>
 <ol>
 <li>Let the users decide on which task or section to work on using a ==task list page==</li>
 <li>Gather information from the users, one section at a time</li>
@@ -367,7 +407,7 @@
 <p>Within each section, follow the <a href="#one-thing-at-a-time">one thing at a time</a> principle and allow the users to answer questions one page at a time. This will also enable your service to apply conditional logic if needed.</p>
 <p>If the section consists with more than one question, present the user with a <a href="../../components/summary_list/">summary list</a> before returning to the task list page.</p>
 <p><img src="../../img/v3_illustration_secction_summary_list.png" alt="Illustration of a section with a summary list" style="aspect-ratio: auto;"></p>
-<p>If the service allows users to enter multiple answers of the same time, you may implement <a href="../multiple_things/">the multiple things pattern</a> for a section.</p>
+<p>If the service allows users to enter multiple answers of the same type, you may implement <a href="../multiple_things/">the multiple things pattern</a> for a section.</p>
 <p>After completing all the questions of the section, return the user to the task list page.</p>
 <h4 id="section-statuses" tabindex="-1">Section statuses</h4>
 <p>When a user first enters a service, a section may have either a ‘Not started’ or a ‘Cannot start yet’ status.</p>
@@ -445,8 +485,9 @@ Note that a user may return to a section at any time and change an answer. In su
 <h3 id="confirmation-page-change-links" tabindex="-1">Confirmation page change links</h3>
 <p>The ‘Change’ links on the confirmation page, should lead to the either the beginning of the related section, or it’s summary list page, depending on the implementation of each service.</p>
 <p>Make sure to test your approach with the users.</p>
-<h2 id="asynchronous-basic-structure" tabindex="-1">Asynchronous basic structure</h2>
-<p>The asynchronous basic structure uses the same structure and principles as the <a href="#basic-structure">basic service structure</a>, but also takes advantage of the ==task list page== described in the <a href="#break-the-service-into-tasks-and-sections-structure">break the service into tasks and sections structure</a> to let users decide on which question to work on.</p>
+<hr class="govcy-line">
+<h2 id="variant-3---asynchronous-basic-structure" tabindex="-1">Variant 3 - Asynchronous basic structure</h2>
+<p>The asynchronous basic structure uses the same structure and principles as the <a href="#basic-structure">basic service structure</a>, but also takes advantage of the ==task list page== described in the <a href="#variant-2---break-the-service-into-sections">break the service into sections variant</a> to let users decide on which question to work on.</p>
 <h3 id="when-to-use-this-structure-2" tabindex="-1">When to use this structure</h3>
 <p>Use this structure when:</p>
 <ul>
@@ -454,7 +495,7 @@ Note that a user may return to a section at any time and change an answer. In su
 <li>The flexibility to answer questions in any order will help the users to complete the service.</li>
 <li>It is predicted that users may need to revisit the service more than once to complete it.</li>
 </ul>
-<h3 id="how-it-works-2" tabindex="-1">How it works</h3>
+<h3 id="how-it-works-3" tabindex="-1">How it works</h3>
 <p>In this structure, the service should:</p>
 <ol>
 <li>Start with an informative start page</li>
@@ -465,7 +506,8 @@ Note that a user may return to a section at any time and change an answer. In su
 <li>Show the users a confirmation of successful completion page.</li>
 </ol>
 <p><img src="../../img/v3_illustration_async_structure.png" alt="An example flow of a asynchronous service" style="aspect-ratio: auto;"></p>
-<p>Let users answer different questions in an asynchronous manner. Also consider saving the users’ responses and progress, and then to continue where they left off when they return.</p>
+<p>Let users answer different questions in an asynchronous manner through the ==task list page==. Also consider saving the users’ responses and progress, and then to continue where they left off when they return.</p>
+<p>User research will show you what to do when users click on the <code>Continue</code> button of each question. You may allow users to continue answering questions in a linear manner, or return to the task list page to allow users to continue using the service in an asynchronously.</p>
 <p>Remember to follow the <a href="#one-thing-at-a-time">one thing at a time</a> principle and allow the users to answer questions one page at a time. This will also enable your service to apply conditional logic if needed.</p>
 <p>After gathering information from the users you should still:</p>
 <ul>

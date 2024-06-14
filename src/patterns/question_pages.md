@@ -14,6 +14,8 @@ Follow this pattern whenever you need to ask users questions within your service
 You should make sure you know why you’re asking every question and only ask users for information you really need.
 
 ## How it works
+Before you start, review the design system’s [principles](../../getting-started/principles/) to design user-focused questions.
+
 Question pages must include a:
 
 - [back link](../../components/back_link/)

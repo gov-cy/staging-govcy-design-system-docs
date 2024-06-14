@@ -8,29 +8,34 @@ This pattern explains how to structure an online service.
 
 Before you start, review the design system’s [principles](../../getting-started/principles/) to design user-focused services. 
 
-When designing a service, it's important to choose the structure that best fits the user's needs and the complexity of the tasks involved. Always try to simplify and reduce the number of questions to make the process as straightforward as possible. 
+Through your design you will need to make sure:
+- users will be able to complete the service from start to finish
+- the amount of steps and information needed by the users is reduced to the minimum
+- there are no dead ends
+- complex internal structures of the government organization are hidden from the users
+- decisions by the service, such as approval or rejection, are made clear tp the users
+- the service is consistent with other gov.cy services and works in a familiar way
+- everyone can use and understand the service
+- users and their information are treated with care and respect
 
-Depending on the service, you may apply the [basic](#basic-structure), the [break the service into sections](#break-the-service-into-tasks-and-sections-structure), or the [asynchronous basic structure](#asynchronous-basic-structure).
+Design services that focus on achieving users' goals and work independently and in isolation from other services. Do not design them as part of bulky systems that required extensive user training, and instead create clear, easy-to-use services that allow users to complete specific tasks without needing to navigate through or depend on other services.
+
+All gov.cy services must follow the [basic structure](#basic-structure). In this document we also describe variations of the basic structure, in which the "Gather information" step is handled differently depending on the need. 
 
 ## Basic structure
-This structure is designed to provide a linear flow for simple services, guiding users step-by-step from start to completion.
-
-### When to use this structure
-Use this structure when:
-
-- The service can be simplified to a linear flow.
-- The questions or information required from the user are straightforward and can be collected in a sequence.
-- The service can be completed in a short amount of time.
+All gov.cy services must follow the basic structure.
 
 ### How it works
 
-The basic structure of a service should:
+A service should:
 
 1. Start with an informative start page
 2. If needed, ask the users to sign-in
-3. Gather information from the users, one question at a time
+3. Gather information from the users
 4. Let the users check their answers before submitting
 5. Show the users a confirmation of successful completion page.
+
+You may structure the “Gather information” step differently, in order to handle the complexity and specific needs of each service.
 
 ![An example flow of a standard service](../../img/example_flow_of_a_standard_service.png){style="aspect-ratio: auto;"}
 
@@ -47,6 +52,10 @@ Before starting the service, users should be presented with a page describing al
 Keep in mind that research has shown that users avoid reading long text, so keep your information minimal, and to the point and avoid using legal jargon.
 
 This page usually resides on the GOV.CY portal. 
+
+### Sign in
+
+If the service requires users to sign in, choose to use the [Ariadni CY-Login](https://dsf.dmrid.gov.cy/2022/06/08/ariadni-cy-login-specifications/){rel="noreferrer noopener" target="_blank"} whenever possible to do so.
 
 ### One thing at a time
 
@@ -94,7 +103,33 @@ Research has shown that users feel more at ease when:
 - they receive a notification either by SMS or by email
 - they can print or save the confirmation.
 
-## Break the service into tasks and sections structure
+<hr class="govcy-line">
+
+## Variant 1 - Linear structure
+This structure is designed to provide a linear flow for simple services, guiding users step-by-step from start to completion.
+
+### When to use this structure
+Use this structure when:
+
+- The service can be simplified to a linear flow.
+- The questions or information required from the user are straightforward and can be collected in a sequence.
+- The service can be completed in a short amount of time.
+
+### How it works
+
+The linear structure of a service should:
+
+1. Start with an informative start page
+2. If needed, ask the users to sign-in
+3. Gather information from the users, one question at a time
+4. Let the users check their answers before submitting
+5. Show the users a confirmation of successful completion page.
+
+![An example flow of a linear service](../../img/v3_illustration_linear_structure.png){style="aspect-ratio: auto;"}
+
+<hr class="govcy-line">
+
+## Variant 2 - Break the service into sections
 There may be cases where you need to implement complicated services, involving multiple tasks that users may need to complete over a number of sessions. In such cases you may consider gathering information from the users, by breaking the service into tasks. 
 
 ### When to use this structure 
@@ -104,7 +139,7 @@ Use this structure when:
 - It is predicted that users may need to revisit the service more than once to complete it.
 
 ### How it works
-Breaking the service into tasks is similar to the basic structure. This can be done by using the same structure and principles as the [basic service structure](#basic-structure) and replacing the "Gather information" step with the following :
+Breaking the service into sections, uses the same structure and principles as the [basic service structure](#basic-structure). You only need to replace the "Gather information" step with the following:  
 
 1. Let the users decide on which task or section to work on using a ==task list page==
 2. Gather information from the users, one section at a time 
@@ -202,7 +237,7 @@ If the section consists with more than one question, present the user with a [su
 
 ![Illustration of a section with a summary list](../../img/v3_illustration_secction_summary_list.png){style="aspect-ratio: auto;"}
 
-If the service allows users to enter multiple answers of the same time, you may implement [the multiple things pattern](../multiple_things/) for a section.
+If the service allows users to enter multiple answers of the same type, you may implement [the multiple things pattern](../multiple_things/) for a section.
 
 After completing all the questions of the section, return the user to the task list page. 
 
@@ -326,8 +361,10 @@ The 'Change' links on the confirmation page, should lead to the either the begin
 
 Make sure to test your approach with the users.
 
-## Asynchronous basic structure
-The asynchronous basic structure uses the same structure and principles as the [basic service structure](#basic-structure), but also takes advantage of the ==task list page== described in the [break the service into tasks and sections structure](#break-the-service-into-tasks-and-sections-structure) to let users decide on which question to work on. 
+<hr class="govcy-line">
+
+## Variant 3 - Asynchronous basic structure
+The asynchronous basic structure uses the same structure and principles as the [basic service structure](#basic-structure), but also takes advantage of the ==task list page== described in the [break the service into sections variant](#variant-2---break-the-service-into-sections) to let users decide on which question to work on. 
 
 ### When to use this structure 
 Use this structure when:
@@ -349,7 +386,9 @@ In this structure, the service should:
 
 ![An example flow of a asynchronous service](../../img/v3_illustration_async_structure.png){style="aspect-ratio: auto;"}
 
-Let users answer different questions in an asynchronous manner. Also consider saving the users' responses and progress, and then to continue where they left off when they return.
+Let users answer different questions in an asynchronous manner through the ==task list page==. Also consider saving the users' responses and progress, and then to continue where they left off when they return. 
+
+User research will show you what to do when users click on the `Continue` button of each question. You may allow users to continue answering questions in a linear manner, or return to the task list page to allow users to continue using the service in an asynchronously.
 
 Remember to follow the [one thing at a time](#one-thing-at-a-time) principle and allow the users to answer questions one page at a time. This will also enable your service to apply conditional logic if needed. 
 
