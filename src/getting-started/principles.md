@@ -15,7 +15,7 @@ Allow users to complete their goals in the smallest number of steps possible wit
 ## 4. Simple
 Build products that are intuitive and easy to understand for users.
 ## 5. Clarity
-Design products that are clean and uncluttered, presenting information and interactive elements in a way that focuses users on the task at hand. Avoid unnecessary complexity and distractions to maintain a clear and straightforward user experience.
+Design products that are clean and uncluttered, presenting only information and interactive elements that helps users focus on the task at hand. Avoid unnecessary complexity and distractions to maintain a clear and straightforward user experience.
 ## 6. Consistent
 Ensure websites and services look and feel the same to users, regardless of the different government departments and backend systems involved. Use design styles, components and patterns consistently to meet user expectations.
 ## 7. Don’t reinvent the wheel

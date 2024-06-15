@@ -285,7 +285,7 @@ The template has also been tested manually with a variaty of email clients and d
 
 ## NPM package
 
-We realize that it is diffuclt to be consistent when all you have is an HTML example, so we have a created the [dsf-email-templates NPM package](https://www.npmjs.com/package/@gov-cy/dsf-email-templates){rel="noreferrer noopener" target="_blank"} to create HTML emails. You can find instructions on how to use it in the package's readme file.
+We realize that it is diffuclt to be consistent when all you have is an HTML example, so we have created the [dsf-email-templates NPM package](https://www.npmjs.com/package/@gov-cy/dsf-email-templates){rel="noreferrer noopener" target="_blank"} to create HTML emails. You can find instructions on how to use it in the package's readme file.
 
 Note that the package has been created for internal use by the DSF team, but we have made it as reusable as possible for any implementation team. However, we cannot guarantee it will work flawlessly in all cases, so please test extensively if you plan to include the package as a production dependency.
 

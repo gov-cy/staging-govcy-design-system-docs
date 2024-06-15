@@ -6,7 +6,6 @@ date: 2022-02-01 00:00:04Z
 ## Starter Template
 Use the following HTML template for your gov.cy pages.
 
-==Change accordingly==
 ```html
 <!doctype html>
 <html lang="el">
@@ -19,27 +18,27 @@ Use the following HTML template for your gov.cy pages.
     <meta property="og:title" content="Page title - Service title - gov.cy">
     <meta property="og:url" content="https://SERVICE_URL">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://URL_OF_CY_LOGO.png">
+    <meta property="og:image" content="/img/icons-512.png">
     <meta property="og:site_name" content="gov.cy">
  
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://SERVICE_URL">
     <meta property="twitter:title" content="Page title - Service title - gov.cy">
     <meta property="twitter:description" content="Description of what the service does">
-    <meta property="twitter:image" content="https://URL_OF_CY_LOGO.png">
+    <meta property="twitter:image" content="/img/icons-512.png">
  
     <!-- Theme --> 
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#31576F">
-    <link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48x48.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/img/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
  
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-57x57-precomposed.png">
  
     <!-- CSS -->
     {{ site.cssCDN }}
@@ -144,14 +143,14 @@ Use the following meta tags inside the `<head>` tag.
 <meta property="og:title" content="Page title - Service title - gov.cy">
 <meta property="og:url" content="https://SERVICE_URL">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://URL_OF_CY_LOGO.png">
+<meta property="og:image" content="/img/icons-512.png">
 <meta property="og:site_name" content="gov.cy">
  
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://SERVICE_URL">
 <meta property="twitter:title" content="Page title - Service title - gov.cy">
 <meta property="twitter:description" content="Description of what the service does">
-<meta property="twitter:image" content="https://URL_OF_CY_LOGO.png">
+<meta property="twitter:image" content="/img/icons-512.png">
 ```
   
 Change the content of the above tags as follows:
@@ -159,7 +158,7 @@ Change the content of the above tags as follows:
 - `og:title`, `twitter:title`: Use the same naming convention as explained above for the `<title>`
 - `og:description`, `twitter:description`: Description of what the service does. In most cases should be the same as with `<meta name="description" content="...">`
 - `og:url`, `twitter:url`: The URL of the stating page of the service
-- `og:image`, `twitter:image`: The URL of the icon. The icon should be 512 x 512 px. Use the `icons-512.png` image from our developer assets.
+- `og:image`, `twitter:image`: The URL of the icon. The icon should be 512 x 512 px. Use the `icons-512.png` [image from our developer assets](../developer-assets/#images).
 - `og:type`: Should be `website`
 - `og:site_name`: Should be `gov.cy`
 - `twitter:card`: Should be `summary_large_image`
@@ -169,14 +168,14 @@ Use the following tags inside the `<head>` tag.
 ```html
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#31576F">
-<link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48x48.png">
-<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57x57-precomposed.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/img/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/apple-touch-icon-120x120-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-57x57-precomposed.png">
 ```
 The code above implies the existence of a `manifest.json` file. Use the following template for the manifest file.
 ```json
@@ -227,17 +226,15 @@ All pages must use the following structure inside the `<body>` tag.
 
 | Section Name | HTML Tag                                                                           | Description                                                                                                                                                                      |
 | ------------ | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Body start**   | `<section class="govcy-container-fluid" id="bodyStartContainer"> </section>`       | To be used to render the content before the `<header>` such as ==skip link== and ==cookie consent== (Skip link must always be first). Width must be fluid, same as the viewport. |
-| **Header**       | `<header class="govcy-header  govcy-d-print-none" id="headerContainer"> </header>` | To be used as the page ==header==. Width must be fluid, same as the viewport. Use the `govcy-d-print-none` class to hide the header on print.                                    |
-| **Before main**  | `<section class="govcy-container" id="beforeMainContainer"> </section>`            | To be used to render the content before the `<main>` (i.e. ==back link==, ==breadcrumbs== and ==phase banner== only ) . This section must comply with the [max-width](#max-width) reference above and be placed in the center of the viewport with `text-align` set to `start`. |
-| **Main**         | `<main class="govcy-container" id="mainContainer"> </main>`                        | To be used to render the service/website content (i.e. ==question page==). This section can have one of the layouts described in the ==layout section==. This section must comply with the [max-width](#max-width) reference above and be placed in the center of the viewport with `text-align` set to `start`. |
-| **Footer**       | `<footer class="govcy-footer  govcy-d-print-none" id="footerContainer"> </footer>` | To be used as the page ==footer==. Use the `govcy-d-print-none` class to hide the footer on print.                                                                               |
+| **Body start**   | `<section class="govcy-container-fluid" id="bodyStartContainer"> </section>`       | To be used to render the content before the `<header>` such as [skip link](#skip-to-main-content) and [cookie consent](../../components/cookie_banner/) (Skip link must always be first). Width must be fluid, same as the viewport. |
+| **Header**       | `<header class="govcy-header  govcy-d-print-none" id="headerContainer"> </header>` | To be used as the [page header](../../components/header/). Width must be fluid, same as the viewport. Use the `govcy-d-print-none` class to hide the header on print.                                    |
+| **Before main**  | `<section class="govcy-container" id="beforeMainContainer"> </section>`            | To be used to render the content before the `<main>` (i.e. [back link](../../components/back_link/), [breadcrumbs](../../components/breadcrumbs/) and [phase banner](../../components/phase_banner/) only ) . This section must comply with the [max-width](#max-width) reference above and be placed in the center of the viewport with `text-align` set to `start`. |
+| **Main**         | `<main class="govcy-container" id="mainContainer"> </main>`                        | To be used to render the service/website content (i.e. [question page](../../patterns/question_pages/). This section can have one of the layouts described in the [layouts](../../styles/layout/) page. This section must comply with the [max-width](#max-width) reference above and be placed in the center of the viewport with `text-align` set to `start`. |
+| **Footer**       | `<footer class="govcy-footer  govcy-d-print-none" id="footerContainer"> </footer>` | To be used as the page [footer](../../components/footer/). Use the `govcy-d-print-none` class to hide the footer on print.                                                                               |
 | **Body end**     | `<section class="govcy-container-fluid" id="bodyEndContainer"> </section>`         | To be used to render the content after the `<footer>`. Width must be fluid, same as the viewport.                                                                                |
 
 {.govcy-table}
 </div>
-
-For more information about the `<main>` section content, see the ==Layouts== page.
 
 ![Visual example marking the different sections of a gov.cy page](../../img/v3_sections_of_page.png){style="aspect-ratio: auto;"}
 ### Element Placement Order
@@ -253,7 +250,7 @@ Depending on the website or service, you might need to implement more than one d
     2. [Phase banner](../../components/phase_banner/) component
 4. **Main section** 
     1. [Error summary](../../components/error_summary/) component, in the case of errors.
-    2. [Header 1 `<h1>`](../../styles/typography/#headings). If your using an input component and you are asking just one question on a page, follow the instructions for ==single question page labels and legends== and adjust the header accordingly. 
+    2. [Header 1 `<h1>`](../../styles/typography/#headings). If your using an input component and you are asking just one question on a page, follow the instructions for [single question page labels and legends](../../patterns/labels_and_legend_headings/#single-question-page) and adjust the header accordingly. 
     3. Other [components](../../components/), [patterns](../../patterns/) or [typography](../../styles/typography/)
 5. **Footer section**
     1. [Footer](../../components/footer/) component
@@ -267,7 +264,7 @@ See below an sample page with most design elements present in the correct order.
 <iframe src="../../samples/template-order-of-things-all/" width="100%" frameborder="0" scrolling="no" class="govcy-br-1 govcy-br-standard govcy-mb-4" onload="resizeIframe(this)"></iframe>
 
 ### Skip to main content
-Always include the skip link right after the opening `<body>` in the ==Body start section (bodyStartContainer)==.
+Always include the skip link right after the opening `<body>` in the "Body start" section (bodyStartContainer).
 
 ```html
 <a href="#mainContainer" class="govcy-skip-link">Skip to main content</a>
@@ -280,6 +277,14 @@ The skip link component is visually hidden until a keyboard press activates it. 
 Use the following content:
 - In English: `Skip to main content`
 - In Greek: `Μεταφορά στο κεντρικό περιεχόμενο`
+
+### Main section
+The main section is where the content of each page is placed. If you are building a service, this is where you will place your components and patterns.
+
+Remember that services should work independently and in isolation from other services, and that the `main` section should help users focus on their goal. Include only elements that are necessary for the user to complete the task at hand. 
+
+For more information about the `<main>` section content, see the [layouts](../../styles/layout/) page.
+
 ## Sample pages
 Here are some sample pages using the gov.cy page template. 
 

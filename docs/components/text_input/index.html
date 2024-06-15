@@ -197,7 +197,7 @@
                 <h2 id="when-to-use-this-component" tabindex="-1">When to use this component</h2>
 <p>Use the text input component when you need to let users enter text that’s no longer than a single line, such as their name or phone number.</p>
 <h2 id="when-not-to-use-this-component" tabindex="-1">When not to use this component</h2>
-<p>Do not use the text input component if you need to let users enter longer answers that might span multiple lines. In this case, you should use a ==text area== instead.</p>
+<p>Do not use the text input component if you need to let users enter longer answers that might span multiple lines. In this case, you should use a <a href="../../components/textarea/">text area</a> instead.</p>
 <h2 id="how-it-works" tabindex="-1">How it works</h2>
 <p>The component should only exist in the <a href="../../getting-started/page-template/#sections">main section</a>.</p>
 <p>All text inputs must have visible labels and the text input.</p>
@@ -210,7 +210,7 @@
 <li>its browser default styles often do not meet <a href="https://www.w3.org/TR/WCAG22/#contrast-minimum" rel="noreferrer noopener" target="_blank">minimum contrast requirements</a></li>
 </ul>
 <h3 id="single-question-page" tabindex="-1">Single question page</h3>
-<p>If you are asking just one question on a page, follow the instructions for ==single question page labels and legends== and adjust the header and label accordingly.</p>
+<p>If you are asking just one question on a page, follow the instructions for <a href="../../patterns/labels_and_legend_headings/#single-question-page">single question page labels and legends</a> and adjust the header and label accordingly.</p>
 <p><em>Example</em></p>
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-form">
@@ -238,19 +238,19 @@
 <h3 id="text-input-patterns" tabindex="-1">Text input patterns</h3>
 <p>The design system has patterns with text input variations for specific purposes. Use these patterns when asking users for:</p>
 <ul>
-<li>==Addresses==</li>
-<li>==Bank details==</li>
-<li>==Currency amounts==</li>
-<li>==Date input==</li>
-<li>==Date picker==</li>
-<li>==Email address==</li>
-<li>==Names==</li>
-<li>==Numeric inputs==</li>
-<li>==Social Insurance Numbers==</li>
-<li>==Telephone==</li>
+<li><a href="../../patterns/addresses/">Addresses</a></li>
+<li><a href="../../patterns/bank_details/">Bank details</a></li>
+<li><a href="../../patterns/currency-amount/">Currency amounts</a></li>
+<li><a href="../date_input/">Date input</a></li>
+<li><a href="../date_picker">Date picker</a></li>
+<li><a href="../../patterns/email/">Email address</a></li>
+<li><a href="../../patterns/names/">Names</a></li>
+<li><a href="../../patterns/numeric_inputs/">Numeric inputs</a></li>
+<li><a href="../../patterns/social_insurance_number/">Social Insurance Numbers</a></li>
+<li><a href="../../patterns/telephone/">Telephone</a></li>
 </ul>
 <h3 id="hint-text" tabindex="-1">Hint text</h3>
-<p>Use ==hint text== for help that’s relevant to the majority of users, like how their information will be used, or where to find it.</p>
+<p>Use hint text for help that’s relevant to the majority of users, like how their information will be used, or where to find it.</p>
 <p><em>Example</em></p>
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-form">
@@ -333,7 +333,7 @@
 <p>Using the <code>maxlength</code> attribute means there is no feedback to users that their text input is truncated. This is especially true where the text has been copied and pasted from elsewhere. This can cause users to accidentally provide incorrect or incomplete information.</p>
 <p>A restrictive maximum length can stop users from formatting information in their usual way. For example, putting spaces in a postcode or commas in a large number.</p>
 <p>Some assistive technologies do not tell users if an input has a <code>maxlength</code> set or if the user has passed the limit. Voice control software may insert additional spaces into the input.</p>
-<p>If you must enforce a maximum length for technical reasons, you may inform the user of the limit in the hint, but allow them to provide more information than the limit. Only return an error if the value is longer than allowed after normalisation. For longer values, consider using the ==character count component instead==.</p>
+<p>If you must enforce a maximum length for technical reasons, you may inform the user of the limit in the hint, but allow them to provide more information than the limit. Only return an error if the value is longer than allowed after normalisation. For longer values, consider using the <a href="../character_count/">character count component</a> instead.</p>
 <h3 id="spellcheck-a-user%E2%80%99s-input" tabindex="-1">Spellcheck a user’s input</h3>
 <p>Sometimes, browsers will spellcheck the information a user puts into a text input. If a user enters something which is recognised as a spelling error, sighted users will see a red line under the word.</p>
 <p>If you are asking users for information which is not appropriate to spellcheck, like a reference number, name, email address or National Insurance number, disable the spellcheck.</p>

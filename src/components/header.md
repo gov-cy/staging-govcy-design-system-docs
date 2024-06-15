@@ -218,7 +218,7 @@ If the service name is too long, then the section breaks.
         <nav class="govcy-mainmenu" aria-label="Main Menu">
             <div class="govcy-container">
                 <ul class="govcy-menu-items govcy-header-language-area govcy-mobile-menu-only">
-                    <li><a href="#" class="govcy-menu-item active" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
+                    <li><a href="#" class="govcy-menu-item" aria-label="Ελληνική γλώσσα" lang="el">EN</a></li>
                     <li><a href="#" aria-current="true" class="govcy-menu-item active" aria-label="English language" lang="en">EL</a></li>
                     <li><a href="#" class="govcy-menu-item" aria-label="Türkçe" lang="tr">TR</a></li>
                 </ul>

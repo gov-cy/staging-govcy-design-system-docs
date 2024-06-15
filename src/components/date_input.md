@@ -26,7 +26,7 @@ Make sure that any example dates you use in ==hint text== are valid for the qu
 Never automatically tab users between the fields of the date input because this can be confusing and may clash with normal keyboard controls.
 
 ### Single question page
-If you are asking just one question on a page, follow the instructions for ==single question page labels and legends== and adjust the header and label accordingly. 
+If you are asking just one question on a page, follow the instructions for [single question page labels and legends](../../patterns/labels_and_legend_headings/#single-question-page) and adjust the header and label accordingly. 
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

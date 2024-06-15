@@ -10,7 +10,6 @@ Our team uses the following libraries for rapid design, development, prototyping
 The Figma library has been created to rapidly create designs and prototypes the gov.cy way. 
 
 Get the latest [Figma library](https://www.figma.com/community/file/1188065288540425761){rel="noreferrer noopener" target="_blank"} and use the design elements to built your designs and prototypes.  
-To get stated, take a look at out [using Figma library post](https://dsf.dmrid.gov.cy/2023/08/24/how-to-use-the-figma-community-library-file-to-design-digital-services/){rel="noreferrer noopener" target="_blank"} post. 
 
 ### Excalidraw library
 The [Excalidraw library]({{site.exalidraw.homeUrl}}){rel="noreferrer noopener" target="_blank"} has been created to create rapid wireframes and sketches.
@@ -19,17 +18,15 @@ You can add to [excalidraw]({{site.exalidraw.addUrl}}){rel="noreferrer noopener"
 
 ## Testing libraries
 
-### govcy-frontend-tester npm package
-Our team uses the following package to perform front end tests in terms of the accessibility and generic guidelines of the design system.
-
-Get the latest [govcy-frontend-tester package](https://www.npmjs.com/package/@gov-cy/govcy-frontend-tester){rel="noreferrer noopener" target="_blank"} to perform front end tests. 
+### govcy-frontend-tester NPM package
+Our team uses the  [govcy-frontend-tester package](https://www.npmjs.com/package/@gov-cy/govcy-frontend-tester){rel="noreferrer noopener" target="_blank"} to perform front end tests in terms of the accessibility and generic guidelines of the design system.
 
 More details and instructions how to use it, are included in the package's readme file. 
 
 ## Other libraries
 
-### dsf-email-templates npm package
+### dsf-email-templates NPM package
 
-Our team uses the following package to create HTML emails templates.
+Our team uses the [dsf-email-templates package](https://www.npmjs.com/package/@gov-cy/dsf-email-templates){rel="noreferrer noopener" target="_blank"} to create HTML emails templates.
 
-Get the latest [dsf-email-templates package](https://www.npmjs.com/package/@gov-cy/dsf-email-templates){rel="noreferrer noopener" target="_blank"} to create HTML emails templates.
+You can read more on our [guide on HTML emails](../../guides/create_an_html_email/). More details and instructions how to use the NPM package, are included in the package's readme file. 

@@ -74,7 +74,7 @@ Prefer not to pre-select checkbox options as this makes it more likely that user
 Group radios together in a `<fieldset>` with a `<legend>` that describes them, as shown in the examples on this page. This is usually a question, like ‘What is your nationality?’.
 
 ### Single question page
-If you are asking just one question on a page, follow the instructions for ==single question page labels and legends== and adjust the header and label accordingly. 
+If you are asking just one question on a page, follow the instructions for [single question page labels and legends](../../patterns/labels_and_legend_headings/#single-question-page) and adjust the header and label accordingly. 
 
 Example of how the component looks like when asking one question on the page:
 

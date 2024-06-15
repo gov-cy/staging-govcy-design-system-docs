@@ -7,7 +7,7 @@ description: "Use the text input component when you need to let users enter text
 Use the text input component when you need to let users enter text that’s no longer than a single line, such as their name or phone number.
 
 ## When not to use this component
-Do not use the text input component if you need to let users enter longer answers that might span multiple lines. In this case, you should use a ==text area== instead.
+Do not use the text input component if you need to let users enter longer answers that might span multiple lines. In this case, you should use a [text area](../../components/textarea/) instead.
 
 ## How it works
 The component should only exist in the [main section](../../getting-started/page-template/#sections). 
@@ -24,7 +24,7 @@ Do not use placeholder text in place of a label, or for hints or examples, as:
 - its browser default styles often do not meet [minimum contrast requirements](https://www.w3.org/TR/WCAG22/#contrast-minimum){rel="noreferrer noopener" target="_blank"}
 
 ### Single question page
-If you are asking just one question on a page, follow the instructions for ==single question page labels and legends== and adjust the header and label accordingly. 
+If you are asking just one question on a page, follow the instructions for [single question page labels and legends](../../patterns/labels_and_legend_headings/#single-question-page) and adjust the header and label accordingly. 
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
@@ -70,19 +70,19 @@ If you’re asking more than one question on the page, do not set the contents o
 ### Text input patterns 
 The design system has patterns with text input variations for specific purposes. Use these patterns when asking users for:  
 
--  ==Addresses==
--  ==Bank details== 
--  ==Currency amounts==
--  ==Date input==
--  ==Date picker==
--  ==Email address==
--  ==Names==
--  ==Numeric inputs==
--  ==Social Insurance Numbers==
--  ==Telephone==
+-  [Addresses](../../patterns/addresses/)
+-  [Bank details](../../patterns/bank_details/) 
+-  [Currency amounts](../../patterns/currency-amount/)
+-  [Date input](../date_input/)
+-  [Date picker](../date_picker)
+-  [Email address](../../patterns/email/)
+-  [Names](../../patterns/names/)
+-  [Numeric inputs](../../patterns/numeric_inputs/)
+-  [Social Insurance Numbers](../../patterns/social_insurance_number/)
+-  [Telephone](../../patterns/telephone/)
 
 ### Hint text
-Use ==hint text== for help that’s relevant to the majority of users, like how their information will be used, or where to find it.
+Use hint text for help that’s relevant to the majority of users, like how their information will be used, or where to find it.
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
@@ -238,7 +238,7 @@ A restrictive maximum length can stop users from formatting information in their
 
 Some assistive technologies do not tell users if an input has a `maxlength` set or if the user has passed the limit. Voice control software may insert additional spaces into the input.
 
-If you must enforce a maximum length for technical reasons, you may inform the user of the limit in the hint, but allow them to provide more information than the limit. Only return an error if the value is longer than allowed after normalisation. For longer values, consider using the ==character count component instead==.
+If you must enforce a maximum length for technical reasons, you may inform the user of the limit in the hint, but allow them to provide more information than the limit. Only return an error if the value is longer than allowed after normalisation. For longer values, consider using the [character count component](../character_count/) instead.
 
 ### Spellcheck a user’s input
 Sometimes, browsers will spellcheck the information a user puts into a text input. If a user enters something which is recognised as a spelling error, sighted users will see a red line under the word.

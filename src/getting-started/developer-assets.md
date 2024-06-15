@@ -3,7 +3,7 @@ title: "Developer assets"
 date: 2022-02-01 00:00:03Z
 --- 
 
-The easiest way to get started is to use the jsdelvr CDN to include the gov.cy developer assets in your code, as explained below. 
+The easiest way to get started is to use the jsdelvr CDN to include the gov.cy developer assets in your code, as shown in the [page template](../page-template/#starter-template) and the examples below. 
 
 Alternatively you can download the [gov.cy starter kit]({{site.distDownload}}), unzip it and include it in your project. 
 
@@ -67,10 +67,10 @@ To add the gov.cy javascript using the downloaded starter kit, use the pre-built
 
 ## Images
 
-You will need to reference images for icons and logos. All images required by the ==page template== and ==manifest.json== are included in the starter kid under the `/img` folder.
+You will need to reference images for icons and logos. All images required by the [page template's `head` section](../page-template/#head) and [manifest.json](../page-template/#theme%2C-app-manifest-and-apple-touch-icon) are included in the starter kid under the `/img` folder.
 
 ## Next step
 
-To implement ==styles==, ==components== and ==patterns== using the developer assets, make sure to use the ==starter template== and the code included in each documentation page through this website.
+To implement [styles](../../styles/), [components](../../components/) and [patterns](../../patterns/) using the developer assets, make sure to use the [starter template](../page-template/#starter-template) and the code included in each documentation page through this website.
 
-To get stated in creating a page, take a look at out ==create a page== guide. 
+To get stated in creating a page, take a look at out [create a page](../../guides/create_a_page/) guide. 

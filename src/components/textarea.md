@@ -23,7 +23,7 @@ Labels must be aligned above the text area they refer to. They should be short, 
 You can use ==hint== text whenever necessary for help that’s relevant to the majority of users.
 
 ### Single question page 
-If you are asking just one question on a page, follow the instructions for ==single question page labels and legends== and adjust the header and label accordingly. 
+If you are asking just one question on a page, follow the instructions for [single question page labels and legends](../../patterns/labels_and_legend_headings/#single-question-page) and adjust the header and label accordingly. 
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
