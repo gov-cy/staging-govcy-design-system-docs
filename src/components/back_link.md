@@ -19,18 +19,18 @@ Although browsers have a back button, some sites break when you use it - so many
 ```
 
 ## When to use this component
-Always include the back link component on ==question pages== and recurring pages. This gives the ability to the users to go back and change their decision.
+Always include the back link component on [questions pages](../../patterns/question_pages/) and recurring pages. This gives the ability to the users to go back and change their decision.
 
-You can include a back link on other pages within a ==multi-page transaction==, if it makes sense to do so.
+You can include a back link on other pages within a multi-page transaction, if it makes sense to do so.
 
 ## When not to use this component
 
-Never use the back link component together with ==breadcrumbs==. If necessary, you should do research with your users to learn which they find more helpful in your service.
+Never use the back link component together with [breadcrumbs](../breadcrumbs/). If necessary, you should do research with your users to learn which they find more helpful in your service.
 
 Do not use the back component when the user has performed an action they should only do once, like make a payment or complete an application. The browser back button should still work, but show the user a sensible message rather than let them perform the action again.
 
 ## How it works
-Always place back links at the top of a page, in the ==Before main== section. Placing them here means that the ‘Skip to main content’ link allows the user to skip all navigation links, including the back link.
+Always place back links at the top of a page, in the [Before main](../../getting-started/page-template/#sections) section. Placing them here means that the ‘Skip to main content’ link allows the user to skip all navigation links, including the back link.
 
 Make sure the link takes users to the previous page they were on, in the state they last saw it. Where possible, ensure it works even when JavaScript is not available.
 

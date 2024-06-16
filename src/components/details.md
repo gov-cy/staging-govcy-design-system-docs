@@ -11,11 +11,11 @@ Use the details component to make a page easier to scan when it contains informa
 Do not use the details component to hide information that the majority of your users will need.
 
 > **Warning**{class="govcy-fw-bolder govcy-fs-4 govcy-d-block"}
-> Details work best for simple content and links. Do not use it to split up or hide a series of ==questions==. Use separate pages instead. See the ==Structuring a service== pattern for more information.
+> Details work best for simple content and links. Do not use it to split up or hide a series of [questions](../../patterns/question_pages/). Use separate pages instead. See the [structuring a service](../../patterns/service_structure/) pattern for more information.
 {class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info"}
 
 ## Decide between using details, accordions and tabs
-Details, ==accordions==, and ==tabs== all hide sections of content which a user can choose to reveal.
+Details, [accordions](../accordion/), and tabs all hide sections of content which a user can choose to reveal.
 
 Use the details component instead of tabs or an accordion if you only have 1 section of content.
 

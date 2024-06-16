@@ -12,7 +12,7 @@ Use the checkboxes component when you need to help users:
 - toggle a single option on or off
 
 ## When not to use this component
-Do not use the checkboxes component if users can only choose one option from a selection. In this case, use the ==radio== component.
+Do not use the checkboxes component if users can only choose one option from a selection. In this case, use the [radio](../radio) component.
 
 ## How it works
 The component should only exist in the [main section](../../getting-started/page-template/#sections). 
@@ -175,7 +175,7 @@ Example of how the component looks like when asking more than one question on th
 </form>
 ```
 ### Checkbox items with hints
-You can add ==hints== to checkbox items to provide additional information about the options. Hints can appear below the `<legend>` or the `<label>`.
+You can add hints to checkbox items to provide additional information about the options. Hints can appear below the `<legend>` or the `<label>`.
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
@@ -280,7 +280,7 @@ Show the ‘none’ option last. Separate it from the other options using a divi
 </form>
 ```
 ### Error messages
-Error messages should follow the guidance in ==error message== and have specific error messages for specific error states.
+Make sure to follow the instructions for [error messages](../error_message) and [error summary](../error_summary) when validating user input. Error messages should be styled like this:
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

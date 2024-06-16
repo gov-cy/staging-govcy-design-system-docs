@@ -63,7 +63,7 @@ The following spacing values must be applied:
 ![Representation of vertical spacing of a component for smaller screens]({{ '/img/v3_vs_components_small.png' | url }}){style="aspect-ratio: auto;"}
 
 ## Header spacing values
-The header spacing concerns the vertical spacing of the ==header section of the page template==. 
+The header spacing concerns the vertical spacing of the [header section of the page template](../../getting-started/page-template/#sections). 
 
 The following spacing values must be applied:
 
@@ -78,7 +78,7 @@ The following spacing values must be applied:
 ### Spacing after the header
 In order to achieve the spacing values for the header, consider which element follows the header. 
 
-Usually the first element after the header is either a ==back link==, a ==breadcrumb== or a `H1` title of the page which already have top margin 0px, and there is no need for special care.
+Usually the first element after the header is either a [back link](../../components/back_link/), a [breadcrumb](../../components/breadcrumbs/) or a `H1` title of the page which already have top margin 0px, and there is no need for special care.
 
 ![Representation of the first element after the header]({{ '/img/v3_vs_header_after.png' | url }}){style="aspect-ratio: auto;"}
 
@@ -92,7 +92,7 @@ However if the first element is not an `H1` title, use the `govcy-pt-0` class ac
 <h2 class="govcy-pt-0">Lorem Ipsum</h2>
 ```
 ## Footer spacing values
-The footer spacing concerns the vertical spacing of the ==footer section of the page template==. 
+The footer spacing concerns the vertical spacing of the [footer section of the page template](../../getting-started/page-template/#sections). 
 
 The following spacing values must be applied:
 
@@ -111,4 +111,4 @@ Unlike the header there is no need for any adjustments to elements on top of the
 Using our [developers assets](../../getting-started/developer-assets) and the code in our documentation,  the vertical spacing is adjusted automatically.  
 
 ### Custom components 
-If you are implementing a custom component that is not included in our documentation, you can use the ==margin utility classes==. To achieve the bottom margin of 24px that all elements have, use the `govcy-mb-6` class. 
+If you are implementing a custom component that is not included in our documentation, you can use the [margin utility classes](../../css_utilities). To achieve the [bottom margin of 24px that all elements have](#elements-spacing-values), use the `govcy-mb-6` class. 

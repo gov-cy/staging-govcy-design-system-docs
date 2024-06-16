@@ -12,19 +12,19 @@ Use this component if your service sets any cookies on a user’s device.
 ## When not to use this component
 You can choose not to have a cookie banner if the service only sets essential or ‘strictly necessary’ cookies, as these do not need user consent.
 
-However, you must tell users that you set essential cookies. You can do this with a ==cookies page== – link to this page in the footer.
+However, you must tell users that you set essential cookies. You can do this with a [cookies page](../../patterns/cookies_pages/) – link to this page in the footer.
 
 ## How it works
 The component should only exist in the [before start section](../../getting-started/page-template/#sections), after the skip to main content link.  
 
-This cookie banner and the ==cookies page pattern== are used together to getting cookie consent used on a site or service.
+This cookie banner and the [cookies page pattern](../../patterns/cookies_pages/) are used together to getting cookie consent used on a site or service.
 
 Include the name of the service in the banner heading to help users understand that the cookies you’re talking about are different from the ones set by the main gov.cy platform, or a different site or service.
 
 Show the cookie banner every time the user accesses your service until they either:
 
 - accept or reject cookies using the buttons in the cookie banner
-- save their cookie preferences on the service’s ==cookies page==
+- save their cookie preferences on the service’s [cookies page](../../patterns/cookies_pages/)
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
@@ -58,7 +58,7 @@ Show the cookie banner every time the user accesses your service until they eith
 </div>
 ```
 
-The link 'Adjust cookies' should lead to the ==cookies page== where the user can adjust the cookies. 
+The link 'Adjust cookies' should lead to the [cookies page](../../patterns/cookies_pages/) where the user can adjust the cookies. 
 
 Once the user has accepted or rejected cookies, the cookie banner should:
 

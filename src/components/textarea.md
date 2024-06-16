@@ -8,10 +8,10 @@ description: "Use the text area component when you need to let users enter an am
 Use the text area component when you need to let users enter an amount of text that’s longer than a single line.
 
 ## When not to use this component
-Users can find open-ended questions difficult to answer. It might be better to break up one complex question into a series of simple ones, for example where users can select from options using ==radios==.
+Users can find open-ended questions difficult to answer. It might be better to break up one complex question into a series of simple ones, for example where users can select from options using [radios](../radio).
 
 ### If you need to ask an open question
-Do not use the text area component if you need to let users enter shorter answers no longer than a single line, such as a phone number or name. In this case, you should use the ==text input== component.
+Do not use the text area component if you need to let users enter shorter answers no longer than a single line, such as a phone number or name. In this case, you should use the [text input](../text_input) component.
 
 ## How it works
 The text area component should only exist in the [main section](../../getting-started/page-template/#sections). 
@@ -20,7 +20,7 @@ You must label text areas. Placeholder text is not a suitable substitute for a l
 
 Labels must be aligned above the text area they refer to. They should be short, direct and written in sentence case. Do not use colons at the end of labels.
 
-You can use ==hint== text whenever necessary for help that’s relevant to the majority of users.
+You can use hint text whenever necessary for help that’s relevant to the majority of users.
 
 ### Single question page 
 If you are asking just one question on a page, follow the instructions for [single question page labels and legends](../../patterns/labels_and_legend_headings/#single-question-page) and adjust the header and label accordingly. 
@@ -67,7 +67,7 @@ If you’re asking more than one question on the page, do not set the contents o
 </form>
 ```
 ### Hint text
-Use ==hint text== for help that’s relevant to the majority of users, like how their information will be used, or where to find it.
+Use hint text for help that’s relevant to the majority of users, like how their information will be used, or where to find it.
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

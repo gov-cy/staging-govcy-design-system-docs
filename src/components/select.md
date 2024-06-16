@@ -89,7 +89,7 @@ If you’re asking more than one question on the page, do not set the contents o
 </form>
 ```
 ### Hint text
-A ==hint== can help users understand the options, but it is not always necessary.  Do not include a hint for straightforward selections.
+A hint can help users understand the options, but it is not always necessary.  Do not include a hint for straightforward selections.
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

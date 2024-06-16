@@ -12,7 +12,7 @@ Use the date input component when you’re asking users for a date they’ll alr
 ## When not to use this component
 Do not use the date input component if users are unlikely to know the exact date of the event you’re asking about.
 
-If you are asking for a date that is in the near future or recent past, for example when scheduling something, you can use the ==date picker== is more appropriate.
+If you are asking for a date that is in the near future or recent past, for example when scheduling something, you can use the [date picker](../date_picker) is more appropriate.
 
 ## How it works
 The component should only exist in the [main section](../../getting-started/page-template/#sections). 
@@ -21,7 +21,7 @@ The date input component consists of three grouped fields that invite users to e
 
 The 3 date fields are grouped together with a `<label>` that describes them, as shown in the examples on this page. This is usually a question, like ‘What is your date of birth?’.
 
-Make sure that any example dates you use in ==hint text== are valid for the question being asked. As a best practice you should allow both single-digit and double-digit values for day and month (for example `01` or `1`).
+Make sure that any example dates you use in hint text are valid for the question being asked. As a best practice you should allow both single-digit and double-digit values for day and month (for example `01` or `1`).
 
 Never automatically tab users between the fields of the date input because this can be confusing and may clash with normal keyboard controls.
 
@@ -291,7 +291,7 @@ Use the following text:
 {.govcy-table}
 
 ### Error messages
-Make sure to follow the instructions for ==error messages== and ==error summary== when validating user input. 
+Make sure to follow the instructions for [error messages](../error_message) and [error summary](../error_summary) when validating user input.
 
 If you’re highlighting the whole date, style all the fields like this:
 

@@ -10,7 +10,7 @@ The panel component is a visible container used on confirmation or results pages
 ## When to use this component
 Use the panel component to display important information when a transaction has been completed. 
 
-In most cases, the panel component is used on ==confirmation pages==, to tell the user they have successfully completed the transaction.
+In most cases, the panel component is used on [confirmation pages](../../patterns/confirmation-pages/), to tell the user they have successfully completed the transaction.
 
 ## When not to use this component
 Never use the panel component to highlight important information within body content.

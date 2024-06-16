@@ -8,12 +8,12 @@ Use the summary list to summarise information, for example, a user’s responses
 ## When to use this component
 Use the summary list component to present pairs of related information, known as key-value pairs, in a list. The key is a description or label of a piece of information, like ‘Name’, and the value is the piece of information itself, like ‘John Smith’.
 
-You can use it to display metadata like ‘Last updated’ with a date like ‘22 June 2018’, or to summarise a user’s responses at the end of a service with the ==check answers== pattern or at the end of a section like in the ==add multiple things== pattern.
+You can use it to display metadata like ‘Last updated’ with a date like ‘22 June 2018’, or to summarise a user’s responses at the end of a service with the [check answers](../../patterns/check_answers/) pattern or at the end of a section like in the [add multiple things](../../patterns/multiple_things/) pattern.
 
 ## When not to use this component
 The summary list uses the description list (`<dl>`) HTML element, so only use it to present information that has a key and at least one value.  
 
-Do not use it for tabular data or a simple list of information or tasks, like a ==task list==. For those use a `<table>`, `<ul>` or `<ol>`.
+Do not use it for tabular data or a simple list of information or tasks, like a [task list](../../patterns/task-list-page/). For those use a `<table>`, `<ul>` or `<ol>`.
 
 ## How it works
 The component should only exist in the [main section](../../getting-started/page-template/#sections). 
@@ -282,7 +282,7 @@ The summary list includes separating borders to help users by joining the inform
 
 Think carefully before you remove row borders. Borders help many users find and read information that’s laid out in rows, especially users who zoom in on pages or use assistive technologies to magnify their screen.
 
-Never remove row borders from the ==check your answers page== summary list. 
+Never remove row borders from the [check your answers page](../../patterns/check_answers/) summary list. 
 
 If your summary list does not have any actions, you can choose to remove the separating borders with the `govcy-summary-list-no-border` class.
 
@@ -692,7 +692,7 @@ For example:
 ### Showing repeated information without a key
 In some contexts, you might need to show values of the same type without showing the key. In such cases, the key is usually mentioned on the `<h1>` of the page, so there is no need to repeat it. 
 
-This can happen when implementing the ==add multiple things== summary page.
+This can happen when implementing the [add multiple things](../../patterns/multiple_things/) summary page.
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

@@ -13,7 +13,7 @@ Unless otherwise stated, use the following font properties for the default body 
 | **font-family** | Roboto |
 | **font-size** | 16px |
 | **font-weight** | normal |
-| **color** | ==body== |
+| **color** | [body](../colour/#text) |
 | **Line height** | 24px |
 | **Letter spacing** | 0px |
 
@@ -385,4 +385,4 @@ If you need to include content in a different language that the defined [lang at
 
 Also make sure:
 - to have a color contrast ration of at least 4.5:1 if your implementing a custom component
-- to implement the ==focus state== on interactive text such as links
+- to implement the [focus state](../../patterns/focus_state/) on interactive text such as links

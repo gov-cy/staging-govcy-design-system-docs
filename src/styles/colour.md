@@ -84,7 +84,7 @@ Colours related to buttons.
 {.govcy-table .govcy-table-responsive-vertical}
 
 ## Focus
-Colours that display the ==focus state== of elements when a user navigates the website or a service using tab.
+Colours that display the [focus state](../../patterns/focus_state/) of elements when a user navigates the website or a service using tab.
 
 | Name | Colour | Hex |  When to use|
 | ---- | ------ | --- | ----------- |

@@ -9,7 +9,7 @@ Use the table component to make information easier to compare and scan for users
 Use the table component to let users compare information in rows and columns.
 
 ## When not to use this component
-Never use the table component to layout content on a page. Instead, use the ==grid system==.
+Never use the table component to layout content on a page. Instead, use the [grid system](../../styles/grid/).
 
 ## How it works
 The component should only exist in the [main section](../../getting-started/page-template/#sections). 

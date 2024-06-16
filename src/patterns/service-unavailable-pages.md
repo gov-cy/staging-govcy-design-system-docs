@@ -26,7 +26,7 @@ The page should have:
 - contact information, if it exists and helps meet a user need
 - a link to another service, if users can use it to do what they came to do
 
-Contact information should either include contact details or a link to a ==contact page==. 
+Contact information should either include contact details or a link to a [contact page](../contact_department_or_team/). 
 
 Have clear and concise content and do not use:
 - breadcrumbs

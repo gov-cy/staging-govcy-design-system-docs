@@ -68,7 +68,7 @@ Allow the users to view or delete a file that they have previously uploaded with
 
 Use links to:
 - view the file. The links should open the file in a new tab, if the browser supports it's type.
-- Delete the file. The link should lead to a question page with ==radios==, asking the users if they are sure they want to delete the file. Use the file's title, not the file name. For example the question of the delete page should be 'Are you sure you want to delete the company’s certificate of liquidation file?'.
+- Delete the file. The link should lead to a question page with [radios](../radio/), asking the users if they are sure they want to delete the file. Use the file's title, not the file name. For example the question of the delete page should be 'Are you sure you want to delete the company’s certificate of liquidation file?'.
 
 Use `<span class="govcy-visually-hidden"> the file's title</span>` in the links body to help screen readers indicate which file is to be viewed or deleted
 
@@ -96,7 +96,7 @@ Use `<span class="govcy-visually-hidden"> the file's title</span>` in the links 
 </div>
 ```
 ### Error messages
-Make sure to follow the instructions for ==error messages== and ==error summary== when validating user input. Error messages should be styled like this:
+Make sure to follow the instructions for [error messages](../error_message) and [error summary](../error_summary) when validating user input. Error messages should be styled like this:
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

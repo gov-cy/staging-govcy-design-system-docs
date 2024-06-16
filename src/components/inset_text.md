@@ -14,7 +14,7 @@ Use the inset text component to differentiate a block of text from the content t
 ## When not to use this component
 Some users do not notice inset text if it’s used on complex pages or near to other visually prominent elements. For this reason, avoid using inset text as a way of highlighting very important information that users need to see.
 
-If you need to draw attention to very important content, like legal information, use the ==warning text== component instead.
+If you need to draw attention to very important content, like legal information, use the [warning text](../warning_text/) component instead.
 
 ## How it works
 The component should only exist in the [main section](../../getting-started/page-template/#sections). 

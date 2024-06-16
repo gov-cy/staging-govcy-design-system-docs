@@ -13,7 +13,7 @@ Follow this pattern whenever you need to display or ask users for an amount of m
 Follow the instructions on how to ask and display currency amounts.
 
 ### How to ask
-Use a ==numeric text input== to allow users input the amount of money. Consider using an [fixed width text input](../../components/text_input/#fixed-width-text-inputs) depending on the maximum length of the desired input.  
+Use a [numeric text input](../numeric_inputs/) to allow users input the amount of money. Consider using an [fixed width text input](../../components/text_input/#fixed-width-text-inputs) depending on the maximum length of the desired input.  
 
 Depending on the case, you might allow decimals or only whole numbers. If your service does not allow decimals, consider if it is appropriate to allow decimals on user input and round up or down any amounts before validating and storing.
 
@@ -32,7 +32,7 @@ For example, the following are valid amounts:
 End the text input label with the currency symbol, for example `Enter your income (€)` 
 
 #### Whole number amounts
-If you allow only whole number inputs, use the ==whole number numeric pattern==, for example:
+If you allow only whole number inputs, use the [whole number numeric pattern](../numeric_inputs/#whole-numbers), for example:
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
@@ -54,7 +54,7 @@ If you allow only whole number inputs, use the ==whole number numeric pattern==,
 </form>
 ```
 #### Decimal number amounts
-If you allow only decimal number inputs, use the ==decimal number numeric pattern==, for example:
+If you allow only decimal number inputs, use the [decimal number numeric pattern](../numeric_inputs/#decimal-numbers), for example:
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

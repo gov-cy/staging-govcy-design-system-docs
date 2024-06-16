@@ -22,7 +22,7 @@ The following file structure is included in the starter kit:
 +-- manifest.json
 ```
 
-All HTML code examples in this website utilizes the classes, styling and behaviour defined in this CSS and JS files of our developer assets.
+All HTML code examples in this website utilizes the classes, styling and behavior defined in this CSS and JS files of our developer assets. 
 
 ## CSS
 To add the gov.cy styles using our developer assets, add the CSS either using the CDN or using the downloaded starter kit.

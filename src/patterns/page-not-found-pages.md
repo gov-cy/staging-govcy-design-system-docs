@@ -27,7 +27,7 @@ The page should have:
 - contact information of the department or helpline, if it exists and helps meet a user need
 - link that returns the user to the homepage of the site or service
 
-Contact information should either include contact details or a link to a ==contact page==. 
+Contact information should either include contact details or a link to a [contact page](../contact_department_or_team/). 
 
 The content should be clear and concise, and not blame the user. 
 

@@ -94,7 +94,7 @@ Use the [check answers pattern](../check_answers) to let users check their answe
 ![Illustration a check your answers page](../../img/illustration_check_answers.png){style="aspect-ratio: auto;"}
 
 ### Confirmation page
-After the users have submitted their application, present a ==confirmation page== with a panel to tell them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.
+After the users have submitted their application, present a [confirmation page](../confirmation-pages/) with a panel to tell them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.
 
 ![Illustration a confirmation page](../../img/illustration_confirmation_page.png){style="aspect-ratio: auto;"}
 
@@ -141,7 +141,7 @@ Use this structure when:
 ### How it works
 Breaking the service into sections, uses the same structure and principles as the [basic service structure](#basic-structure). You only need to replace the "Gather information" step with the following:  
 
-1. Let the users decide on which task or section to work on using a ==task list page==
+1. Let the users decide on which task or section to work on using a [task list page](../task-list-page/)
 2. Gather information from the users, one section at a time 
 3. Repeat this process until all tasks or sections are completed
 
@@ -154,9 +154,9 @@ After gathering information from the users you should still:
 - Show the users a confirmation of successful completion page.
 
 ### Task list 
-Use the ==task list page== pattern to help users understand the tasks involved in a completing a service. Each tasks on the task list should represent a different section to be completed by the user.
+Use the [task list page](../task-list-page/) pattern to help users understand the tasks involved in a completing a service. Each tasks on the task list should represent a different section to be completed by the user.
 
-After completing all the tasks and the user clicks the 'Continue' button, navigate the user to the [check your answers](../check_answers/) page. Make sure to validate if the user has completed all the sections, or if a special condition does not allow the users to complete the service and show appropriate ==error summary on the task list page== accordingly. 
+After completing all the tasks and the user clicks the 'Continue' button, navigate the user to the [check your answers](../check_answers/) page. Make sure to validate if the user has completed all the sections, or if a special condition does not allow the users to complete the service and show appropriate [error summary on the task list page](../task-list-page/#showing-errors) accordingly. 
 
 Always allow users to go back into a task to change their answer. If a user decides to go back to a previous task, make sure information they have already entered is pre-populated.
 
@@ -364,7 +364,7 @@ Make sure to test your approach with the users.
 <hr class="govcy-line">
 
 ## Variant 3 - Asynchronous basic structure
-The asynchronous basic structure uses the same structure and principles as the [basic service structure](#basic-structure), but also takes advantage of the ==task list page== described in the [break the service into sections variant](#variant-2---break-the-service-into-sections) to let users decide on which question to work on. 
+The asynchronous basic structure uses the same structure and principles as the [basic service structure](#basic-structure), but also takes advantage of the [task list page](../task-list-page/) described in the [break the service into sections variant](#variant-2---break-the-service-into-sections) to let users decide on which question to work on. 
 
 ### When to use this structure 
 Use this structure when:
@@ -379,14 +379,14 @@ In this structure, the service should:
 
 1. Start with an informative start page
 2. If needed, ask the users to sign-in
-3. Present a ==Task List page== where users can select which question to answer
+3. Present a [Task List page](../task-list-page/) where users can select which question to answer
 4. Gather information from the users, one question at a time
 5. Let the users check their answers before submitting
 6. Show the users a confirmation of successful completion page.
 
 ![An example flow of a asynchronous service](../../img/v3_illustration_async_structure.png){style="aspect-ratio: auto;"}
 
-Let users answer different questions in an asynchronous manner through the ==task list page==. Also consider saving the users' responses and progress, and then to continue where they left off when they return. 
+Let users answer different questions in an asynchronous manner through the [task list page](../task-list-page/). Also consider saving the users' responses and progress, and then to continue where they left off when they return. 
 
 User research will show you what to do when users click on the `Continue` button of each question. You may allow users to continue answering questions in a linear manner, or return to the task list page to allow users to continue using the service in an asynchronously.
 

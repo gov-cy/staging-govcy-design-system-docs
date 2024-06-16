@@ -110,7 +110,7 @@ Do not use an accordion for content that all users need to see. It’s usually b
 - use a list of links at the start of the page (known as ‘anchor links’) to take the user to particular sections of a page
 
 > **Warning**{class="govcy-fw-bolder govcy-fs-4 govcy-d-block"}
-> Accordions work best for simple content and links. Do not use accordions to split up a series of ==questions==. Use separate pages instead. See the ==Structing a service== pattern for more information.
+> Accordions work best for simple content and links. Do not use accordions to split up a series of [questions](../../patterns/question_pages/). Use separate pages instead. See the [Structuring a service](../../patterns/service_structure/) pattern for more information.
 {class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info"}
 
 Do not put accordions within accordions, as it will make content difficult to find.
@@ -231,7 +231,7 @@ Use the accordion with borders only if evidence exist that the default variant i
 ```
 
 ## Step by step accordion
-Step by step accordion is mostly used for services. Refer to ==step by step navigation pattern== for more details.
+Step by step accordion is mostly used for services. Refer to [step by step navigation pattern](../../patterns/step_by_step_navigation/) for more details.
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

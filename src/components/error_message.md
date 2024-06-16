@@ -6,7 +6,7 @@ description: "Use this component to show an error message next to the field and 
 Show an error message when there is a validation error. In the error message explain what went wrong and how to fix it.
 
 ## When to use this component
-Show an error message next to the field and in the ==error summary== when there is a validation error.
+Show an error message next to the field and in the [error summary](../error_summary/) when there is a validation error.
 
 ## When not to use this component
 Do not use error messages to tell a user that they are not eligible or do not have permission to do something or to tell them about a lack of capacity or other problem the user cannot fix - because the problem is with the service rather than with the information the user has provided.
@@ -26,7 +26,7 @@ For each error:
 
 To help screen reader users, the error message component includes a hidden ‘Error:’ before the error message. These users will hear, for example, `<span class="govcy-visually-hidden-error"> Error: </span> The date your passport was issued must be in the past`. Also add  `aria-describedby` on the element, with the id of the error message. 
 
-Remember to always summarize all errors at the top of the page the user is on using the ==error summary==.
+Remember to always summarize all errors at the top of the page the user is on using the [error summary](../error_summary/).
 
 More details on how to implement error messages for each component type, can be found on the components' individual documentation page.
 
@@ -480,7 +480,7 @@ More details on how to implement error messages for each component type, can be 
 ### Allow users to continue
 There may be cases where you would allow users to continue with the service, even if there are errors on a specific section. This may be helpful in cases where users do not have all the information needed to complete the service at the time, but they can still complete other parts of the service.
 
-In such a case you should still use the error summary and error messages components, but use the ==allow users to continue error summary variant==
+In such a case you should still use the error summary and error messages components, but use the [allow users to continue error summary variant](../error_summary/#allow-users-to-continue).
 ## Errors content
 ### Be clear and concise
 Describe what has happened and tell them how to fix it. The message must be in plain English, use positive language and get to the point.

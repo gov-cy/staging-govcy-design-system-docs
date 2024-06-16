@@ -29,7 +29,7 @@ To reduce these issues for the user, you must design the service with the follow
 
 - set expiry conditions on the SMS confirmation code
 - let users resend their SMS confirmation code
-- use the ==whole number numeric input== for the input page of the confirmation code
+- use the [whole number numeric input](../numeric_inputs/#whole-numbers) for the input page of the confirmation code
 - use `autocomplete="one-time-code"` and the JavaScript file from the [developer assets](../../getting-started/developer-assets/) to autocomplete the confirmation code on devices and browsers that support the functionality
 
 Use the following flow to confirm the mobile phone number via SMS.
@@ -41,7 +41,7 @@ Use the following flow to confirm the mobile phone number via SMS.
 ![Mobile phone confirmation flow](../../img/phone_confirm_pattern.png){style="aspect-ratio: auto;"}
 
 ### 1. Ask the user to enter their mobile number.
-Use the ==telephone pattern== to ask the user for their mobile number:
+Use the [telephone pattern](../telephone/) to ask the user for their mobile number:
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
@@ -89,7 +89,7 @@ Here is a complete example of a confirmation SMS with sample code, service name 
 @update-my-details.staging.service.gov.cy #1234
 ```
 ### 3. Ask the use to enter the confirmation code.
-Use the ==whole number numeric input pattern== to ask the user for the confirmation code. Make sure to include the `autocomplete="one-time-code"` attribute on your text box and include the govcy JavaScript file as described in the [developer assets page](../../getting-started/developer-assets/), in order to take advantage of the autocomplete functionality on devices and browsers that support it.
+Use the [whole number numeric input pattern](../numeric_inputs/#whole-numbers) to ask the user for the confirmation code. Make sure to include the `autocomplete="one-time-code"` attribute on your text box and include the govcy JavaScript file as described in the [developer assets page](../../getting-started/developer-assets/), in order to take advantage of the autocomplete functionality on devices and browsers that support it.
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

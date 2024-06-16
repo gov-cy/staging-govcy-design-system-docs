@@ -29,7 +29,7 @@ Do not use tags to create links, buttons or other interactive elements, as users
 ### Showing one or two statuses
 Sometimes a single status is enough. For example if you need to tell users which parts of an application they’ve finished and which they have not, you may only need a ‘Completed’ tag. Because the user understands that if something does not have a tag, that means it’s incomplete.
 
-The ==task list pattern== has an example of how to show one status using tags.
+The [task list pattern](../../patterns/task-list-page/) has an example of how to show one status using tags.
 
 Or it can make sense to have two statuses. For example you may find that there’s a need to have one tag for ‘Active’ users and one for ‘Inactive’ users.
 

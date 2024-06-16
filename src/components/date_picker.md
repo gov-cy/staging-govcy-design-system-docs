@@ -16,7 +16,7 @@ Do not use the date picker component for dates that are not near future or recen
 
 The further the desired date is from today, the more difficult it is for users to use the date picker. Never use the date picker for birth dates. Use the [date input](../date_input) instead.
 
-If users are likely to know the exact date of the event, it is best to use the ==date input==. 
+If users are likely to know the exact date of the event, it is best to use the [date input](../date_input). 
 
 ## How it works
 The component should only exist in the [main section](../../getting-started/page-template/#sections). The component uses JavaScript. To use it with the gov.cy [developer assets](../../getting-started/developer-assets/), make sure to include the main JavaScript file in your page. 

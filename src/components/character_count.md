@@ -20,7 +20,7 @@ If your users keep hitting the character limit imposed by the backend of your se
 ## How it works
 The character count component should only exist in the [main section](../../getting-started/page-template/#sections). The component uses JavaScript. To use it with the gov.cy [developer assets](../../getting-started/developer-assets/), make sure to include the main JavaScript file in your page.
 
-The character count tells users how many characters they have remaining as they type into a ==textarea== with a character limit. Do this by setting the `data-maxchars` in the component markup. For example, `data-maxchars="150"` will set a character limit of 150.
+The character count tells users how many characters they have remaining as they type into a [textarea](../textarea) with a character limit. Do this by setting the `data-maxchars` in the component markup. For example, `data-maxchars="150"` will set a character limit of 150.
 
 Users will get updates at a pace that works best for the way they interact with the textarea. This means:
 

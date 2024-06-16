@@ -11,7 +11,7 @@ Always allow the users to check their answers before submitting,
 
 Show a single check answers page immediately before the confirmation screen for small to medium-sized transactions.
 
-When designing a very large transaction with multiple sections, it may help to include check answers pages at the end of each section. This may also be valuable for services where different users might be completing each section. You should test this approach with your users to find out if it’s helpful.  See more information on how to ==break the service into tasks and sections structure==
+When designing a very large transaction with multiple sections, it may help to include check answers pages at the end of each section. This may also be valuable for services where different users might be completing each section. You should test this approach with your users to find out if it’s helpful. See more information on how to [break the service into sections structure](../service_structure/#variant-2---break-the-service-into-sections)
 
 ## How it works
 Use a [summary list](../../components/summary_list/) and a [primary button](../../components/button/) in the page's [main section](../../getting-started/page-template/#sections). Note that all code examples in this page shows only the `Main` section.

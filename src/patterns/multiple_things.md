@@ -1,7 +1,7 @@
 ---
 title: "Add multiple things "
 date: 2022-02-01 00:01:02Z
-tags: "how_to"
+tags: "help_users"
 description: "Let users add items of the same type"
 ---
 This pattern explains how to help users add a single or multiple items of the same type
@@ -44,7 +44,7 @@ After adding each item or group of items, the user is shown a summary list of wh
 - add another item of the same type
 - continue to the next step in the service
 
-This page uses the ==summary list component== with a `Remove` link added along with the `Change` link.
+This page uses the [summary list component](../../components/summary_list/) with a `Remove` link added along with the `Change` link.
 
 Depending on the requirements for each service, validations may be needed for:
 - when too many items are added

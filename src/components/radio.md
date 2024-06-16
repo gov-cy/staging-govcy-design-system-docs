@@ -8,7 +8,7 @@ description: "Use the radios component when users can only select one option fro
 Use the radios component when users can only select one option from a list.
 
 ## When not to use this component
-Do not use the radios component if users might need to select more than one option. In this case, you should use the ==checkbox== component instead.
+Do not use the radios component if users might need to select more than one option. In this case, you should use the [checkbox](../checkbox/) component instead.
 
 ## How it works
 The component should only exist in the [main section](../../getting-started/page-template/#sections). 
@@ -269,7 +269,7 @@ Remember that on small screens such as mobile devices, the radios will still be 
 </form>
 ```
 ### Radio items with hints
-You can add ==hints== to radio items to provide additional information about the options. Hints can appear below the `<legend>` or the `<label>`.
+You can add hints to radio items to provide additional information about the options. Hints can appear below the `<legend>` or the `<label>`.
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

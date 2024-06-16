@@ -61,10 +61,6 @@ This layout uses one column and takes up the full size of the `<main>`.
 #### When to use this
 Use this layout when there is no need for a side menu and when components require the use of the full width of the page.
 
-> **Warning**{class="govcy-fw-bolder govcy-fs-4 govcy-d-block"}
-> Avoid using side menus in your services with links to other services. Presenting links to other services in the `main` section, could disrupt the users' flow within the service and they should be avoided.
-{class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info"}
-
 ### One-third + Two-thirds layout
 This layout uses two columns:
 
@@ -100,6 +96,10 @@ This layout uses two columns:
 ```
 #### When to use this
 Use this layout for services that need a side menu.
+
+> **Warning**{class="govcy-fw-bolder govcy-fs-4 govcy-d-block"}
+> Avoid using side menus in your services with links to other services. Presenting links to other services in the `main` section, could disrupt the users' flow within the service and they should be avoided.
+{class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info"}
 
 ## Websites
 When implementing a website, you can use a combination of the following layouts. 

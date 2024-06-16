@@ -353,7 +353,7 @@
 </div>
 <p><img src="/staging-govcy-design-system-docs/img/v3_vs_components_small.png" alt="Representation of vertical spacing of a component for smaller screens" style="aspect-ratio: auto;"></p>
 <h2 id="header-spacing-values" tabindex="-1">Header spacing values</h2>
-<p>The header spacing concerns the vertical spacing of the ==header section of the page template==.</p>
+<p>The header spacing concerns the vertical spacing of the <a href="../../getting-started/page-template/#sections">header section of the page template</a>.</p>
 <p>The following spacing values must be applied:</p>
 <table class="govcy-table">
 <thead>
@@ -376,14 +376,14 @@
 <p><img src="/staging-govcy-design-system-docs/img/v3_vs_header.png" alt="Representation of header spacing" style="aspect-ratio: auto;"></p>
 <h3 id="spacing-after-the-header" tabindex="-1">Spacing after the header</h3>
 <p>In order to achieve the spacing values for the header, consider which element follows the header.</p>
-<p>Usually the first element after the header is either a ==back link==, a ==breadcrumb== or a <code>H1</code> title of the page which already have top margin 0px, and there is no need for special care.</p>
+<p>Usually the first element after the header is either a <a href="../../components/back_link/">back link</a>, a <a href="../../components/breadcrumbs/">breadcrumb</a> or a <code>H1</code> title of the page which already have top margin 0px, and there is no need for special care.</p>
 <p><img src="/staging-govcy-design-system-docs/img/v3_vs_header_after.png" alt="Representation of the first element after the header" style="aspect-ratio: auto;"></p>
 <p>On the other hand, if the following element has pre-existing top spacing, such as an <code>H2</code>, the spacing between the header and <code>H2</code> will combine to 84px which should be avoided (the 84px spacing comes from the existing 64px bottom of the header plus the 20px top of the <code>H2</code>).</p>
 <p><strong>This means the FIRST element right after the header should always have 0px top spacing so as to not interfere with the header spacing.</strong></p>
 <p>However if the first element is not an <code>H1</code> title, use the <code>govcy-pt-0</code> class achieve the correct spacing as shown in the example below:</p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-pt-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Lorem Ipsum<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span></code></pre>
 <h2 id="footer-spacing-values" tabindex="-1">Footer spacing values</h2>
-<p>The footer spacing concerns the vertical spacing of the ==footer section of the page template==.</p>
+<p>The footer spacing concerns the vertical spacing of the <a href="../../getting-started/page-template/#sections">footer section of the page template</a>.</p>
 <p>The following spacing values must be applied:</p>
 <table class="govcy-table">
 <thead>
@@ -408,7 +408,7 @@
 <h2 id="spacing-with-gov.cy-css" tabindex="-1">Spacing with gov.cy CSS</h2>
 <p>Using our <a href="../../getting-started/developer-assets">developers assets</a> and the code in our documentation,  the vertical spacing is adjusted automatically.</p>
 <h3 id="custom-components" tabindex="-1">Custom components</h3>
-<p>If you are implementing a custom component that is not included in our documentation, you can use the ==margin utility classes==. To achieve the bottom margin of 24px that all elements have, use the <code>govcy-mb-6</code> class.</p>
+<p>If you are implementing a custom component that is not included in our documentation, you can use the <a href="../../css_utilities">margin utility classes</a>. To achieve the <a href="#elements-spacing-values">bottom margin of 24px that all elements have</a>, use the <code>govcy-mb-6</code> class.</p>
 
             </div>
     

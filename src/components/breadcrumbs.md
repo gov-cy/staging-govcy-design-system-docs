@@ -37,10 +37,10 @@ Do not use the breadcrumbs component on websites with a flat structure, or to sh
 
 If you’re using other navigational elements on the page, such as a sidebar, consider whether your users need the additional support of breadcrumbs.
 
-Never use the ==back link== component together with breadcrumbs. If necessary, you should do research with your users to learn which they find more helpful in your service.
+Never use the [back link](../back_link) component together with breadcrumbs. If necessary, you should do research with your users to learn which they find more helpful in your service.
 
 ## How it works
-Always place back links at the top of a page, in the ==Before main== section. Placing them here means that the ‘Skip to main content’ link allows the user to skip all navigation links, including the back link.
+Always place back links at the top of a page, in the [Before main](../../getting-started/page-template/#sections) section. Placing them here means that the ‘Skip to main content’ link allows the user to skip all navigation links, including the back link.
 
 The breadcrumb should start with your ‘home’ page and end with the parent section of the current page.
 

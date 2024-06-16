@@ -15,7 +15,7 @@ The gov.cy Design System provides the basic components for creating digital si
 
 In the guide's example, we will be looking at how to create a component to display additional information about a page. The component is similar to the [inset text component](../../components/inset_text/), but will display an 'info' coloured left border.
 
-We start by creating a `<div>` container. In order to comply with the ==vertical spacing requirements== of our design system we will assign the `govcy-mb-6` class in our `<div>`.
+We start by creating a `<div>` container. In order to comply with the [vertical spacing requirements](../../styles/vertical_spacing/#custom-components) of our design system we will assign the `govcy-mb-6` class in our `<div>`.
 
 ```html
 <div class="govcy-mb-6"></div>

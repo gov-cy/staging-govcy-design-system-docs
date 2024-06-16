@@ -56,7 +56,7 @@ If the email address field is part of a sign-in box, you do not need to say ‘Y
 ### When to ask for repeat or loop
 Only ask users to repeat their email address if your user research shows it to be effective.
 
-If email is an essential part of your service - for example to send a password reset - you can confirm whether the user has access to the email address they give you using an ==email confirmation loop==. 
+If email is an essential part of your service - for example to send a password reset - you can confirm whether the user has access to the email address they give you using an [email confirmation loop](../confirm_email_address/). 
 
 However, this is disruptive and should be avoided as far as possible.
 
