@@ -13,7 +13,7 @@ Through your design you will need to make sure:
 - the amount of steps and information needed by the users is reduced to the minimum
 - there are no dead ends
 - complex internal structures of the government organization are hidden from the users
-- decisions by the service, such as approval or rejection, are made clear tp the users
+- decisions by the service, such as approval or rejection, are made clear to the users
 - the service is consistent with other gov.cy services and works in a familiar way
 - everyone can use and understand the service
 - users and their information are treated with care and respect
@@ -55,7 +55,7 @@ This page usually resides on the GOV.CY portal.
 
 ### Sign in
 
-If the service requires users to sign in, choose to use the [Ariadni CY-Login](https://dsf.dmrid.gov.cy/2022/06/08/ariadni-cy-login-specifications/){rel="noreferrer noopener" target="_blank"} whenever possible to do so.
+If the service requires users to sign in, choose to use the [Ariadni CY-Login (opens in new tab)](https://dsf.dmrid.gov.cy/2022/06/08/ariadni-cy-login-specifications/){rel="noreferrer noopener" target="_blank"} whenever possible to do so.
 
 ### One thing at a time
 
@@ -401,6 +401,3 @@ Follow the same instructions concerning the [task list](#task-list) and [statuse
 ## Contribute
 If you have used or researched this pattern, please let us have your feedback, so we can make it better for everyone. Send us an email at <a href="mailto:dsf@dits.dmrid.gov.cy" target="_blank">dsf@dits.dmrid.gov.cy</a> to get in touch. 
 
-We are particularly interested in:
-
-- making service structures easier for the users

@@ -87,12 +87,12 @@ Always include a [back link](../../components/back_link/) at the top of question
 ### Page headings and questions
 Page headings can be questions or statements. 
 
-Prefer to split the across multiple pages with each page containing just one question. Research has shown that asking multiple questions in a page, can be more difficult for users to answer.
+Prefer to split the questions of your service across multiple pages, with each page containing just one question. Research has shown that asking multiple questions in a page, can be more difficult for users to answer.
 
 #### One question per page
 Asking just one question per question page helps users understand what you’re asking them to do, and focus on the specific question and its answer.
 
-To help you follow this approach, you can set the contents of a `<legend>` or `<label>` for a page’s input as the page heading. This is good practice as it means that users of screen readers will only hear the contents once.
+Set the contents of a `<legend>` or `<label>` for a page’s input as the page heading (`<h1>`). This is good practice as it means that users of screen readers will only hear the contents once.
 
 Read more about [single question page labels and legends](../../patterns/labels_and_legend_headings/#single-question-page).
 

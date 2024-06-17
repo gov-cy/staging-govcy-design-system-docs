@@ -12,7 +12,7 @@ localization:
 **01 July 2024**
 Version 3.0.0 of the Design system has been released.
 
-[Read the full change log](https://github.com/gov-cy/govcy-design-system/blob/main/CHANGELOG.md){rel="noreferrer noopener" target="_blank"}.
+[Read the full change log (opens in new tab)](https://github.com/gov-cy/govcy-design-system/blob/main/CHANGELOG.md){rel="noreferrer noopener" target="_blank"}.
 
 <hr>
 

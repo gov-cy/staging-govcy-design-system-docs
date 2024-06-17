@@ -483,4 +483,5 @@ Make sure:
 - you add `aria-expanded` attribute to the control element. Using the gov.cy developer assets, the value of the attribute is controlled automatically. If the collapsible element is closed by default, the attribute on the control element should have a value of `aria-expanded="false"`. If you’ve set the collapsible element to be open by default using the `show` class, set `aria-expanded="true"` on the control instead
 - you add the `aria-controls` attribute to the control element, containing the `id` of the collapsible element
 - for Step by step accordions, use `<span class="govcy-visually-hidden-error">Step 1, </span>` to allow screen readers read the step number
-- if the control element’s HTML element is not a button (e.g., an `<a>` or `<div>`), the attribute `role="button"` should be added to the element.
+- if the control element’s HTML element is not a button (e.g., an `<a>` or `<div>`), the attribute `role="button"` should be added to the element
+- use meaningful expansion button labels. Aim for informative labels like “Get a provisional licence” rather than vague ones like “Click here.”

@@ -2,11 +2,11 @@
 title: "Accessibility statement"
 ---
 
-This is an accessibility statement for the Digital Services Factory's ‘Design System’ website.
+This is an accessibility statement for the gov.cy Unified Design System website.
 
 ## Conformance status
 
-The [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/){rel="noreferrer noopener" target="_blank"} (WCAG) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. The service is fully conformant with WCAG 2.1 level AA.
+The [Web Content Accessibility Guidelines from W3C](https://www.w3.org/TR/WCAG21/){rel="noreferrer noopener" target="_blank"} (WCAG) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. The service is fully conformant with WCAG 2.1 level AA.
 
 ## Compatibility with browsers and assistive technology
 The service is not compatible with:
@@ -16,10 +16,6 @@ The service is not compatible with:
 
 ## Limitations and alternatives
 Despite our best efforts to ensure accessibility of the service, there may be some limitations. Below is a description of known limitations, and potential solutions. Please contact us if you observe an issue not listed below.
-
-The website uses [algolia autocomplete](https://www.algolia.com/doc/ui-libraries/autocomplete/introduction/what-is-autocomplete/){rel="noreferrer noopener" target="_blank"} third party component which creates the search textbox for the design system. The generated search box does not contain a form label.
-
-The website uses empty links after each header in order to generate the table of contents (TOC) for each page. 
 
 The website includes code segments which are syntaxt highlighted with different text colors, depending on the language of the code shown. Some of these colours might have low contrast between text and background colour.
 

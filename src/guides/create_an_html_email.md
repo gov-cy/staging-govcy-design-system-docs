@@ -267,7 +267,7 @@ After a lot of trial and error, we have come with the following example that can
 
 ## Testing the HTML email
 
-The email template has been tested with [Mailtrap](https://mailtrap.io/){rel="noreferrer noopener" target="_blank"} to verify HTML compatibility. Here are the compatibility results we got for different email clients.
+The email template has been tested with [Mailtrap (opens in new tab)](https://mailtrap.io/){rel="noreferrer noopener" target="_blank"} to verify HTML compatibility. Here are the compatibility results we got for different email clients.
 
 | Client     | Desktop | Mobile | Web  | 
 | ------     | ------- | ------ |----- |
@@ -285,7 +285,7 @@ The template has also been tested manually with a variaty of email clients and d
 
 ## NPM package
 
-We realize that it is diffuclt to be consistent when all you have is an HTML example, so we have created the [dsf-email-templates NPM package](https://www.npmjs.com/package/@gov-cy/dsf-email-templates){rel="noreferrer noopener" target="_blank"} to create HTML emails. You can find instructions on how to use it in the package's readme file.
+We realize that it is diffuclt to be consistent when all you have is an HTML example, so we have created the [dsf-email-templates NPM package (opens in new tab)](https://www.npmjs.com/package/@gov-cy/dsf-email-templates){rel="noreferrer noopener" target="_blank"} to create HTML emails. You can find instructions on how to use it in the package's readme file.
 
 Note that the package has been created for internal use by the DSF team, but we have made it as reusable as possible for any implementation team. However, we cannot guarantee it will work flawlessly in all cases, so please test extensively if you plan to include the package as a production dependency.
 

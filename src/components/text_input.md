@@ -21,7 +21,7 @@ Do not use placeholder text in place of a label, or for hints or examples, as:
 
 - it vanishes when the user starts typing, which can cause problems for users with memory conditions or when reviewing answers
 - not all screen readers read it out
-- its browser default styles often do not meet [minimum contrast requirements](https://www.w3.org/TR/WCAG22/#contrast-minimum){rel="noreferrer noopener" target="_blank"}
+- its browser default styles often do not meet [minimum contrast requirements (opens in new tab)](https://www.w3.org/TR/WCAG22/#contrast-minimum){rel="noreferrer noopener" target="_blank"}
 
 ### Single question page
 If you are asking just one question on a page, follow the instructions for [single question page labels and legends](../../patterns/labels_and_legend_headings/#single-question-page) and adjust the header and label accordingly. 
@@ -310,7 +310,7 @@ Here is example with a text input used in a more than one question page.
 Remember to adjust the `aria-describedby` attribute to include the error message's `id` and add  `<span class="govcy-visually-hidden-error">Error:</span>` in the error message.
 ## Accessibility
 Make sure:
-- if there is a relevant [input purpose](https://www.w3.org/TR/WCAG21/#input-purposes){rel="noreferrer noopener" target="_blank"}, you’ll need to use the `autocomplete` attribute to meet [WCAG 2.1 Level AA](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html){rel="noreferrer noopener" target="_blank"}
+- if there is a relevant [input purpose (opens in new tab)](https://www.w3.org/TR/WCAG21/#input-purposes){rel="noreferrer noopener" target="_blank"}, you’ll need to use the `autocomplete` attribute to meet [WCAG 2.1 Level AA (opens in new tab)](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html){rel="noreferrer noopener" target="_blank"}
 - you associate the `label` elements with the input they relate to, using the `for` attribute
 - when using a hints, add `aria-describedby` on the `input` element, with the id of the hint element 
 - when displaying error massages, use `<span class="govcy-visually-hidden-error">Error:</span>` in the Error message area, and add  `aria-describedby` on the `input` element, with the id of the error message 

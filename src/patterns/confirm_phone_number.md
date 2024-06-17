@@ -75,7 +75,7 @@ Send an SMS with the following format:
 [CODE] IS YOUR SECURITY CODE FOR THE [SERVICE-NAME-ENGLISH] SERVICE. IT EXPIRES IN 15 MINUTES. 
 @[SERVICE-DOMAIN] #[CODE]
 ```
-In order to be aligned with the [origin-bound one-time codes delivered via SMS](https://wicg.github.io/sms-one-time-codes/){rel="noreferrer noopener" target="_blank"} specification and take advantage of the autocomplete functionality, make sure that the last line consists of the domain of the service prefixed with an `@`, followed by a space and then by a `#` symbol and the confirmation code, like this:
+In order to be aligned with the [origin-bound one-time codes delivered via SMS (opens in new tab)](https://wicg.github.io/sms-one-time-codes/){rel="noreferrer noopener" target="_blank"} specification and take advantage of the autocomplete functionality, make sure that the last line consists of the domain of the service prefixed with an `@`, followed by a space and then by a `#` symbol and the confirmation code, like this:
 
 ```markdown
 @example.service.gov.cy #12345

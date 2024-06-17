@@ -13,7 +13,7 @@ Unless otherwise stated, use the following font properties for the default body 
 | **font-family** | Roboto |
 | **font-size** | 16px |
 | **font-weight** | normal |
-| **color** | [body](../colour/#text) |
+| **color** | #272525 ([body colour](../colour/#text)) |
 | **Line height** | 24px |
 | **Letter spacing** | 0px |
 
@@ -169,7 +169,7 @@ Avoid opening links in a new tab or window. It can be disorienting - and can cau
 
 If you need a link to open in a new tab, then include the words ‘opens in new tab’ as part of the link.
 
-Include `rel="noreferrer noopener"` along with `target="_blank"` to reduce the risk of [reverse tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing){rel="noreferrer noopener" target="_blank"} as shown in the following example.
+Include `rel="noreferrer noopener"` along with `target="_blank"` to reduce the risk of [reverse tabnabbing (opens in new tab)](https://owasp.org/www-community/attacks/Reverse_Tabnabbing){rel="noreferrer noopener" target="_blank"} as shown in the following example.
 
 ```html
 <a href="#" rel="noreferrer noopener" target="_blank">some link (opens in new tab)</a>

@@ -26,7 +26,7 @@ Do not use the component:
 - When a table doesn’t include as many rows. In such a case, prefer to use a normal table.
 
 ## How it works
-The component should only exist in the [main section](../../getting-started/page-template/#sections). The component uses JavaScript and utilizes the open source [DataTables](https://datatables.net/){rel="noreferrer noopener" target="_blank"} version 1.13.2 library. In addition to the [developer assets](../../getting-started/developer-assets/) and depending on the variant you what to use, you need to reference the DataTable's CSS and JavaScript CDN files accordingly.
+The component should only exist in the [main section](../../getting-started/page-template/#sections). The component uses JavaScript and utilizes the open source [DataTables (opens in new tab)](https://datatables.net/){rel="noreferrer noopener" target="_blank"} version 1.13.2 library. In addition to the [developer assets](../../getting-started/developer-assets/) and depending on the variant you what to use, you need to reference the DataTable's CSS and JavaScript CDN files accordingly.
 
 ### Basic variant
 The basic variant can sort data in ascending or descending order. Search functionality can be used to filter specific items from the table.

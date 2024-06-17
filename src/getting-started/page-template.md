@@ -83,7 +83,7 @@ Use the following HTML template for your gov.cy pages.
   </body>
 </html>
 ```
-The code above includes all the sections described in the [body](#body) section and uses the appropriate gov.cy CSS classes to accommodate [spacing](../../styles/vertical_spacing/), [header](../../components/header/) and [footer](../../components/footer/) components.
+The code above includes the [head](#head) and all the sections described in the [body](#body) section and uses the appropriate gov.cy CSS classes to accommodate [spacing](../../styles/vertical_spacing/), [header](../../components/header/) and [footer](../../components/footer/) components.
 ## Head
 ### Important Globals
 The starter template employs the following important global styles and settings that you’ll need to be aware of when using it.
@@ -177,6 +177,8 @@ Use the following tags inside the `<head>` tag.
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72-precomposed.png">
 <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-57x57-precomposed.png">
 ```
+All images referenced in the `head` section and `manifest.json` are included in the [starter kid](../developer-assets/) under the `/img` folder.
+
 The code above implies the existence of a `manifest.json` file. Use the following template for the manifest file.
 ```json
 {
@@ -289,20 +291,20 @@ For more information about the `<main>` section content, see the [layouts](..
 Here are some sample pages using the gov.cy page template. 
 
 **Content pages**:
-- [Page with title and paragraph](../../samples/templare-heading-title/){rel="noreferrer noopener" target="_blank"}
-- [Page with title, different headings and paragraphs](../../samples/templare-heading-title-more/){rel="noreferrer noopener" target="_blank"}
-- [Page with back link](../../samples/template-heading-back/){rel="noreferrer noopener" target="_blank"}
-- [Page with breadcrumbs](../../samples/template-heading-breadcrumbs/){rel="noreferrer noopener" target="_blank"}
-- [Page with phase banner](../../samples/template-heading-phase-banner/){rel="noreferrer noopener" target="_blank"}
+- [Page with title and paragraph (opens in new tab)](../../samples/templare-heading-title/){rel="noreferrer noopener" target="_blank"}
+- [Page with title, different headings and paragraphs (opens in new tab)](../../samples/templare-heading-title-more/){rel="noreferrer noopener" target="_blank"}
+- [Page with back link (opens in new tab)](../../samples/template-heading-back/){rel="noreferrer noopener" target="_blank"}
+- [Page with breadcrumbs (opens in new tab)](../../samples/template-heading-breadcrumbs/){rel="noreferrer noopener" target="_blank"}
+- [Page with phase banner (opens in new tab)](../../samples/template-heading-phase-banner/){rel="noreferrer noopener" target="_blank"}
 
 **Service pages**:
-- [Page with a question](../../samples/template-heading-input/){rel="noreferrer noopener" target="_blank"}
-- [Page with an error](../../samples/template-heading-error-summary/){rel="noreferrer noopener" target="_blank"}
-- [Page asking for address](../../samples/template-address/){rel="noreferrer noopener" target="_blank"}
-- [Page with radios question](../../samples/template-radios/){rel="noreferrer noopener" target="_blank"}
+- [Page with a question (opens in new tab)](../../samples/template-heading-input/){rel="noreferrer noopener" target="_blank"}
+- [Page with an error (opens in new tab)](../../samples/template-heading-error-summary/){rel="noreferrer noopener" target="_blank"}
+- [Page asking for address (opens in new tab)](../../samples/template-address/){rel="noreferrer noopener" target="_blank"}
+- [Page with radios question (opens in new tab)](../../samples/template-radios/){rel="noreferrer noopener" target="_blank"}
 
 ## Accessibility
 Make sure:
-- you include the [skip link](#skip-to-main-content) in your page
-- you use the correct [lang attribute](#html5-doctype-and-lang) in your page
-- the [page titles are unique](#title%2C-description)
+- you include the [skip link (opens in new tab)](#skip-to-main-content) in your page
+- you use the correct [lang attribute (opens in new tab)](#html5-doctype-and-lang) in your page
+- the [page titles are unique (opens in new tab)](#title%2C-description)

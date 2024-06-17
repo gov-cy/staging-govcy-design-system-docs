@@ -81,4 +81,6 @@ Scroll the section to a mobile viewport to view the collapse.
 
 ## Accessibility
 Make sure: 
-- no other interactive elements are too close to the breadcrumbs. This is to make sure users can easily interact with the breadcrumbs. 
+- no other interactive elements are too close to the breadcrumbs. This is to make sure users can easily interact with the breadcrumbs 
+- you use the `<nav>` element to allow assistive technology to present the breadcrumbs in context as a navigational element on the page
+- you use ordered lists `<ol>` and list items `<li>` to allow assistive technology to enumerate the items in the breadcrumbs

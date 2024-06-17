@@ -278,7 +278,7 @@ If the user tries to continue without completing all tasks, display the [error s
 
 There may be cases where the users have completed all the tasks but still cannot continue due to a business rule. 
 
-In the scenario shown in the example below, the users were asked to declare their 2013 impairment on either deposits or securities, or both. In order to submit the application, the users' must declare impairment on at least one category. The user in this example has completed all the sections, but declared that there was no impairment either deposits or securities.  
+In the scenario shown in the example below, the users were asked to declare their 2013 impairment on either deposits or securities, or both. In order to submit the application, the users must declare impairment on at least one category. The user in this example has completed all the sections, but declared that there was no impairment either deposits or securities.  
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
@@ -517,6 +517,6 @@ Do not use the red background colour for any status text except errors.
 ## Accessibility
 Make sure:
 - you add `<span class="govcy-visually-hidden"> with status [whatever status] </span>` to let screen reader users know the status of each task
-- [you don't use colour alone to convey information](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html){rel="noreferrer noopener" target="_blank"} 
-- background and text colour of the status tags must comply with the [contrast ratio of 4.5:1](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html){rel="noreferrer noopener" target="_blank"}
+- [you don't use colour alone to convey information (opens in new tab)](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html){rel="noreferrer noopener" target="_blank"} 
+- background and text colour of the status tags must comply with the [contrast ratio of 4.5:1 (opens in new tab)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html){rel="noreferrer noopener" target="_blank"}
 - if you use the same tag in more than one place, make sure you keep the colour consistent
