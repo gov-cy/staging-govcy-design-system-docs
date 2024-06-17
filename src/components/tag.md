@@ -155,6 +155,8 @@ Tags should be helpful to users. The more you add, the harder it is for users to
 </table>
 ```
 ### Using colour with tags
+If you are using tags to show progress, use the [text and colours of the task list](../../patterns/task-list-page/#status-text-and-style). 
+
 You can use colour to help distinguish between different tags – or to help draw the user’s attention to a tag if it’s especially important. For example, it probably makes sense to use `govcy-tag-orange` for a tag that reads ‘Urgent’.
 
 If you need more tag colours, you can use the following classes.

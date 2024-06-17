@@ -92,7 +92,7 @@ Prefer to split the questions of your service across multiple pages, with each 
 #### One question per page
 Asking just one question per question page helps users understand what you’re asking them to do, and focus on the specific question and its answer.
 
-Set the contents of a `<legend>` or `<label>` for a page’s input as the page heading (`<h1>`). This is good practice as it means that users of screen readers will only hear the contents once.
+When you’re asking just one question on a page, set the question as the page’s heading (`<h1>`), and as the `<label>` or `<legend>` for the input. This is good practice as it means that users of screen readers will only hear the contents once.
 
 Read more about [single question page labels and legends](../../patterns/labels_and_legend_headings/#single-question-page).
 

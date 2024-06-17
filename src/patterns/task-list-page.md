@@ -500,10 +500,10 @@ Use the following statuses:
 
 | Tag HTML | English text | Greek text |
 | ---- | ---- | ---- |
-| `<span class="govcy-tag govcy-tag-gray">NOT STARTED</span>` | NOT STARTED | ΔΕΝ ΞΕΚΙΝΗΣΕ |
-| `<span class="govcy-tag govcy-tag-gray">CANNOT START YET</span>` | CANNOT START YET | ΔΕΝ ΜΠΟΡΕΙ ΝΑ ΞΕΚΙΝΗΣΕΙ AKOMA |
-| `<span class="govcy-tag govcy-tag-cyan">IN PROGRESS</span>` | IN PROGESS | ΣΕ ΕΞΕΛΙΞΗ  |
-| `<span class="govcy-tag">COMPLETED</span>` | COMPLETED | ΟΛΟΚΛΗΡΩΘΗΚΕ |
+| `<span class="govcy-tag govcy-tag-gray">NOT STARTED</span>` <br><br> *Example* <br> <span class="govcy-tag govcy-tag-gray">NOT STARTED</span> | NOT STARTED | ΔΕΝ ΞΕΚΙΝΗΣΕ |
+| `<span class="govcy-tag govcy-tag-gray">CANNOT START YET</span>` <br><br> *Example* <br> <span class="govcy-tag govcy-tag-gray">CANNOT START YET</span> | CANNOT START YET | ΔΕΝ ΜΠΟΡΕΙ ΝΑ ΞΕΚΙΝΗΣΕΙ AKOMA |
+| `<span class="govcy-tag govcy-tag-cyan">IN PROGRESS</span>` <br><br> *Example* <br> <span class="govcy-tag govcy-tag-cyan">IN PROGRESS</span> | IN PROGESS | ΣΕ ΕΞΕΛΙΞΗ  |
+| `<span class="govcy-tag">COMPLETED</span>` <br><br> *Example* <br> <span class="govcy-tag">COMPLETED</span> | COMPLETED | ΟΛΟΚΛΗΡΩΘΗΚΕ |
 
 {.govcy-table}
 </div>
