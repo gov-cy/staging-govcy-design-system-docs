@@ -260,7 +260,7 @@
 <li>Show the users a confirmation of successful completion page.</li>
 </ol>
 <p>You may structure the “Gather information” step differently, in order to handle the complexity and specific needs of each service.</p>
-<p><img src="../../img/example_flow_of_a_standard_service.png" alt="An example flow of a standard service" style="aspect-ratio: auto;"></p>
+<p><img src="../../img/v3_example_flow_of_a_standard_service.png" alt="An example flow of a standard service" style="aspect-ratio: auto;"></p>
 <h3 id="start-page" tabindex="-1">Start page</h3>
 <p>Before starting the service, users should be presented with a page describing all the information they will need from the start, such as:</p>
 <ul>
@@ -309,7 +309,8 @@
 </ul>
 <h3 id="check-your-answers-page" tabindex="-1">Check your answers page</h3>
 <p>Use the <a href="../check_answers">check answers pattern</a> to let users check their answers before submitting information to a service.</p>
-<p><img src="../../img/illustration_check_answers.png" alt="Illustration a check your answers page" style="aspect-ratio: auto;"></p>
+<p>Make sure to use the <a href="../../components/button/#success-button">success button</a> to indicate that the user is about to completed the service.</p>
+<p><img src="../../img/v3_illustration_check_answers.png" alt="Illustration a check your answers page" style="aspect-ratio: auto;"></p>
 <h3 id="confirmation-page" tabindex="-1">Confirmation page</h3>
 <p>After the users have submitted their application, present a <a href="../confirmation-pages/">confirmation page</a> with a panel to tell them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.</p>
 <p><img src="../../img/illustration_confirmation_page.png" alt="Illustration a confirmation page" style="aspect-ratio: auto;"></p>
@@ -405,7 +406,7 @@
 <h3 id="sections" tabindex="-1">Sections</h3>
 <p>Each section represents a task the user needs to take, in order to complete a service. Break the service into independent sections of smaller and related questions.</p>
 <p>Within each section, follow the <a href="#one-thing-at-a-time">one thing at a time</a> principle and allow the users to answer questions one page at a time. This will also enable your service to apply conditional logic if needed.</p>
-<p>If the section consists with more than one question, present the user with a <a href="../../components/summary_list/">summary list</a> before returning to the task list page.</p>
+<p>If the section consists with more than one question, present the user with a <a href="../../components/summary_list/">summary list</a> before returning to the task list page. Make sure the button of the summary list for each section, is not the <a href="../../components/button/#success-button">success button</a>, as this button should only be used once in your service - when the users are ready for their final submission.</p>
 <p><img src="../../img/v3_illustration_secction_summary_list.png" alt="Illustration of a section with a summary list" style="aspect-ratio: auto;"></p>
 <p>If the service allows users to enter multiple answers of the same type, you may implement <a href="../multiple_things/">the multiple things pattern</a> for a section.</p>
 <p>After completing all the questions of the section, return the user to the task list page.</p>

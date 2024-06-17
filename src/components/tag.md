@@ -157,7 +157,7 @@ Tags should be helpful to users. The more you add, the harder it is for users to
 ### Using colour with tags
 You can use colour to help distinguish between different tags – or to help draw the user’s attention to a tag if it’s especially important. For example, it probably makes sense to use `govcy-tag-orange` for a tag that reads ‘Urgent’.
 
-If you need more tag colours, you can use the following colours.
+If you need more tag colours, you can use the following classes.
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
@@ -170,35 +170,39 @@ If you need more tag colours, you can use the following colours.
     </thead>
     <tbody>
         <tr>
-            <td>govcy-tag-gray</td>
-            <td><span class="govcy-tag govcy-tag-gray">INACTIVE</span></td>
+            <td>govcy-tag</td>
+            <td><span class="govcy-tag">INACTIVE</span></td>
         </tr>
         <tr>
-            <td>govcy-tag-darkgreen</td>
+            <td>govcy-tag govcy-tag-gray</td>
+            <td><span class="govcy-tag govcy-tag-gray">COMPLETED</span></td>
+        </tr>
+        <tr>
+            <td>govcy-tag govcy-tag-darkgreen</td>
             <td><span class="govcy-tag govcy-tag-darkgreen">PENDING</span></td>
         </tr>
         <tr>
-            <td>govcy-tag-green</td>
+            <td>govcy-tag govcy-tag-green</td>
             <td><span class="govcy-tag govcy-tag-green">FINISHED</span></td>
         </tr>
         <tr>
-            <td>govcy-tag-purple</td>
+            <td>govcy-tag govcy-tag-purple</td>
             <td><span class="govcy-tag govcy-tag-purple">SENT</span></td>
         </tr>
         <tr>
-            <td>govcy-tag-blue</td>
+            <td>govcy-tag govcy-tag-blue</td>
             <td><span class="govcy-tag govcy-tag-blue">NEW</span></td>
         </tr>
         <tr>
-            <td>govcy-tag-red</td>
+            <td>govcy-tag govcy-tag-red</td>
             <td><span class="govcy-tag govcy-tag-red">DECLINED</span></td>
         </tr>
         <tr>
-            <td>govcy-tag-orange</td>
+            <td>govcy-tag govcy-tag-orange</td>
             <td><span class="govcy-tag govcy-tag-orange">URGENT</span></td>
         </tr>
         <tr>
-            <td>govcy-tag-yellow</td>
+            <td>govcy-tag govcy-tag-yellow</td>
             <td><span class="govcy-tag govcy-tag-yellow">DELAYED</span></td>
         </tr>
     </tbody>
@@ -216,35 +220,39 @@ If you need more tag colours, you can use the following colours.
     </thead>
     <tbody>
         <tr>
-            <td>govcy-tag-gray</td>
-            <td><span class="govcy-tag govcy-tag-gray">INACTIVE</span></td>
+            <td>govcy-tag</td>
+            <td><span class="govcy-tag">INACTIVE</span></td>
         </tr>
         <tr>
-            <td>govcy-tag-darkgreen</td>
+            <td>govcy-tag govcy-tag-gray</td>
+            <td><span class="govcy-tag govcy-tag-gray">COMPLETED</span></td>
+        </tr>
+        <tr>
+            <td>govcy-tag govcy-tag-darkgreen</td>
             <td><span class="govcy-tag govcy-tag-darkgreen">PENDING</span></td>
         </tr>
         <tr>
-            <td>govcy-tag-green</td>
+            <td>govcy-tag govcy-tag-green</td>
             <td><span class="govcy-tag govcy-tag-green">FINISHED</span></td>
         </tr>
         <tr>
-            <td>govcy-tag-purple</td>
+            <td>govcy-tag govcy-tag-purple</td>
             <td><span class="govcy-tag govcy-tag-purple">SENT</span></td>
         </tr>
         <tr>
-            <td>govcy-tag-blue</td>
+            <td>govcy-tag govcy-tag-blue</td>
             <td><span class="govcy-tag govcy-tag-blue">NEW</span></td>
         </tr>
         <tr>
-            <td>govcy-tag-red</td>
+            <td>govcy-tag govcy-tag-red</td>
             <td><span class="govcy-tag govcy-tag-red">DECLINED</span></td>
         </tr>
         <tr>
-            <td>govcy-tag-orange</td>
+            <td>govcy-tag govcy-tag-orange</td>
             <td><span class="govcy-tag govcy-tag-orange">URGENT</span></td>
         </tr>
         <tr>
-            <td>govcy-tag-yellow</td>
+            <td>govcy-tag govcy-tag-yellow</td>
             <td><span class="govcy-tag govcy-tag-yellow">DELAYED</span></td>
         </tr>
     </tbody>

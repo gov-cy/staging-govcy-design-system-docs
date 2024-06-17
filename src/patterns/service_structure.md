@@ -37,7 +37,7 @@ A service should:
 
 You may structure the “Gather information” step differently, in order to handle the complexity and specific needs of each service.
 
-![An example flow of a standard service](../../img/example_flow_of_a_standard_service.png){style="aspect-ratio: auto;"}
+![An example flow of a standard service](../../img/v3_example_flow_of_a_standard_service.png){style="aspect-ratio: auto;"}
 
 ### Start page
 Before starting the service, users should be presented with a page describing all the information they will need from the start, such as:
@@ -91,7 +91,9 @@ If the same type of information is needed more than once, make it easier to reus
 ### Check your answers page
 Use the [check answers pattern](../check_answers) to let users check their answers before submitting information to a service.
 
-![Illustration a check your answers page](../../img/illustration_check_answers.png){style="aspect-ratio: auto;"}
+Make sure to use the [success button](../../components/button/#success-button) to indicate that the user is about to completed the service.
+
+![Illustration a check your answers page](../../img/v3_illustration_check_answers.png){style="aspect-ratio: auto;"}
 
 ### Confirmation page
 After the users have submitted their application, present a [confirmation page](../confirmation-pages/) with a panel to tell them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.
@@ -233,7 +235,7 @@ Each section represents a task the user needs to take, in order to complete a se
 
 Within each section, follow the [one thing at a time](#one-thing-at-a-time) principle and allow the users to answer questions one page at a time. This will also enable your service to apply conditional logic if needed. 
 
-If the section consists with more than one question, present the user with a [summary list](../../components/summary_list/) before returning to the task list page.
+If the section consists with more than one question, present the user with a [summary list](../../components/summary_list/) before returning to the task list page. Make sure the button of the summary list for each section, is not the [success button](../../components/button/#success-button), as this button should only be used once in your service - when the users are ready for their final submission.
 
 ![Illustration of a section with a summary list](../../img/v3_illustration_secction_summary_list.png){style="aspect-ratio: auto;"}
 

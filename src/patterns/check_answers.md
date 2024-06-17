@@ -14,7 +14,9 @@ Show a single check answers page immediately before the confirmation screen for 
 When designing a very large transaction with multiple sections, it may help to include check answers pages at the end of each section. This may also be valuable for services where different users might be completing each section. You should test this approach with your users to find out if it’s helpful. See more information on how to [break the service into sections structure](../service_structure/#variant-2---break-the-service-into-sections)
 
 ## How it works
-Use a [summary list](../../components/summary_list/) and a [primary button](../../components/button/) in the page's [main section](../../getting-started/page-template/#sections). Note that all code examples in this page shows only the `Main` section.
+Use a [summary list](../../components/summary_list/) and a [button](../../components/button) in the page's [main section](../../getting-started/page-template/#sections). If your are implementing the [final check answers page](../service_structure/#check-your-answers-page), use the [success button](../../components/button/#success-button). 
+
+Note that all code examples in this page shows only the `Main` section.
 
 Check answers pages help to:
 - increase users’ confidence as they can clearly see that they have completed all the sections and that their data has been captured
@@ -69,7 +71,7 @@ Check answers pages help to:
         </dd>
     </div>
 </dl>
-<button type="button" class="govcy-btn-primary">Submit</button>
+<button type="button" class="govcy-btn-success">Submit</button>
 </div>
 
 *HTML code*
@@ -121,7 +123,7 @@ Check answers pages help to:
         </dd>
     </div>
 </dl>
-<button type="button" class="govcy-btn-primary">Submit</button>
+<button type="button" class="govcy-btn-success">Submit</button>
 ```
 
 ### Showing complex information 
@@ -208,7 +210,7 @@ For allowing users to check their answers on complex services, you may use the [
         </dd>
     </div>
 </dl>
-<button type="button" class="govcy-btn-primary">Submit</button>
+<button type="button" class="govcy-btn-success">Submit</button>
 </div>
 
 *HTML code*
@@ -292,7 +294,7 @@ For allowing users to check their answers on complex services, you may use the [
         </dd>
     </div>
 </dl>
-<button type="button" class="govcy-btn-primary">Submit</button>
+<button type="button" class="govcy-btn-success">Submit</button>
 ```
 
 Depending on the complexity of the information you may break the information into sections using an `<h2>`.
@@ -393,7 +395,7 @@ Depending on the complexity of the information you may break the information int
         </dd>
     </div>
 </dl>
-<button type="button" class="govcy-btn-primary">Submit</button>
+<button type="button" class="govcy-btn-success">Submit</button>
 </div>
 
 *HTML code*
@@ -492,7 +494,7 @@ Depending on the complexity of the information you may break the information int
         </dd>
     </div>
 </dl>
-<button type="button" class="govcy-btn-primary">Submit</button>
+<button type="button" class="govcy-btn-success">Submit</button>
 ```
 ### Choose the right layout for the page
 Many services ask users for short answers, which are suitable for a layout that takes up [two-thirds](../../styles/layout/#two-thirds-layout) of the screen on desktop devices. 
@@ -588,7 +590,7 @@ If a user tries to submit and there is a validation or business error that preve
         </dd>
     </div>
 </dl>
-<button type="button" class="govcy-btn-primary">Submit</button>
+<button type="button" class="govcy-btn-success">Submit</button>
 </div>
 
 *HTML code*
@@ -652,7 +654,7 @@ If a user tries to submit and there is a validation or business error that preve
         </dd>
     </div>
 </dl>
-<button type="button" class="govcy-btn-primary">Submit</button>
+<button type="button" class="govcy-btn-success">Submit</button>
 ```
 
 ## Accessibility

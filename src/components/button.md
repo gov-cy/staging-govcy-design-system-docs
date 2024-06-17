@@ -68,6 +68,20 @@ Warning buttons are designed to make users think carefully before they use them.
 ```html
 <button type="button" class="govcy-btn-warning">Warning</button>
 ```
+### Success button
+Use success buttons to mark the success of an activity or submission. 
+
+They only work if used very sparingly. Most services should only need one, for example, the "submit" button in the final [check your answers page](../../patterns/check_answers/) permanently deleting an account.
+
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<button type="button" class="govcy-btn-success">Submit</button>
+</div>
+
+*HTML code*
+```html
+<button type="button" class="govcy-btn-success">Submit</button>
+```
 ### Component text
 Write button text in sentence case, describing the action it performs. For example:
 
