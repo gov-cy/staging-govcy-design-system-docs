@@ -51,7 +51,7 @@ Take a look at our [create a page guide]({{ '/guides/create_a_page/' | url }}) f
 ## Accessibility
 It is important to always test your implementation for compliance with the EN 301 549 Standard.
 
-All elements presented in the design system documentation, have been tested and they comply with the [include everyone principle]({{ '/getting-started/principles/#7.-include-everyone' | url }}). We have also included in this website, recommendations on how to enhance accessibility using our components and patterns. However, that does not mean that any implementation that uses the developer assets, automatically complies with the Standard.
+All elements presented in the design system documentation, have been tested and they comply with the [include everyone principle]({{ '/getting-started/principles/#7.-include-everyone' | url }}). We have also included in this website, recommendations on how to enhance accessibility using our components and patterns (for example [input text accessibility recommendations](../components/text_input/#accessibility)). However, that does not mean that any implementation that uses the developer assets, automatically complies with the Standard.
 
 The way the design elements are used affect the accessibility of each page. For example [The order of heading elements (opens in new tab)](https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753){rel="noreferrer noopener" target="_blank"} should descend, based on the “depth” of the content and as such a `h4` element should not appear on a page before the first `h3` element declaration.
 

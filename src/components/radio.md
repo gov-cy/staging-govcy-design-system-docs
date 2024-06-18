@@ -510,10 +510,17 @@ To start with preselected radio and collapse content:
 
 You can add multiple radio buttons in the same conditional group or add multiple inputs within the conditional radio's content.
 
-> **Warning**{class="govcy-fw-bolder govcy-fs-4 govcy-d-block"}
-> **Keep it simple**. When we tested complicated questions that were conditionally revealed, particularly questions with more that one part, users did get confused. When we broke the questions in different pages, it was easier for the users to answer.
-> If the related question is complicated or has more than one part, show it on the next page in the process instead.
-{class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info"}
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			<strong>Keep it simple</strong>. When we tested complicated questions that were conditionally revealed, particularly questions with more that one part, users did get confused. When we broke the questions in different pages, it was easier for the users to answer.<br>
+            If the related question is complicated or has more than one part, show it on the next page in the process instead.
+		</p>
+    </div>
+</div>
 
 *Complex example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

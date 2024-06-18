@@ -220,13 +220,21 @@
 <p>Use the HTML5 doctype</p>
 <pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">doctype</span> <span class="token name">html</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>el<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  ...<br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
 <p>The language of the document or a page element must be identified using the lang attribute as follows <code>&lt;html lang=&quot;en&quot;&gt;</code>. This is a very important accessibility requirement as it instructs the screen readers which language to use.</p>
-<blockquote class="govcy-alert-notification govcy-p-4 govcy-mb-0 govcy-br-5 govcy-br-info">
-<p><strong class="govcy-fw-bolder govcy-fs-4 govcy-d-block">Warning</strong><br>
-Change the lang attribute according to the language used in the document<br>
-If the language of the page is in Greek, you must have <code>&lt;html lang=&quot;el&quot;&gt;</code>.<br>
-If the language of the page is in English, you must have <code>&lt;html lang=&quot;en&quot;&gt;</code>.<br>
-If the language of the page is in Turkish, you must have <code>&lt;html lang=&quot;tr&quot;&gt;</code>.</p>
-</blockquote>
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			Change the lang attribute according to the language used in the document
+            <ul class="govcy-ml-4">
+                <li>If the language of the page is in Greek, you must have <code>&lt;html lang="el""&gt;</code>. </li>
+                <li>If the language of the page is in English, you must have <code>&lt;html lang="en""&gt;</code></li>
+                <li>If the language of the page is in Turkish, you must have <code>&lt;html lang="tr""&gt;</code></li>
+            </ul>
+		</p>
+    </div>
+</div>
 <h4 id="responsive-meta-tag" tabindex="-1">Responsive meta tag</h4>
 <p>To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your <code>&lt;head&gt;</code></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>

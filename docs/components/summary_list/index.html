@@ -425,10 +425,16 @@
 <h3 id="showing-complex-information" tabindex="-1">Showing complex information</h3>
 <p>Avoid using complex information in your summary lists as users might find it hard to understand complex data structures. Try to simplify the data that need to be summarised to simple key-value pairs.</p>
 <p>There may be cases though where you will want to summarise more complex information.</p>
-<blockquote class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info">
-<p><strong class="govcy-fw-bolder govcy-fs-4 govcy-d-block">Warning</strong><br>
-Restrict the summarised data structure to key-value, key-object and key-array of objects. Anything more complex will be very hard for users to understand.</p>
-</blockquote>
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			Restrict the summarised data structure to key-value, key-object and key-array of objects. Anything more complex will be very hard for users to understand.
+		</p>
+    </div>
+</div>
 <p>Use the following classes to display key-object and key-array of objects values</p>
 <ul>
 <li>For the object <code>&lt;dl&gt;</code> use the <code>govcy-summary-list-row-internal</code> class</li>

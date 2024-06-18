@@ -109,9 +109,16 @@ Do not use an accordion for content that all users need to see. It’s usually b
 - keep the content on a single page, separated by headings  
 - use a list of links at the start of the page (known as ‘anchor links’) to take the user to particular sections of a page
 
-> **Warning**{class="govcy-fw-bolder govcy-fs-4 govcy-d-block"}
-> Accordions work best for simple content and links. Do not use accordions to split up a series of [questions](../../patterns/question_pages/). Use separate pages instead. See the [Structuring a service](../../patterns/service_structure/) pattern for more information.
-{class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info"}
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			Accordions work best for simple content and links. Do not use accordions to split up a series of <a href="../../patterns/question_pages/">questions</a>. Use separate pages instead. See the <a href="../../patterns/service_structure/">Structuring a service</a> pattern for more information.
+		</p>
+    </div>
+</div>
 
 Do not put accordions within accordions, as it will make content difficult to find.
 

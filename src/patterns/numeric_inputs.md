@@ -17,9 +17,16 @@ Do not limit or validate the users' input as they type. Run validations as descr
 ### Whole numbers
 If you only allow whole numbers, use the `inputmode` and `pattern` attributes. 
 
-> **Warning**{class="govcy-fw-bolder govcy-fs-4 govcy-d-block"}
-> Do not use `<input type="number">` as there is a risk of users accidentally incrementing a number when they’re trying to do something else - for example, scroll up or down the page. Make sure to set `spellcheck="false"`.
-{class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info"}
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			Do not use <code>&lt;input type="number"&gt;</code> as there is a risk of users accidentally incrementing a number when they’re trying to do something else - for example, scroll up or down the page. Make sure to set <code>spellcheck="false"</code>.
+		</p>
+    </div>
+</div>
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

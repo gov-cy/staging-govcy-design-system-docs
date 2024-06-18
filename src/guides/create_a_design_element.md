@@ -9,9 +9,16 @@ In this guide we will be looking at an example for developers, of how to use the
 
 The gov.cy Design System provides the basic components for creating digital sites and service straight out of the box. There may be cases where these components will not be enough to build all services or sites, so we have created a library of [CSS utility classes](../../css_utilities) that apply unique styling and formatting to HTML elements, that can be used to build new design elements, in the ‘gov.cy way’.
 
-> **Warning**{class="govcy-fw-bolder govcy-fs-4 govcy-d-block"}
->The ability to create or overwrite existing components, does not mean you should change the elements of the design system in any way you like. Consistency is an important principle, so we ask that you use the components as explained in the design system, for gov.cy sites and services.
-{class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info"}
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			The ability to create or overwrite existing components, does not mean you should change the elements of the design system in any way you like. Consistency is an important principle, so we ask that you use the components as explained in the design system, for gov.cy sites and services.
+		</p>
+    </div>
+</div>
 
 In the guide's example, we will be looking at how to create a component to display additional information about a page. The component is similar to the [inset text component](../../components/inset_text/), but will display an 'info' coloured left border.
 

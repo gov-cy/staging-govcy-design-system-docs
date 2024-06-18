@@ -252,9 +252,16 @@ After answering all the section's questions, mark the status section as 'Complet
 
 If the user starts answering questions on a section, but leaves without answering all of them, make sure that the status of the section is marked as 'In progress'. 
 
-> **Warning**{class="govcy-fw-bolder govcy-fs-4 govcy-d-block"}
-> Note that a user may return to a section at any time and change an answer. In such cases your service should be smart enough to decide whether the user has completed the section and the status is 'Completed', or there are pending questions and the status is 'In Progress'. 
-{class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info"}
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			Note that a user may return to a section at any time and change an answer. In such cases your service should be smart enough to decide whether the user has completed the section and the status is 'Completed', or there are pending questions and the status is 'In Progress'. 
+		</p>
+    </div>
+</div>
 
 #### Optional sections
 Depending on the service, a section may be optional for some users. In such a case you may begin your section with a [radio question](../../components/radio/) and depending on the users' answer, decide if you wish to ask more questions related to that section. 

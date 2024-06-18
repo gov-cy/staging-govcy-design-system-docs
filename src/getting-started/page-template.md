@@ -99,12 +99,21 @@ Use the HTML5 doctype
 ```
 The language of the document or a page element must be identified using the lang attribute as follows `<html lang="en">`. This is a very important accessibility requirement as it instructs the screen readers which language to use.  
 
-> **Warning**{class="govcy-fw-bolder govcy-fs-4 govcy-d-block"}
-> Change the lang attribute according to the language used in the document
-> If the language of the page is in Greek, you must have `<html lang="el">`. 
-> If the language of the page is in English, you must have `<html lang="en">`.
-> If the language of the page is in Turkish, you must have `<html lang="tr">`.
-{class="govcy-alert-notification govcy-p-4 govcy-mb-0 govcy-br-5 govcy-br-info"}
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			Change the lang attribute according to the language used in the document
+            <ul class="govcy-ml-4">
+                <li>If the language of the page is in Greek, you must have <code>&lt;html lang="el""&gt;</code>. </li>
+                <li>If the language of the page is in English, you must have <code>&lt;html lang="en""&gt;</code></li>
+                <li>If the language of the page is in Turkish, you must have <code>&lt;html lang="tr""&gt;</code></li>
+            </ul>
+		</p>
+    </div>
+</div>
 
 #### Responsive meta tag
 To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your `<head>`

@@ -29,9 +29,16 @@ Users will get updates at a pace that works best for the way they interact with 
 
 This component does not restrict the user from entering information. The user can enter more than the character limit, but are told they’ve entered too many characters. This lets them type or copy and paste their full answer, then edit it down.
 
-> **Warning**{class="govcy-fw-bolder govcy-fs-4 govcy-d-block"}
-> Do not depend only on the character count for validating the input. Make sure to run the validations on the textarea after the users distinctly indicate that their input is ready to be submitted, for example when clicking the “continue” button, as indicated in the [error message](../error_message) component.
-{class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info"}
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			Do not depend only on the character count for validating the input. Make sure to run the validations on the textarea after the users distinctly indicate that their input is ready to be submitted, for example when clicking the “continue” button, as indicated in the <a href="../error_message">error message</a> component.
+		</p>
+    </div>
+</div>
 
 The count message appears below the textarea so that:
 

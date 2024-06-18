@@ -148,10 +148,16 @@
                 
                 <p>In this guide we will be looking at an example for developers, of how to use the gov.cy utility classes to create a brand new HTML design element. If you would like to see an example of building a page using the gov.cy developer assets, see article <a href="../create_a_page">How to create a page using the gov.cy design system</a>.</p>
 <p>The gov.cy Design System provides the basic components for creating digital sites and service straight out of the box. There may be cases where these components will not be enough to build all services or sites, so we have created a library of <a href="../../css_utilities">CSS utility classes</a> that apply unique styling and formatting to HTML elements, that can be used to build new design elements, in the ‘gov.cy way’.</p>
-<blockquote class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info">
-<p><strong class="govcy-fw-bolder govcy-fs-4 govcy-d-block">Warning</strong><br>
-The ability to create or overwrite existing components, does not mean you should change the elements of the design system in any way you like. Consistency is an important principle, so we ask that you use the components as explained in the design system, for gov.cy sites and services.</p>
-</blockquote>
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			The ability to create or overwrite existing components, does not mean you should change the elements of the design system in any way you like. Consistency is an important principle, so we ask that you use the components as explained in the design system, for gov.cy sites and services.
+		</p>
+    </div>
+</div>
 <p>In the guide’s example, we will be looking at how to create a component to display additional information about a page. The component is similar to the <a href="../../components/inset_text/">inset text component</a>, but will display an ‘info’ coloured left border.</p>
 <p>We start by creating a <code>&lt;div&gt;</code> container. In order to comply with the <a href="../../styles/vertical_spacing/#custom-components">vertical spacing requirements</a> of our design system we will assign the <code>govcy-mb-6</code> class in our <code>&lt;div&gt;</code>.</p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-mb-6<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>

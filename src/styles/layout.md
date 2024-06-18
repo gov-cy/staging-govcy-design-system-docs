@@ -97,9 +97,16 @@ This layout uses two columns:
 #### When to use this
 Use this layout for services that need a side menu.
 
-> **Warning**{class="govcy-fw-bolder govcy-fs-4 govcy-d-block"}
-> Avoid using side menus in your services with links to other services. Presenting links to other services in the `main` section, could disrupt the users' flow within the service and they should be avoided.
-{class="govcy-alert-notification govcy-p-4 govcy-mb-6 govcy-br-5 govcy-br-info"}
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			Avoid using side menus in your services with links to other services. Presenting links to other services in the <code>main</code> section, could disrupt the users' flow within the service and they should be avoided.
+		</p>
+    </div>
+</div>
 
 ## Websites
 When implementing a website, you can use a combination of the following layouts. 
