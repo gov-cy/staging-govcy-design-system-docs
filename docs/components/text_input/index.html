@@ -183,6 +183,9 @@
                     <li><a href="#spellcheck-a-user%E2%80%99s-input">Spellcheck a user’s input</a>
             		</li>
 
+                    <li><a href="#order-of-elements-inside-the-component">Order of elements inside the component</a>
+            		</li>
+
                     <li><a href="#error-messages">Error messages</a>
             		</li>
                 </ol>
@@ -339,6 +342,14 @@
 <p>If you are asking users for information which is not appropriate to spellcheck, like a reference number, name, email address or National Insurance number, disable the spellcheck.</p>
 <p>To do this set the <code>spellcheck</code> attribute to <code>false</code>.</p>
 <p>Browsers do not consistently spellcheck user’s input by default. If you are asking a question where spellcheck would be useful, set the <code>spellcheck</code> attribute to <code>true</code>.</p>
+<h3 id="order-of-elements-inside-the-component" tabindex="-1">Order of elements inside the component</h3>
+<p>Place the elements inside the component in the following order.</p>
+<ol>
+<li>Label</li>
+<li>Hint</li>
+<li>Error message</li>
+<li>Input</li>
+</ol>
 <h3 id="error-messages" tabindex="-1">Error messages</h3>
 <p>Make sure to follow the instructions for <a href="../error_message">error messages</a> and <a href="../error_summary">error summary</a> when validating user input. Error messages should be styled like this:</p>
 <p><em>Example</em></p>

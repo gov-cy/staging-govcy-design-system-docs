@@ -95,6 +95,14 @@ Use `<span class="govcy-visually-hidden"> the file's title</span>` in the links 
     </div>
 </div>
 ```
+
+### Order of elements inside the component
+Place the elements inside the component in the following order.
+1. Label
+2. Hint
+3. Error message
+4. Input
+
 ### Error messages
 Make sure to follow the instructions for [error messages](../error_message) and [error summary](../error_summary) when validating user input. Error messages should be styled like this:
 

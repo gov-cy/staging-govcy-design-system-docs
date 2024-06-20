@@ -118,10 +118,11 @@
             <form action="" class="govcy-form" novalidate>
                 <div class="govcy-form-control govcy-form-control-error">
                     <h1><label class="govcy-label govcy-label-primary" for="in-tel">What is your telephone number?</label></h1>
+                    <span class="govcy-hint" id="tel-hint">We’ll only use this for this application</span>
                     <p id="in-error" class="govcy-input-error-msg">
                         <span class="govcy-visually-hidden-error">Error:</span>Enter a valid telephone number
                     </p>
-                    <input class="govcy-text-input govcy-text-input-char_20 govcy-text-input-error" id="in-tel" name="in-tel" type="tel" spellcheck="false" aria-describedby="in-error" autocomplete="tel">
+                    <input class="govcy-text-input govcy-text-input-char_20 govcy-text-input-error" id="in-tel" name="in-tel" type="tel" spellcheck="false" aria-describedby="tel-hint in-error" autocomplete="tel">
                 </div>
                 <button type="button" class="govcy-btn-primary">Continue</button>
             </form>

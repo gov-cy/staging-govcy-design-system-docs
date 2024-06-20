@@ -128,6 +128,13 @@ Some assistive technologies do not tell users if an input has a `maxlength` se
 
 If you must enforce a maximum length for technical reasons, inform the user of the limit in the hint, but allow them to provide more information. Only return an error if the value is longer than allowed after normalisation. For longer values, consider using the [character count component](../character_count) instead.
 
+### Order of elements inside the component
+Place the elements inside the component in the following order.
+1. Label
+2. Hint
+3. Error message
+4. Textarea
+
 ### Error messages
 Make sure to follow the instructions for [error messages](../error_message) and [error summary](../error_summary) when validating user input. Error messages should be styled like this:
 

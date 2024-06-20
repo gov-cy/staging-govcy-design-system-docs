@@ -144,6 +144,14 @@ Do this by setting the `data-maxwords` in the component markup. For example, `d
 ### Avoid narrow limits
 When using a character count, try to set the limit higher than most users will need.  Find out what this is by doing user research and data analysis.
 
+### Order of elements inside the component
+Place the elements inside the component in the following order.
+1. Label
+2. Hint
+3. Error message
+4. Textarea
+5. Count message
+
 ### Error messages
 Make sure to follow the instructions for [error messages](../error_message) and [error summary](../error_summary) when validating user input. Error messages should be styled like this:
 

@@ -279,6 +279,16 @@ Show the ‘none’ option last. Separate it from the other options using a divi
     </fieldset>
 </form>
 ```
+### Order of elements inside the component
+Place the elements inside the component in the following order.
+
+1. Fieldset
+    1. Legend
+    1. Form control
+        1. Hint
+        2. Error message
+        3. Inputs
+
 ### Error messages
 Make sure to follow the instructions for [error messages](../error_message) and [error summary](../error_summary) when validating user input. Error messages should be styled like this:
 

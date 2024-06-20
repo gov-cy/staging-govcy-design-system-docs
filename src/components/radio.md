@@ -621,6 +621,16 @@ You can add multiple radio buttons in the same conditional group or add multiple
 #### Conditional radios accessibility issue
 Users are not always notified when a conditionally revealed question is shown or hidden. To help screen readers inform users that more questions will are revealed use `<span class="govcy-visually-hidden">This option expands and has more questions,</span>` in the option's `label`. 
 
+### Order of elements inside the component
+Place the elements inside the component in the following order.
+
+1. Fieldset
+    1. Legend
+    1. Form control
+        1. Hint
+        2. Error message
+        3. Inputs
+
 ### Error messages
 Make sure to follow the instructions for [error messages](../error_message) and [error summary](../error_summary) when validating user input. Error messages should be styled like this:
 

@@ -249,6 +249,13 @@ To do this set the `spellcheck` attribute to `false`.
 
 Browsers do not consistently spellcheck user’s input by default. If you are asking a question where spellcheck would be useful, set the `spellcheck` attribute to `true`.
 
+### Order of elements inside the component
+Place the elements inside the component in the following order.
+1. Label
+2. Hint
+3. Error message
+4. Input
+
 ### Error messages
 Make sure to follow the instructions for [error messages](../error_message) and [error summary](../error_summary) when validating user input. Error messages should be styled like this:
 
