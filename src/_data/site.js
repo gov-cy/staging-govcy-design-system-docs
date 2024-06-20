@@ -93,7 +93,7 @@ module.exports = {
       "cookie_label":"Cookies",
       "accessibility_label":"Accessibility",
       "copyright_label":"© Republic of Cyprus, 2024",
-      "search_placeholder":"Search Design System",
+      "search_placeholder":"Search the Design System",
       "skip_to_main" : "Skip to main content",
       "search_button_aria_label" : "Search, expands search text box when clicked",
       "funding_by_EY" : "Funded by the EU Next Generation EU",
@@ -101,7 +101,7 @@ module.exports = {
       "cyprus_tomorrow" : "Cyprus tomorrow, recovery and resilience plan",
       "cyprus_tomorrow_link_title" : "Go to Cyprus to tomorrow website",
       "got_to_gov_cy" : "Go to the GOV.CY homepage",
-      // "older_version_banner" : "For older version visit <a href='https://gov-cy.github.io/govcy-design-system-docs-v2/'>v2 documentation</a>"
+      // "older_version_banner" : "For the older version visit <a href='https://gov-cy.github.io/govcy-design-system-docs-v2/'>v2 documentation</a>"
       "older_version_banner" : "This is a test website. For the actual documentation please visit the <a href='https://gov-cy.github.io/govcy-design-system-docs/'>gov.cy design system</a>"
     }
   }

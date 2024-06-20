@@ -497,7 +497,7 @@ Depending on the complexity of the information you may break the information int
 <button type="button" class="govcy-btn-success">Submit</button>
 ```
 ### Choose the right layout for the page
-Many services ask users for short answers, which are suitable for a layout that takes up [two-thirds](../../styles/layout/#two-thirds-layout) of the screen on desktop devices. 
+Many services ask users for short answers, which are suitable for a layout that takes up [two-thirds](../../styles/layout/#two-thirds-layout-(recommended)) of the screen on desktop devices. 
 
 Using a two-thirds layout stops lines of text getting so long that the page becomes difficult to read. To learn more about line length, see [Layout](../../styles/layout/). It also means the action links are closer to the other content on the page. Users with screen magnifiers are less likely to miss them.
 

@@ -4,7 +4,7 @@ date: 2022-02-01 00:00:03Z
 description: "Use the grid system to lay out the content on your service’s pages."
 --- 
 
-Use the grid system to lay out the content on your service’s pages.
+Use the grid system to lay out the content on your service’s pages. For more information on how to lay out content in the `main` section, see the [layout page](../layout).
 
 ## Breakpoints
 A breakpoint is the screen size threshold determined by specific layout requirements.
@@ -22,7 +22,7 @@ Each screen size range determines the number of columns, and recommended gutters
 
 {.govcy-table}
 
-Using our [developers assets](../../getting-started/developer-assets), the layout adjusts to suit the screen size and orientation for a given breakpoint range automatically.
+Using our [developers assets](../../getting-started/developer-assets) and the coded examples, the layout adjusts to suit the screen size and orientation for a given breakpoint range automatically.
 
 The default maximum width is `1200px` and changes accordingly to the active breakpoint.
 
@@ -38,7 +38,7 @@ The grid system uses a series of containers, rows, and columns to layout and ali
 ## The grid system with gov.cy CSS
 Using our [developers assets](../../getting-started/developer-assets) and the instructions below, the grid adjusts automatically.  
 
-Use `container` classes to contain, pad, and (sometimes) center the content within them. While containers can be nested, most layouts do not require a nested container.
+Use `container` classes to contain, pad, and sometimes center the content within them. While containers can be nested, most layouts do not require a nested container.
 
 The design system comes with two different container classes:
 

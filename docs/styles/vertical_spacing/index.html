@@ -105,10 +105,10 @@
             <div class="govcy-form">
                 
                 <div class="govcy-form-control">
-                    <span class="pagefind-custom-label">Search Design System</span>
+                    <span class="pagefind-custom-label">Search the Design System</span>
                     <link href="/staging-govcy-design-system-docs/pagefind/pagefind-ui.css" rel="stylesheet">
                     <div id="search-div" class="search"></div>
-                    <script src="/staging-govcy-design-system-docs/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search-div', showImages: false, translations : {placeholder:''} }); document.querySelector('.pagefind-ui__search-input').setAttribute('aria-label', 'Search Design System');"></script>
+                    <script src="/staging-govcy-design-system-docs/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search-div', showImages: false, translations : {placeholder:''} }); document.querySelector('.pagefind-ui__search-input').setAttribute('aria-label', 'Search the Design System');"></script>
                 </div>
             </div>
         </div>
@@ -270,7 +270,7 @@
 </table>
 <h2 id="elements-spacing-values" tabindex="-1">Elements spacing values</h2>
 <p>The system uses a combination padding and margin attributes on each element to manage vertical spacing.</p>
-<p>The elements spacing for ‘large screens’ is used when the screen is wider than the <a href="../../getting-started/page-template/#responsive-breakpoint">responsive breakpoint</a> (767px), whereas for smaller screens heading spacing begins from the responsive breakpoint (767px) and below.</p>
+<p>The elements spacing for ‘large screens’ is used when the screen is wider than the <a href="../../getting-started/page-template/#responsive-breakpoint">responsive breakpoint</a> (767px), whereas for smaller screens heading spacing begins from the responsive breakpoint and below.</p>
 <p>The following spacing values must be applied:</p>
 <h4 id="large-screens-768%2B" tabindex="-1">Large Screens 768+</h4>
 <div class="govcy-table-responsive">
@@ -379,8 +379,13 @@
 <p>Usually the first element after the header is either a <a href="../../components/back_link/">back link</a>, a <a href="../../components/breadcrumbs/">breadcrumb</a> or a <code>H1</code> title of the page which already have top margin 0px, and there is no need for special care.</p>
 <p><img src="/staging-govcy-design-system-docs/img/v3_vs_header_after.png" alt="Representation of the first element after the header" style="aspect-ratio: auto;"></p>
 <p>On the other hand, if the following element has pre-existing top spacing, such as an <code>H2</code>, the spacing between the header and <code>H2</code> will combine to 84px which should be avoided (the 84px spacing comes from the existing 64px bottom of the header plus the 20px top of the <code>H2</code>).</p>
-<p><strong>This means the FIRST element right after the header should always have 0px top spacing so as to not interfere with the header spacing.</strong></p>
-<p>However if the first element is not an <code>H1</code> title, use the <code>govcy-pt-0</code> class achieve the correct spacing as shown in the example below:</p>
+<p><strong>This means the FIRST element right after the header, should always have 0px top spacing so as not to interfere with the header spacing.</strong></p>
+<p>If the first element is not a <a href="../../components/back_link/">back link</a>, a <a href="../../components/breadcrumbs/">breadcrumb</a> or a <code>H1</code> title, use the <code>govcy-pt-0</code> class achieve the correct spacing as shown in the example below:</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h2 class="govcy-pt-0">Lorem Ipsum</h2>
+</div>
+<p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-pt-0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Lorem Ipsum<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span></code></pre>
 <h2 id="footer-spacing-values" tabindex="-1">Footer spacing values</h2>
 <p>The footer spacing concerns the vertical spacing of the <a href="../../getting-started/page-template/#sections">footer section of the page template</a>.</p>

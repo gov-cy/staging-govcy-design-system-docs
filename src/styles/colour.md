@@ -8,13 +8,24 @@ The colour palette provides the colour structure of gov.cy websites and services
 
 Always use the gov.cy colour palette.
 
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			<a href="../../getting-started/principles/#6.-consistent">Consistency</a> is very important, so do not deviate from the colours used in the guidance and coded examples of the Unified Design System. If you are using the our <a href="../../getting-started/developer-assets">developers assets</a> and the code in our documentation, you will not need any additional styling.
+		</p>
+    </div>
+</div>
+
 ## Main Colours
 The main colours frame the brand and provide the signature of gov.cy. 
 
 | Name | Colour | Hex |  When to use|
 | ---- | ------ | --- | ----------- |
-| **Primary** |<div class="govcy-rounded-2 govcy-bg-primary govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div>| `#31576F` | To be used as the colour for primary buttons, navigation bars and other classes to help elevate the branding of gov.cy. |
-| **Secondary** |<div class="govcy-rounded-2 govcy-bg-secondary govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div>| `#FFAD2D` | To be used as a filler colour for classes, lines and sections to elevate the branding of gov.cy.                        |
+| **Primary** |<div class="govcy-rounded-2 govcy-bg-primary govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div>| `#31576F` | Used as the colour for primary buttons, navigation bars and other classes to help elevate the branding of gov.cy. |
+| **Secondary** |<div class="govcy-rounded-2 govcy-bg-secondary govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div>| `#FFAD2D` | Used as a filler colour for classes, lines and sections to elevate the branding of gov.cy.                        |
 
 {.govcy-table .govcy-table-responsive-vertical}
 
@@ -25,7 +36,7 @@ Colours used for text based content.
 | ---- | ------ | --- | ----------- |
 | **Headings** |<div class="govcy-rounded-2 govcy-bg-body govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div>| `#272525` | Used as text heading text colour |
 | **Body** |<div class="govcy-rounded-2 govcy-bg-body govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div>| `#272525` | Used as body text colour |
-| **Secondary** |<div class="govcy-rounded-2 govcy-bg-outer-space govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div>| `#474545` | To be used as a filler colour for classes, lines and sections to elevate the branding of gov.cy. |
+| **Secondary** |<div class="govcy-rounded-2 govcy-bg-outer-space govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div>| `#474545` | Used as a filler colour for classes, lines and sections to elevate the branding of gov.cy. |
 | **Hint** |<div class="govcy-rounded-2 govcy-bg-hint govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div>| `#6D6E70` | Used as hint text colour. |
 
 {.govcy-table .govcy-table-responsive-vertical}
@@ -39,8 +50,8 @@ Colours related to links.
 | **Link hover** |<div class="govcy-rounded-2 govcy-mb-2" style="background:#003078;width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div> | `#003078` | Used as the default link hover |
 | **Link visited** |<div class="govcy-rounded-2 govcy-mb-2" style="background:#4C2C92;width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div> | `#4C2C92` | Used as the visited link status colour |
 | **Link active** |<div class="govcy-rounded-2 govcy-mb-2" style="background:#272525;width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div> | `#272525` | Used as the active link colour |
-| **Link danger** |<div class="govcy-rounded-2 govcy-mb-2" style="background:#D4351C;width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div> | `#D4351C` | Used to convey caution |
-| **Link danger hover** |<div class="govcy-rounded-2 govcy-mb-2" style="background:#942514;width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div> | `#942514` | Used to convey caution |
+| **Link danger** |<div class="govcy-rounded-2 govcy-mb-2" style="background:#D4351C;width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div> | `#D4351C` | Used to convey caution in links |
+| **Link danger hover** |<div class="govcy-rounded-2 govcy-mb-2" style="background:#942514;width:100px;height:50px;" aria-label="Visual representation of the colour">&nbsp;</div> | `#942514` | Used to convey caution in link's hover |
 
 {.govcy-table .govcy-table-responsive-vertical}
 
@@ -128,6 +139,6 @@ Using our [developers assets](../../getting-started/developer-assets) and the co
 ## Accessibility
 It is important to always test your implementation's colours against the minimum contrast ratio of 4.5:1.
 
-All elements presented in the design system documentation, use colours in a manner so as to comply with the minimum contrast ratio, but that does not mean that any implementation that uses the gov.cy CSS, automatically complies with the contrast ratio. 
+All elements presented in the Unified Design System documentation, use colours in a manner so as to comply with the minimum contrast ratio, but that does not mean that any implementation that uses the gov.cy CSS, automatically complies with the contrast ratio. 
 
-Be extra careful when including components within other components, when you are overwriting the default appearance of elements, or when you are implementing custom elements. For example if you use an anchor with  `class="govcy-link-inverse"` on a white background, it will fail the contrast test.
+Be extra careful when including components within other components, when you are overwriting the default appearance of elements, or when you are implementing custom elements. For example if you use an anchor with  `class="govcy-link-inverse"` on a light backgrounds, it will fail the contrast test.

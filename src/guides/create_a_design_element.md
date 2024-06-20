@@ -5,9 +5,9 @@ description: "How to use the gov.cy utility classes to create a brand new HTML d
 image: v3_custom_design_element.png
 ---
 
-In this guide we will be looking at an example for developers, of how to use the gov.cy utility classes to create a brand new HTML design element. If you would like to see an example of building a page using the gov.cy developer assets, see article [How to create a page using the gov.cy design system](../create_a_page).
+In this guide we will be looking at an example for developers, of how to use the gov.cy utility classes to create a brand new HTML design element. If you would like to see an example of building a page using the gov.cy developer assets, see article on [how to create a page using the gov.cy Unified Design System](../create_a_page).
 
-The gov.cy Design System provides the basic components for creating digital sites and service straight out of the box. There may be cases where these components will not be enough to build all services or sites, so we have created a library of [CSS utility classes](../../css_utilities) that apply unique styling and formatting to HTML elements, that can be used to build new design elements, in the ‘gov.cy way’.
+The gov.cy Unified Design System provides the basic components for creating digital sites and service straight out of the box. There may be cases where these components will not be enough to build all services or sites, so we have created a library of [CSS utility classes](../../css_utilities) that apply unique styling and formatting to HTML elements, that can be used to build new design elements, in the ‘gov.cy way’.
 
 <div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
     <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>

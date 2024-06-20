@@ -9,7 +9,7 @@ Use these layouts for content that resides inside the `<main>` element of the�
 ![Representation of the main section with the two-thirds layout]({{ '/img/v3_tow_thirds_layout.png' | url }})
 ## Services
 When implementing a service, use one of the following layouts. 
-### Two-thirds layout
+### Two-thirds layout (recommended)
 This layout uses one column and takes up the two thirds of the `<main>`.
 
 *Example*

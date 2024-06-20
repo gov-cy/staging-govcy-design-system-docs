@@ -19,7 +19,7 @@ Design products that are clean and uncluttered, presenting only information and 
 ## 6. Consistent
 Ensure websites and services look and feel the same to users, regardless of the different government departments and backend systems involved. Use design styles, components and patterns consistently to meet user expectations.
 ## 7. Don’t reinvent the wheel
-Reuse any design elements that have already been designed or developed within the gov.cy Design System.
+Reuse any design elements that have already been designed or developed within the gov.cy Unified Design System.
 ## 8. Include everyone
 Provide products that everyone can use, including people with disabilities. Make sure to comply with the EN 301 549 Standard.
 ## 9. Mobile first

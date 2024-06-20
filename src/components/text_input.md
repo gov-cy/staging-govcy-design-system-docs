@@ -191,7 +191,7 @@ If you want to make the input smaller, you can either use a fixed width input, o
 ```
 
 ### Turn off HTML5 validation
-Do not use HTML5 validation because the visual style, placement and content of HTML5 error messages cannot be made consistent with the gov.cy Design System
+Do not use HTML5 validation because the visual style, placement and content of HTML5 error messages cannot be made consistent with the gov.cy Unified Design System
 
 To turn off HTML5 validation, add `novalidate` to your form tags.
 

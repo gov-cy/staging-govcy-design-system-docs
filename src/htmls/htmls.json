@@ -3,5 +3,6 @@
     "category" : "htmls",
     "tags" : "htmls",
     "showCategoryMenu" : false,
-    "showIndexInCategoryMenu" : false
+    "showIndexInCategoryMenu" : false,
+    "hideSearch" : true
   }

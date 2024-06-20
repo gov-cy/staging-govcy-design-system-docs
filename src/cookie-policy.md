@@ -2,7 +2,7 @@
 title: "Cookies used by the Design System"
 ---
 
-The 'Design System' website does not use any cookies. 
+The 'Unified Design System' website does not use any cookies. 
 
 ## How to control cookies
 [Find out how to control and delete cookies on your device (opens in new tab)](https://www.aboutcookies.org/how-to-manage-and-delete-cookies){rel="noreferrer noopener" target="_blank"}.

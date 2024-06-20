@@ -17,7 +17,10 @@ Version 3.0.0 of the Design system has been released.
 <hr>
 
 ## Overview
-At its core, the gov.cy Unified Design System (UDS) consists of universal assets, elements, components, patterns and code guidance on how to design, build and develop websites and services that make use of the Cyprus government branding and image. This allows its users and teams to build a citizen centric, consistent, clean and intuitive user experience throughout gov.cy, that is accessible to everyone.
+At its core, the gov.cy Unified Design System (UDS) consists of universal assets, elements, components, patterns and code guidance on how to design, build and develop websites and services that make use of the Cyprus government branding and image. This allows its users and teams to build a citizen centric, consistent, clean and intuitive user experience throughout gov.cy, that is accessible to everyone. 
+
+If you are starting a new service or website, first go through our [getting started guide](getting-started/).
+
 <hr>
 <div class="govcy-container govcy-py-3">
     <div class="govcy-row">

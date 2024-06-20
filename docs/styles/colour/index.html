@@ -105,10 +105,10 @@
             <div class="govcy-form">
                 
                 <div class="govcy-form-control">
-                    <span class="pagefind-custom-label">Search Design System</span>
+                    <span class="pagefind-custom-label">Search the Design System</span>
                     <link href="/staging-govcy-design-system-docs/pagefind/pagefind-ui.css" rel="stylesheet">
                     <div id="search-div" class="search"></div>
-                    <script src="/staging-govcy-design-system-docs/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search-div', showImages: false, translations : {placeholder:''} }); document.querySelector('.pagefind-ui__search-input').setAttribute('aria-label', 'Search Design System');"></script>
+                    <script src="/staging-govcy-design-system-docs/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search-div', showImages: false, translations : {placeholder:''} }); document.querySelector('.pagefind-ui__search-input').setAttribute('aria-label', 'Search the Design System');"></script>
                 </div>
             </div>
         </div>
@@ -178,6 +178,16 @@
                 
                 <p>The colour palette provides the colour structure of gov.cy websites and services.</p>
 <p>Always use the gov.cy colour palette.</p>
+<div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
+    <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-info govcy-fs-4">Warning</div>
+    <div class="govcy-alert-notification-body">
+        <p class="govcy-pl-4 govcy-pt-6">
+		<span class="govcy-warning-text govcy-d-inline">
+			<span class="govcy-warning-text-icon" aria-hidden="true">!</span></span>
+			<a href="../../getting-started/principles/#6.-consistent">Consistency</a> is very important, so do not deviate from the colours used in the guidance and coded examples of the Unified Design System. If you are using the our <a href="../../getting-started/developer-assets">developers assets</a> and the code in our documentation, you will not need any additional styling.
+		</p>
+    </div>
+</div>
 <h2 id="main-colours" tabindex="-1">Main Colours</h2>
 <p>The main colours frame the brand and provide the signature of gov.cy.</p>
 <table class="govcy-table govcy-table-responsive-vertical">
@@ -194,13 +204,13 @@
 <td><strong>Primary</strong></td>
 <td><div class="govcy-rounded-2 govcy-bg-primary govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
 <td><code>#31576F</code></td>
-<td>To be used as the colour for primary buttons, navigation bars and other classes to help elevate the branding of gov.cy.</td>
+<td>Used as the colour for primary buttons, navigation bars and other classes to help elevate the branding of gov.cy.</td>
 </tr>
 <tr>
 <td><strong>Secondary</strong></td>
 <td><div class="govcy-rounded-2 govcy-bg-secondary govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
 <td><code>#FFAD2D</code></td>
-<td>To be used as a filler colour for classes, lines and sections to elevate the branding of gov.cy.</td>
+<td>Used as a filler colour for classes, lines and sections to elevate the branding of gov.cy.</td>
 </tr>
 </tbody>
 </table>
@@ -232,7 +242,7 @@
 <td><strong>Secondary</strong></td>
 <td><div class="govcy-rounded-2 govcy-bg-outer-space govcy-mb-2" style="width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
 <td><code>#474545</code></td>
-<td>To be used as a filler colour for classes, lines and sections to elevate the branding of gov.cy.</td>
+<td>Used as a filler colour for classes, lines and sections to elevate the branding of gov.cy.</td>
 </tr>
 <tr>
 <td><strong>Hint</strong></td>
@@ -282,13 +292,13 @@
 <td><strong>Link danger</strong></td>
 <td><div class="govcy-rounded-2 govcy-mb-2" style="background:#D4351C;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
 <td><code>#D4351C</code></td>
-<td>Used to convey caution</td>
+<td>Used to convey caution in links</td>
 </tr>
 <tr>
 <td><strong>Link danger hover</strong></td>
 <td><div class="govcy-rounded-2 govcy-mb-2" style="background:#942514;width:100px;height:50px;" aria-label="Visual representation of the colour"> </div></td>
 <td><code>#942514</code></td>
-<td>Used to convey caution</td>
+<td>Used to convey caution in link’s hover</td>
 </tr>
 </tbody>
 </table>
@@ -555,8 +565,8 @@
 <p>Using our <a href="../../getting-started/developer-assets">developers assets</a> and the code in our documentation,  colours adjust automatically for each design element.</p>
 <h2 id="accessibility" tabindex="-1">Accessibility</h2>
 <p>It is important to always test your implementation’s colours against the minimum contrast ratio of 4.5:1.</p>
-<p>All elements presented in the design system documentation, use colours in a manner so as to comply with the minimum contrast ratio, but that does not mean that any implementation that uses the gov.cy CSS, automatically complies with the contrast ratio.</p>
-<p>Be extra careful when including components within other components, when you are overwriting the default appearance of elements, or when you are implementing custom elements. For example if you use an anchor with  <code>class=&quot;govcy-link-inverse&quot;</code> on a white background, it will fail the contrast test.</p>
+<p>All elements presented in the Unified Design System documentation, use colours in a manner so as to comply with the minimum contrast ratio, but that does not mean that any implementation that uses the gov.cy CSS, automatically complies with the contrast ratio.</p>
+<p>Be extra careful when including components within other components, when you are overwriting the default appearance of elements, or when you are implementing custom elements. For example if you use an anchor with  <code>class=&quot;govcy-link-inverse&quot;</code> on a light backgrounds, it will fail the contrast test.</p>
 
             </div>
     

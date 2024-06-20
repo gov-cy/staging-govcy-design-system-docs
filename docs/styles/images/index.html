@@ -105,10 +105,10 @@
             <div class="govcy-form">
                 
                 <div class="govcy-form-control">
-                    <span class="pagefind-custom-label">Search Design System</span>
+                    <span class="pagefind-custom-label">Search the Design System</span>
                     <link href="/staging-govcy-design-system-docs/pagefind/pagefind-ui.css" rel="stylesheet">
                     <div id="search-div" class="search"></div>
-                    <script src="/staging-govcy-design-system-docs/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search-div', showImages: false, translations : {placeholder:''} }); document.querySelector('.pagefind-ui__search-input').setAttribute('aria-label', 'Search Design System');"></script>
+                    <script src="/staging-govcy-design-system-docs/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search-div', showImages: false, translations : {placeholder:''} }); document.querySelector('.pagefind-ui__search-input').setAttribute('aria-label', 'Search the Design System');"></script>
                 </div>
             </div>
         </div>
@@ -217,10 +217,11 @@
 </tr>
 </tbody>
 </table>
+<p>Using our <a href="../../getting-started/developer-assets">developers assets</a>, the images scaling adjusts automatically.</p>
 <p><em>Example</em><br>
 <img src="/staging-govcy-design-system-docs/img/v3_images_32_bike.jpg" alt="Bike Ride"></p>
 <h3 id="illustrations-or-representative-imagery" tabindex="-1">Illustrations or representative imagery</h3>
-<p>If your image represents something physical, such as a letter, document or credit card you should use the aspect ratio of that item.</p>
+<p>If your image represents something physical, such as a letter, document or credit card you should use the aspect ratio of that item. You can do that by adding <code>style=&quot;aspect-ratio: auto;&quot;</code> on your image.</p>
 <p><em>Example</em></p>
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <h3 id="do-you-have-a-document-printed-in-your-name%3F" tabindex="-1">Do you have a document printed in your name?</h3>
@@ -270,7 +271,7 @@
 <h2 id="images-that-contain-text" tabindex="-1">Images that contain text</h2>
 <p>Avoid images that contain text, especially PNGs and JPGs because the text becomes unreadable when the user zooms in. If the image does contain text, use SVG because it remains readable when the user zooms in. The alt text should be the same as the text displayed in the image.</p>
 <h2 id="accessibility" tabindex="-1">Accessibility</h2>
-<p>Be sure to follow the instructions</p>
+<p>Make sure you follow the instructions:</p>
 <ul>
 <li>on use of <a href="#alt-text">alt</a></li>
 <li>on use of <a href="#images-that-contain-text">images that contain text</a></li>

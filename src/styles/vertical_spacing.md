@@ -32,7 +32,7 @@ The spacing scale displays the various spacing achievable between items.
 ## Elements spacing values
 The system uses a combination padding and margin attributes on each element to manage vertical spacing.
 
-The elements spacing for ‘large screens’ is used when the screen is wider than the [responsive breakpoint](../../getting-started/page-template/#responsive-breakpoint) (767px), whereas for smaller screens heading spacing begins from the responsive breakpoint (767px) and below.
+The elements spacing for ‘large screens’ is used when the screen is wider than the [responsive breakpoint](../../getting-started/page-template/#responsive-breakpoint) (767px), whereas for smaller screens heading spacing begins from the responsive breakpoint and below.
 
 The following spacing values must be applied:
 #### Large Screens 768+
@@ -84,9 +84,17 @@ Usually the first element after the header is either a [back link](../../compone
 
 On the other hand, if the following element has pre-existing top spacing, such as an `H2`, the spacing between the header and `H2` will combine to 84px which should be avoided (the 84px spacing comes from the existing 64px bottom of the header plus the 20px top of the `H2`). 
 
-**This means the FIRST element right after the header should always have 0px top spacing so as to not interfere with the header spacing.**
+**This means the FIRST element right after the header, should always have 0px top spacing so as not to interfere with the header spacing.**
 
-However if the first element is not an `H1` title, use the `govcy-pt-0` class achieve the correct spacing as shown in the example below:
+If the first element is not a [back link](../../components/back_link/), a [breadcrumb](../../components/breadcrumbs/) or a `H1` title, use the `govcy-pt-0` class achieve the correct spacing as shown in the example below:
+
+*Example*
+
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h2 class="govcy-pt-0">Lorem Ipsum</h2>
+</div>
+
+*HTML code*
 
 ```html
 <h2 class="govcy-pt-0">Lorem Ipsum</h2>

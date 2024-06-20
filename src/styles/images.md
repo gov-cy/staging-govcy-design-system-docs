@@ -32,11 +32,13 @@ Scale the browser’s window to see the different breakpoints and image scalings
 
 {.govcy-table}
 
+Using our [developers assets](../../getting-started/developer-assets), the images scaling adjusts automatically.  
+
 *Example*
 ![Bike Ride]({{ '/img/v3_images_32_bike.jpg' | url }})
 
 ### Illustrations or representative imagery
-If your image represents something physical, such as a letter, document or credit card you should use the aspect ratio of that item.
+If your image represents something physical, such as a letter, document or credit card you should use the aspect ratio of that item. You can do that by adding `style="aspect-ratio: auto;"` on your image.
 
 *Example*
 
@@ -96,6 +98,6 @@ Use the Web Accessibility initiative alt decision tree to work out if the image 
 Avoid images that contain text, especially PNGs and JPGs because the text becomes unreadable when the user zooms in. If the image does contain text, use SVG because it remains readable when the user zooms in. The alt text should be the same as the text displayed in the image.
 
 ## Accessibility
-Be sure to follow the instructions 
+Make sure you follow the instructions: 
 - on use of [alt](#alt-text)
 - on use of [images that contain text](#images-that-contain-text)

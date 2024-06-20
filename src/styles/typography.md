@@ -10,12 +10,12 @@ Unless otherwise stated, use the following font properties for the default body 
 
 | Key | Value  |
 | ---- | ---- |
-| **font-family** | Roboto |
-| **font-size** | 16px |
-| **font-weight** | normal |
-| **color** | #272525 ([body colour](../colour/#text)) |
-| **Line height** | 24px |
-| **Letter spacing** | 0px |
+| **font-family** | `Roboto` |
+| **font-size** | `16px` |
+| **font-weight** | `normal` |
+| **color** | `#272525` ([body colour](../colour/#text)) |
+| **Line height** | `24px` |
+| **Letter spacing** | `0px` |
 
 {.govcy-table}
 

@@ -5,7 +5,7 @@ tags : ['top_menu']
 category: "css utilities"
 ---
 
-The following utility classes have been created and can be used with the gov.cy unified design system. 
+The following utility classes have been created and can be used with the gov.cy Unified Design System. 
 
 ## Border
 
