@@ -201,15 +201,16 @@ Use the following text:
 {.govcy-table}
 
 ## Accessibility
+Using the component with screen reader technology might prove difficult, so always allow users to enter the date using the text box directly.
+
 Make sure:
-- using the component with screen reader technology might prove difficult, so always allow users to enter the date using the text box directly.
-- you associate the `label` elements with the input they relate to, using the `for` attribute.
-- ypu display a hint with an example date and add  `aria-describedby` on the `input` element, with the id of the hint element.
-- when displaying error massages, use `<span class="govcy-visually-hidden-error">Error:</span>` in the Error message area, and add  `aria-describedby` on the `text` element, with the id of the error message. 
+- you associate the `label` elements with the input they relate to, using the `for` attribute
+- you display a hint with an example date and add `aria-describedby` on the `input` element, with the id of the hint element
+- when displaying error massages, use `<span class="govcy-visually-hidden-error">Error:</span>` in the Error message area, and add  `aria-describedby` on the `text` element, with the id of the error message 
 - not to disable copy and paste
 
 ## Contribute
-If you have used or researched this pattern, please et us know what you found so we can make it better for everyone. Send us an email at [dsf@dits.dmrid.gov.cy](mailto:dsf@dits.dmrid.gov.cy) to get in touch.
+If you have used or researched this pattern, please let us know what you found so we can make it better for everyone. Send us an email at [dsf@dits.dmrid.gov.cy](mailto:dsf@dits.dmrid.gov.cy) to get in touch.
 
 We are particularly interested in:
 - research on screen readers

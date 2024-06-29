@@ -1,7 +1,7 @@
 ---
-title: "Check answers"
+title: "Check answers page"
 date: 2022-02-01 00:01:02Z
-tags: "help_users"
+tags: "pages"
 description: "Let users check their answers before submitting information to a service."
 ---
 Let users check their answers before submitting information to a service.

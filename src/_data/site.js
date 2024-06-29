@@ -5,15 +5,16 @@ module.exports = {
   showTOC: true,
   showDraft: false,
   showVersion: true,
+  dsUpdateDate : "28/6/2024",
   version:"3.0.0", 
-  cssCDN: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system-test@v3.0.5/dist/css/govcy.uds.min.css" integrity="sha384-9L9rQVsl1hQXSc6nu+ORphMhPYnMhn4DDuJA6XWNrODtbkmVfUDHghx2xFam6dKi" crossorigin="anonymous">`,
-  cssDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system-test/v3.0.5/dist/js/govcy.uds.min.js",
-  jsCDN: `<script src="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system-test@v3.0.5/dist/js/govcy.uds.min.js" integrity="sha384-IsK02Rs1ZowVhbuTdaa9/QnMNgmtlmevhhyEQqANE3Uw7tQl+LOdmOLjP3aGcoTN" crossorigin="anonymous"></script>`,
-  jsDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system-test/v3.0.5/dist/js/govcy.uds.min.js",
-  distDownload: "https://github.com/gov-cy/govcy-design-system-test/releases/download/v3.0.5/dist.zip",
+  cssCDN: `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/css/govcy.uds.min.css" integrity="sha384-1zLHWOtnS0hOIz5mVEPZp0UH5gUE6eo0CQcCGA3sF2TyYhHyKOd3Ni8Iy/NjEASU" crossorigin="anonymous">`,
+  cssDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v3.0.0/dist/css/govcy.uds.min.css",
+  jsCDN: `<script src="https://cdn.jsdelivr.net/gh/gov-cy/govcy-design-system@v3.0.0/dist/js/govcy.uds.min.js" integrity="sha384-zOuDuogVaaTveh/Ou2iYwCk14zFiSmMk7Ax8yRnXDtOJMyKZH5+ZNibNVwZSKtw+" crossorigin="anonymous"></script>`,
+  jsDownload: "https://raw.githubusercontent.com/gov-cy/govcy-design-system/v3.0.0/dist/js/govcy.uds.min.js",
+  distDownload: "https://github.com/gov-cy/govcy-design-system/releases/download/v3.0.0/dist.zip",
   github : {
     homeUrl: 'https://github.com/gov-cy/govcy-design-system',
-    currentVersion: 'https://github.com/gov-cy/govcy-design-system/tree/v2.1.1',
+    currentVersion: 'https://github.com/gov-cy/govcy-design-system/tree/v3.0.0',
     updateDate: `2/5/2024`
   },
   exalidraw: {

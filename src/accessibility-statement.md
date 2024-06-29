@@ -49,4 +49,4 @@ Or you can email: [info@dmrid.gov.cy](mailto:info@dmrid.gov.cy)
 If you are not satisfied with their response, you can [send a complaint to the Commissioner for Administration and the Protection of Human Rights](https://eforms.mof.gov.cy/eforms/eforms.nsf/complaintformombudsman_en/complaintformombudsman_en?OpenForm){rel="noreferrer noopener" target="_blank"} (Ombudsman).
 
 ## Date
-This statement was created on 19 June 2024 based upon the W3C Accessibility Statement Generator Tool.
+This statement was created on 28 June 2024 based upon the W3C Accessibility Statement Generator Tool.

@@ -12,14 +12,14 @@ Use the date input component when you’re asking users for a date they’ll alr
 ## When not to use this component
 Do not use the date input component if users are unlikely to know the exact date of the event you’re asking about.
 
-If you are asking for a date that is in the near future or recent past, for example when scheduling something, you can use the [date picker](../date_picker) is more appropriate.
+If you are asking for a date that is in the near future or recent past, for example when scheduling an appointment, you can use the [date picker](../date_picker) component.
 
 ## How it works
 The component should only exist in the [main section](../../getting-started/page-template/#sections). 
 
 The date input component consists of three grouped fields that invite users to enter a day, a month, and a year. This is the easiest way for users to enter dates they know well.
 
-The 3 date fields are grouped together with a `<label>` that describes them, as shown in the examples on this page. This is usually a question, like ‘What is your date of birth?’.
+The 3 date fields are grouped together with a `<legend>` that describes them, as shown in the examples on this page. This is usually a question, like ‘What is your date of birth?’.
 
 Make sure that any example dates you use in hint text are valid for the question being asked. As a best practice you should allow both single-digit and double-digit values for day and month (for example `01` or `1`).
 

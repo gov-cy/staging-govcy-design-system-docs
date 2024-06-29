@@ -101,7 +101,7 @@ Each row of a summary list is made up of a:
 ### Adding actions
 You can add actions to a summary list, like a ‘Change’ link to let users go back and edit their answer.
 
-For sighted users, the actions get their context from the other content in the govcy-row they appear in.
+For sighted users, the actions get their context from the other content in the row they appear in.
 
 Assistive technology users, like those who use a screen reader, may hear the links out of context and not know what they do. To give more context, use the `govcy-visually-hidden` class with hidden text to the links. This means a screen reader user will hear a meaningful action, like ‘Change name’ or ‘Change date of birth’.
 
@@ -701,6 +701,8 @@ In some contexts, you might need to show values of the same type without showing
 
 This can happen when implementing the [add multiple things](../../patterns/multiple_things/) summary page.
 
+In such cases use a `<table>` instead of a `<dl>`.
+
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <h1>Confirm telephone numbers</h1>
@@ -865,7 +867,7 @@ Use the following text for the action links:
 | **Remove**                     | Remove                                          | Διαγραφή                                                           |
 | **Enter missing information**  | Enter ...<br><br>Example: Enter contact details | Εισαγάγετε ...<br><br>Example: Εισαγάγετε τα στοιχεία επικοινωνίας |
 | **Entry screen reader text**   | Entry                                           | Καταχώρηση                                                         |
-| **Entries screen reader text** | Entries                                         | καταχωρήσεις                                                       |
+| **Entries screen reader text** | Entries                                         | Καταχωρήσεις                                                       |
 
 {.govcy-table}
 

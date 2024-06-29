@@ -13,10 +13,16 @@ Do not use error messages to tell a user that they are not eligible or do not ha
 
 Instead, take the user to a page that explains the problem (for example, telling them why they’re not eligible) and provides useful information about what to do next.
 
+There are separate patterns for:
+
+- [‘there is a problem with the service’ pages](../../patterns/there-is-a-problem/)
+- [‘page not found’ pages](../../patterns/page-not-found-pages/)
+- [‘service unavailable’ pages](../../patterns/service-unavailable-pages/)
+
 ## How it works
 The component should only exist in the [main section](../../getting-started/page-template/#sections). 
 
-Run the validations for each page/question after the users distinctly indicate that their inputs are ready to be submitted, for example when clicking the “continue” button. This gives the user the opportunity to review their answer, or get out of the input’s focus and not get flooded with red error messages which can be overwhelming.
+Run the validations for each page or question after the users distinctly indicate that their inputs are ready to be submitted, for example when clicking the “continue” button. This gives the user the opportunity to review their answer, or get out of the input’s focus and not get flooded with red error messages which can be overwhelming.
 
 For each error:
 
@@ -26,13 +32,13 @@ For each error:
 
 To help screen reader users, the error message component includes a hidden ‘Error:’ before the error message. These users will hear, for example, `<span class="govcy-visually-hidden-error"> Error: </span> The date your passport was issued must be in the past`. Also add  `aria-describedby` on the element, with the id of the error message. 
 
-Remember to always summarize all errors at the top of the page the user is on using the [error summary](../error_summary/).
+Remember to always summarize all errors at the top of the page, by using the [error summary](../error_summary/).
 
 More details on how to implement error messages for each component type, can be found on the components' individual documentation page.
 
-*Example*
+*Examples*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
-<form action="" class="govcy-form" novalidate>
+<div class="govcy-form">
     <div class="govcy-form-control govcy-form-control-error">
         <h1><label class="govcy-label govcy-label-primary" for="in-error">Label</label></h1>
         <p id="in-error-error" class="govcy-input-error-msg">
@@ -40,9 +46,9 @@ More details on how to implement error messages for each component type, can be 
         </p>
         <input id="in-error" type="text" class="govcy-text-input govcy-text-input-error" aria-describedby="in-error-error">
     </div>
-</form>
+</div>
 
-<form action="" class="govcy-form" novalidate>
+<div class="govcy-form">
     <div class="govcy-form-control govcy-form-control-error">
         <label class="govcy-label govcy-label-primary" for="in-error1">Label</label>
         <p id="in-error-error1" class="govcy-input-error-msg">
@@ -50,9 +56,9 @@ More details on how to implement error messages for each component type, can be 
         </p>
         <input id="in-error1" type="text" class="govcy-text-input govcy-text-input-error" aria-describedby="in-error-error1">
     </div>
-</form>
+</div>
 
-<form action="" class="govcy-form" novalidate="">
+<div class="govcy-form">
     <div class="govcy-form-control govcy-form-control-error">
     <label class="govcy-label govcy-label-primary" for="input-err1">What is your job description?</label>
         <p id="job-description-input-error1" class="govcy-input-error-msg">
@@ -60,9 +66,9 @@ More details on how to implement error messages for each component type, can be 
         </p>
         <textarea id="input-err1" class="govcy-text-area govcy-text-area-error" aria-describedby="job-description-input-error1" rows="5"></textarea>
     </div>
-</form>
+</div>
 
-<form action="" novalidate class="govcy-form">
+<div class="govcy-form">
     <div class="govcy-form-control govcy-form-control-error">
         <label class="govcy-label govcy-label-primary" for="sort-err1">Sort by</label>
         <span id="sort-err-hint1" class="govcy-hint">Will sort results accordingly</span>
@@ -77,9 +83,9 @@ More details on how to implement error messages for each component type, can be 
             <option value="comments">Most comments</option>
         </select>
     </div>
-</form>
+</div>
 
-<form action="" class="govcy-form" novalidate>
+<div class="govcy-form">
     <fieldset class="govcy-fieldset" aria-describedby="option6-error">
         <legend class="govcy-legend">Do you wish to continue?</legend>
         <div class="govcy-form-control govcy-form-control-error">
@@ -96,9 +102,9 @@ More details on how to implement error messages for each component type, can be 
             </div>
         </div>
     </fieldset>
-</form>
+</div>
 
-<form action="" class="govcy-form" novalidate>
+<div class="govcy-form">
     <fieldset class="govcy-fieldset" aria-describedby="option7-error">
         <legend class="govcy-legend">Do you wish to continue?</legend>
         <div class="govcy-form-control govcy-form-control-error">
@@ -115,9 +121,9 @@ More details on how to implement error messages for each component type, can be 
             </div>
         </div>
     </fieldset>
-</form>
+</div>
 
-<form action="" class="govcy-form" novalidate="">
+<div class="govcy-form">
     <fieldset class="govcy-fieldset">
         <legend class="govcy-legend">What contact details should we use?</legend>
         <div class="govcy-form-control">
@@ -150,9 +156,9 @@ More details on how to implement error messages for each component type, can be 
             </div>
         </div>
     </fieldset>
-</form>
+</div>
 
-<form action="" class="govcy-form" novalidate="">
+<div class="govcy-form">
     <div class="govcy-form-control govcy-form-control-error">
         <label class="govcy-label govcy-label-primary" for="file5">Upload a file</label>
         <span id="file5-hint" class="govcy-hint">PDF, JPG, JPEG, PNG are the acceptable formats</span>
@@ -161,9 +167,9 @@ More details on how to implement error messages for each component type, can be 
         </p>
         <input class="govcy-file-upload" type="file" id="file5" name="file5" aria-describedby="file5-hint file5-error">
     </div>
-</form>
+</div>
 
-<form action="" class="govcy-form" novalidate="">
+<div class="govcy-form">
     <div class="govcy-form-control govcy-form-control-error">
     <label class="govcy-label govcy-label-primary" for="appointment-err-date1">Appointment Date</label>
         <span id="appointment-err-date-hint1" class="govcy-hint">For example, 13/8/2007</span>
@@ -177,9 +183,9 @@ More details on how to implement error messages for each component type, can be 
                 aria-describedby="appointment-err-date-hint1 appointment-err-error1"/>
         </div>
     </div>
-</form>
+</div>
 
-<form action="" class="govcy-form" novalidate="">
+<div class="govcy-form">
     <fieldset class="govcy-fieldset" role="group" aria-describedby="date-err1-hint date-err1-error">
         <legend class="govcy-legend">Date of birth</legend>
         <div class="govcy-form-control govcy-form-control-error">
@@ -217,9 +223,9 @@ More details on how to implement error messages for each component type, can be 
             </div>
         </div>
     </fieldset>
-</form>
+</div>
 
-<form action="" class="govcy-form" novalidate="">
+<div class="govcy-form">
     <fieldset class="govcy-fieldset" aria-describedby="check-er-input-error1">
         <legend class="govcy-legend">Legend</legend>
         <div class="govcy-form-control govcy-form-control-error">
@@ -236,9 +242,9 @@ More details on how to implement error messages for each component type, can be 
             </div>
         </div>
     </fieldset>
-</form>
+</div>
 
-<form action="" class="govcy-form" novalidate="">
+<div class="govcy-form">
     <div class="govcy-form-control govcy-form-control-error">
     <label class="govcy-label govcy-label-primary" for="input3">Enter a job description</label>
         <p id="job-description-input-error" class="govcy-input-error-msg">
@@ -251,7 +257,7 @@ More details on how to implement error messages for each component type, can be 
             <div class="govcy-character-more-counter">You have entered <span></span> words more</div>
         </div>
     </div>
-</form>
+</div>
 </div>
 
 *HTML code*
@@ -494,7 +500,7 @@ Do not use:
 - ‘valid’ and ‘invalid’ because they do not add anything to the message
 - humourous, informal language like ‘oops’
 
-Do not give an example in the error message if there is an example on the screen. For example, if you are asking for a National Insurance number and include ‘QQ 12 34 56 C’ as hint text, do not include an example in the error message.
+Do not give an example in the error message if there is an example on the screen. For example, if you are asking for a Date and include ‘13/8/2007’ as hint text, do not include an example in the error message.
 
 Above all, aim for clarity.
 
@@ -537,8 +543,8 @@ For example, use an instruction for empty fields like ‘Enter your name’, but
 ### Error texts language
 The error messages should correspond to the language the user is viewing the website. If English is toggled, display errors in English, if Greek is toggled display the error messages in Greek.
 
-For this reason the error messages should manually be inserted in both languages.  
-Greek translations of the errors can be found throughout the components that include error messages.
+For this reason the error messages should manually be inserted in both languages.
+
 ### Component text
 Use the following patterns for error messages depending on the scenario:
 
@@ -652,3 +658,4 @@ Use the following patterns for error messages depending on the scenario:
 Make sure:
 - you use `<span class="govcy-visually-hidden-error">Error:</span>` in the Error message area, and add  `aria-describedby` on the `input` element, with the id of the error message. 
 - not to clear any form fields when adding error messages
+- you follow the instructions for [errors content](#errors-content)

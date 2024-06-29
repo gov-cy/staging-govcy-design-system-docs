@@ -38,15 +38,13 @@ Using our [developers assets](../../getting-started/developer-assets), the image
 ![Bike Ride]({{ '/img/v3_images_32_bike.jpg' | url }})
 
 ### Illustrations or representative imagery
-If your image represents something physical, such as a letter, document or credit card you should use the aspect ratio of that item. You can do that by adding `style="aspect-ratio: auto;"` on your image.
+If your image represents something physical, such as a letter, document or credit card you should use the aspect ratio of that item. You can do that by adding the class `govcy-img-ar-auto"` on your image.
 
 *Example*
 
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
-
-### Do you have a document printed in your name?
-
-![Example of physical representation of a document]({{ '/img/v3_physical_imagery.jpg' | url }}){style="aspect-ratio: auto;"}
+<h3 data-toc-exclude>Do you have a document printed in your name?</h3>
+<img src="{{ '/img/v3_physical_imagery.jpg' | url }}" alt="Example of physical representation of a document" class="govcy-img-ar-auto">
 </div>
 
 ## Captions

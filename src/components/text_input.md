@@ -134,6 +134,22 @@ If you want to make the input smaller, you can either use a fixed width input, o
         <input id="in-size-10" type="text" class="govcy-text-input govcy-text-input-char_10" maxlength="10">
     </div>
     <div class="govcy-form-control">
+        <label class="govcy-label govcy-label-primary" for="in-size-9">9 Characters</label>
+        <input id="in-size-9" type="text" class="govcy-text-input govcy-text-input-char_9" maxlength="9">
+    </div>
+    <div class="govcy-form-control">
+        <label class="govcy-label govcy-label-primary" for="in-size-8">8 Characters</label>
+        <input id="in-size-8" type="text" class="govcy-text-input govcy-text-input-char_8" maxlength="8">
+    </div>
+    <div class="govcy-form-control">
+        <label class="govcy-label govcy-label-primary" for="in-size-7">7 Characters</label>
+        <input id="in-size-7" type="text" class="govcy-text-input govcy-text-input-char_7" maxlength="7">
+    </div>
+    <div class="govcy-form-control">
+        <label class="govcy-label govcy-label-primary" for="in-size-6">6 Characters</label>
+        <input id="in-size-6" type="text" class="govcy-text-input govcy-text-input-char_6" maxlength="6">
+    </div>
+    <div class="govcy-form-control">
         <label class="govcy-label govcy-label-primary" for="in-size-5">5 Characters</label>
         <input id="in-size-5" type="text" class="govcy-text-input govcy-text-input-char_5" maxlength="5">
     </div>
@@ -172,6 +188,22 @@ If you want to make the input smaller, you can either use a fixed width input, o
         <input id="in-size-10" type="text" class="govcy-text-input govcy-text-input-char_10" maxlength="10">
     </div>
     <div class="govcy-form-control">
+        <label class="govcy-label govcy-label-primary" for="in-size-9">9 Characters</label>
+        <input id="in-size-9" type="text" class="govcy-text-input govcy-text-input-char_9" maxlength="9">
+    </div>
+    <div class="govcy-form-control">
+        <label class="govcy-label govcy-label-primary" for="in-size-8">8 Characters</label>
+        <input id="in-size-8" type="text" class="govcy-text-input govcy-text-input-char_8" maxlength="8">
+    </div>
+    <div class="govcy-form-control">
+        <label class="govcy-label govcy-label-primary" for="in-size-7">7 Characters</label>
+        <input id="in-size-7" type="text" class="govcy-text-input govcy-text-input-char_7" maxlength="7">
+    </div>
+    <div class="govcy-form-control">
+        <label class="govcy-label govcy-label-primary" for="in-size-6">6 Characters</label>
+        <input id="in-size-6" type="text" class="govcy-text-input govcy-text-input-char_6" maxlength="6">
+    </div>
+    <div class="govcy-form-control">
         <label class="govcy-label govcy-label-primary" for="in-size-5">5 Characters</label>
         <input id="in-size-5" type="text" class="govcy-text-input govcy-text-input-char_5" maxlength="5">
     </div>
@@ -204,7 +236,7 @@ Do not add `required` to your input fields.
 ### Use the autocomplete attribute
 Use the `autocomplete` attribute on text inputs to help users complete forms more quickly. This lets you specify an input’s purpose so browsers can autofill the information on a user’s behalf if they’ve entered it previously.
 
-For example, to enable autofill on a postcode field, set the `autocomplete` attribute to postal-code.
+For example, to enable autofill on a postcode field, set the `autocomplete` attribute to `postal-code`.
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

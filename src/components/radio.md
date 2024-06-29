@@ -385,6 +385,8 @@ Do use conditional radios to show or hide anything that is not a question.
 
 Do not conditionally reveal questions to inline radios, such as ‘yes’ and ‘no’ options placed next to each other.
 
+Never use more than one group of conditional radios on the same page.
+
 To implement a conditional radio and connect it with a collapsing area, use the `data-aria-controls` attribute, as shown in the examples below.
 
 *Simple example*

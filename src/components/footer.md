@@ -4,7 +4,7 @@ date: 2022-02-01 00:01:01Z
 description: "Use the footer to provide copyright information and links for privacy statements, cookie policy and accessibility statements"
 ---
 
-The footer provides copyright information and links for privacy statements, cookie policy and accessibility statements
+The footer provides copyright information and links for privacy statements, cookie policy and accessibility statements.
 
 ## When to use this component
 Use the footer at the bottom of every page of your service or website.
@@ -27,7 +27,7 @@ The default footer has links for copyright notice, gov.cy logo and links for:
 - accessibility statements
 
 Also when applicable you may add 
-- the help us improve this service (feedback link)
+- the help us improve this service (feedback) link
 - the "Funded by the European Union" and "Cyprus to tomorrow" logos
 
 *Example*
@@ -97,8 +97,8 @@ For EU funded sites and services, also display the "Funded by the European Union
                 <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                     <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
                     <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">&copy; Republic of Cyprus, 2023</span>
-                    <a href="https://europa.eu/" title="Go to EU Website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" style="aspect-ratio: auto;" src="../../img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
-                    <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus to tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" style="aspect-ratio: auto;" src="../../img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
+                    <a href="https://europa.eu/" title="Go to EU website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" style="aspect-ratio: auto;" src="../../img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
+                    <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus Tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" style="aspect-ratio: auto;" src="../../img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
                 </div>
             </div>
             <div class="govcy-my-4">
@@ -124,8 +124,8 @@ For EU funded sites and services, also display the "Funded by the European Union
                 <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                     <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
                     <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">&copy; Republic of Cyprus, 2023</span>
-                    <a href="https://europa.eu/" title="Go to EU Website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="../../img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
-                    <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus to tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="../../img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
+                    <a href="https://europa.eu/" title="Go to EU website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="../../img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
+                    <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus Tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="../../img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
                 </div>
             </div>
             <div class="govcy-my-4">
@@ -153,12 +153,12 @@ In Greek use the following variant. Make sure the use the correct text at the `a
                 <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                     <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
                     <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">&copy; Κυπριακή Δημοκρατία, 2023</span>
-                    <a href="https://europa.eu/" title="Μετάβαση στη ιστοσελίδα του EU" target="_blank"><img class="govcy-eu-logo govcy-mb-2" style="aspect-ratio: auto;" src="../../img/FundedbyEU_NextGeneration_H53-EL.png" alt="Χρηματοδοτείται από την Ευρωπαϊκή Ένωση  Next Generation EU"></a>
-                    <a href="http://www.cyprus-tomorrow.gov.cy/" title="Μετάβαση στη ιστοσελίδα Κύπρος το αύριο" target="_blank"><img class="govcy-eu-logo govcy-mb-2" style="aspect-ratio: auto;" src="../../img/CYpros to aurio logo eng_H53_EL.png" alt="Κύπρος το αύριο, σχέδιο ανάκαμψης και ανθεντικότητας"></a>
+                    <a href="https://europa.eu/" title="Μετάβαση στην ιστοσελίδα της ΕΕ" target="_blank"><img class="govcy-eu-logo govcy-mb-2" style="aspect-ratio: auto;" src="../../img/FundedbyEU_NextGeneration_H53-EL.png" alt="Χρηματοδοτείται από την ΕΕ Next Generation EU"></a>
+                    <a href="http://www.cyprus-tomorrow.gov.cy/" title="Μετάβαση στην ιστοσελίδα Κύπρος το Αύριο" target="_blank"><img class="govcy-eu-logo govcy-mb-2" style="aspect-ratio: auto;" src="../../img/CYpros to aurio logo eng_H53_EL.png" alt="Κύπρος το Αύριο, σχέδιο ανάκαμψης και ανθεντικότητας"></a>
                 </div>
             </div>
             <div class="govcy-my-4">
-                <a href="/" class="govcy-footer-logo" title="Μεταβείτε στην αρχική σελίδα του gov.cy"><img alt="gov.cy Logo"/></a>
+                <a href="/" class="govcy-footer-logo" title="Μετάβαση στην αρχική σελίδα του gov.cy"><img alt="gov.cy Logo"/></a>
             </div>
         </div>
     </div>
@@ -180,12 +180,12 @@ In Greek use the following variant. Make sure the use the correct text at the `a
                 <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                     <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
                     <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">&copy; Κυπριακή Δημοκρατία, 2023</span>
-                    <a href="https://europa.eu/" title="Μετάβαση στη ιστοσελίδα του EU" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="../../img/FundedbyEU_NextGeneration_H53-EL.png" alt="Χρηματοδοτείται από την Ευρωπαϊκή Ένωση  Next Generation EU"></a>
-                    <a href="http://www.cyprus-tomorrow.gov.cy/" title="Μετάβαση στη ιστοσελίδα Κύπρος το αύριο" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="../../img/CYpros to aurio logo eng_H53_EL.png" alt="Κύπρος το αύριο, σχέδιο ανάκαμψης και ανθεντικότητας"></a>
+                    <a href="https://europa.eu/" title="Μετάβαση στην ιστοσελίδα της ΕΕ" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="../../img/FundedbyEU_NextGeneration_H53-EL.png" alt="Χρηματοδοτείται από την ΕΕ Next Generation EU"></a>
+                    <a href="http://www.cyprus-tomorrow.gov.cy/" title="Μετάβαση στην ιστοσελίδα Κύπρος το Αύριο" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="../../img/CYpros to aurio logo eng_H53_EL.png" alt="Κύπρος το Αύριο, σχέδιο ανάκαμψης και ανθεντικότητας"></a>
                 </div>
             </div>
             <div class="govcy-my-4">
-                <a href="/" class="govcy-footer-logo" title="Μεταβείτε στην αρχική σελίδα του gov.cy"><img alt="gov.cy Logo"/></a>
+                <a href="/" class="govcy-footer-logo" title="Μετάβαση στην αρχική σελίδα του gov.cy"><img alt="gov.cy Logo"/></a>
             </div>
         </div>
     </div>
@@ -241,8 +241,8 @@ Only add secondary navigation if you’re creating a gov.cy service, and you wan
                     <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                         <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
                         <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">&copy; Republic of Cyprus, 2023</span>
-                        <a href="https://europa.eu/" title="Go to EU Website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" style="aspect-ratio: auto;" src="../../img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
-                        <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus to tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" style="aspect-ratio: auto;" src="../../img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
+                        <a href="https://europa.eu/" title="Go to EU website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" style="aspect-ratio: auto;" src="../../img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
+                        <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus Tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" style="aspect-ratio: auto;" src="../../img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
                     </div>
                 </div>
                 <div class="govcy-my-4">
@@ -301,8 +301,8 @@ Only add secondary navigation if you’re creating a gov.cy service, and you wan
                     <div class="govcy-d-flex govcy-align-items-center govcy-flex-wrap">
                         <span class="govcy-fs-2 govcy-fw-bold govcy-mr-6">gov.cy</span>
                         <span class="govcy-mr-6 govcy-mt-2 govcy-mb-2">&copy; Republic of Cyprus, 2023</span>
-                        <a href="https://europa.eu/" title="Go to EU Website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="../../img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
-                        <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus to tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="../../img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
+                        <a href="https://europa.eu/" title="Go to EU website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="../../img/FundedbyEU_NextGeneration_H53-EN.png" alt="Funded by the EU Next Generation EU"></a>
+                        <a href="http://www.cyprus-tomorrow.gov.cy/" title="Go to Cyprus Tomorrow website" target="_blank"><img class="govcy-eu-logo govcy-mb-2" src="../../img/CYpros to aurio logo eng_H53_EN.png" alt="Cyprus tomorrow, recovery and resilience plan"></a>
                     </div>
                 </div>
                 <div class="govcy-my-4">

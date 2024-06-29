@@ -10,7 +10,7 @@ Help users enter or select a date.
 Follow this pattern whenever you need users to provide or view a date as part of your service.
 
 ## How it works
-Dates should only exist in the [main section](../../getting-started/page-template/#sections). The component uses JavaScript. To use it with the gov.cy [developer assets](../../getting-started/developer-assets/), make sure to include the main JavaScript file in your page.
+Dates should only exist in the [main section](../../getting-started/page-template/#sections).
 
 The way you should ask users for dates depends on the types of date you’re asking for and the proximity to today's date.
 

@@ -6,9 +6,9 @@ description: "Use the phase banner component to show users your service is still
 Use the phase banner component to show users your service is still being worked on.
 
 ## When to use this component
-Services hosted on a gov.cy domain that are in Alpha, Beta or Pilot phase must use the New service phase banner.  
+Services hosted on a gov.cy domain that are in Alpha, Beta or Pilot phase must use the [New service phase banner](#new-service).  
 
-Also all services that are hosted on the gov.cy staging area must use the Testing phase banner.
+Also all services that are hosted on the gov.cy staging area must use the [Testing phase banner](#testing).
 
 ## When not to use this component
 Never use the panel component to highlight important information within body content.

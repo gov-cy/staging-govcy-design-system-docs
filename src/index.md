@@ -9,7 +9,7 @@ localization:
 
 ## What's new
 
-**01 July 2024**
+**{{ site.dsUpdateDate }}**
 Version 3.0.0 of the Design system has been released.
 
 [Read the full change log (opens in new tab)](https://github.com/gov-cy/govcy-design-system/blob/main/CHANGELOG.md){rel="noreferrer noopener" target="_blank"}.
@@ -52,20 +52,20 @@ If you are starting a new service or website, first go through our [getting star
     <div class="govcy-container">
         <h2>In use</h2>
         <div class="govcy-row govcy-row-cols-1 govcy-row-cols-md-2 govcy-row-cols-lg-3">
-            <div class="col govcy-mb-4">
+            <!-- <div class="col govcy-mb-4">
                 <div>
                     <div class="govcy-bg-main-shade-3 govcy-p-3 govcy-mb-1">
                         <img src="./img/gov-cy-website.jpg" alt="Screenshot of gov.cy" class="w-100 govcy-m-0">
                     </div>
                     <div><a href="https://www.gov.cy" target="_blank">gov.cy</a></div>
                 </div>
-            </div>
+            </div> -->
             <div class="col govcy-mb-4">
                 <div>
                     <div class="govcy-bg-main-shade-3 govcy-p-3 govcy-mb-1">
                         <img src="./img/citizen-docs-website.jpg" alt="Screenshot of the citizens documents service" class="w-100 govcy-m-0">
                     </div>
-                    <div><a href="https://citizen-documents.staging.gov.cy/" target="_blank">Citizens documents service</a></div>
+                    <div><a href="https://citizen-documents.gov.cy/" target="_blank">Citizens documents service</a></div>
                 </div>
             </div>
         </div>

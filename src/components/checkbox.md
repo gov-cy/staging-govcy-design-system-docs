@@ -279,6 +279,64 @@ Show the ‘none’ option last. Separate it from the other options using a divi
     </fieldset>
 </form>
 ```
+
+If a user selects both the ‘none’ and another checkbox, display an error message when the page is validated.
+
+
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<div action="" class="govcy-form" novalidate>
+    <fieldset class="govcy-fieldset" aria-describedby="check-er-15-input-error">
+        <legend class="govcy-legend">Did you travel to any of these destinations last year?</legend>
+        <div class="govcy-form-control govcy-form-control-error">
+            <p id="check-er-15-input-error" class="govcy-input-error-msg">
+                <span class="govcy-visually-hidden-error">Error:</span>Select a destination, or select ‘I did not travel last year’
+            </p>
+            <div class="govcy-checkbox">
+                <input class="govcy-checkbox-input" name="check51-checkbox-group" type="checkbox" id="check51-otherEurope" checked>
+                <label class="govcy-label" for="check51-otherEurope">European Union</label>
+            </div>
+            <div class="govcy-checkbox">
+                <input class="govcy-checkbox-input" name="check51-checkbox-group" type="checkbox" id="check51-other">
+                <label class="govcy-label" for="check51-other">Other destination</label>
+            </div>
+            <p class="govcy-ml-3 govcy-mb-3">Or</p>
+            <div class="govcy-checkbox">
+                <input class="govcy-checkbox-input" name="check51-checkbox-group" type="checkbox" id="check51-no" checked>
+                <label class="govcy-label" for="check51-no"><span class="govcy-visually-hidden">Or, </span>I did not travel last year</label>
+            </div>
+        </div>
+    </fieldset>
+</div>
+</div>
+
+*HTML code*
+```html
+<form action="" class="govcy-form" novalidate>
+    <fieldset class="govcy-fieldset" aria-describedby="check-er-15-input-error">
+        <legend class="govcy-legend">Did you travel to any of these destinations last year?</legend>
+        <div class="govcy-form-control govcy-form-control-error">
+            <p id="check-er-15-input-error" class="govcy-input-error-msg">
+                <span class="govcy-visually-hidden-error">Error:</span>Select a destination, or select ‘I did not travel last year’
+            </p>
+            <div class="govcy-checkbox">
+                <input class="govcy-checkbox-input" name="check51-checkbox-group" type="checkbox" id="check51-otherEurope" checked>
+                <label class="govcy-label" for="check51-otherEurope">European Union</label>
+            </div>
+            <div class="govcy-checkbox">
+                <input class="govcy-checkbox-input" name="check51-checkbox-group" type="checkbox" id="check51-other">
+                <label class="govcy-label" for="check51-other">Other destination</label>
+            </div>
+            <p class="govcy-ml-3 govcy-mb-3">Or</p>
+            <div class="govcy-checkbox">
+                <input class="govcy-checkbox-input" name="check51-checkbox-group" type="checkbox" id="check51-no" checked>
+                <label class="govcy-label" for="check51-no"><span class="govcy-visually-hidden">Or, </span>I did not travel last year</label>
+            </div>
+        </div>
+    </fieldset>
+</form>
+```
+
 ### Order of elements inside the component
 Place the elements inside the component in the following order.
 

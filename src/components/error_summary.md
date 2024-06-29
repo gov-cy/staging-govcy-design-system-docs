@@ -35,10 +35,10 @@ Always show an error summary when there is a validation error, even if there’s
 ## How it works
 The component should only exist in the [main section](../../getting-started/page-template/#sections). 
 
-You must:
+When showing the error summary, you must:
 
-- move keyboard focus to the error summary
-- include the heading ‘There is a problem’ in English and ‘Υπάρχει κάποιο πρόβλημα’ in Greek
+- move keyboard focus to the error summary title
+- include the heading ‘There is a problem’ in English and ‘Υπάρχει πρόβλημα’ in Greek
 - link to each of the answers that have validation errors
 - make sure the error messages in the error summary are worded the same as those which appear next to the inputs with errors
 
@@ -262,6 +262,34 @@ For questions that require a user to select one or more options from a list usin
     </fieldset>
 </form>
 ```
+
+### Showing summary without error messages
+There may be cases where you would show an error summary without showing error messages, for example on a [task list](../../patterns/task-list-page/#showing-errors) or a [check your answers](../../patterns/check_answers/#showing-errors) page. This might be helpful in cases where a business rule is violated, but an action by the user can correct the violation.
+
+In such a case, the link for each error in the error summary, should link to the relevant page where the user can correct the violation.
+
+Be careful though, you must always use both an error summary and an error message when there is a validation error on an input, even if there’s only one.
+
+*Example*
+<div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
+    <h2>There is a problem</h2>
+    <p class="govcy-mb-0">
+        <a href="#contact-details">Complete the section on your contact details</a>
+        <a href="#medical-information">Complete the section on medical information</a>
+    </p>
+</div>
+
+*HTML code*
+```html
+<div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
+    <h2>There is a problem</h2>
+    <p class="govcy-mb-0">
+        <a href="#contact-details">Complete the section on your contact details</a>
+        <a href="#medical-information">Complete the section on medical information</a>
+    </p>
+</div>
+```
+
 ### Allow users to continue
 There may be cases where you would allow users to continue with the service, even if there are errors on a specific section. This may be helpful in cases where users do not have all the information needed to complete the service at the time, but they can still complete other parts of the service.
 
@@ -298,9 +326,10 @@ In such a case you should still use the error summary and error messages compone
 Use the following text in the heading:
 
 - **English**: ‘There is a problem’ 
-- **Greek**: ‘Υπάρχει κάποιο πρόβλημα’
+- **Greek**: ‘Υπάρχει πρόβλημα’
 
 ## Accessibility
 Make sure:
 - you link the error summary to each answer
 - you use the [error message component](../error_message) as well
+- you move the focus to the error summary title

@@ -63,11 +63,11 @@ The component should only exist in the [main section](../../getting-started/page
 </form>
 ```
 
-The first element inside a fieldset must be a `<legend>` which describes the group of inputs. This could be a question, such as ‘What is your current address?’ or a statement like ‘Personal details’.
+The first element inside a fieldset must be a `<legend>` which describes the group of inputs. This is usually a question, such as ‘What is your current address?’ or a statement like ‘Personal details’.
 
 If you’re asking just [one question per page](../../patterns/service_structure/#one-thing-at-a-time) as recommended, you can set the contents of the `<legend>` as the page heading. This is good practice as it means that users of screen readers will only hear the contents once.
 
-Read more about [single questions pages legends as headings](../../patterns/labels_and_legend_headings/#single-question-page).
+Read more about [single questions pages legends as headings](../../patterns/labels_and_legend_headings/#legends-as-page-headings).
 
 On [question pages](../../patterns/question_pages/) containing a group of inputs, including the question as the legend helps users of screen readers to understand that the inputs are all related to that question.
 
