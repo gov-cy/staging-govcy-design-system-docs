@@ -199,8 +199,8 @@
 <li>If a user chooses to add another item, return them to the first question page to add a new item</li>
 </ol>
 <p><img src="../../img/multiple_things_basic_flow.png" alt="An illustration of a sample flow the basic flow for adding multiple things" style="aspect-ratio: auto;"></p>
-<p>If the service allows the user to continue without the need to add even a single item, add a  <a href="../check_answers">check answers page</a> after the last question and before the summary list page.</p>
-<p><img src="../../img/multiple_things_complex_flow.png" alt="An illustration of a sample flow the complex flow for adding multiple things" style="aspect-ratio: auto;"></p>
+<p>If the service asks more than one questions within the loop, add a  <a href="../check_answers">check answers page</a> after the last question and before the summary list page.</p>
+<p><img src="../../img/multiple_things_complex_flow.png" alt="An illustration of a complex flow the complex flow for adding multiple things" style="aspect-ratio: auto;"></p>
 <p>If the service allows the user to continue without the need to add even a single item, add a <code>Continue without items</code> <a href="../../components/button">primary button</a> to skip the add item loop and proceed to the next step of the service.</p>
 <h3 id="summary-list-page" tabindex="-1">Summary list page</h3>
 <p>After adding each item or group of items, the user is shown a summary list of what they have added so far and can:</p>
@@ -216,6 +216,7 @@
 <li>when the user tries to remove the only item in the list</li>
 <li>when the user tries to access the summary page without adding a single item</li>
 </ul>
+<p>If a user tries to continue and there is a validation or business error, display the <a href="../../components/error_summary/">error summary</a> and link the errors with the appropriate ‘Change’ link on the summary list, or the question page within the loop that the user can correct the violation.</p>
 <h3 id="add-another" tabindex="-1">Add another</h3>
 <p>There are two ways you can implement so that the user can initiate the loop to add another item from the summary list page.</p>
 <ol>

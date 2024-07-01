@@ -32,9 +32,9 @@ The basic flow is:
 
 ![An illustration of a sample flow the basic flow for adding multiple things](../../img/multiple_things_basic_flow.png){style="aspect-ratio: auto;"}
 
-If the service allows the user to continue without the need to add even a single item, add a  [check answers page](../check_answers) after the last question and before the summary list page.
+If the service asks more than one questions within the loop, add a  [check answers page](../check_answers) after the last question and before the summary list page.
 
-![An illustration of a sample flow the complex flow for adding multiple things](../../img/multiple_things_complex_flow.png){style="aspect-ratio: auto;"}
+![An illustration of a complex flow the complex flow for adding multiple things](../../img/multiple_things_complex_flow.png){style="aspect-ratio: auto;"}
 
 If the service allows the user to continue without the need to add even a single item, add a `Continue without items` [primary button](../../components/button) to skip the add item loop and proceed to the next step of the service.
 
@@ -50,6 +50,8 @@ Depending on the requirements for each service, validations may be needed for:
 - when too many items are added
 - when the user tries to remove the only item in the list
 - when the user tries to access the summary page without adding a single item
+
+If a user tries to continue and there is a validation or business error, display the [error summary](../../components/error_summary/) and link the errors with the appropriate ‘Change’ link on the summary list, or the question page within the loop that the user can correct the violation.
 
 ### Add another
 There are two ways you can implement so that the user can initiate the loop to add another item from the summary list page.

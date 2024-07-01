@@ -21,18 +21,20 @@ Keep use of cookies to a minimum, and be transparent about the ones you do use. 
 - publish a cookie policy telling users about the cookies you’re using
 - get users’ consent before you set any cookies that are not essential to providing the service
 
-The cookie policy can be found at the footer of any service and website.
+The Cookie policy can be accessed by a link at the footer of any service and website.
 
-This page should have the below sections and items:
+This page should have the following sections and items:
 
-- cookie Policy description
+- Cookie policy description
 - the purpose and scope of the policy
 - what information is collected and for what purposes
 - contact information regarding the policy
-- cookie Settings
+- cookie settings
 - review of policy
 - go back link
 - make the page available in all service / site languages 
+
+Make sure to include the name of the service in the cookie policy description to help users understand that the policy you’re talking about is different from the one set by the main gov.cy platform, or a different site or service.
 
 Do not use:
 
@@ -53,7 +55,7 @@ Follow the steps below to create a cookie policy.
 
 Work with your organisation’s privacy expert to write the cookies page.
 
-The cookie policy must be written in plain language and it must explain:
+The cookie policy must be written in plain language.
 
 List the cookies individually on the cookies page, under the relevant category. For each cookie, give:
 
@@ -102,7 +104,7 @@ You can get the user’s consent:
 - by letting the user change and save their settings on the cookies page
 
 #### Cookie banner
-Use the [cookie banner component](../../components/cookie_banner) to get the user’s consent. The component should include the below:
+Use the [cookie banner component](../../components/cookie_banner) to get the user’s consent. The component should include the following:
 
 - Text informing the user that the site or service uses cookies
 - Accept cookies option
@@ -147,7 +149,7 @@ Use the [cookie banner component](../../components/cookie_banner) to get the use
     <div class="govcy-container">
         <h3>Cookies στην υπηρεσία xyz</h3>
         <p>Χρησιμοποιούμε ορισμένα απαραίτητα cookies για να λειτουργήσει αυτός ο ιστότοπος.</p>
-        <p>Θα θέλαμε να ορίσουμε επιπλέον cookie για να κατανοήσουμε πώς χρησιμοποιείτε την υπηρεσία, να θυμόμαστε τις ρυθμίσεις σας και να βελτιώνουμε τις κρατικές υπηρεσίες.</p>
+        <p>Θα θέλαμε να ορίσουμε επιπλέον cookies για να κατανοήσουμε πώς χρησιμοποιείτε την υπηρεσία, να θυμόμαστε τις ρυθμίσεις σας και να βελτιώνουμε τις κρατικές υπηρεσίες.</p>
         <div class="govcy-d-flex govcy-align-items-center">
         <a href="#" class="govcy-btn-primary me-2">Αποδοχή cookies</a>
         <a href="#" class="govcy-btn-primary me-2">Απόρριψη cookies</a>
@@ -163,7 +165,7 @@ Use the [cookie banner component](../../components/cookie_banner) to get the use
     <div class="govcy-container">
         <h3>Cookies στην υπηρεσία xyz</h3>
         <p>Χρησιμοποιούμε ορισμένα απαραίτητα cookies για να λειτουργήσει αυτός ο ιστότοπος.</p>
-        <p>Θα θέλαμε να ορίσουμε επιπλέον cookie για να κατανοήσουμε πώς χρησιμοποιείτε την υπηρεσία, να θυμόμαστε τις ρυθμίσεις σας και να βελτιώνουμε τις κρατικές υπηρεσίες.</p>
+        <p>Θα θέλαμε να ορίσουμε επιπλέον cookies για να κατανοήσουμε πώς χρησιμοποιείτε την υπηρεσία, να θυμόμαστε τις ρυθμίσεις σας και να βελτιώνουμε τις κρατικές υπηρεσίες.</p>
         <div class="govcy-d-flex govcy-align-items-center">
         <a href="#" class="govcy-btn-primary me-2">Αποδοχή cookies</a>
         <a href="#" class="govcy-btn-primary me-2">Απόρριψη cookies</a>
@@ -172,13 +174,11 @@ Use the [cookie banner component](../../components/cookie_banner) to get the use
     </div>
 </div>
 ```
-If the user selects to adjust the cookies the cookies page should open, displaying the cookies and what each one does. They should be given the ability to adjust the cookies, accept all, save their settings or deny the cookies.
+If the user selects to adjust the cookies, the cookies page should open, displaying the cookies and what each one does. They should be given the ability to adjust the cookies, accept all, save their settings or deny the cookies.
 
-The popup should appear and stay fixed at the top of the screen.
+The popup should appear at the top of the page, in the ["body start" section](../../getting-started/page-template/#sections) of the page.
 
-The popup should be included inside the ["body start" section](../../getting-started/page-template/#sections) of the page.
-
-Do not use background with low opacity to hide the main content of the pages.
+Do not use different backgrounds with low opacity to hide the main content of the pages.
 
 See below an example of a page with the cookie banner.
 
@@ -289,7 +289,7 @@ Load the page with the radios set to ‘no’ on the user’s first visit. If th
 		</tr>
 		<tr>
 			<th>_efg</th>
-			<td>Αυτό το cookie μας βοηθά να υπολογίσουμε τον χρόνο που αφιερώνουμε στην υπηρεσία.</td>
+			<td>Αυτό το cookie μας βοηθά να υπολογίσουμε τον χρόνο που χρησιμοποιείτε την υπηρεσία.</td>
 		</tr>
 	</tbody>
 </table>
@@ -329,7 +329,7 @@ Load the page with the radios set to ‘no’ on the user’s first visit. If th
 		</tr>
 		<tr>
 			<th>_efg</th>
-			<td>Αυτό το cookie μας βοηθά να υπολογίσουμε τον χρόνο που αφιερώνουμε στην υπηρεσία.</td>
+			<td>Αυτό το cookie μας βοηθά να υπολογίσουμε τον χρόνο που χρησιμοποιείτε την υπηρεσία.</td>
 		</tr>
 	</tbody>
 </table>
@@ -351,7 +351,7 @@ Load the page with the radios set to ‘no’ on the user’s first visit. If th
 </form>
 ```
 
-When the user sets or changes their cookie preferences, use a green notification banner at the top of the [main section](../../getting-started/page-template/#sections) before the `<h1>`, to confirm that the service has updated the user’s cookie settings. Make sure to focus on the success banner and that the message is also read by screen readers.
+When the user sets or changes their cookie preferences, use a green notification banner at the top of the [main section](../../getting-started/page-template/#sections) before the `<h1>`, to confirm that the service has updated the user’s cookie settings. Make sure focus is on the success banner and that the message is also read by screen readers.
 
 *Example in English*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
@@ -377,7 +377,7 @@ When the user sets or changes their cookie preferences, use a green notificatio
 <div class="govcy-alert-notification govcy-br-5 govcy-br-success govcy-px-0">
     <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-success">Επιτυχία</div>
     <div class="govcy-alert-notification-body">
-        <p class="govcy-pl-4 govcy-pt-6 govcy-fw-bold">Έχετε ορίσει τις προτιμήσεις σας για τα cookie.</p>
+        <p class="govcy-pl-4 govcy-pt-6 govcy-fw-bold">Έχετε ορίσει τις προτιμήσεις σας για τα cookies.</p>
     </div>
 </div>
 </div>
@@ -387,7 +387,7 @@ When the user sets or changes their cookie preferences, use a green notificatio
 <div class="govcy-alert-notification govcy-br-5 govcy-br-success govcy-px-0">
     <div class="govcy-alert-notification-header govcy-fw-bold govcy-bg-success">Επιτυχία</div>
     <div class="govcy-alert-notification-body">
-        <p class="govcy-pl-4 govcy-pt-6 govcy-fw-bold">Έχετε ορίσει τις προτιμήσεις σας για τα cookie.</p>
+        <p class="govcy-pl-4 govcy-pt-6 govcy-fw-bold">Έχετε ορίσει τις προτιμήσεις σας για τα cookies.</p>
     </div>
 </div>
 ```

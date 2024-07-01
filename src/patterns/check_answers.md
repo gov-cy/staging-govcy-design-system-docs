@@ -516,7 +516,7 @@ On your check answers page you should:
 ### Let users go back and change their answers
 You should provide a ‘Change’ link next to each section on your check answers page so that users can add or change the information. ‘Change’ links contain hidden text to make them accessible to screen reader users. Update the hidden text to describe what each ‘change’ link is for, for example, `<a href="">Change<span class="govcy-visually-hidden"> Personal Details</span></a>`.
 
-The answers pages should look the same way they did when the user last used them, with all their answers pre-populated.
+The question pages should look the same way they did when the user last used them, with all their answers pre-populated.
 
 When they’ve finished, the ‘Continue’ button should return them to the check answers page. They should not need to go through the rest of the transaction again.
 
@@ -527,7 +527,7 @@ Always validate the users' data before submitting.
 
 Because of the asynchronous nature of the online services, it may be possible that a user has reached the check your answers page, without completing all the steps of the service, or without meeting a business requirement.
 
-If a user tries to submit and there is a validation or business error that prevents them from submitting, display the [error summary](../../components/error_summary/) and link the errors with the appropriate 'Change' or 'Enter' links on the summary list. 
+If a user tries to submit and there is a validation or business error that prevents them from submitting, display the [error summary](../../components/error_summary/) and link the errors with the appropriate 'Change' or 'Enter' links on the summary list, or the question page that the user can correct the violation. 
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">

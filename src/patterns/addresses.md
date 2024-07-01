@@ -24,6 +24,16 @@ Use an address lookup when you’re asking users for a Cypriot address.
 
 An address lookup lets users specify a Cypriot address by entering their postcode and selecting their address from a list. There is also an option to enter a street or apartment number.
 
+Use the following flow to ask for a Cypriot address with the address lookup: 
+
+1. Use a [whole number numeric input ](../numeric_inputs/#whole-numbers) to ask users to enter their postcode.
+2. Ask the user's to select their street based on the post code provided. You can use a [select component](../../components/select/) for this. 
+3. Use [text inputs](../../components/text_input/) to ask the users to enter the street number and optionally the apartment number. Also show the users their selected 'postcode', 'street', 'city or village' and 'district', and provide them with a 'Continue' [primary button](../../components/button/#primary-button) to store the address. 
+
+For each step of the address lookup, use a [secondary button](../../components/button/#secondary-button) labeled `Search` to allow user's to search for streets based on the provided postcode. This allows the user to search again for streets at any time of the process.
+
+Remember to run validations for each step and follow the instructions for [error messages](../../components/error_message) and [error summary](../../components/error_summary) when validating user input. 
+
 ![Flow of Cypriot address lookup](../../img/v3_cy_address_lookup.png){style="aspect-ratio: auto;"}
 
 When using an address lookup, you should:

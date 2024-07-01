@@ -6,12 +6,10 @@ image: v3_custom_page.png
 ---
 In this guide we will be looking at a step by step guide for developers on how to create a simple [question page](../../patterns/question_pages) using the [developer assets](../../getting-started/developer-assets/). 
 
-You can use our pre-built css and javascript to create an HTML page with the necessary head and body sections and use one of the predefined layouts. All you need to do is copy the code below and follow the instructions: 
-
-Creating pages for gov.cy has never been easier. You can use our pre-built [css and javascript](../../getting-started/developer-assets/) to create an HTML page with the necessary [head](../../getting-started/page-template/) and [body](../../getting-started/page-template/) sections and use one of the predefined [layouts](../../styles/layout/). All you need to do is copy the code below and follow the instructions: 
+You can use our pre-built [css and javascript](../../getting-started/developer-assets/) to create an HTML page with the necessary [head](../../getting-started/page-template/#head) and [body](../../getting-started/page-template/#body) sections and use one of the predefined [layouts](../../styles/layout/). All you need to do is copy the code below and follow the instructions: 
 
 ## 1. Download all the developer assets
-First things first, you will need to [download all the static files form the starter kit]({{site.distDownload}}) needed from our design system:
+First things first, you will need to [download all the static files form the starter kit](../../getting-started/developer-assets/) needed from our design system:
 
 In the examples used in this guide, we will only be using the images from the downloaded file under the `/img` sub-folder. We will be using CDN for the css and JavaScript.
 
@@ -275,9 +273,8 @@ This is what the main section looks like now:
 
 Notice that to create this question, we have used the following elements from the design system:
 
-- an [`<h1>` heading](../../styles/typography/#headings)
-- a [radio component](../../components/radio/)
-- a [button component](../../components/button/)
+- a [single question radio component](../../components/radio/#single-question-page)
+- a [primary button component](../../components/button/#primary-button)
 
 Finally our page visually looks like this now:
 

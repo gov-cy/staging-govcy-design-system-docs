@@ -440,13 +440,13 @@
 </ul>
 <h3 id="let-users-go-back-and-change-their-answers" tabindex="-1">Let users go back and change their answers</h3>
 <p>You should provide a ‘Change’ link next to each section on your check answers page so that users can add or change the information. ‘Change’ links contain hidden text to make them accessible to screen reader users. Update the hidden text to describe what each ‘change’ link is for, for example, <code>&lt;a href=&quot;&quot;&gt;Change&lt;span class=&quot;govcy-visually-hidden&quot;&gt; Personal Details&lt;/span&gt;&lt;/a&gt;</code>.</p>
-<p>The answers pages should look the same way they did when the user last used them, with all their answers pre-populated.</p>
+<p>The question pages should look the same way they did when the user last used them, with all their answers pre-populated.</p>
 <p>When they’ve finished, the ‘Continue’ button should return them to the check answers page. They should not need to go through the rest of the transaction again.</p>
 <p>If a user changes their response in a way that means you need to ask them more questions, do this before returning them to the check answers page</p>
 <h3 id="showing-errors" tabindex="-1">Showing errors</h3>
 <p>Always validate the users’ data before submitting.</p>
 <p>Because of the asynchronous nature of the online services, it may be possible that a user has reached the check your answers page, without completing all the steps of the service, or without meeting a business requirement.</p>
-<p>If a user tries to submit and there is a validation or business error that prevents them from submitting, display the <a href="../../components/error_summary/">error summary</a> and link the errors with the appropriate ‘Change’ or ‘Enter’ links on the summary list.</p>
+<p>If a user tries to submit and there is a validation or business error that prevents them from submitting, display the <a href="../../components/error_summary/">error summary</a> and link the errors with the appropriate ‘Change’ or ‘Enter’ links on the summary list, or the question page that the user can correct the violation.</p>
 <p><em>Example</em></p>
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">

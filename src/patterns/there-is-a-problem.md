@@ -11,7 +11,7 @@ Use this page when there is an unexpected problem with the service. Use the same
 
 Log all errors and fix them as quickly as possible.
 
-Only display this page for a short time. If a problem cannot be fixed quickly, close the service and use a [service unavailable page](../service-unavailable-pages/).
+Only display this page for a short time. If a problem cannot be fixed quickly, consider to close the service and use a [service unavailable page](../service-unavailable-pages/).
 
 ## How it works
 These pages should have:

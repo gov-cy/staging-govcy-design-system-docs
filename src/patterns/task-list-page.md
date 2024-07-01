@@ -4,7 +4,7 @@ date: 2022-02-01 00:01:02Z
 tags: "pages"
 description: "Use this page to help users understand the tasks involved in a completing a service and when they’ve completed them."
 ---
-Task list pages help users understand the tasks involved in a completing a service and when they’ve completed them. The task list to gives users more control over how they complete long, complex services.
+Task list pages help users understand the tasks involved in a completing a service and when they’ve completed them. The task list gives users more control over how they complete long, complex services.
 
 ## When to use this pattern
 Use a task list page for complicated services, involving multiple tasks that users may need to complete over a number of sessions. 
@@ -19,8 +19,6 @@ Read the [structuring a service](../service_structure/) for more information on
 
 ## When not to use this pattern
 Try to simplify the transaction or the service before you use a task list page. If you’re able to reduce the number of tasks or steps involved, you might not need one.
-
-Do not use the task list for a long service that needs to be completed in a specific order.
 
 The task list should not be used as a way of showing users their answers. For this, you should use a [summary list](../../components/summary_list/) instead.
 
@@ -101,7 +99,7 @@ The task lists consists of rows with the name of the task as a link and a [tag](
 <button type="button" class="govcy-btn-primary">Continue</button>
 ```
 
-Add `<span class="govcy-visually-hidden"> with status [whatever status] </span>` to let screen reader users know the status of each task.  
+Add `<span class="govcy-visually-hidden"> with status [whatever status] </span>` to let screen reader users know the status of each task link.  
 
 Users should be able to complete tasks in whatever order they like.
 
@@ -191,6 +189,79 @@ You can show the progress of the service as shown in the example below.
 </table>
 <button type="button" class="govcy-btn-primary">Continue</button>
 ```
+
+### Tasks that cannot start yet
+There may be cases where tasks need to be completed in a specific order. In such a case, mark the tasks that cannot start yet with the `CANNOT START YET` status, and make sure to order the tasks in a logical order. User research will help you to decide whether or not to have the task displayed as a link. 
+
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<h1>Service name</h1>
+<section>
+    <p class="govcy-fs-5 govcy-fw-700">Application incomplete</p>
+    <p>You’ve completed 3 of 5 sections.</p>
+</section>
+<table class="govcy-table">
+    <tbody>
+        <tr>
+            <td><a id="company-information" href="#">Company information <span class="govcy-visually-hidden"> with status COMPLETED </span></a></td>
+            <td class="govcy-text-end"><span class="govcy-tag">COMPLETED</span></td>
+        </tr>
+        <tr>
+            <td><a id="contact-details" href="#">Your contact details <span class="govcy-visually-hidden"> with status IN PROGRESS </span></a></td>
+            <td class="govcy-text-end"><span class="govcy-tag govcy-tag-cyan">IN PROGRESS</span></td>
+        </tr>
+        <tr>
+            <td><a id="convictions" href="#">List convictions <span class="govcy-visually-hidden"> with status COMPLETED </span></a></td>
+            <td class="govcy-text-end"><span class="govcy-tag">COMPLETED</span></td>
+        </tr>
+        <tr>
+            <td><a id="financial-evidence" href="#">Provide financial evidence <span class="govcy-visually-hidden"> with status COMPLETED </span></a></td>
+            <td class="govcy-text-end"><span class="govcy-tag">COMPLETED</span></td>
+        </tr>
+        <tr>
+            <td>Give medical information</td>
+            <td class="govcy-text-end"><span class="govcy-tag govcy-tag-gray">CANNOT START YET</span></td>
+        </tr>
+    </tbody>
+</table>
+<button type="button" class="govcy-btn-primary">Continue</button>
+</div>
+
+*HTML code*
+```html
+<h1>Service name</h1>
+<section>
+    <p class="govcy-fs-5 govcy-fw-700">Application incomplete</p>
+    <p>You’ve completed 3 of 5 sections.</p>
+</section>
+<table class="govcy-table">
+    <tbody>
+        <tr>
+            <td><a id="company-information" href="#">Company information <span class="govcy-visually-hidden"> with status COMPLETED </span></a></td>
+            <td class="govcy-text-end"><span class="govcy-tag">COMPLETED</span></td>
+        </tr>
+        <tr>
+            <td><a id="contact-details" href="#">Your contact details <span class="govcy-visually-hidden"> with status IN PROGRESS </span></a></td>
+            <td class="govcy-text-end"><span class="govcy-tag govcy-tag-cyan">IN PROGRESS</span></td>
+        </tr>
+        <tr>
+            <td><a id="convictions" href="#">List convictions <span class="govcy-visually-hidden"> with status COMPLETED </span></a></td>
+            <td class="govcy-text-end"><span class="govcy-tag">COMPLETED</span></td>
+        </tr>
+        <tr>
+            <td><a id="financial-evidence" href="#">Provide financial evidence <span class="govcy-visually-hidden"> with status COMPLETED </span></a></td>
+            <td class="govcy-text-end"><span class="govcy-tag">COMPLETED</span></td>
+        </tr>
+        <tr>
+            <td>Give medical information</td>
+            <td class="govcy-text-end"><span class="govcy-tag govcy-tag-gray">CANNOT START YET</span></td>
+        </tr>
+    </tbody>
+</table>
+<button type="button" class="govcy-btn-primary">Continue</button>
+```
+
+
 ### Showing errors
 If the user tries to continue without completing all tasks, display the [error summary](../../components/error_summary/) and link the errors with the task link.
 

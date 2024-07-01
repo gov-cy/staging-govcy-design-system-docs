@@ -194,6 +194,14 @@
 <p>An address lookup helps users find a full address from partial information such as a postcode.</p>
 <p>Use an address lookup when you’re asking users for a Cypriot address.</p>
 <p>An address lookup lets users specify a Cypriot address by entering their postcode and selecting their address from a list. There is also an option to enter a street or apartment number.</p>
+<p>Use the following flow to ask for a Cypriot address with the address lookup:</p>
+<ol>
+<li>Use a <a href="../numeric_inputs/#whole-numbers">whole number numeric input </a> to ask users to enter their postcode.</li>
+<li>Ask the user’s to select their street based on the post code provided. You can use a <a href="../../components/select/">select component</a> for this.</li>
+<li>Use <a href="../../components/text_input/">text inputs</a> to ask the users to enter the street number and optionally the apartment number. Also show the users their selected ‘postcode’, ‘street’, ‘city or village’ and ‘district’, and provide them with a ‘Continue’ <a href="../../components/button/#primary-button">primary button</a> to store the address.</li>
+</ol>
+<p>For each step of the address lookup, use a <a href="../../components/button/#secondary-button">secondary button</a> labeled <code>Search</code> to allow user’s to search for streets based on the provided postcode. This allows the user to search again for streets at any time of the process.</p>
+<p>Remember to run validations for each step and follow the instructions for <a href="../../components/error_message">error messages</a> and <a href="../../components/error_summary">error summary</a> when validating user input.</p>
 <p><img src="../../img/v3_cy_address_lookup.png" alt="Flow of Cypriot address lookup" style="aspect-ratio: auto;"></p>
 <p>When using an address lookup, you should:</p>
 <ul>

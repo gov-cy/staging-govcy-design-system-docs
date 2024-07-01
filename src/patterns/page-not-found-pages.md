@@ -13,12 +13,12 @@ Use a page not found if someone is trying to view a page that does not exist. Th
 - types or copies a web address for a page that does not exist 
 - types or copies a web address incorrectly 
 
-Make sure web addresses in your service, letters, forms and on gov.cy are for pages that exist or redirect to pages that exist. 
+Make sure web addresses in your service, letters, forms and links on gov.cy are for pages that exist or redirect to pages that exist. 
 
 ## How it works
 The page should have:
 
-- as the [title in the page’s](../../getting-started/page-template/#title%2C-description) `<head>` section: :
+- as the [title in the page’s](../../getting-started/page-template/#title%2C-description) `<head>` section:
     - in Greek: ‘Δεν βρέθηκε η σελίδα – service name – gov.cy’
     - in English: ‘Page not found – service name – gov.cy’
 - as the `H1`

@@ -1,5 +1,5 @@
 ---
-title: "Cookies used by the Design System"
+title: "Cookies used by the Unified Design System"
 ---
 
 The 'Unified Design System' website does not use any cookies. 
