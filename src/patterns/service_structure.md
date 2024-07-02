@@ -18,7 +18,7 @@ Through your design you will need to make sure:
 - everyone can use and understand the service
 - users and their information are treated with care and respect
 
-Design services that focus on achieving users' goals and work independently and in isolation from other services. Do not design them as part of bulky systems that required extensive user training, and instead create clear, easy-to-use services that allow users to complete specific tasks without needing to navigate through or depend on other services.
+Design services that focus on achieving users' goals and work independently and in isolation from other services. Do not design them as part of bulky systems that required extensive user training, and instead create clear, easy-to-use services, that allow users to complete specific tasks without needing to navigate through or depend on other services.
 
 All gov.cy services must follow the [basic structure](#basic-structure). In this document we also describe variations of the basic structure, in which the "Gather information" step is handled differently depending on the need. 
 
@@ -41,15 +41,15 @@ You may structure the “Gather information” step differently, in order to han
 
 ### Start page
 Before starting the service, users should be presented with a page describing all the information they will need from the start, such as:
-- What the service does
-- Who it is for
-- What is needed to use the service
-- Other ways to apply
-- How they can get help
+- what the service does.
+- who it is for.
+- what is needed to use the service.
+- other ways to apply.
+- how they can get help.
 
 ![Illustration of a start page](../../img/illustration_start_page.png){style="aspect-ratio: auto;"}
 
-Keep in mind that research has shown that users avoid reading long text, so keep your information minimal, and to the point and avoid using legal jargon.
+Keep in mind that research has shown that users avoid reading long text, so keep your information minimal, to the point and avoid using legal jargon.
 
 This page usually resides on the GOV.CY portal. 
 
@@ -61,8 +61,8 @@ If the service requires users to sign in, choose to use the [Ariadni CY-Login (o
 
 Prefer to split the [questions](../question_pages) across multiple pages with each page containing just one thing, for example:
 - one piece of information you’re telling a user
-- one decision they have to make
-- one question they have to answer
+- one decision they must make
+- one question they must answer
 
 ![Illustration of splitting questions to ask one thing at a time](../../img/one-thing-at-a-time.png){style="aspect-ratio: auto;"}
 
@@ -96,14 +96,14 @@ Make sure to use the [success button](../../components/button/#success-button) t
 ![Illustration a check your answers page](../../img/v3_illustration_check_answers.png){style="aspect-ratio: auto;"}
 
 ### Confirmation page
-After the users have submitted their application, present a [confirmation page](../confirmation-pages/) with a panel to tell them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.
+After the users have submitted their application, present a [confirmation page](../confirmation-pages/) with a panel to inform them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.
 
 ![Illustration a confirmation page](../../img/illustration_confirmation_page.png){style="aspect-ratio: auto;"}
 
 Research has shown that users feel more at ease when:
 - they are presented with a reference number for their application
-- they receive a notification either by SMS or by email
-- they can print or save the confirmation.
+- they receive a notification either by email or by SMS
+- they can save or print the confirmation.
 
 <hr class="govcy-line">
 
@@ -121,10 +121,10 @@ Use this structure when:
 
 The linear structure of a service should:
 
-1. Start with an informative start page
-2. If needed, ask the users to sign-in
-3. Gather information from the users, one question at a time
-4. Let the users check their answers before submitting
+1. Start with an informative start page.
+2. If needed, ask the users to sign-in.
+3. Gather information from the users, one question at a time.
+4. Let the users check their answers before submitting.
 5. Show the users a confirmation of successful completion page.
 
 ![An example flow of a linear service](../../img/v3_illustration_linear_structure.png){style="aspect-ratio: auto;"}
@@ -132,7 +132,7 @@ The linear structure of a service should:
 <hr class="govcy-line">
 
 ## Variant 2 - Break the service into sections
-There may be cases where you need to implement complicated services, involving multiple tasks that users may need to complete over a number of sessions. In such cases you may consider gathering information from the users, by breaking the service into tasks. 
+There may be cases where you need to implement complicated services, involving multiple tasks that users may need to complete over several sessions. In such cases you may consider gathering information from the users, by breaking the service into tasks. 
 
 ### When to use this structure 
 Use this structure when:
@@ -143,20 +143,20 @@ Use this structure when:
 ### How it works
 Breaking the service into sections, uses the same structure and principles as the [basic service structure](#basic-structure). You only need to replace the "Gather information" step with the following:  
 
-1. Let the users decide on which task or section to work on using a [task list page](../task-list-page/)
-2. Gather information from the users, one section at a time 
-3. Repeat this process until all tasks or sections are completed
+1. Let the users decide on which task or section to work on using a [task list page](../task-list-page/).
+2. Gather information from the users, one section at a time.
+3. Repeat this process until all tasks or sections are completed.
 
 ![Illustration of breaking the service into tasks](../../img/v3_illustration_breaking_the_service_into_tasks.png){style="aspect-ratio: auto;"}
 
 Let users complete the different sections in an asynchronous manner. Also consider saving the users' responses and progress, and then to continue where they left off when they return.
 
 After gathering information from the users you should still:
-- Let the users check their answers from all sections before submitting
-- Show the users a confirmation of successful completion page.
+- Let the users [check their answers](#check-your-answers-page) from all sections before submitting.
+- Show the users a [confirmation of successful completion page](#confirmation-page).
 
 ### Task list 
-Use the [task list page](../task-list-page/) pattern to help users understand the tasks involved in a completing a service. Each tasks on the task list should represent a different section to be completed by the user.
+Use the [task list page](../task-list-page/) pattern to help users understand the tasks involved in completing a service. Each task on the task list should represent a different section to be completed by the user.
 
 After completing all the tasks and the user clicks the 'Continue' button, navigate the user to the [check your answers](../check_answers/) page. Make sure to validate if the user has completed all the sections, or if a special condition does not allow the users to complete the service and show appropriate [error summary on the task list page](../task-list-page/#showing-errors) accordingly. 
 
@@ -235,7 +235,7 @@ Each section represents a task the user needs to take, in order to complete a se
 
 Within each section, follow the [one thing at a time](#one-thing-at-a-time) principle and allow the users to answer questions one page at a time. This will also enable your service to apply conditional logic if needed. 
 
-If the section consists with more than one question, present the user with a [summary list](../../components/summary_list/) before returning to the task list page. Make sure the button of the summary list for each section, is not the [success button](../../components/button/#success-button), as this button should only be used once in your service - when the users are ready for their final submission.
+If the section consists of more than one question, present the user with a [summary list](../../components/summary_list/) before returning to the task list page. Make sure the button of the summary list for each section, is not the [success button](../../components/button/#success-button), as this button should only be used once in your service - when the users are ready for their final submission.
 
 ![Illustration of a section with a summary list](../../img/v3_illustration_secction_summary_list.png){style="aspect-ratio: auto;"}
 
@@ -244,9 +244,9 @@ If the service allows users to enter multiple answers of the same type, you may 
 After completing all the questions of the section, return the user to the task list page. 
 
 #### Section statuses 
-When a user first enters a service, a section may have either a 'Not started' or a 'Cannot start yet' status.
+When a user visits the service for the first time, a section may have either a 'Not started' or a 'Cannot start yet' status.
 
-When the user starts answering questions for section, mark the status of that section as 'In progress'.
+When the user starts answering questions for a section, mark the status of that section as 'In progress'.
 
 After answering all the section's questions, mark the status section as 'Completed' and return the user to the task list page. 
 
@@ -365,10 +365,28 @@ Ask ‘Have you completed this section?’ with the radio options ‘Yes, I’ve
 </form>
 ```
 
-### Confirmation page change links
-The 'Change' links on the confirmation page, should lead to the either the beginning of the related section, or it's summary list page, depending on the implementation of each service. 
+### Check your answers page change links
+The 'Change' links on the [check your answers page](../check_answers/#let-users-go-back-and-change-their-answers), should lead to either the beginning of the related section, or its summary list page, depending on the implementation of each service. 
 
 Make sure to test your approach with the users.
+
+### Validate and guide the users throughout
+
+Complex services are difficult for users, so do your best to make it easy for them. Ask them easy to understand questions and follow the [one thing at a time](#one-thing-at-a-time) principle. Do not overload your pages with instructions, instead simplify the questions asked and use validations to guide them throughout the process. 
+
+Depending on the service, you may want to validate on the following levels:
+
+1. Question pages. Validate the users' input on each page. Follow the instructions for [error messages](../../components/error_message) and [error summary](../../components/error_summary) when needed. 
+2. Sections' summary list pages. Validate the users' answers for the specific section as a whole. Check if the user has answered all the necessary questions, or if there are business rule violations for the specific section, and show an [error summary](../../components/error_summary) when needed.  
+3. The task list. Validate the users' answers for all the sections of the task list as a whole. Validate if users have completed all the sections, or if a special condition does not allow them to complete the service. Show appropriate [error summary on the task list page](../task-list-page/#showing-errors) when needed.
+
+Remember that validations are run when the users distinctly indicate that they are done with the specific page, for example when clicking the “continue” button.
+
+It is also important not to block users from using other sections of the service when there is an error, so consider when it is appropriate to use the [allow users to continue error summary variant](../../components/error_summary/#allow-users-to-continue).
+
+In order to guide users, the [error messages content](../../components/error_message/#errors-content) should be short, easy to understand and specific.
+
+Remember to always validate the users' data before submitting on the [check your answers page](../check_answers/#showing-errors).
 
 <hr class="govcy-line">
 
@@ -402,8 +420,8 @@ User research will show you what to do when users click on the `Continue` button
 Remember to follow the [one thing at a time](#one-thing-at-a-time) principle and allow the users to answer questions one page at a time. This will also enable your service to apply conditional logic if needed. 
 
 After gathering information from the users you should still:
-- Let the users check their answers from all sections before submitting
-- Show the users a confirmation of successful completion page.
+- Let the users [check their answers](#check-your-answers-page) before submitting.
+- Show the users a [confirmation of successful completion page](#confirmation-page).
 
 Follow the same instructions concerning the [task list](#task-list) and [statuses](#section-statuses) as in the break the service into tasks and sections structure.
 

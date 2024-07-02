@@ -210,7 +210,10 @@
                 </ol>
             		</li>
 
-                    <li><a href="#confirmation-page-change-links">Confirmation page change links</a>
+                    <li><a href="#check-your-answers-page-change-links">Check your answers page change links</a>
+            		</li>
+
+                    <li><a href="#validate-and-guide-the-users-throughout">Validate and guide the users throughout</a>
             		</li>
                 </ol>
             		</li>
@@ -246,7 +249,7 @@
 <li>everyone can use and understand the service</li>
 <li>users and their information are treated with care and respect</li>
 </ul>
-<p>Design services that focus on achieving users’ goals and work independently and in isolation from other services. Do not design them as part of bulky systems that required extensive user training, and instead create clear, easy-to-use services that allow users to complete specific tasks without needing to navigate through or depend on other services.</p>
+<p>Design services that focus on achieving users’ goals and work independently and in isolation from other services. Do not design them as part of bulky systems that required extensive user training, and instead create clear, easy-to-use services, that allow users to complete specific tasks without needing to navigate through or depend on other services.</p>
 <p>All gov.cy services must follow the <a href="#basic-structure">basic structure</a>. In this document we also describe variations of the basic structure, in which the “Gather information” step is handled differently depending on the need.</p>
 <h2 id="basic-structure" tabindex="-1">Basic structure</h2>
 <p>All gov.cy services must follow the basic structure.</p>
@@ -264,14 +267,14 @@
 <h3 id="start-page" tabindex="-1">Start page</h3>
 <p>Before starting the service, users should be presented with a page describing all the information they will need from the start, such as:</p>
 <ul>
-<li>What the service does</li>
-<li>Who it is for</li>
-<li>What is needed to use the service</li>
-<li>Other ways to apply</li>
-<li>How they can get help</li>
+<li>what the service does.</li>
+<li>who it is for.</li>
+<li>what is needed to use the service.</li>
+<li>other ways to apply.</li>
+<li>how they can get help.</li>
 </ul>
 <p><img src="../../img/illustration_start_page.png" alt="Illustration of a start page" style="aspect-ratio: auto;"></p>
-<p>Keep in mind that research has shown that users avoid reading long text, so keep your information minimal, and to the point and avoid using legal jargon.</p>
+<p>Keep in mind that research has shown that users avoid reading long text, so keep your information minimal, to the point and avoid using legal jargon.</p>
 <p>This page usually resides on the GOV.CY portal.</p>
 <h3 id="sign-in" tabindex="-1">Sign in</h3>
 <p>If the service requires users to sign in, choose to use the <a href="https://dsf.dmrid.gov.cy/2022/06/08/ariadni-cy-login-specifications/" rel="noreferrer noopener" target="_blank">Ariadni CY-Login (opens in new tab)</a> whenever possible to do so.</p>
@@ -279,8 +282,8 @@
 <p>Prefer to split the <a href="../question_pages">questions</a> across multiple pages with each page containing just one thing, for example:</p>
 <ul>
 <li>one piece of information you’re telling a user</li>
-<li>one decision they have to make</li>
-<li>one question they have to answer</li>
+<li>one decision they must make</li>
+<li>one question they must answer</li>
 </ul>
 <p><img src="../../img/one-thing-at-a-time.png" alt="Illustration of splitting questions to ask one thing at a time" style="aspect-ratio: auto;"></p>
 <p>User research will tell you when you can merge pages together. For example, if you’re designing an internal service for government users who need to repeat and switch between tasks quickly.</p>
@@ -312,13 +315,13 @@
 <p>Make sure to use the <a href="../../components/button/#success-button">success button</a> to indicate that the user is about to completed the service.</p>
 <p><img src="../../img/v3_illustration_check_answers.png" alt="Illustration a check your answers page" style="aspect-ratio: auto;"></p>
 <h3 id="confirmation-page" tabindex="-1">Confirmation page</h3>
-<p>After the users have submitted their application, present a <a href="../confirmation-pages/">confirmation page</a> with a panel to tell them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.</p>
+<p>After the users have submitted their application, present a <a href="../confirmation-pages/">confirmation page</a> with a panel to inform them that they have successfully completed the transaction. This reassures the users their application has been filed and provides useful information on what will happen next.</p>
 <p><img src="../../img/illustration_confirmation_page.png" alt="Illustration a confirmation page" style="aspect-ratio: auto;"></p>
 <p>Research has shown that users feel more at ease when:</p>
 <ul>
 <li>they are presented with a reference number for their application</li>
-<li>they receive a notification either by SMS or by email</li>
-<li>they can print or save the confirmation.</li>
+<li>they receive a notification either by email or by SMS</li>
+<li>they can save or print the confirmation.</li>
 </ul>
 <hr class="govcy-line">
 <h2 id="variant-1---linear-structure" tabindex="-1">Variant 1 - Linear structure</h2>
@@ -333,16 +336,16 @@
 <h3 id="how-it-works-1" tabindex="-1">How it works</h3>
 <p>The linear structure of a service should:</p>
 <ol>
-<li>Start with an informative start page</li>
-<li>If needed, ask the users to sign-in</li>
-<li>Gather information from the users, one question at a time</li>
-<li>Let the users check their answers before submitting</li>
+<li>Start with an informative start page.</li>
+<li>If needed, ask the users to sign-in.</li>
+<li>Gather information from the users, one question at a time.</li>
+<li>Let the users check their answers before submitting.</li>
 <li>Show the users a confirmation of successful completion page.</li>
 </ol>
 <p><img src="../../img/v3_illustration_linear_structure.png" alt="An example flow of a linear service" style="aspect-ratio: auto;"></p>
 <hr class="govcy-line">
 <h2 id="variant-2---break-the-service-into-sections" tabindex="-1">Variant 2 - Break the service into sections</h2>
-<p>There may be cases where you need to implement complicated services, involving multiple tasks that users may need to complete over a number of sessions. In such cases you may consider gathering information from the users, by breaking the service into tasks.</p>
+<p>There may be cases where you need to implement complicated services, involving multiple tasks that users may need to complete over several sessions. In such cases you may consider gathering information from the users, by breaking the service into tasks.</p>
 <h3 id="when-to-use-this-structure-1" tabindex="-1">When to use this structure</h3>
 <p>Use this structure when:</p>
 <ul>
@@ -353,19 +356,19 @@
 <h3 id="how-it-works-2" tabindex="-1">How it works</h3>
 <p>Breaking the service into sections, uses the same structure and principles as the <a href="#basic-structure">basic service structure</a>. You only need to replace the “Gather information” step with the following:</p>
 <ol>
-<li>Let the users decide on which task or section to work on using a <a href="../task-list-page/">task list page</a></li>
-<li>Gather information from the users, one section at a time</li>
-<li>Repeat this process until all tasks or sections are completed</li>
+<li>Let the users decide on which task or section to work on using a <a href="../task-list-page/">task list page</a>.</li>
+<li>Gather information from the users, one section at a time.</li>
+<li>Repeat this process until all tasks or sections are completed.</li>
 </ol>
 <p><img src="../../img/v3_illustration_breaking_the_service_into_tasks.png" alt="Illustration of breaking the service into tasks" style="aspect-ratio: auto;"></p>
 <p>Let users complete the different sections in an asynchronous manner. Also consider saving the users’ responses and progress, and then to continue where they left off when they return.</p>
 <p>After gathering information from the users you should still:</p>
 <ul>
-<li>Let the users check their answers from all sections before submitting</li>
-<li>Show the users a confirmation of successful completion page.</li>
+<li>Let the users <a href="#check-your-answers-page">check their answers</a> from all sections before submitting.</li>
+<li>Show the users a <a href="#confirmation-page">confirmation of successful completion page</a>.</li>
 </ul>
 <h3 id="task-list" tabindex="-1">Task list</h3>
-<p>Use the <a href="../task-list-page/">task list page</a> pattern to help users understand the tasks involved in a completing a service. Each tasks on the task list should represent a different section to be completed by the user.</p>
+<p>Use the <a href="../task-list-page/">task list page</a> pattern to help users understand the tasks involved in completing a service. Each task on the task list should represent a different section to be completed by the user.</p>
 <p>After completing all the tasks and the user clicks the ‘Continue’ button, navigate the user to the <a href="../check_answers/">check your answers</a> page. Make sure to validate if the user has completed all the sections, or if a special condition does not allow the users to complete the service and show appropriate <a href="../task-list-page/#showing-errors">error summary on the task list page</a> accordingly.</p>
 <p>Always allow users to go back into a task to change their answer. If a user decides to go back to a previous task, make sure information they have already entered is pre-populated.</p>
 <p><em>Example</em></p>
@@ -406,13 +409,13 @@
 <h3 id="sections" tabindex="-1">Sections</h3>
 <p>Each section represents a task the user needs to take, in order to complete a service. Break the service into independent sections of smaller and related questions.</p>
 <p>Within each section, follow the <a href="#one-thing-at-a-time">one thing at a time</a> principle and allow the users to answer questions one page at a time. This will also enable your service to apply conditional logic if needed.</p>
-<p>If the section consists with more than one question, present the user with a <a href="../../components/summary_list/">summary list</a> before returning to the task list page. Make sure the button of the summary list for each section, is not the <a href="../../components/button/#success-button">success button</a>, as this button should only be used once in your service - when the users are ready for their final submission.</p>
+<p>If the section consists of more than one question, present the user with a <a href="../../components/summary_list/">summary list</a> before returning to the task list page. Make sure the button of the summary list for each section, is not the <a href="../../components/button/#success-button">success button</a>, as this button should only be used once in your service - when the users are ready for their final submission.</p>
 <p><img src="../../img/v3_illustration_secction_summary_list.png" alt="Illustration of a section with a summary list" style="aspect-ratio: auto;"></p>
 <p>If the service allows users to enter multiple answers of the same type, you may implement <a href="../multiple_things/">the multiple things pattern</a> for a section.</p>
 <p>After completing all the questions of the section, return the user to the task list page.</p>
 <h4 id="section-statuses" tabindex="-1">Section statuses</h4>
-<p>When a user first enters a service, a section may have either a ‘Not started’ or a ‘Cannot start yet’ status.</p>
-<p>When the user starts answering questions for section, mark the status of that section as ‘In progress’.</p>
+<p>When a user visits the service for the first time, a section may have either a ‘Not started’ or a ‘Cannot start yet’ status.</p>
+<p>When the user starts answering questions for a section, mark the status of that section as ‘In progress’.</p>
 <p>After answering all the section’s questions, mark the status section as ‘Completed’ and return the user to the task list page.</p>
 <p>If the user starts answering questions on a section, but leaves without answering all of them, make sure that the status of the section is marked as ‘In progress’.</p>
 <div class="govcy-alert-notification govcy-br-5 govcy-br-info govcy-px-0">
@@ -489,9 +492,21 @@
 </div>
 <p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form<span class="token punctuation">"</span></span> <span class="token attr-name">novalidate</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>fieldset</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-fieldset<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>legend</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-legend<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Have you completed this section?<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>legend</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-form-control<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>completed2<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option2-yes<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option2-yes<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Yes, I’ve completed this section<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-radio-input<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>completed2<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option2-no<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-label<span class="token punctuation">"</span></span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>option2-no<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>No, I’ll come back to it later<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>fieldset</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">></span></span></code></pre>
-<h3 id="confirmation-page-change-links" tabindex="-1">Confirmation page change links</h3>
-<p>The ‘Change’ links on the confirmation page, should lead to the either the beginning of the related section, or it’s summary list page, depending on the implementation of each service.</p>
+<h3 id="check-your-answers-page-change-links" tabindex="-1">Check your answers page change links</h3>
+<p>The ‘Change’ links on the <a href="../check_answers/#let-users-go-back-and-change-their-answers">check your answers page</a>, should lead to either the beginning of the related section, or its summary list page, depending on the implementation of each service.</p>
 <p>Make sure to test your approach with the users.</p>
+<h3 id="validate-and-guide-the-users-throughout" tabindex="-1">Validate and guide the users throughout</h3>
+<p>Complex services are difficult for users, so do your best to make it easy for them. Ask them easy to understand questions and follow the <a href="#one-thing-at-a-time">one thing at a time</a> principle. Do not overload your pages with instructions, instead simplify the questions asked and use validations to guide them throughout the process.</p>
+<p>Depending on the service, you may want to validate on the following levels:</p>
+<ol>
+<li>Question pages. Validate the users’ input on each page. Follow the instructions for <a href="../../components/error_message">error messages</a> and <a href="../../components/error_summary">error summary</a> when needed.</li>
+<li>Sections’ summary list pages. Validate the users’ answers for the specific section as a whole. Check if the user has answered all the necessary questions, or if there are business rule violations for the specific section, and show an <a href="../../components/error_summary">error summary</a> when needed.</li>
+<li>The task list. Validate the users’ answers for all the sections of the task list as a whole. Validate if users have completed all the sections, or if a special condition does not allow them to complete the service. Show appropriate <a href="../task-list-page/#showing-errors">error summary on the task list page</a> when needed.</li>
+</ol>
+<p>Remember that validations are run when the users distinctly indicate that they are done with the specific page, for example when clicking the “continue” button.</p>
+<p>It is also important not to block users from using other sections of the service when there is an error, so consider when it is appropriate to use the <a href="../../components/error_summary/#allow-users-to-continue">allow users to continue error summary variant</a>.</p>
+<p>In order to guide users, the <a href="../../components/error_message/#errors-content">error messages content</a> should be short, easy to understand and specific.</p>
+<p>Remember to always validate the users’ data before submitting on the <a href="../check_answers/#showing-errors">check your answers page</a>.</p>
 <hr class="govcy-line">
 <h2 id="variant-3---asynchronous-basic-structure" tabindex="-1">Variant 3 - Asynchronous basic structure</h2>
 <p>The asynchronous basic structure uses the same structure and principles as the <a href="#basic-structure">basic service structure</a>, but also takes advantage of the <a href="../task-list-page/">task list page</a> described in the <a href="#variant-2---break-the-service-into-sections">break the service into sections variant</a> to let users decide on which question to work on.</p>
@@ -518,8 +533,8 @@
 <p>Remember to follow the <a href="#one-thing-at-a-time">one thing at a time</a> principle and allow the users to answer questions one page at a time. This will also enable your service to apply conditional logic if needed.</p>
 <p>After gathering information from the users you should still:</p>
 <ul>
-<li>Let the users check their answers from all sections before submitting</li>
-<li>Show the users a confirmation of successful completion page.</li>
+<li>Let the users <a href="#check-your-answers-page">check their answers</a> before submitting.</li>
+<li>Show the users a <a href="#confirmation-page">confirmation of successful completion page</a>.</li>
 </ul>
 <p>Follow the same instructions concerning the <a href="#task-list">task list</a> and <a href="#section-statuses">statuses</a> as in the break the service into tasks and sections structure.</p>
 <h2 id="contribute" tabindex="-1">Contribute</h2>
