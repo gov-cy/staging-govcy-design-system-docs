@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/experiments/cond-radio-aria/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/experiments/step-by-step-no-accordion/</loc>
             <lastmod>2022-02-01T00:00:01.000Z</lastmod>
         </url><url>
@@ -56,6 +59,9 @@
             <lastmod>2022-02-01T00:00:01.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/samples/template-heading-error-summary/</loc>
+            <lastmod>2022-02-01T00:00:01.000Z</lastmod>
+        </url><url>
+            <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/samples/template-heading-input-js/</loc>
             <lastmod>2022-02-01T00:00:01.000Z</lastmod>
         </url><url>
             <loc>https://gov-cy.github.io/govcy-design-system-docs//staging-govcy-design-system-docs/samples/template-heading-input/</loc>

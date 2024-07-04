@@ -22,7 +22,9 @@ There are separate patterns for:
 ## How it works
 The component should only exist in the [main section](../../getting-started/page-template/#sections). 
 
-Run the validations for each page or question after the users distinctly indicate that their inputs are ready to be submitted, for example when clicking the “continue” button. This gives the user the opportunity to review their answer, or get out of the input’s focus and not get flooded with red error messages which can be overwhelming.
+Always summarize all errors at the top of the page, by using the [error summary](../error_summary/).
+
+When showing the errors, use [linking to an element on the same page](../../styles/typography/#linking-to-an-element-on-the-same-page) to move keyboard focus to the error summary heading. Read more about this on the [error summary](../error_summary/#how-it-works) page. 
 
 For each error:
 
@@ -32,9 +34,15 @@ For each error:
 
 To help screen reader users, the error message component includes a hidden ‘Error:’ before the error message. These users will hear, for example, `<span class="govcy-visually-hidden-error"> Error: </span> The date your passport was issued must be in the past`. Also add  `aria-describedby` on the element, with the id of the error message. 
 
-Remember to always summarize all errors at the top of the page, by using the [error summary](../error_summary/).
+More details on how to style error messages for each component type, can be found on the components' individual documentation page.
 
-More details on how to implement error messages for each component type, can be found on the components' individual documentation page.
+### When to check for errors
+
+Run the validations for each page or question after the users distinctly indicate that their inputs are ready to be submitted, for example when clicking the “continue” button. This gives the user the opportunity to review their answer, or get out of the input’s focus and not get flooded with red error messages which can be overwhelming.
+
+### Examples
+
+See below some examples of error messages.
 
 *Examples*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
@@ -487,6 +495,7 @@ More details on how to implement error messages for each component type, can be 
 There may be cases where you would allow users to continue with the service, even if there are errors on a specific section. This may be helpful in cases where users do not have all the information needed to complete the service at the time, but they can still complete other parts of the service.
 
 In such a case you should still use the error summary and error messages components, but use the [allow users to continue error summary variant](../error_summary/#allow-users-to-continue).
+
 ## Errors content
 ### Be clear and concise
 Describe what has happened and tell them how to fix it. The message must be in plain English, use positive language and get to the point.

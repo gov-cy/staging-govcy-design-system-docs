@@ -191,6 +191,9 @@
 
                     <li><a href="#links-without-underlines">Links without underlines</a>
             		</li>
+
+                    <li><a href="#linking-to-an-element-on-the-same-page">Linking to an element on the same page</a>
+            		</li>
                 </ol>
             		</li>
 
@@ -447,6 +450,15 @@
 </div>
 <p><em>HTML code</em></p>
 <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Jump to the <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>govcy-link-no-underline<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Top of the page<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></code></pre>
+<h3 id="linking-to-an-element-on-the-same-page" tabindex="-1">Linking to an element on the same page</h3>
+<p>Use the hash (<code>#</code>) character and the id of an element in the <code>href</code> attribute, to link to an element on the same page. This is helpful when linking <a href="../../components/error_summary/">error summary</a> messages to the field where the user can make a correction.</p>
+<p><em>Example</em></p>
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p><a href="#Section_further_down">Jump to the heading below</a></p>
+<h2 data-toc-exclude id="Section_further_down">Section further down</h2>
+</div>
+<p><em>HTML code</em></p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#Section_further_down<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Jump to the heading below<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Section_further_down<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Section further down<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span></code></pre>
 <h2 id="lists" tabindex="-1">Lists</h2>
 <p>Use lists to make blocks of text easier to read, and to break information into manageable chunks.</p>
 <p><em>Example</em></p>
@@ -578,11 +590,10 @@
                         </div>
                         <div class="govcy-col-md-4">
                             <ul>
-                                <li><h3>Tools</h3></li>
-                                <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma library</a></li>
-                                <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidrary library</a></li>
-                                <li><a href="https://www.npmjs.com/package/@gov-cy/govcy-frontend-tester" target="_blank">Test library</a></li>
-                                <li><a href="https://www.npmjs.com/package/@gov-cy/dsf-email-templates " target="_blank">Email library</a></li>
+                                <li><h3>Tools and libraries</h3></li>
+                                <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma</a></li>
+                                <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidraw</a></li>
+                                <li><a href="https://www.npmjs.com/~gov-cy" target="_blank">npm</a></li>
                             </ul>
                         </div>
                         <div class="govcy-col-md-4">

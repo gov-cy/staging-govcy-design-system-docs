@@ -17,6 +17,10 @@ module.exports = {
     currentVersion: 'https://github.com/gov-cy/govcy-design-system/tree/v3.0.0',
     updateDate: `2/5/2024`
   },
+  npm : {
+    homeUrl: 'https://www.npmjs.com/~gov-cy',
+    updateDate: `2/5/2024`
+  },
   exalidraw: {
     addUrl: `https://excalidraw.com/?addLibrary=https%3A%2F%2Fexcalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app%2Flibraries%2Fcevangelougovcy%2Fgov-cy-uds-library.excalidrawlib`,
     downloadUrl: `https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/libraries/cevangelougovcy/gov-cy-uds-library.excalidrawlib`,
@@ -33,7 +37,7 @@ module.exports = {
   },
   figmaLibrary : {
     homeUrl: 'https://www.figma.com/@dsf_cy',
-    downloadUrl: 'https://www.figma.com/community/file/1188065288540425761/dsf-gov-cy-design-system',
+    downloadUrl: 'https://www.figma.com/community/file/1388468172430388495/dsf-gov-cy-unified-design-system-v-3',
     updateDate: `14/5/2024`
   },
   previousVersions: [

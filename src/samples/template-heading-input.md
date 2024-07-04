@@ -8,7 +8,7 @@ layout : "base_for_samples.njk"
     <a class="govcy-back-link" href="#">Back</a>
 </section>
  <!--main-->
-<main class="govcy-container" id="mainContainer1">
+<main class="govcy-container" id="mainContainer">
     <div class="govcy-row">
         <article class="govcy-col-8">
             <form action="" class="govcy-form" novalidate>
@@ -16,7 +16,7 @@ layout : "base_for_samples.njk"
                     <h1><label class="govcy-label govcy-label-primary" for="in-tel">What is your telephone number?</label></h1>
                     <input class="govcy-text-input govcy-text-input-char_20" id="in-tel" name="in-tel" type="tel" spellcheck="false" autocomplete="tel">
                 </div>
-                <button type="button" class="govcy-btn-primary">Continue</button>
+                <button type="button" class="govcy-btn-primary" onclick="window.location.href='../template-heading-error-summary/#errorSummary'">Continue</button>
             </form>
         </article>
     </div>

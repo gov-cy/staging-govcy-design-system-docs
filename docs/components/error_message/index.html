@@ -150,6 +150,12 @@
             
                 <ol>
                     
+                    <li><a href="#when-to-check-for-errors">When to check for errors</a>
+            		</li>
+
+                    <li><a href="#examples">Examples</a>
+            		</li>
+
                     <li><a href="#allow-users-to-continue">Allow users to continue</a>
             		</li>
                 </ol>
@@ -229,7 +235,8 @@
 </ul>
 <h2 id="how-it-works" tabindex="-1">How it works</h2>
 <p>The component should only exist in the <a href="../../getting-started/page-template/#sections">main section</a>.</p>
-<p>Run the validations for each page or question after the users distinctly indicate that their inputs are ready to be submitted, for example when clicking the “continue” button. This gives the user the opportunity to review their answer, or get out of the input’s focus and not get flooded with red error messages which can be overwhelming.</p>
+<p>Always summarize all errors at the top of the page, by using the <a href="../error_summary/">error summary</a>.</p>
+<p>When showing the errors, use <a href="../../styles/typography/#linking-to-an-element-on-the-same-page">linking to an element on the same page</a> to move keyboard focus to the error summary heading. Read more about this on the <a href="../error_summary/#how-it-works">error summary</a> page.</p>
 <p>For each error:</p>
 <ul>
 <li>put the message in red after the question text and hint text</li>
@@ -237,8 +244,11 @@
 <li>if the error relates to a specific field within the question, give it a red border and refer to that field in the error message - for example: “you must enter a year”</li>
 </ul>
 <p>To help screen reader users, the error message component includes a hidden ‘Error:’ before the error message. These users will hear, for example, <code>&lt;span class=&quot;govcy-visually-hidden-error&quot;&gt; Error: &lt;/span&gt; The date your passport was issued must be in the past</code>. Also add  <code>aria-describedby</code> on the element, with the id of the error message.</p>
-<p>Remember to always summarize all errors at the top of the page, by using the <a href="../error_summary/">error summary</a>.</p>
-<p>More details on how to implement error messages for each component type, can be found on the components’ individual documentation page.</p>
+<p>More details on how to style error messages for each component type, can be found on the components’ individual documentation page.</p>
+<h3 id="when-to-check-for-errors" tabindex="-1">When to check for errors</h3>
+<p>Run the validations for each page or question after the users distinctly indicate that their inputs are ready to be submitted, for example when clicking the “continue” button. This gives the user the opportunity to review their answer, or get out of the input’s focus and not get flooded with red error messages which can be overwhelming.</p>
+<h3 id="examples" tabindex="-1">Examples</h3>
+<p>See below some examples of error messages.</p>
 <p><em>Examples</em></p>
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
 <div class="govcy-form">
@@ -868,11 +878,10 @@ For example, use an instruction for empty fields like ‘Enter your name’, but
                         </div>
                         <div class="govcy-col-md-4">
                             <ul>
-                                <li><h3>Tools</h3></li>
-                                <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma library</a></li>
-                                <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidrary library</a></li>
-                                <li><a href="https://www.npmjs.com/package/@gov-cy/govcy-frontend-tester" target="_blank">Test library</a></li>
-                                <li><a href="https://www.npmjs.com/package/@gov-cy/dsf-email-templates " target="_blank">Email library</a></li>
+                                <li><h3>Tools and libraries</h3></li>
+                                <li><a href="https://www.figma.com/@dsf_cy" target="_blank">Figma</a></li>
+                                <li><a href="https://excalidraw-libraries-git-cevangelougovcy-gov-e2dec6-excalidraw.vercel.app/?theme=light&sort=default#cevangelougovcy-gov-cy-uds-library" target="_blank">Exalidraw</a></li>
+                                <li><a href="https://www.npmjs.com/~gov-cy" target="_blank">npm</a></li>
                             </ul>
                         </div>
                         <div class="govcy-col-md-4">

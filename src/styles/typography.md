@@ -211,6 +211,24 @@ For example, links in a header or side navigation might not need underlines. Use
 ```html
 <p>Jump to the <a href="#" class="govcy-link-no-underline">Top of the page</a></p>
 ```
+
+### Linking to an element on the same page
+Use the hash (`#`) character and the id of an element in the `href` attribute, to link to an element on the same page. This is helpful when linking [error summary](../../components/error_summary/) messages to the field where the user can make a correction. 
+
+*Example*
+<div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
+<p><a href="#Section_further_down">Jump to the heading below</a></p>
+
+<h2 data-toc-exclude id="Section_further_down">Section further down</h2>
+</div>
+
+*HTML code*
+```html
+<p><a href="#Section_further_down">Jump to the heading below</a></p>
+
+<h2 id="Section_further_down">Section further down</h2>
+```
+
 ## Lists
 Use lists to make blocks of text easier to read, and to break information into manageable chunks.
 

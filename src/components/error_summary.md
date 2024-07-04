@@ -5,7 +5,7 @@ description: "Use this component at the top of a page to summarise any errors a 
 ---
 Use this component at the top of a page to summarise any errors a user has made.
 
-When a user makes an error, you must show both an error summary and an error message next to each answer that contains an error.
+When there is a validation error, you must show both an error summary and an error message next to each field that contains an error.
 
 *Example*
 <div class="govcy-container govcy-p-4 govcy-br-1 govcy-br-standard govcy-mb-4">
@@ -30,17 +30,38 @@ When a user makes an error, you must show both an error summary and an error mes
 ```
 
 ## When to use this component
-Always show an error summary when there is a validation error, even if there’s only one.
+Always show an error summary when there is a validation error or other violation that the user can fix, even if there’s only one.
+
+## When not to use this component
+Do not use error messages to tell a user that they are not eligible or do not have permission to do something or to tell them about a lack of capacity or other problem the user cannot fix - because the problem is with the service rather than with the information the user has provided.
+
+Instead, take the user to a page that explains the problem (for example, telling them why they’re not eligible) and provides useful information about what to do next.
+
+There are separate patterns for:
+
+- [‘there is a problem with the service’ pages](../../patterns/there-is-a-problem/)
+- [‘page not found’ pages](../../patterns/page-not-found-pages/)
+- [‘service unavailable’ pages](../../patterns/service-unavailable-pages/)
 
 ## How it works
 The component should only exist in the [main section](../../getting-started/page-template/#sections). 
 
-When showing the error summary, you must:
+When showing the error summary, use [linking to an element on the same page](../../styles/typography/#linking-to-an-element-on-the-same-page) to move keyboard focus to the error summary heading. This will draw the attention to the users that there is an a problem. Sighted users will be navigated to the error summary area on the page, and screen readers will read out that there is a problem. 
 
-- move keyboard focus to the error summary title
+Here are some sample pages showing the error summary when the user clicks the ‘continue’ button. 
+- [Server side rendering example (opens in new tab)](../../samples/template-heading-input/){rel="noreferrer noopener" target="_blank"}. This example redirects the user to a different page that shows the error, this was done for demonstration purposes, in a real implementation, the errors should appear in the same page.
+- [Single page application example (opens in new tab)](../../samples/template-heading-input-js/){rel="noreferrer noopener" target="_blank"}.
+
+You must also:
+
 - include the heading ‘There is a problem’ in English and ‘Υπάρχει πρόβλημα’ in Greek
-- link to each of the answers that have validation errors
-- make sure the error messages in the error summary are worded the same as those which appear next to the inputs with errors
+- if there is a validation error on a field, use use [linking to an element on the same page](../../styles/typography/#linking-to-an-element-on-the-same-page) to link each error to the fields that have validation errors
+    - make sure the error messages in the error summary are worded the same as those which appear next to the fields with errors
+- if there is a business rule, link each error to the ‘change’ link or relevant page where the user can correct the violation. 
+
+### When to check for errors
+
+Check for errors on each page or question, after the users distinctly indicate that they have finished with the current page, for example when clicking the “continue” button. This gives the user the opportunity to review their answer, or get out of the input’s focus and not get flooded with red error messages which can be overwhelming.
 
 ### Where to put the error summary
 
@@ -268,8 +289,6 @@ There may be cases where you would show an error summary without showing error m
 
 In such a case, the link for each error in the error summary, should link to the relevant page where the user can correct the violation.
 
-Be careful though, you must always use both an error summary and an error message when there is a validation error on an input, even if there’s only one.
-
 *Example*
 <div class="govcy-alert-error govcy-br-5 govcy-br-danger govcy-p-3">
     <h2>There is a problem</h2>
@@ -330,6 +349,6 @@ Use the following text in the heading:
 
 ## Accessibility
 Make sure:
-- you link the error summary to each answer
-- you use the [error message component](../error_message) as well
-- you move the focus to the error summary title
+- you link the error summary to where the user can correct the error
+- you use the [error message component](../error_message) on validation errors
+- when showing the error summary, to use [linking to an element on the same page](../../styles/typography/#linking-to-an-element-on-the-same-page) to move keyboard focus to the error summary heading.
